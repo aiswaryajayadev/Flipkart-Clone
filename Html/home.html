@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+
+    </title>
+    <link rel="stylesheet" href="../Style/navbar.css">
+    <link rel="stylesheet" href="../Style/home.css">
+    <link rel="stylesheet" href="../Style/footer.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+</head>
+<style>
+    .carousel {
+        margin: 30px;
+
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        top: 25%;
+        align-items: baseline;
+        background-color: white;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+
+
+
+    .carousel-control-prev button,
+    .carousel-control-next button {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        outline: none;
+    }
+</style>
+
+
+<body>
+    <div id="container"></div>
+    <!-- Navbar -->
+
+    <section id="categories">
+
+        <div class="categories-class">
+
+            <div class="image-row">
+                <div class="category-dropDown">
+                    <img src="https://rukminim1.flixcart.com/flap/80/80/image/29327f40e9c4d26b.png?q=100">
+                </div>
+                <div class="category-dropDown">
+                    <img src="https://rukminim1.flixcart.com/flap/80/80/image/22fddf3c7da4c4f4.png?q=100">
+                </div>
+                <div class="category-dropDown">
+                    <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100"
+                        width="70px" height="70px">
+
+                </div>
+                <div class="category-dropDown">
+                    <img src="https://rukminim1.flixcart.com/flap/80/80/image/69c6589653afdb9a.png?q=100">
+
+                </div>
+                <div class="category-dropDown">
+                    <img src="https://rukminim1.flixcart.com/flap/80/80/image/ab7e2b022a4587dd.jpg?q=100">
+
+                </div>
+                <div class="category-dropDown">
+                    <img src="https://rukminim1.flixcart.com/flap/80/80/image/0ff199d1bd27eb98.png?q=100">
+
+                </div>
+
+                <div class="category-dropDown">
+                    <img src="https://rukminim1.flixcart.com/flap/80/80/image/dff3f7adcf3a90c6.png?q=100">
+
+                </div>
+                <div class="category-dropDown">
+                    <img src="https://rukminim1.flixcart.com/fk-p-flap/80/80/image/05d708653beff580.png?q=100">
+                </div>
+            </div>
+            <div class="title-row">
+                <div class="category-dropDown">
+                    <div class="C-title">Grocery</div>
+                </div>
+                <div class="category-dropDown">
+                    <div class="C-title">Mobiles</div>
+                </div>
+                <div class="category-dropDown cdropdown">
+                    <div></div>
+                    <button class="cdropbtn ">
+                        <span>Fashion</span>
+                        <i class='bx bx-chevron-up'></i>
+                    </button>
+                    <div class="cdropdown-content">
+                        <a href="#">My Profile</a>
+                        <a href="#">Flipkart Plus Zone</a>
+                        <a href="#">Orders</a>
+                        <a href="#">Wishlist</a>
+                        <a href="#">Rewards</a>
+                    </div>
+                </div>
+                <div class="category-dropDown cdropdown">
+                    <div></div>
+                    <button class="cdropbtn ">
+                        <span>Electronics</span>
+                        <i class='bx bx-chevron-up'></i>
+                    </button>
+                    <div class="cdropdown-content">
+                        <a href="#">My Profile</a>
+                        <a href="#">Flipkart Plus Zone</a>
+                        <a href="#">Orders</a>
+                        <a href="#">Wishlist</a>
+                        <a href="#">Rewards</a>
+                    </div>
+                </div>
+                <div class="category-dropDown cdropdown">
+                    <div></div>
+                    <button class="cdropbtn ">
+                        <span>Home &<br>Furniture</span>
+                        <i class='bx bx-chevron-up'></i>
+                    </button>
+                    <div class="cdropdown-content">
+                        <a href="#">My Profile</a>
+                        <a href="#">Flipkart Plus Zone</a>
+                        <a href="#">Orders</a>
+                        <a href="#">Wishlist</a>
+                        <a href="#">Rewards</a>
+                    </div>
+                </div>
+                <div class="category-dropDown">
+                    <div class="C-title">Appliances</div>
+                </div>
+
+                <div class="category-dropDown cdropdown">
+                    <div></div>
+                    <button class="cdropbtn ">
+                        <span>Beauty,Toys &<br>More</span>
+                        <i class='bx bx-chevron-up'></i>
+                    </button>
+                    <div class="cdropdown-content">
+                        <a href="#">My Profile</a>
+                        <a href="#">Flipkart Plus Zone</a>
+                        <a href="#">Orders</a>
+                        <a href="#">Wishlist</a>
+                        <a href="#">Rewards</a>
+                    </div>
+                </div>
+                <div class="category-dropDown cdropdown">
+                    <div></div>
+                    <button class="cdropbtn ">
+                        <span>Two Wheelers</span>
+                        <i class='bx bx-chevron-up'></i>
+                    </button>
+                    <div class="cdropdown-content">
+                        <a href="#">My Profile</a>
+                        <a href="#">Flipkart Plus Zone</a>
+                        <a href="#">Orders</a>
+                        <a href="#">Wishlist</a>
+                        <a href="#">Rewards</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="carousal">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100"
+                        src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/3351c6e7bf60c6bc.png?q=20"
+                        alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100"
+                        src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/3351c6e7bf60c6bc.png?q=20"
+                        alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100"
+                        src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/3351c6e7bf60c6bc.png?q=20"
+                        alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+
+                <button class="">Previous</button>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+
+                <button class="">Next</button>
+            </a>
+        </div>
+
+
+    </section>
+<div id="Container-footer"></div>
+
+
+    <script>
+        $(function () {
+            $("#container").load("./navbar.html");
+            $("#Container-footer").load("./footer.html");
+
+        });
+    </script>
+
+</body>
+
+</html>
