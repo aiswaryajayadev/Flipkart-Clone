@@ -48,6 +48,8 @@
 }
 .cardRow{
     width: 97vw;
+    padding-left: 1px;
+    padding-right: 1px;
     gap: 0px;
 }
 
