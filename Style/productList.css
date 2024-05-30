@@ -49,6 +49,8 @@
 .cardRow{
     width: 97vw;
     gap: 0px;
+    padding-left: 1px;
+    padding-right: 1px;
 }
 
 
@@ -89,7 +91,7 @@
 }
 .card {
     
-    text-align: center; /* Center align content */
+    text-align: start; /* Center align content */
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -119,4 +121,8 @@
 .dotted-line {
     border-top: 1px dotted #ccc;
     margin-top: 10px;
+}
+
+.discount{
+    font-size: 12px;
 }
