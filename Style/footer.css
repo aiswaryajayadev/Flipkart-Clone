@@ -5,7 +5,7 @@ footer{
     margin: 0;
     padding:0;
     color:#fff;   
-    position:absolute;
+    position:relative;
     
     bottom: 0; 
     font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
@@ -16,7 +16,7 @@ footer{
     padding: 40px 60px 0;
     column-gap: 20px;
 }
-.social-icons{
+.footer-social-icons{
     border-top: 1px solid #454d5e;
     padding: 25px 0;
     margin-top: 40px;
@@ -27,7 +27,7 @@ footer{
     align-items: center;
     font-size: 13px;
 }
-.social-icons a{
+.footer-social-icons a{
     margin-right: 8px;
     
 }

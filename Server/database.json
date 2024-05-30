@@ -2056,6 +2056,4289 @@
         
         
         
+  ],
+  "mobiles": [
+    {
+      "product_id": "MOBG1A2BCD1E2F3G4",
+      "product_images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxNdf_eCJc6gsDaEdzInx6CGpP9oIU4Dabjg&s",
+        "https://d2xamzlzrdbdbn.cloudfront.net/products/5c0e9b49-fea1-4306-992a-48bf3a760e0723090608_416x416.jpg",
+        "https://m.media-amazon.com/images/I/51muL65bc7L.jpg"
+        
+      ],
+      "product_name": {
+        "name": "Samsung Galaxy S23 (Phantom Gray, 128 GB) (8 GB RAM)",
+        "brand": "Samsung",
+        "description": "The Samsung Galaxy S21 offers an exceptional combination of power, performance, and style with its sleek Phantom Gray design."
+      },
+      "rating": 4.6,
+      "assured":"yes",
+      "price_details": {
+        "current_price": 69999,
+        "original_price": 79999,
+        "discount_percent": 12
+      },
+      "offers": [
+        {
+          "offer_type": "Bank Offer",
+          "description": "10% off on HDFC Bank Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+        },
+        {
+          "offer_type": "Bank Offer",
+          "description": "10% off on SBI Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+        },
+        {
+          "offer_type": "Special Price",
+          "description": "Get extra ₹10,000 off (price inclusive of cashback/coupon)"
+        }
+      ],
+      "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "16.51 cm (6.5 inch) Full HD+ Display",
+        "64MP + 12MP + 12MP | 10MP Front Camera",
+        "4000 mAh Battery",
+        "Exynos 2100 Processor"
+      ],
+      "detailed_description": "The Samsung Galaxy S21 in Phantom Gray combines high performance with a sleek design. With 8 GB RAM and 128 GB storage, it offers ample space for all your needs. The 16.51 cm Full HD+ display provides stunning visuals, while the triple rear camera setup and 10MP front camera capture amazing photos. The 4000 mAh battery ensures all-day use, and the Exynos 2100 processor delivers top-notch performance.",
+      "specifications": [
+        {
+          "title": "General",
+          "details": [
+            "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+            "Model Number: SM-G991B",
+            "Model Name: Galaxy S21",
+            "Color: Phantom Gray",
+            "Browse Type: Smartphones",
+            "SIM Type: Dual Sim",
+            "Hybrid Sim Slot: No",
+            "Touchscreen: Yes",
+            "OTG Compatible: Yes",
+            "SAR Value: Head: 0.72 W/kg, Body: 1.00 W/kg"
+          ]
+        },
+        {
+          "title": "Display Features",
+          "details": [
+            "Display Size: 16.51 cm (6.5 inch)",
+            "Resolution: 2400 x 1080 Pixels",
+            "Resolution Type: Full HD+",
+            "Display Type: Dynamic AMOLED",
+            "Other Display Features: 120Hz Refresh Rate, HDR10+"
+          ]
+        },
+        {
+          "title": "Os & Processor Features",
+          "details": [
+            "Operating System: Android 11",
+            "Processor Type: Exynos 2100",
+            "Processor Core: Octa Core",
+            "Primary Clock Speed: 2.9 GHz",
+            "Secondary Clock Speed: 2.8 GHz"
+          ]
+        },
+        {
+          "title": "Memory & Storage Features",
+          "details": [
+            "Internal Storage: 128 GB",
+            "RAM: 8 GB"
+          ]
+        },
+        {
+          "title": "Camera Features",
+          "details": [
+            "Primary Camera Available: Yes",
+            "Primary Camera: 64MP + 12MP + 12MP",
+            "Secondary Camera Available: Yes",
+            "Secondary Camera: 10MP Front Camera",
+            "Flash: Yes",
+            "HD Recording: Yes",
+            "Full HD Recording: Yes",
+            "Video Recording: Yes",
+            "Digital Zoom: Yes"
+          ]
+        },
+        {
+          "title": "Battery & Power Features",
+          "details": [
+            "Battery Capacity: 4000 mAh"
+          ]
+        },
+        {
+          "title": "Dimensions",
+          "details": [
+            "Width: 71.2 mm",
+            "Height: 151.7 mm",
+            "Depth: 7.9 mm",
+            "Weight: 169 g"
+          ]
+        },
+        {
+          "title": "Warranty",
+          "details": [
+            "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+            "Domestic Warranty: 1 Year"
+          ]
+        }
+      ],
+      "customer_reviews": [
+        {
+          "rating": 5,
+          "customer_name":"Nevin",
+          "review": "Amazing performance and display. The camera quality is top-notch, and the battery life is excellent."
+        },
+        {
+          "rating": 4,
+          "customer_name":"Niya",
+          "review": "Great phone, but a bit pricey. However, the features and performance justify the cost."
+        }
+      ],
+      "qna": [
+        {
+          "question": "Does it support wireless charging?",
+          "answer": "Yes, the Samsung Galaxy S21 supports wireless charging."
+        },
+        {
+          "question": "Is it waterproof?",
+          "answer": "Yes, the Samsung Galaxy S21 is IP68 rated for water and dust resistance."
+        },
+        {
+          "question": "Does it have a headphone jack?",
+          "answer": "No, the Samsung Galaxy S21 does not have a headphone jack."
+        }
+      ]
+    },
+    {
+      "product_id": "MOBXYZ123456789",
+      "product_images": [
+        "https://example.com/image1.jpg",
+        "https://example.com/image2.jpg",
+        "https://example.com/image3.jpg"
+      ],
+      "product_name": {
+        "name": "Samsung Galaxy Z Fold5 ( Gray, 128 GB) (6 GB RAM)",
+        "brand": "Samsung",
+        "description": "Experience the future with the Samsung Galaxy Z Fold5, featuring a revolutionary foldable design and cutting-edge technology."
+      },
+      "rating": 4.8,
+      "assured": "yes",
+      "price_details": {
+        "current_price": 149999,
+        "original_price": 169999,
+        "discount_percent": 12
+      },
+      "offers": [
+        {
+          "offer_type": "Bank Offer",
+          "description": "10% off on HDFC Bank Credit Cards, up to ₹2000 on orders of ₹15,000 and above"
+        },
+        {
+          "offer_type": "EMI Offer",
+          "description": "No Cost EMI available on select cards"
+        },
+        {
+          "offer_type": "Exchange Offer",
+          "description": "Exchange your old device and get up to ₹10000 off"
+        }
+      ],
+      "highlights": [
+        "12 GB RAM | 256 GB ROM",
+        "7.6 inch Dynamic AMOLED 2X Display",
+        "108MP + 12MP + 12MP Triple Rear Camera | 16MP Front Camera",
+        "4400 mAh Battery",
+        "Qualcomm Snapdragon 8 Gen 2 Processor"
+      ],
+      "detailed_description": "The Samsung Galaxy Z Fold5 redefines smartphone innovation with its foldable design. With 12 GB RAM and 256 GB storage, experience seamless multitasking and ample storage for your files. The 7.6 inch Dynamic AMOLED 2X display delivers stunning visuals, while the triple rear camera setup and 16MP front camera capture incredible photos and videos. The 4400 mAh battery ensures long-lasting performance, powered by the Qualcomm Snapdragon 8 Gen 2 processor.",
+      "specifications": [
+        {
+          "title": "General",
+          "details": [
+            "In The Box: Handset, Charger, USB Cable, Quick Start Guide, SIM Ejector Tool"
+          ]
+        },
+        {
+          "title": "Display Features",
+          "details": [
+            "Display Size: 7.6 inches",
+            "Resolution: 1768 x 2208 Pixels",
+            "Resolution Type: QXGA+"
+          ]
+        },
+        {
+          "title": "Os & Processor Features",
+          "details": [
+            "Operating System: Android 12",
+            "Processor Type: Qualcomm Snapdragon 8 Gen 2",
+            "Processor Core: Octa Core",
+            "Primary Clock Speed: 3.0 GHz"
+          ]
+        },
+        {
+          "title": "Memory & Storage Features",
+          "details": [
+            "Internal Storage: 256 GB",
+            "RAM: 12 GB"
+          ]
+        },
+        {
+          "title": "Camera Features",
+          "details": [
+            "Primary Camera: 108MP + 12MP + 12MP",
+            "Secondary Camera: 16MP Front Camera"
+          ]
+        },
+        {
+          "title": "Battery & Power Features",
+          "details": [
+            "Battery Capacity: 4400 mAh"
+          ]
+        },
+        {
+          "title": "Dimensions",
+          "details": [
+            "Width (Open): 159.2 mm",
+            "Width (Folded): 68.6 mm",
+            "Height (Open): 128.1 mm",
+            "Height (Folded): 158.6 mm",
+            "Depth (Open): 6.4 mm",
+            "Depth (Folded): 15.4 mm"
+          ]
+        },
+        {
+          "title": "Warranty",
+          "details": [
+            "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories"
+          ]
+        }
+      ],
+      "customer_reviews": [
+        {
+          "rating": 5,
+          "customer_name": "John Doe",
+          "review": "The Samsung Galaxy Z Fold5 is simply amazing. The foldable design is a game-changer, and the performance is outstanding."
+        },
+        {
+          "rating": 4,
+          "customer_name": "Jane Smith",
+          "review": "This phone is impressive, especially the foldable screen. However, it's quite expensive."
+        }
+      ],
+      "qna": [
+        {
+          "question": "Is the phone waterproof?",
+          "answer": "The Samsung Galaxy Z Fold5 is not waterproof. It is recommended to avoid water exposure."
+        },
+        {
+          "question": "Does it support 5G?",
+          "answer": "Yes, the Samsung Galaxy Z Fold5 supports 5G connectivity for high-speed internet."
+        },
+        {
+          "question": "Is there a warranty for accidental damage?",
+          "answer": "No, the warranty does not cover accidental damage. Additional protection plans may be available."
+        }
+      ]
+    },
+    {
+        "product_id": "MOBG2B3BCD4E5F6H7",
+        "product_images": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkrjw4jV1CUYzxnsWdwWa_m3fMS51AWKUdkw&s",
+          "https://images.samsung.com/is/image/samsung/p6pim/in/feature/164812524/in-feature--nbsp--538353734?$FB_TYPE_I_JPG$",
+          "https://darlingretail.com/cdn/shop/files/71AXH9VvuhL._SL1500_800x.jpg?v=1703833902"
+        ],
+        "product_name": {
+          "name": "Samsung Galaxy S23 FE (Graphite, 128 GB) (8 GB RAM)",
+          "brand": "Samsung",
+          "description": "The Samsung Galaxy S21 FE offers a great combination of power, performance, and style with its sleek Graphite design."
+        },
+        "rating": 4.4,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 59999,
+          "original_price": 69999,
+          "discount_percent": 14
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on HDFC Bank Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on SBI Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+            "offer_type": "Special Price",
+            "description": "Get extra ₹8,000 off (price inclusive of cashback/coupon)"
+          }
+        ],
+        "highlights": [
+          "8 GB RAM | 128 GB ROM",
+          "16.51 cm (6.5 inch) Full HD+ Display",
+          "64MP + 12MP + 12MP | 10MP Front Camera",
+          "4500 mAh Battery",
+          "Exynos 2100 Processor"
+        ],
+        "detailed_description": "The Samsung Galaxy S21 FE in Graphite combines high performance with a sleek design. With 8 GB RAM and 128 GB storage, it offers ample space for all your needs. The 16.51 cm Full HD+ display provides stunning visuals, while the triple rear camera setup and 10MP front camera capture amazing photos. The 4500 mAh battery ensures all-day use, and the Exynos 2100 processor delivers top-notch performance.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+              "Model Number: SM-G991B",
+              "Model Name: Galaxy S21 FE",
+              "Color: Graphite",
+              "Browse Type: Smartphones",
+              "SIM Type: Dual Sim",
+              "Hybrid Sim Slot: No",
+              "Touchscreen: Yes",
+              "OTG Compatible: Yes",
+              "SAR Value: Head: 0.72 W/kg, Body: 1.00 W/kg"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 16.51 cm (6.5 inch)",
+              "Resolution: 2400 x 1080 Pixels",
+              "Resolution Type: Full HD+",
+              "Display Type: Dynamic AMOLED",
+              "Other Display Features: 120Hz Refresh Rate, HDR10+"
+            ]
+          },
+          {
+            "title": "Os & Processor Features",
+            "details": [
+              "Operating System: Android 11",
+              "Processor Type: Exynos 2100",
+              "Processor Core: Octa Core",
+              "Primary Clock Speed: 2.9 GHz",
+              "Secondary Clock Speed: 2.8 GHz"
+            ]
+          },
+          {
+            "title": "Memory & Storage Features",
+            "details": [
+              "Internal Storage: 128 GB",
+              "RAM: 8 GB"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Primary Camera Available: Yes",
+              "Primary Camera: 64MP + 12MP + 12MP",
+              "Secondary Camera Available: Yes",
+              "Secondary Camera: 10MP Front Camera",
+              "Flash: Yes",
+              "HD Recording: Yes",
+              "Full HD Recording: Yes",
+              "Video Recording: Yes",
+              "Digital Zoom: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Power Features",
+            "details": [
+              "Battery Capacity: 4500 mAh"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Width: 72.4 mm",
+              "Height: 159.8 mm",
+              "Depth: 7.9 mm",
+              "Weight: 177 g"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+              "Domestic Warranty: 1 Year"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Alex",
+            "review": "Excellent phone with great battery life and performance. The display is crisp and vibrant."
+          },
+          {
+            "rating": 4,
+            "customer_name": "Sara",
+            "review": "Good phone with excellent features, but the price could be lower."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Does it support wireless charging?",
+            "answer": "Yes, the Samsung Galaxy S21 FE supports wireless charging."
+          },
+          {
+            "question": "Is it waterproof?",
+            "answer": "Yes, the Samsung Galaxy S21 FE is IP68 rated for water and dust resistance."
+          },
+          {
+            "question": "Does it have a headphone jack?",
+            "answer": "No, the Samsung Galaxy S21 FE does not have a headphone jack."
+          }
+        ]
+    },
+    {
+      "product_id": "MOBXYZ789012345",
+      "product_images": [
+        "https://example.com/image1.jpg",
+        "https://example.com/image2.jpg",
+        "https://example.com/image3.jpg"
+      ],
+      "product_name": {
+        "name": "Samsung Galaxy A35 (Grey white, 128 GB) (8 GB RAM)",
+        "brand": "Samsung",
+        "description": "Experience powerful performance and stunning design with the Samsung Galaxy A35 smartphone."
+      },
+      "rating": 4.5,
+      "assured": "yes",
+      "price_details": {
+        "current_price": 25999,
+        "original_price": 28999,
+        "discount_percent": 10
+      },
+      "offers": [
+        {
+          "offer_type": "Bank Offer",
+          "description": "5% off on ICICI Bank Credit Cards, up to ₹1000 on orders of ₹20,000 and above"
+        },
+        {
+          "offer_type": "Exchange Offer",
+          "description": "Exchange your old device and get up to ₹5000 off"
+        },
+        {
+          "offer_type": "EMI Offer",
+          "description": "No Cost EMI available on select cards"
+        }
+      ],
+      "highlights": [
+        "6 GB RAM | 128 GB ROM",
+        "6.5 inch Super AMOLED Display",
+        "48MP + 8MP + 5MP + 2MP Quad Rear Camera | 32MP Front Camera",
+        "5000 mAh Battery",
+        "MediaTek Dimensity 700 Processor"
+      ],
+      "detailed_description": "The Samsung Galaxy A35 delivers exceptional performance with its MediaTek Dimensity 700 processor and 6 GB RAM. With 128 GB storage, you have ample space for your apps and files. The 6.5 inch Super AMOLED display offers stunning visuals, and the quad rear camera setup captures detailed photos and videos. The 5000 mAh battery ensures long-lasting usage, making it an ideal choice for everyday use.",
+      "specifications": [
+        {
+          "title": "General",
+          "details": [
+            "In The Box: Handset, Charger, USB Cable, Quick Start Guide, SIM Ejector Tool"
+          ]
+        },
+        {
+          "title": "Display Features",
+          "details": [
+            "Display Size: 6.5 inches",
+            "Resolution: 2400 x 1080 Pixels",
+            "Resolution Type: Full HD+"
+          ]
+        },
+        {
+          "title": "Os & Processor Features",
+          "details": [
+            "Operating System: Android 12",
+            "Processor Type: MediaTek Dimensity 700",
+            "Processor Core: Octa Core",
+            "Primary Clock Speed: 2.2 GHz"
+          ]
+        },
+        {
+          "title": "Memory & Storage Features",
+          "details": [
+            "Internal Storage: 128 GB",
+            "RAM: 6 GB"
+          ]
+        },
+        {
+          "title": "Camera Features",
+          "details": [
+            "Primary Camera: 48MP + 8MP + 5MP + 2MP Quad Rear Camera",
+            "Secondary Camera: 32MP Front Camera"
+          ]
+        },
+        {
+          "title": "Battery & Power Features",
+          "details": [
+            "Battery Capacity: 5000 mAh"
+          ]
+        },
+        {
+          "title": "Dimensions",
+          "details": [
+            "Width: 75.6 mm",
+            "Height: 159.9 mm",
+            "Depth: 8.1 mm",
+            "Weight: 185 g"
+          ]
+        },
+        {
+          "title": "Warranty",
+          "details": [
+            "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories"
+          ]
+        }
+      ],
+      "customer_reviews": [
+        {
+          "rating": 4,
+          "customer_name": "Alice",
+          "review": "The Samsung Galaxy A35 is a great mid-range phone with excellent camera quality and battery life."
+        },
+        {
+          "rating": 4.5,
+          "customer_name": "Bob",
+          "review": "I am impressed with the performance of the Galaxy A35. The display is vibrant, and it handles multitasking smoothly."
+        }
+      ],
+      "qna": [
+        {
+          "question": "Is the phone waterproof?",
+          "answer": "The Samsung Galaxy A35 is not waterproof. It is recommended to avoid water exposure."
+        },
+        {
+          "question": "Does it support 5G?",
+          "answer": "No, the Samsung Galaxy A35 supports 4G LTE connectivity."
+        },
+        {
+          "question": "Does it have a dedicated microSD slot?",
+          "answer": "Yes, the Galaxy A35 has a dedicated microSD slot for expandable storage."
+        }
+      ]
+    },
+    {
+  "product_id": "MOBXYZ987654321",
+  "product_images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "product_name": {
+    "name": "Samsung Galaxy Z Flip5 (Phantom Gray, 128 GB) (8 GB RAM)",
+    "brand": "Samsung",
+    "description": "Experience the future of smartphones with the Samsung Galaxy Z Flip5, featuring a stylish foldable design and innovative technology."
+  },
+  "rating": 4.7,
+  "assured": "yes",
+  "price_details": {
+    "current_price": 99999,
+    "original_price": 109999,
+    "discount_percent": 9
+  },
+  "offers": [
+    {
+      "offer_type": "Bank Offer",
+      "description": "5% off on HDFC Bank Debit Cards, up to ₹2000 on orders of ₹30,000 and above"
+    },
+    {
+      "offer_type": "EMI Offer",
+      "description": "No Cost EMI available on select cards"
+    }
+  ],
+  "highlights": [
+    "8 GB RAM | 256 GB ROM",
+    "6.7 inch Dynamic AMOLED Display",
+    "12MP + 12MP Dual Rear Camera | 10MP Front Camera",
+    "3300 mAh Battery",
+    "Qualcomm Snapdragon 8 Gen 1 Processor"
+  ],
+  "detailed_description": "The Samsung Galaxy Z Flip5 combines style with performance. With 8 GB RAM and 256 GB storage, enjoy smooth multitasking and ample space for your files. The 6.7 inch Dynamic AMOLED display provides vibrant visuals, and the dual rear camera setup captures stunning photos. The 3300 mAh battery ensures all-day usage, powered by the Qualcomm Snapdragon 8 Gen 1 processor.",
+  "specifications": [
+    {
+      "title": "General",
+      "details": [
+        "In The Box: Handset, Charger, USB Cable, Quick Start Guide, SIM Ejector Tool"
+      ]
+    },
+    {
+      "title": "Display Features",
+      "details": [
+        "Display Size: 6.7 inches",
+        "Resolution: 2640 x 1080 Pixels",
+        "Resolution Type: Full HD+"
+      ]
+    },
+    {
+      "title": "Os & Processor Features",
+      "details": [
+        "Operating System: Android 12",
+        "Processor Type: Qualcomm Snapdragon 8 Gen 1",
+        "Processor Core: Octa Core",
+        "Primary Clock Speed: 2.84 GHz"
+      ]
+    },
+    {
+      "title": "Memory & Storage Features",
+      "details": [
+        "Internal Storage: 256 GB",
+        "RAM: 8 GB"
+      ]
+    },
+    {
+      "title": "Camera Features",
+      "details": [
+        "Primary Camera: 12MP + 12MP Dual Rear Camera",
+        "Secondary Camera: 10MP Front Camera"
+      ]
+    },
+    {
+      "title": "Battery & Power Features",
+      "details": [
+        "Battery Capacity: 3300 mAh"
+      ]
+    },
+    {
+      "title": "Dimensions",
+      "details": [
+        "Width (Unfolded): 72.2 mm",
+        "Width (Folded): 72.2 mm",
+        "Height (Unfolded): 166.3 mm",
+        "Height (Folded): 86.4 mm",
+        "Depth (Unfolded): 6.9 mm",
+        "Depth (Folded): 17.1 mm"
+      ]
+    },
+    {
+      "title": "Warranty",
+      "details": [
+        "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories"
+      ]
+    }
+  ],
+  "customer_reviews": [
+    {
+      "rating": 5,
+      "customer_name": "Sarah",
+      "review": "The Samsung Galaxy Z Flip5 is a fantastic phone with a unique design. The performance is excellent, and I love the foldable screen."
+    },
+    {
+      "rating": 4.5,
+      "customer_name": "Michael",
+      "review": "I am impressed with the innovation of the Galaxy Z Flip5. It's compact when folded and offers a great user experience."
+    }
+  ],
+  "qna": [
+    {
+      "question": "Is the phone waterproof?",
+      "answer": "No, the Samsung Galaxy Z Flip5 is not waterproof. It is recommended to avoid water exposure."
+    },
+    {
+      "question": "Does it support 5G?",
+      "answer": "Yes, the Samsung Galaxy Z Flip5 supports 5G connectivity for high-speed internet."
+    },
+    {
+      "question": "Is there a dedicated microSD slot?",
+      "answer": "No, the Galaxy Z Flip5 does not have a dedicated microSD slot. However, it offers ample internal storage."
+    }
+  ]
+},{
+  "product_id": "MOBXYZ246813579",
+  "product_images": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "product_name": {
+    "name": "Samsung Galaxy M61 (black, 128 GB) (8 GB RAM)",
+    "brand": "Samsung",
+    "description": "Experience powerful performance and innovative features with the Samsung Galaxy M61 smartphone."
+  },
+  "rating": 4.6,
+  "assured": "yes",
+  "price_details": {
+    "current_price": 18999,
+    "original_price": 20999,
+    "discount_percent": 10
+  },
+  "offers": [
+    {
+      "offer_type": "Bank Offer",
+      "description": "5% off on Axis Bank Debit Cards, up to ₹1000 on orders of ₹15,000 and above"
+    },
+    {
+      "offer_type": "Exchange Offer",
+      "description": "Exchange your old device and get up to ₹3000 off"
+    }
+  ],
+  "highlights": [
+    "6 GB RAM | 128 GB ROM",
+    "6.7 inch Super AMOLED Plus Display",
+    "64MP + 12MP + 5MP + 5MP Quad Rear Camera | 32MP Front Camera",
+    "5000 mAh Battery",
+    "Exynos 9825 Processor"
+  ],
+  "detailed_description": "The Samsung Galaxy M61 offers top-notch performance with its Exynos 9825 processor and 6 GB RAM. With 128 GB storage, you have ample space for your apps and media. The 6.7 inch Super AMOLED Plus display provides vibrant visuals, and the quad rear camera setup captures stunning photos. The 5000 mAh battery ensures long-lasting usage, making it ideal for multimedia and productivity.",
+  "specifications": [
+    {
+      "title": "General",
+      "details": [
+        "In The Box: Handset, Charger, USB Cable, Quick Start Guide, SIM Ejector Tool"
+      ]
+    },
+    {
+      "title": "Display Features",
+      "details": [
+        "Display Size: 6.7 inches",
+        "Resolution: 2400 x 1080 Pixels",
+        "Resolution Type: Full HD+"
+      ]
+    },
+    {
+      "title": "Os & Processor Features",
+      "details": [
+        "Operating System: Android 12",
+        "Processor Type: Exynos 9825",
+        "Processor Core: Octa Core",
+        "Primary Clock Speed: 2.7 GHz"
+      ]
+    },
+    {
+      "title": "Memory & Storage Features",
+      "details": [
+        "Internal Storage: 128 GB",
+        "RAM: 6 GB"
+      ]
+    },
+    {
+      "title": "Camera Features",
+      "details": [
+        "Primary Camera: 64MP + 12MP + 5MP + 5MP Quad Rear Camera",
+        "Secondary Camera: 32MP Front Camera"
+      ]
+    },
+    {
+      "title": "Battery & Power Features",
+      "details": [
+        "Battery Capacity: 5000 mAh"
+      ]
+    },
+    {
+      "title": "Dimensions",
+      "details": [
+        "Width: 76.5 mm",
+        "Height: 164.1 mm",
+        "Depth: 8.9 mm",
+        "Weight: 192 g"
+      ]
+    },
+    {
+      "title": "Warranty",
+      "details": [
+        "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories"
+      ]
+    }
+  ],
+  "customer_reviews": [
+    {
+      "rating": 5,
+      "customer_name": "Emily",
+      "review": "The Samsung Galaxy M61 is a fantastic phone with excellent camera quality and smooth performance."
+    },
+    {
+      "rating": 4.5,
+      "customer_name": "James",
+      "review": "I am impressed with the battery life and display of the Galaxy M61. It's a great value for the price."
+    }
+  ],
+  "qna": [
+    {
+      "question": "Is the phone waterproof?",
+      "answer": "The Samsung Galaxy M61 is not waterproof. It is recommended to avoid water exposure."
+    },
+    {
+      "question": "Does it support 5G?",
+      "answer": "No, the Samsung Galaxy M61 supports 4G LTE connectivity."
+    },
+    {
+      "question": "Is there a dedicated microSD slot?",
+      "answer": "Yes, the Galaxy M61 has a dedicated microSD slot for expandable storage."
+    }
+  ]
+}
+,    
+    {
+        "product_id": "MOBG2B3BCD4E5F6H7",
+        "product_images": [
+          "https://m.media-amazon.com/images/I/81SigpJN1KL._AC_UF1000,1000_QL80_.jpg",
+          "https://m.media-amazon.com/images/I/81MDZsYTIoL._AC_UF350,350_QL80_.jpg",
+          "https://m.media-amazon.com/images/I/615dt7TuOhL._AC_UF350,350_QL80_.jpg"
+        ],
+        "product_name": {
+          "name": "Apple iPhone 15 Pro (Blue, 256 GB) (8 GB RAM)",
+          "brand": "Apple",
+          "description": "The Apple iPhone 15 Pro offers a great combination of power, performance, and style with its sleek Blue design."
+        },
+        "rating": 4.8,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 109999,
+          "original_price": 119999,
+          "discount_percent": 8
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on HDFC Bank Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on SBI Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+            "offer_type": "Special Price",
+            "description": "Get extra ₹10,000 off (price inclusive of cashback/coupon)"
+          }
+        ],
+        "highlights": [
+          "8 GB RAM | 256 GB ROM",
+          "15.49 cm (6.1 inch) Super Retina XDR Display",
+          "12MP + 12MP + 12MP Triple Rear Cameras | 12MP Front Camera",
+          "3400 mAh Battery",
+          "A15 Bionic Chip"
+        ],
+        "detailed_description": "The Apple iPhone 15 Pro in Blue combines high performance with a sleek design. With 8 GB RAM and 256 GB storage, it offers ample space for all your needs. The 15.49 cm Super Retina XDR display provides stunning visuals, while the triple 12MP rear cameras and 12MP front camera capture amazing photos. The 3400 mAh battery ensures all-day use, and the A15 Bionic chip delivers top-notch performance.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+              "Model Number: iPhone 15 Pro",
+              "Model Name: iPhone 15 Pro",
+              "Color: Blue",
+              "Browse Type: Smartphones",
+              "SIM Type: Dual Sim",
+              "Hybrid Sim Slot: No",
+              "Touchscreen: Yes",
+              "OTG Compatible: Yes",
+              "SAR Value: Head: 1.18 W/kg, Body: 1.18 W/kg"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 15.49 cm (6.1 inch)",
+              "Resolution: 2532 x 1170 Pixels",
+              "Resolution Type: Super Retina XDR",
+              "Display Type: OLED",
+              "Other Display Features: HDR10, Dolby Vision, True Tone"
+            ]
+          },
+          {
+            "title": "Os & Processor Features",
+            "details": [
+              "Operating System: iOS 15",
+              "Processor Type: A15 Bionic Chip",
+              "Processor Core: Hexa Core"
+            ]
+          },
+          {
+            "title": "Memory & Storage Features",
+            "details": [
+              "Internal Storage: 256 GB",
+              "RAM: 8 GB"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Primary Camera Available: Yes",
+              "Primary Camera: 12MP + 12MP + 12MP",
+              "Secondary Camera Available: Yes",
+              "Secondary Camera: 12MP Front Camera",
+              "Flash: Yes",
+              "HD Recording: Yes",
+              "Full HD Recording: Yes",
+              "Video Recording: Yes",
+              "Digital Zoom: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Power Features",
+            "details": [
+              "Battery Capacity: 3400 mAh"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Width: 71.5 mm",
+              "Height: 146.7 mm",
+              "Depth: 7.4 mm",
+              "Weight: 172 g"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+              "Domestic Warranty: 1 Year"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Charles",
+            "review": "Amazing phone with great battery life and performance. The display is crisp and vibrant."
+          },
+          {
+            "rating": 4,
+            "customer_name": "Diana",
+            "review": "Excellent phone with top-notch features, but the price is quite high."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Does it support wireless charging?",
+            "answer": "Yes, the Apple iPhone 15 Pro supports wireless charging."
+          },
+          {
+            "question": "Is it waterproof?",
+            "answer": "Yes, the Apple iPhone 15 Pro is IP68 rated for water and dust resistance."
+          },
+          {
+            "question": "Does it have a headphone jack?",
+            "answer": "No, the Apple iPhone 15 Pro does not have a headphone jack."
+          }
+        ]
+      },
+      {
+        "product_id": "MOBG3C4BCD5E6F7I8",
+        "product_images": [
+          "https://m.media-amazon.com/images/I/81fxjeu8fdL._AC_UF1000,1000_QL80_.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTouynk1Nu-ii7w8AWS8GuYYkiWx3hSkVfTnQ&s",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7R8MudIqD1kiSSi6i55tkPjymb1WqBigW2Js-tZJeBnuKFKiAtGpjU6m4eoJCfyJwt7w&usqp=CAU"
+        ],
+        "product_name": {
+          "name": "Apple iPhone 15 Pro Max (Gold, 512 GB) (8 GB RAM)",
+          "brand": "Apple",
+          "description": "The Apple iPhone 15 Pro Max offers the ultimate combination of power, performance, and style with its sleek Gold design."
+        },
+        "rating": 4.9,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 139999,
+          "original_price": 149999,
+          "discount_percent": 7
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on HDFC Bank Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on SBI Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+            "offer_type": "Special Price",
+            "description": "Get extra ₹10,000 off (price inclusive of cashback/coupon)"
+          }
+        ],
+        "highlights": [
+          "8 GB RAM | 512 GB ROM",
+          "17.02 cm (6.7 inch) Super Retina XDR Display",
+          "12MP + 12MP + 12MP Triple Rear Cameras | 12MP Front Camera",
+          "3500 mAh Battery",
+          "A15 Bionic Chip"
+        ],
+        "detailed_description": "The Apple iPhone 15 Pro Max in Gold combines the best of performance and design. With 8 GB RAM and 512 GB storage, it offers extensive space for all your needs. The 17.02 cm Super Retina XDR display provides stunning visuals, while the triple 12MP rear cameras and 12MP front camera capture amazing photos. The 3500 mAh battery ensures all-day use, and the A15 Bionic chip delivers unmatched performance.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+              "Model Number: iPhone 15 Pro Max",
+              "Model Name: iPhone 15 Pro Max",
+              "Color: Gold",
+              "Browse Type: Smartphones",
+              "SIM Type: Dual Sim",
+              "Hybrid Sim Slot: No",
+              "Touchscreen: Yes",
+              "OTG Compatible: Yes",
+              "SAR Value: Head: 1.18 W/kg, Body: 1.18 W/kg"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 17.02 cm (6.7 inch)",
+              "Resolution: 2778 x 1284 Pixels",
+              "Resolution Type: Super Retina XDR",
+              "Display Type: OLED",
+              "Other Display Features: HDR10, Dolby Vision, True Tone"
+            ]
+          },
+          {
+            "title": "Os & Processor Features",
+            "details": [
+              "Operating System: iOS 15",
+              "Processor Type: A15 Bionic Chip",
+              "Processor Core: Hexa Core"
+            ]
+          },
+          {
+            "title": "Memory & Storage Features",
+            "details": [
+              "Internal Storage: 512 GB",
+              "RAM: 8 GB"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Primary Camera Available: Yes",
+              "Primary Camera: 12MP + 12MP + 12MP",
+              "Secondary Camera Available: Yes",
+              "Secondary Camera: 12MP Front Camera",
+              "Flash: Yes",
+              "HD Recording: Yes",
+              "Full HD Recording: Yes",
+              "Video Recording: Yes",
+              "Digital Zoom: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Power Features",
+            "details": [
+              "Battery Capacity: 3500 mAh"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Width: 78.1 mm",
+              "Height: 160.8 mm",
+              "Depth: 7.4 mm",
+              "Weight: 228 g"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+              "Domestic Warranty: 1 Year"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Edward",
+            "review": "Outstanding phone with great battery life and unmatched performance. The display is amazing."
+          },
+          {
+            "rating": 4,
+            "customer_name": "Fiona",
+            "review": "Excellent phone with top-notch features, but the price is quite high."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Does it support wireless charging?",
+            "answer": "Yes, the Apple iPhone 15 Pro Max supports wireless charging."
+          },
+          {
+            "question": "Is it waterproof?",
+            "answer": "Yes, the Apple iPhone 15 Pro Max is IP68 rated for water and dust resistance."
+          },
+          {
+            "question": "Does it have a headphone jack?",
+            "answer": "No, the Apple iPhone 15 Pro Max does not have a headphone jack."
+          }
+        ]
+      },
+      {
+        "product_id": "IPHXYZ123456789",
+        "product_images": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg",
+          "https://example.com/image3.jpg"
+        ],
+        "product_name": {
+          "name": "iPhone 14 Pro (Gold, 512 GB) (8 GB RAM)",
+          "brand": "Apple",
+          "description": "Experience the next level of innovation with the iPhone 14 Pro, featuring advanced technology and stunning design."
+        },
+        "rating": 4.8,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 99999,
+          "original_price": 109999,
+          "discount_percent": 9
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "5% cashback on HDFC Bank Credit Cards, up to ₹5000 on orders of ₹100,000 and above"
+          },
+          {
+            "offer_type": "Exchange Offer",
+            "description": "Exchange your old device and get up to ₹10000 off"
+          }
+        ],
+        "highlights": [
+          "6.1-inch Super Retina XDR Display",
+          "ProMotion technology for adaptive refresh rates",
+          "A15 Bionic chip with Neural Engine",
+          "Triple 12MP rear cameras with Night mode",
+          "MagSafe and Qi wireless charging"
+        ],
+        "detailed_description": "The iPhone 14 Pro redefines premium smartphones with its 6.1-inch Super Retina XDR display featuring ProMotion technology for adaptive refresh rates. Powered by the A15 Bionic chip with Neural Engine, it delivers exceptional performance for gaming and multitasking. Capture stunning photos with the triple 12MP rear cameras with Night mode, and enjoy MagSafe and Qi wireless charging for convenience.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: iPhone, USB-C to Lightning Cable, Documentation"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 6.1 inches",
+              "Resolution: 2532 x 1170 Pixels",
+              "Display Type: Super Retina XDR OLED"
+            ]
+          },
+          {
+            "title": "Processor",
+            "details": [
+              "Processor Type: A15 Bionic",
+              "Neural Engine: Yes"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Rear Camera: Triple 12MP Ultra Wide, Wide, and Telephoto cameras",
+              "Front Camera: 12MP TrueDepth Camera",
+              "Night Mode: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Charging",
+            "details": [
+              "Battery Type: Built-in rechargeable lithium-ion",
+              "Charging: MagSafe and Qi wireless charging"
+            ]
+          },
+          {
+            "title": "Security",
+            "details": [
+              "Face ID: Yes"
+            ]
+          },
+          {
+            "title": "Connectivity",
+            "details": [
+              "5G capable: Yes",
+              "Dual SIM: Yes (nano-SIM and eSIM)"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Height: 146.7 mm",
+              "Width: 71.5 mm",
+              "Depth: 7.7 mm",
+              "Weight: 204 grams"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Sophia",
+            "review": "The iPhone 14 Pro is an incredible phone with a stunning display and amazing camera quality."
+          },
+          {
+            "rating": 4.5,
+            "customer_name": "Adam",
+            "review": "I am impressed with the performance and design of the iPhone 14 Pro. It's worth the investment."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Does it support 5G?",
+            "answer": "Yes, the iPhone 14 Pro supports 5G connectivity for high-speed internet."
+          },
+          {
+            "question": "Is it water-resistant?",
+            "answer": "Yes, the iPhone 14 Pro is IP68 water and dust resistant."
+          },
+          {
+            "question": "Does it have a headphone jack?",
+            "answer": "No, the iPhone 14 Pro does not have a headphone jack. It uses Lightning or wireless headphones."
+          }
+        ]
+      },
+      {
+        "product_id": "IPHXYZ987654321",
+        "product_images": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg",
+          "https://example.com/image3.jpg"
+        ],
+        "product_name": {
+          "name": "iPhone 14 Pro Max (Gold, 512 GB) (8 GB RAM)",
+          "brand": "Apple",
+          "description": "Experience the ultimate in smartphone technology with the iPhone 14 Pro Max, featuring a large display, powerful performance, and advanced camera capabilities."
+        },
+        "rating": 4.9,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 119999,
+          "original_price": 129999,
+          "discount_percent": 8
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "5% cashback on HDFC Bank Credit Cards, up to ₹6000 on orders of ₹120,000 and above"
+          },
+          {
+            "offer_type": "Exchange Offer",
+            "description": "Exchange your old device and get up to ₹12000 off"
+          }
+        ],
+        "highlights": [
+          "6.7-inch Super Retina XDR Display",
+          "ProMotion technology for adaptive refresh rates",
+          "A15 Bionic chip with Neural Engine",
+          "Triple 12MP rear cameras with Night mode",
+          "MagSafe and Qi wireless charging"
+        ],
+        "detailed_description": "The iPhone 14 Pro Max sets new standards for smartphones with its large 6.7-inch Super Retina XDR display featuring ProMotion technology for smooth visuals. Powered by the A15 Bionic chip with Neural Engine, it delivers exceptional performance for gaming, photography, and productivity. Capture stunning photos with the triple 12MP rear cameras with Night mode, and enjoy convenient charging with MagSafe and Qi wireless technology.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: iPhone, USB-C to Lightning Cable, Documentation"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 6.7 inches",
+              "Resolution: 2778 x 1284 Pixels",
+              "Display Type: Super Retina XDR OLED"
+            ]
+          },
+          {
+            "title": "Processor",
+            "details": [
+              "Processor Type: A15 Bionic",
+              "Neural Engine: Yes"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Rear Camera: Triple 12MP Ultra Wide, Wide, and Telephoto cameras",
+              "Front Camera: 12MP TrueDepth Camera",
+              "Night Mode: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Charging",
+            "details": [
+              "Battery Type: Built-in rechargeable lithium-ion",
+              "Charging: MagSafe and Qi wireless charging"
+            ]
+          },
+          {
+            "title": "Security",
+            "details": [
+              "Face ID: Yes"
+            ]
+          },
+          {
+            "title": "Connectivity",
+            "details": [
+              "5G capable: Yes",
+              "Dual SIM: Yes (nano-SIM and eSIM)"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Height: 160.8 mm",
+              "Width: 78.1 mm",
+              "Depth: 7.7 mm",
+              "Weight: 238 grams"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Olivia",
+            "review": "The iPhone 14 Pro Max is a powerhouse of a phone with an incredible display and amazing camera capabilities."
+          },
+          {
+            "rating": 4.8,
+            "customer_name": "Matthew",
+            "review": "I love the large display and fast performance of the iPhone 14 Pro Max. It's a great upgrade from my previous phone."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Does it support 5G?",
+            "answer": "Yes, the iPhone 14 Pro Max supports 5G connectivity for high-speed internet."
+          },
+          {
+            "question": "Is it water-resistant?",
+            "answer": "Yes, the iPhone 14 Pro Max is IP68 water and dust resistant."
+          },
+          {
+            "question": "Does it have a headphone jack?",
+            "answer": "No, the iPhone 14 Pro Max does not have a headphone jack. It uses Lightning or wireless headphones."
+          }
+        ]
+      },
+      {
+        "product_id": "IPHXYZ789012345",
+        "product_images": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg",
+          "https://example.com/image3.jpg"
+        ],
+        "product_name": {
+          "name": "iPhone 13 Pro (Gold, 512 GB) (8 GB RAM)",
+          "brand": "Apple",
+          "description": "Discover the power and sophistication of the iPhone 13 Pro, featuring advanced technology and a stunning design."
+        },
+        "rating": 4.7,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 89999,
+          "original_price": 99999,
+          "discount_percent": 10
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "5% cashback on HDFC Bank Credit Cards, up to ₹4000 on orders of ₹80,000 and above"
+          },
+          {
+            "offer_type": "Exchange Offer",
+            "description": "Exchange your old device and get up to ₹8000 off"
+          }
+        ],
+        "highlights": [
+          "6.1-inch Super Retina XDR Display",
+          "ProMotion technology for adaptive refresh rates",
+          "A15 Bionic chip with Neural Engine",
+          "Triple 12MP rear cameras with Night mode",
+          "MagSafe and Qi wireless charging"
+        ],
+        "detailed_description": "The iPhone 13 Pro combines power and elegance with its 6.1-inch Super Retina XDR display featuring ProMotion technology for smooth visuals. Powered by the A15 Bionic chip with Neural Engine, it delivers exceptional performance for gaming, photography, and multitasking. Capture stunning photos with the triple 12MP rear cameras with Night mode, and enjoy convenient charging with MagSafe and Qi wireless technology.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: iPhone, USB-C to Lightning Cable, Documentation"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 6.1 inches",
+              "Resolution: 2532 x 1170 Pixels",
+              "Display Type: Super Retina XDR OLED"
+            ]
+          },
+          {
+            "title": "Processor",
+            "details": [
+              "Processor Type: A15 Bionic",
+              "Neural Engine: Yes"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Rear Camera: Triple 12MP Ultra Wide, Wide, and Telephoto cameras",
+              "Front Camera: 12MP TrueDepth Camera",
+              "Night Mode: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Charging",
+            "details": [
+              "Battery Type: Built-in rechargeable lithium-ion",
+              "Charging: MagSafe and Qi wireless charging"
+            ]
+          },
+          {
+            "title": "Security",
+            "details": [
+              "Face ID: Yes"
+            ]
+          },
+          {
+            "title": "Connectivity",
+            "details": [
+              "5G capable: Yes",
+              "Dual SIM: Yes (nano-SIM and eSIM)"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Height: 146.7 mm",
+              "Width: 71.5 mm",
+              "Depth: 7.7 mm",
+              "Weight: 204 grams"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Emma",
+            "review": "The iPhone 13 Pro is an amazing phone with a fantastic camera and smooth performance."
+          },
+          {
+            "rating": 4.5,
+            "customer_name": "Liam",
+            "review": "I love the design and features of the iPhone 13 Pro. It's a great upgrade from my previous iPhone."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Does it support 5G?",
+            "answer": "Yes, the iPhone 13 Pro supports 5G connectivity for high-speed internet."
+          },
+          {
+            "question": "Is it water-resistant?",
+            "answer": "Yes, the iPhone 13 Pro is IP68 water and dust resistant."
+          },
+          {
+            "question": "Does it have a headphone jack?",
+            "answer": "No, the iPhone 13 Pro does not have a headphone jack. It uses Lightning or wireless headphones."
+          }
+        ]
+      },
+      {
+        "product_id": "IPHXYZ135792468",
+        "product_images": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg",
+          "https://example.com/image3.jpg"
+        ],
+        "product_name": {
+          "name": "iPhone 13 Pro Max (Gold, 512 GB) (8 GB RAM)",
+          "brand": "Apple",
+          "description": "Experience the pinnacle of smartphone technology with the iPhone 13 Pro Max, featuring a large display, powerful performance, and advanced camera capabilities."
+        },
+        "rating": 4.8,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 99999,
+          "original_price": 109999,
+          "discount_percent": 9
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "5% cashback on HDFC Bank Credit Cards, up to ₹5000 on orders of ₹100,000 and above"
+          },
+          {
+            "offer_type": "Exchange Offer",
+            "description": "Exchange your old device and get up to ₹10000 off"
+          }
+        ],
+        "highlights": [
+          "6.7-inch Super Retina XDR Display",
+          "ProMotion technology for adaptive refresh rates",
+          "A15 Bionic chip with Neural Engine",
+          "Triple 12MP rear cameras with Night mode",
+          "MagSafe and Qi wireless charging"
+        ],
+        "detailed_description": "The iPhone 13 Pro Max offers the ultimate smartphone experience with its large 6.7-inch Super Retina XDR display featuring ProMotion technology for smooth visuals. Powered by the A15 Bionic chip with Neural Engine, it delivers exceptional performance for gaming, photography, and multitasking. Capture stunning photos with the triple 12MP rear cameras with Night mode, and enjoy convenient charging with MagSafe and Qi wireless technology.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: iPhone, USB-C to Lightning Cable, Documentation"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 6.7 inches",
+              "Resolution: 2778 x 1284 Pixels",
+              "Display Type: Super Retina XDR OLED"
+            ]
+          },
+          {
+            "title": "Processor",
+            "details": [
+              "Processor Type: A15 Bionic",
+              "Neural Engine: Yes"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Rear Camera: Triple 12MP Ultra Wide, Wide, and Telephoto cameras",
+              "Front Camera: 12MP TrueDepth Camera",
+              "Night Mode: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Charging",
+            "details": [
+              "Battery Type: Built-in rechargeable lithium-ion",
+              "Charging: MagSafe and Qi wireless charging"
+            ]
+          },
+          {
+            "title": "Security",
+            "details": [
+              "Face ID: Yes"
+            ]
+          },
+          {
+            "title": "Connectivity",
+            "details": [
+              "5G capable: Yes",
+              "Dual SIM: Yes (nano-SIM and eSIM)"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Height: 160.8 mm",
+              "Width: 78.1 mm",
+              "Depth: 7.7 mm",
+              "Weight: 238 grams"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Olivia",
+            "review": "The iPhone 13 Pro Max is a powerhouse of a phone with an incredible display and amazing camera capabilities."
+          },
+          {
+            "rating": 4.8,
+            "customer_name": "Matthew",
+            "review": "I love the large display and fast performance of the iPhone 13 Pro Max. It's a great upgrade from my previous phone."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Does it support 5G?",
+            "answer": "Yes, the iPhone 13 Pro Max supports 5G connectivity for high-speed internet."
+          },
+          {
+            "question": "Is it water-resistant?",
+            "answer": "Yes, the iPhone 13 Pro Max is IP68 water and dust resistant."
+          },
+          {
+            "question": "Does it have a headphone jack?",
+            "answer": "No, the iPhone 13 Pro Max does not have a headphone jack. It uses Lightning or wireless headphones."
+          }
+        ]
+      },                        
+      {
+        "product_id": "REALMEV50G1A2BCD3E4F5G6",
+        "product_images": [
+          "https://www.91-img.com/gallery_images_uploads/f/9/f956a647d177df75f0b28a4f387feef8da29c9a5.jpg?tr=h-630,c-at_max,q-80",
+          "https://www.91-cdn.com/hub/wp-content/uploads/2023/12/v50.png",
+          "https://s3b.cashify.in/gpro/uploads/2023/09/20172704/realme-v50-right-side.webp"
+        ],
+        "product_name": {
+          "name": "Realme V50 (Black, 128 GB) (6 GB RAM)",
+          "brand": "Realme",
+          "description": "The Realme V50 offers a blend of performance and style, making it an excellent choice for smartphone enthusiasts."
+        },
+        "rating": 4.5,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 14999,
+          "original_price": 16999,
+          "discount_percent": 12
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on HDFC Bank Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on SBI Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+            "offer_type": "Special Price",
+            "description": "Get extra ₹2,000 off (price inclusive of cashback/coupon)"
+          }
+        ],
+        "highlights": [
+          "6 GB RAM | 128 GB ROM",
+          "16.76 cm (6.6 inch) FHD+ Display",
+          "50MP + 2MP Dual Rear Cameras | 16MP Front Camera",
+          "5000 mAh Battery",
+          "MediaTek Dimensity 700 Processor"
+        ],
+        "detailed_description": "The Realme V50 in Black is designed to provide a powerful and stylish smartphone experience. With 6 GB RAM and 128 GB storage, it offers ample space for all your needs. The 16.76 cm FHD+ display provides stunning visuals, while the dual 50MP rear cameras and 16MP front camera capture amazing photos. The 5000 mAh battery ensures all-day use, and the MediaTek Dimensity 700 processor delivers top-notch performance.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+              "Model Number: RMV50",
+              "Model Name: V50",
+              "Color: Black",
+              "Browse Type: Smartphones",
+              "SIM Type: Dual Sim",
+              "Hybrid Sim Slot: No",
+              "Touchscreen: Yes",
+              "OTG Compatible: Yes",
+              "SAR Value: Head: 0.89 W/kg, Body: 0.95 W/kg"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 16.76 cm (6.6 inch)",
+              "Resolution: 2400 x 1080 Pixels",
+              "Resolution Type: FHD+",
+              "Display Type: IPS LCD",
+              "Other Display Features: 90Hz Refresh Rate"
+            ]
+          },
+          {
+            "title": "Os & Processor Features",
+            "details": [
+              "Operating System: Android 12",
+              "Processor Type: MediaTek Dimensity 700",
+              "Processor Core: Octa Core"
+            ]
+          },
+          {
+            "title": "Memory & Storage Features",
+            "details": [
+              "Internal Storage: 128 GB",
+              "RAM: 6 GB"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Primary Camera Available: Yes",
+              "Primary Camera: 50MP + 2MP",
+              "Secondary Camera Available: Yes",
+              "Secondary Camera: 16MP Front Camera",
+              "Flash: Yes",
+              "HD Recording: Yes",
+              "Full HD Recording: Yes",
+              "Video Recording: Yes",
+              "Digital Zoom: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Power Features",
+            "details": [
+              "Battery Capacity: 5000 mAh"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Width: 75.7 mm",
+              "Height: 164.4 mm",
+              "Depth: 8.1 mm",
+              "Weight: 190 g"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+              "Domestic Warranty: 1 Year"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Alex",
+            "review": "Great phone with excellent battery life and performance. The display is crisp and vibrant."
+          },
+          {
+            "rating": 4,
+            "customer_name": "Bella",
+            "review": "Good phone with great features, but could use a bit more RAM."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Does it support fast charging?",
+            "answer": "Yes, the Realme V50 supports fast charging."
+          },
+          {
+            "question": "Is it waterproof?",
+            "answer": "No, the Realme V50 is not waterproof."
+          },
+          {
+            "question": "Does it have a headphone jack?",
+            "answer": "Yes, the Realme V50 has a headphone jack."
+          }
+        ]
+      },
+      {
+        "product_id": "REALMEGTNEO3BCD4E5F6H7IJ8KL9M0N1",
+        "product_images": [
+            "https://www.gizmochina.com/wp-content/uploads/2022/11/Realme-GT-Neo-3-1.jpg",
+            "https://www.xda-developers.com/files/2022/11/realme-GT-Neo-3-featured-720x405.jpg",
+            "https://static.hub.91mobiles.com/wp-content/uploads/2022/11/realme-GT-Neo-3-official-photos-91mobiles-11.jpg"
+        ],
+        "product_name": {
+            "name": "Realme GT Neo 3 (Black, 256 GB) (12 GB RAM)",
+            "brand": "Realme",
+            "description": "The Realme GT Neo 3 offers top-of-the-line performance with its powerful processor and stunning display."
+        },
+        "rating": 4.8,
+        "assured": "yes",
+        "price_details": {
+            "current_price": 34999,
+            "original_price": 39999,
+            "discount_percent": 12.5
+        },
+        "offers": [
+            {
+                "offer_type": "Bank Offer",
+                "description": "12% off on HDFC Bank Credit Cards, up to ₹2000 on orders of ₹15,000 and above"
+            },
+            {
+                "offer_type": "Bank Offer",
+                "description": "10% off on ICICI Bank Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+            },
+            {
+                "offer_type": "Special Price",
+                "description": "Get extra ₹3,000 off (price inclusive of cashback/coupon)"
+            }
+        ],
+        "highlights": [
+            "12 GB RAM | 256 GB ROM",
+            "17.1 cm (6.7 inch) Super AMOLED Display",
+            "108MP + 8MP + 2MP + 2MP Quad Rear Cameras | 32MP Front Camera",
+            "5000 mAh Battery",
+            "MediaTek Dimensity 2000 Processor"
+        ],
+        "detailed_description": "The Realme GT Neo 3 in Black is designed to provide an exceptional user experience. With 12 GB RAM and 256 GB storage, it offers ample space for all your needs. The 17.1 cm Super AMOLED display provides stunning visuals, while the quad 108MP rear cameras and 32MP front camera capture amazing photos. The 5000 mAh battery ensures long-lasting use, and the MediaTek Dimensity 2000 processor delivers top-notch performance.",
+        "specifications": [
+            {
+                "title": "General",
+                "details": [
+                    "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+                    "Model Number: RGTNEO3",
+                    "Model Name: GT Neo 3",
+                    "Color: Black",
+                    "Browse Type: Smartphones",
+                    "SIM Type: Dual Sim",
+                    "Hybrid Sim Slot: No",
+                    "Touchscreen: Yes",
+                    "OTG Compatible: Yes",
+                    "SAR Value: Head: 0.95 W/kg, Body: 1.02 W/kg"
+                ]
+            },
+            {
+                "title": "Display Features",
+                "details": [
+                    "Display Size: 17.1 cm (6.7 inch)",
+                    "Resolution: 2400 x 1080 Pixels",
+                    "Resolution Type: FHD+",
+                    "Display Type: Super AMOLED",
+                    "Other Display Features: 120Hz Refresh Rate"
+                ]
+            },
+            {
+                "title": "Os & Processor Features",
+                "details": [
+                    "Operating System: Android 13",
+                    "Processor Type: MediaTek Dimensity 2000",
+                    "Processor Core: Octa Core"
+                ]
+            },
+            {
+                "title": "Memory & Storage Features",
+                "details": [
+                    "Internal Storage: 256 GB",
+                    "RAM: 12 GB"
+                ]
+            },
+            {
+                "title": "Camera Features",
+                "details": [
+                    "Primary Camera Available: Yes",
+                    "Primary Camera: 108MP + 8MP + 2MP + 2MP",
+                    "Secondary Camera Available: Yes",
+                    "Secondary Camera: 32MP Front Camera",
+                    "Flash: Yes",
+                    "HD Recording: Yes",
+                    "Full HD Recording: Yes",
+                    "Video Recording: Yes",
+                    "Digital Zoom: Yes"
+                ]
+            },
+            {
+                "title": "Battery & Power Features",
+                "details": [
+                    "Battery Capacity: 5000 mAh"
+                ]
+            },
+            {
+                "title": "Dimensions",
+                "details": [
+                    "Width: 75.2 mm",
+                    "Height: 165.8 mm",
+                    "Depth: 8.4 mm",
+                    "Weight: 195 g"
+                ]
+            },
+            {
+                "title": "Warranty",
+                "details": [
+                    "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+                    "Domestic Warranty: 1 Year"
+                ]
+            }
+        ],
+        "customer_reviews": [
+            {
+                "rating": 5,
+                "customer_name": "John",
+                "review": "Incredible phone with blazing fast performance and a fantastic camera system!"
+            },
+            {
+                "rating": 4,
+                "customer_name": "Rachel",
+                "review": "Great phone overall, but could improve battery life."
+            }
+        ],
+        "qna": [
+            {
+                "question": "Does it support 5G?",
+                "answer": "Yes, the Realme GT Neo 3 supports 5G connectivity."
+            },
+            {
+                "question": "Is it water-resistant?",
+                "answer": "No, the Realme GT Neo 3 is not water-resistant."
+            },
+            {
+                "question": "Does it have wireless charging?",
+                "answer": "No, the Realme GT Neo 3 does not support wireless charging."
+            }
+        ]
+    },
+    {
+      "product_id": "REALME9PROBCD4E5F6H7IJ8KL9M0N1O2",
+      "product_images": [
+          "https://static.toiimg.com/photo/92611142.cms",
+          "https://images-na.ssl-images-amazon.com/images/I/61cT89V5LVS._AC_SX679_.jpg",
+          "https://fdn.gsmarena.com/imgroot/reviews/22/realme-9-pro-cad/gsmarena_010.jpg"
+      ],
+      "product_name": {
+          "name": "Realme 9 Pro (Blue, 128 GB) (6 GB RAM)",
+          "brand": "Realme",
+          "description": "The Realme 9 Pro offers a blend of style and performance, with a stunning display and advanced camera features."
+      },
+      "rating": 4.5,
+      "assured": "yes",
+      "price_details": {
+          "current_price": 18999,
+          "original_price": 20999,
+          "discount_percent": 10
+      },
+      "offers": [
+          {
+              "offer_type": "Bank Offer",
+              "description": "10% off on HDFC Bank Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+              "offer_type": "Bank Offer",
+              "description": "10% off on SBI Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+              "offer_type": "Special Price",
+              "description": "Get extra ₹1,000 off (price inclusive of cashback/coupon)"
+          }
+      ],
+      "highlights": [
+          "6 GB RAM | 128 GB ROM",
+          "16.9 cm (6.67 inch) Super AMOLED Display",
+          "108MP + 8MP + 2MP + 2MP Quad Rear Cameras | 32MP Front Camera",
+          "5000 mAh Battery",
+          "Qualcomm Snapdragon 778G Processor"
+      ],
+      "detailed_description": "The Realme 9 Pro in Blue combines style with performance. With 6 GB RAM and 128 GB storage, it offers ample space for your apps and media. The 16.9 cm Super AMOLED display delivers vibrant visuals, while the quad 108MP rear cameras and 32MP front camera capture stunning photos. The 5000 mAh battery ensures long-lasting use, and the Qualcomm Snapdragon 778G processor delivers smooth performance.",
+      "specifications": [
+          {
+              "title": "General",
+              "details": [
+                  "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+                  "Model Number: R9PRO",
+                  "Model Name: 9 Pro",
+                  "Color: Blue",
+                  "Browse Type: Smartphones",
+                  "SIM Type: Dual Sim",
+                  "Hybrid Sim Slot: No",
+                  "Touchscreen: Yes",
+                  "OTG Compatible: Yes",
+                  "SAR Value: Head: 0.91 W/kg, Body: 1.04 W/kg"
+              ]
+          },
+          {
+              "title": "Display Features",
+              "details": [
+                  "Display Size: 16.9 cm (6.67 inch)",
+                  "Resolution: 2400 x 1080 Pixels",
+                  "Resolution Type: FHD+",
+                  "Display Type: Super AMOLED",
+                  "Other Display Features: 120Hz Refresh Rate"
+              ]
+          },
+          {
+              "title": "Os & Processor Features",
+              "details": [
+                  "Operating System: Android 12",
+                  "Processor Type: Qualcomm Snapdragon 778G",
+                  "Processor Core: Octa Core"
+              ]
+          },
+          {
+              "title": "Memory & Storage Features",
+              "details": [
+                  "Internal Storage: 128 GB",
+                  "RAM: 6 GB"
+              ]
+          },
+          {
+              "title": "Camera Features",
+              "details": [
+                  "Primary Camera Available: Yes",
+                  "Primary Camera: 108MP + 8MP + 2MP + 2MP",
+                  "Secondary Camera Available: Yes",
+                  "Secondary Camera: 32MP Front Camera",
+                  "Flash: Yes",
+                  "HD Recording: Yes",
+                  "Full HD Recording: Yes",
+                  "Video Recording: Yes",
+                  "Digital Zoom: Yes"
+              ]
+          },
+          {
+              "title": "Battery & Power Features",
+              "details": [
+                  "Battery Capacity: 5000 mAh"
+              ]
+          },
+          {
+              "title": "Dimensions",
+              "details": [
+                  "Width: 76.2 mm",
+                  "Height: 162.5 mm",
+                  "Depth: 8.5 mm",
+                  "Weight: 186 g"
+              ]
+          },
+          {
+              "title": "Warranty",
+              "details": [
+                  "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+                  "Domestic Warranty: 1 Year"
+              ]
+          }
+      ],
+      "customer_reviews": [
+          {
+              "rating": 5,
+              "customer_name": "Sarah",
+              "review": "Great phone with excellent camera quality and smooth performance!"
+          },
+          {
+              "rating": 4,
+              "customer_name": "Alex",
+              "review": "Good value for money, but the battery life could be better."
+          }
+      ],
+      "qna": [
+          {
+              "question": "Does it support 5G?",
+              "answer": "Yes, the Realme 9 Pro supports 5G connectivity."
+          },
+          {
+              "question": "Is it water-resistant?",
+              "answer": "No, the Realme 9 Pro is not water-resistant."
+          },
+          {
+              "question": "Does it have expandable storage?",
+              "answer": "Yes, the Realme 9 Pro supports expandable storage via microSD card."
+          }
+      ]
+  },
+  {
+    "product_id": "REALME8PROBCD4E5F6H7IJ8KL9M0N1O2",
+    "product_images": [
+        "https://static.toiimg.com/photo/92611142.cms",
+        "https://images-na.ssl-images-amazon.com/images/I/61cT89V5LVS._AC_SX679_.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/22/realme-8-pro-cad/gsmarena_010.jpg"
+    ],
+    "product_name": {
+        "name": "Realme 8 Pro (Blue, 128 GB) (8 GB RAM)",
+        "brand": "Realme",
+        "description": "The Realme 8 Pro combines style with performance, featuring a stunning display and advanced camera capabilities."
+    },
+    "rating": 4.4,
+    "assured": "yes",
+    "price_details": {
+        "current_price": 16999,
+        "original_price": 18999,
+        "discount_percent": 10.5
+    },
+    "offers": [
+        {
+            "offer_type": "Bank Offer",
+            "description": "10% off on HDFC Bank Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+        },
+        {
+            "offer_type": "Bank Offer",
+            "description": "10% off on SBI Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+        },
+        {
+            "offer_type": "Special Price",
+            "description": "Get extra ₹1,000 off (price inclusive of cashback/coupon)"
+        }
+    ],
+    "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "16.3 cm (6.4 inch) Super AMOLED Display",
+        "108MP + 8MP + 2MP + 2MP Quad Rear Cameras | 32MP Front Camera",
+        "4500 mAh Battery",
+        "Qualcomm Snapdragon 732G Processor"
+    ],
+    "detailed_description": "The Realme 8 Pro in Blue offers a blend of style and performance. With 8 GB RAM and 128 GB storage, it provides ample space for your apps and media. The 16.3 cm Super AMOLED display delivers vibrant visuals, while the quad 108MP rear cameras and 32MP front camera capture stunning photos. The 4500 mAh battery ensures long-lasting use, and the Qualcomm Snapdragon 732G processor ensures smooth performance.",
+    "specifications": [
+        {
+            "title": "General",
+            "details": [
+                "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+                "Model Number: R8PRO",
+                "Model Name: 8 Pro",
+                "Color: Blue",
+                "Browse Type: Smartphones",
+                "SIM Type: Dual Sim",
+                "Hybrid Sim Slot: No",
+                "Touchscreen: Yes",
+                "OTG Compatible: Yes",
+                "SAR Value: Head: 0.95 W/kg, Body: 1.03 W/kg"
+            ]
+        },
+        {
+            "title": "Display Features",
+            "details": [
+                "Display Size: 16.3 cm (6.4 inch)",
+                "Resolution: 2400 x 1080 Pixels",
+                "Resolution Type: FHD+",
+                "Display Type: Super AMOLED",
+                "Other Display Features: 60Hz Refresh Rate"
+            ]
+        },
+        {
+            "title": "Os & Processor Features",
+            "details": [
+                "Operating System: Android 11",
+                "Processor Type: Qualcomm Snapdragon 732G",
+                "Processor Core: Octa Core"
+            ]
+        },
+        {
+            "title": "Memory & Storage Features",
+            "details": [
+                "Internal Storage: 128 GB",
+                "RAM: 8 GB"
+            ]
+        },
+        {
+            "title": "Camera Features",
+            "details": [
+                "Primary Camera Available: Yes",
+                "Primary Camera: 108MP + 8MP + 2MP + 2MP",
+                "Secondary Camera Available: Yes",
+                "Secondary Camera: 32MP Front Camera",
+                "Flash: Yes",
+                "HD Recording: Yes",
+                "Full HD Recording: Yes",
+                "Video Recording: Yes",
+                "Digital Zoom: Yes"
+            ]
+        },
+        {
+            "title": "Battery & Power Features",
+            "details": [
+                "Battery Capacity: 4500 mAh"
+            ]
+        },
+        {
+            "title": "Dimensions",
+            "details": [
+                "Width: 73.9 mm",
+                "Height: 160.5 mm",
+                "Depth: 8.1 mm",
+                "Weight: 176 g"
+            ]
+        },
+        {
+            "title": "Warranty",
+            "details": [
+                "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+                "Domestic Warranty: 1 Year"
+            ]
+        }
+    ],
+    "customer_reviews": [
+        {
+            "rating": 5,
+            "customer_name": "Michael",
+            "review": "Fantastic phone with excellent camera performance and smooth operation!"
+        },
+        {
+            "rating": 4,
+            "customer_name": "Emily",
+            "review": "Great value for money, but could use a better refresh rate on the display."
+        }
+    ],
+    "qna": [
+        {
+            "question": "Does it support 5G?",
+            "answer": "No, the Realme 8 Pro does not support 5G connectivity."
+        },
+        {
+            "question": "Is it water-resistant?",
+            "answer": "No, the Realme 8 Pro is not water-resistant."
+        },
+        {
+            "question": "Does it have expandable storage?",
+            "answer": "Yes, the Realme 8 Pro supports expandable storage via microSD card."
+        }
+    ]
+},
+{
+  "product_id": "REALMEGT2PROBCD4E5F6H7IJ8KL9M0N1O2P3",
+  "product_images": [
+      "https://static.toiimg.com/photo/92611142.cms",
+      "https://images-na.ssl-images-amazon.com/images/I/61cT89V5LVS._AC_SX679_.jpg",
+      "https://fdn.gsmarena.com/imgroot/reviews/22/realme-gt2-pro-cad/gsmarena_010.jpg"
+  ],
+  "product_name": {
+      "name": "Realme GT 2 Pro (Black, 256 GB) (12 GB RAM)",
+      "brand": "Realme",
+      "description": "The Realme GT 2 Pro offers cutting-edge technology with a powerful processor and premium features for an exceptional user experience."
+  },
+  "rating": 4.7,
+  "assured": "yes",
+  "price_details": {
+      "current_price": 42999,
+      "original_price": 45999,
+      "discount_percent": 6.5
+  },
+  "offers": [
+      {
+          "offer_type": "Bank Offer",
+          "description": "10% off on HDFC Bank Credit Cards, up to ₹2500 on orders of ₹20,000 and above"
+      },
+      {
+          "offer_type": "Bank Offer",
+          "description": "10% off on ICICI Bank Credit Cards, up to ₹2000 on orders of ₹15,000 and above"
+      },
+      {
+          "offer_type": "Special Price",
+          "description": "Get extra ₹5,000 off (price inclusive of cashback/coupon)"
+      }
+  ],
+  "highlights": [
+      "12 GB RAM | 256 GB ROM",
+      "17.5 cm (6.9 inch) Super AMOLED Display",
+      "108MP + 16MP + 13MP Triple Rear Cameras | 32MP Front Camera",
+      "5000 mAh Battery",
+      "Qualcomm Snapdragon 8 Gen 2 Processor"
+  ],
+  "detailed_description": "The Realme GT 2 Pro in Black is designed to provide a premium user experience. With 12 GB RAM and 256 GB storage, it offers ample space for your apps and media. The 17.5 cm Super AMOLED display delivers stunning visuals, while the triple 108MP rear cameras and 32MP front camera capture incredible photos. The 5000 mAh battery ensures long-lasting use, and the Qualcomm Snapdragon 8 Gen 2 processor delivers top-notch performance.",
+  "specifications": [
+      {
+          "title": "General",
+          "details": [
+              "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+              "Model Number: RGT2PRO",
+              "Model Name: GT 2 Pro",
+              "Color: Black",
+              "Browse Type: Smartphones",
+              "SIM Type: Dual Sim",
+              "Hybrid Sim Slot: No",
+              "Touchscreen: Yes",
+              "OTG Compatible: Yes",
+              "SAR Value: Head: 0.97 W/kg, Body: 1.02 W/kg"
+          ]
+      },
+      {
+          "title": "Display Features",
+          "details": [
+              "Display Size: 17.5 cm (6.9 inch)",
+              "Resolution: 3200 x 1440 Pixels",
+              "Resolution Type: Quad HD+",
+              "Display Type: Super AMOLED",
+              "Other Display Features: 120Hz Refresh Rate, HDR10+"
+          ]
+      },
+      {
+          "title": "Os & Processor Features",
+          "details": [
+              "Operating System: Android 13",
+              "Processor Type: Qualcomm Snapdragon 8 Gen 2",
+              "Processor Core: Octa Core"
+          ]
+      },
+      {
+          "title": "Memory & Storage Features",
+          "details": [
+              "Internal Storage: 256 GB",
+              "RAM: 12 GB"
+          ]
+      },
+      {
+          "title": "Camera Features",
+          "details": [
+              "Primary Camera Available: Yes",
+              "Primary Camera: 108MP + 16MP + 13MP",
+              "Secondary Camera Available: Yes",
+              "Secondary Camera: 32MP Front Camera",
+              "Flash: Yes",
+              "HD Recording: Yes",
+              "Full HD Recording: Yes",
+              "Video Recording: Yes",
+              "Digital Zoom: Yes"
+          ]
+      },
+      {
+          "title": "Battery & Power Features",
+          "details": [
+              "Battery Capacity: 5000 mAh"
+          ]
+      },
+      {
+          "title": "Dimensions",
+          "details": [
+              "Width: 75.9 mm",
+              "Height: 163.6 mm",
+              "Depth: 8.9 mm",
+              "Weight: 198 g"
+          ]
+      },
+      {
+          "title": "Warranty",
+          "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+              "Domestic Warranty: 1 Year"
+          ]
+      }
+  ],
+  "customer_reviews": [
+      {
+          "rating": 5,
+          "customer_name": "David",
+          "review": "Absolutely love this phone! Amazing performance and camera quality."
+      },
+      {
+          "rating": 4,
+          "customer_name": "Sophia",
+          "review": "Great phone overall, but a bit on the expensive side."
+      }
+  ],
+  "qna": [
+      {
+          "question": "Does it support 5G?",
+          "answer": "Yes, the Realme GT 2 Pro supports 5G connectivity."
+      },
+      {
+          "question": "Is it water-resistant?",
+          "answer": "Yes, the Realme GT 2 Pro is IP68 water and dust resistant."
+      },
+      {
+          "question": "Does it have expandable storage?",
+          "answer": "No, the Realme GT 2 Pro does not support expandable storage."
+      }
+  ]
+},      
+      {
+        "product_id": "REALMENARZON65G2B3BCD4E5F6H7",
+        "product_images": [
+          "https://i.gadgets360cdn.com/products/large/Realme-Narzo-N65-5G-DB-709x800-1716801915.jpg",
+          "https://www.91-cdn.com/hub/wp-content/uploads/2024/05/Realme-Narzo-N65-5G.jpg",
+          "https://etimg.etb2bimg.com/photo/110457560.cms"
+        ],
+        "product_name": {
+          "name": "Realme Narzo N65 5G (Blue, 128 GB) (8 GB RAM)",
+          "brand": "Realme",
+          "description": "The Realme Narzo N65 5G delivers a high-speed, powerful performance with its advanced 5G technology."
+        },
+        "rating": 4.6,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 17999,
+          "original_price": 19999,
+          "discount_percent": 10
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on HDFC Bank Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on SBI Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+            "offer_type": "Special Price",
+            "description": "Get extra ₹2,000 off (price inclusive of cashback/coupon)"
+          }
+        ],
+        "highlights": [
+          "8 GB RAM | 128 GB ROM",
+          "16.33 cm (6.43 inch) AMOLED Display",
+          "64MP + 8MP + 2MP Triple Rear Cameras | 16MP Front Camera",
+          "4500 mAh Battery",
+          "MediaTek Dimensity 900 Processor"
+        ],
+        "detailed_description": "The Realme Narzo N65 5G in Blue is designed to provide a high-speed and powerful performance. With 8 GB RAM and 128 GB storage, it offers ample space for all your needs. The 16.33 cm AMOLED display provides stunning visuals, while the triple 64MP rear cameras and 16MP front camera capture amazing photos. The 4500 mAh battery ensures all-day use, and the MediaTek Dimensity 900 processor delivers top-notch performance.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+              "Model Number: RMN65",
+              "Model Name: Narzo N65 5G",
+              "Color: Blue",
+              "Browse Type: Smartphones",
+              "SIM Type: Dual Sim",
+              "Hybrid Sim Slot: No",
+              "Touchscreen: Yes",
+              "OTG Compatible: Yes",
+              "SAR Value: Head: 0.98 W/kg, Body: 1.05 W/kg"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 16.33 cm (6.43 inch)",
+              "Resolution: 2400 x 1080 Pixels",
+              "Resolution Type: FHD+",
+              "Display Type: AMOLED",
+              "Other Display Features: 120Hz Refresh Rate"
+            ]
+          },
+          {
+            "title": "Os & Processor Features",
+            "details": [
+              "Operating System: Android 12",
+              "Processor Type: MediaTek Dimensity 900",
+              "Processor Core: Octa Core"
+            ]
+          },
+          {
+            "title": "Memory & Storage Features",
+            "details": [
+              "Internal Storage: 128 GB",
+              "RAM: 8 GB"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Primary Camera Available: Yes",
+              "Primary Camera: 64MP + 8MP + 2MP",
+              "Secondary Camera Available: Yes",
+              "Secondary Camera: 16MP Front Camera",
+              "Flash: Yes",
+              "HD Recording: Yes",
+              "Full HD Recording: Yes",
+              "Video Recording: Yes",
+              "Digital Zoom: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Power Features",
+            "details": [
+              "Battery Capacity: 4500 mAh"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Width: 74.8 mm",
+              "Height: 162.3 mm",
+              "Depth: 9.1 mm",
+              "Weight: 194 g"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+              "Domestic Warranty: 1 Year"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Chris",
+            "review": "Fantastic phone with great performance and camera quality. Highly recommended!"
+          },
+          {
+            "rating": 4,
+            "customer_name": "Emma",
+            "review": "Solid phone with good features, but the battery could be better."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Does it support fast charging?",
+            "answer": "Yes, the Realme Narzo N65 5G supports fast charging."
+          },
+          {
+            "question": "Is it waterproof?",
+            "answer": "No, the Realme Narzo N65 5G is not waterproof."
+          },
+          {
+            "question": "Does it have a headphone jack?",
+            "answer": "Yes, the Realme Narzo N65 5G has a headphone jack."
+          }
+        ]
+      },
+      
+      {
+        "product_id": "PIXEL7A1A2BCD3E4F5G6",
+        "product_images": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLsheQEq3e-LIjOjUtYnip5mowc-zqNSWAuQ&s",
+          "https://static0.xdaimages.com/wordpress/wp-content/uploads/2023/05/sea-pixel-7a-on-transparent-background.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjTuEPK2fTI3dxu1c0M7i-I6VfT41hgXOj4Q&s"
+        ],
+        "product_name": {
+          "name": "Google Pixel 7a (Black, 128 GB) (6 GB RAM)",
+          "brand": "Google Pixel",
+          "description": "The Google Pixel 7a offers a seamless Android experience with powerful performance and excellent camera capabilities."
+        },
+        "rating": 4.7,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 59999,
+          "original_price": 64999,
+          "discount_percent": 8
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on HDFC Bank Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on SBI Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+            "offer_type": "Special Price",
+            "description": "Get extra ₹3,000 off (price inclusive of cashback/coupon)"
+          }
+        ],
+        "highlights": [
+          "6 GB RAM | 128 GB ROM",
+          "16.51 cm (6.5 inch) FHD+ OLED Display",
+          "50MP + 12MP Dual Rear Cameras | 16MP Front Camera",
+          "5000 mAh Battery",
+          "Snapdragon 8 Gen 2 Processor"
+        ],
+        "detailed_description": "The Google Pixel 7a in Black offers a seamless Android experience with its powerful performance and excellent camera capabilities. With 6 GB RAM and 128 GB storage, it provides ample space for all your needs. The 16.51 cm FHD+ OLED display delivers stunning visuals, while the dual 50MP + 12MP rear cameras and 16MP front camera capture amazing photos. The 5000 mAh battery ensures all-day use, and the Snapdragon 8 Gen 2 processor offers top-notch performance.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+              "Model Number: PIXEL7A",
+              "Model Name: Pixel 7a",
+              "Color: Black",
+              "Browse Type: Smartphones",
+              "SIM Type: eSIM + Nano Sim",
+              "Hybrid Sim Slot: No",
+              "Touchscreen: Yes",
+              "OTG Compatible: Yes",
+              "SAR Value: 1.17 W/kg"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 16.51 cm (6.5 inch)",
+              "Resolution: 2400 x 1080 Pixels",
+              "Resolution Type: FHD+",
+              "Display Type: OLED",
+              "Other Display Features: 120Hz Refresh Rate, HDR10+"
+            ]
+          },
+          {
+            "title": "Os & Processor Features",
+            "details": [
+              "Operating System: Android 13",
+              "Processor Type: Snapdragon 8 Gen 2",
+              "Processor Core: Octa Core",
+              "Primary Clock Speed: 2.8 GHz",
+              "Secondary Clock Speed: 2.5 GHz"
+            ]
+          },
+          {
+            "title": "Memory & Storage Features",
+            "details": [
+              "Internal Storage: 128 GB",
+              "RAM: 6 GB"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Primary Camera Available: Yes",
+              "Primary Camera: 50MP + 12MP",
+              "Secondary Camera Available: Yes",
+              "Secondary Camera: 16MP Front Camera",
+              "Flash: Yes",
+              "HD Recording: Yes",
+              "Full HD Recording: Yes",
+              "Video Recording: Yes",
+              "Digital Zoom: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Power Features",
+            "details": [
+              "Battery Capacity: 5000 mAh"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Width: 74.3 mm",
+              "Height: 157.1 mm",
+              "Depth: 8.2 mm",
+              "Weight: 178 g"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+              "Domestic Warranty: 1 Year"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Liam",
+            "review": "Amazing phone with a fantastic camera and smooth performance."
+          },
+          {
+            "rating": 4,
+            "customer_name": "Sophie",
+            "review": "Great phone overall, but the price could be slightly lower."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Does it support 5G?",
+            "answer": "Yes, the Google Pixel 7a supports 5G connectivity."
+          },
+          {
+            "question": "Is it water-resistant?",
+            "answer": "Yes, the Google Pixel 7a is IP68 rated for water and dust resistance."
+          },
+          {
+            "question": "Does it have a headphone jack?",
+            "answer": "Yes, the Google Pixel 7a has a headphone jack."
+          }
+        ]
+      },
+
+      {
+        "product_id": "PIXEL71A2BCD3E4F5G6",
+        "product_images": [
+          "https://cdn.dxomark.com/wp-content/uploads/medias/post-127929/Google-Pixel-7_featured-image-packshot-review.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLYDFlxL7koVyFihOOgh-p3iLDxFlBCeYgoA&s",
+          "https://www.presse-citron.net/app/uploads/2022/09/pixel-7-pro-lfstyle.jpg"
+        ],
+        "product_name": {
+          "name": "Google Pixel 7 (White, 256 GB) (8 GB RAM)",
+          "brand": "Google Pixel",
+          "description": "The Google Pixel 7 combines cutting-edge technology with elegant design to deliver an exceptional smartphone experience."
+        },
+        "rating": 4.8,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 79999,
+          "original_price": 84999,
+          "discount_percent": 6
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on HDFC Bank Credit Cards, up to ₹2000 on orders of ₹15,000 and above"
+          },
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on SBI Credit Cards, up to ₹2000 on orders of ₹15,000 and above"
+          },
+          {
+            "offer_type": "Special Price",
+            "description": "Get extra ₹5,000 off (price inclusive of cashback/coupon)"
+          }
+        ],
+        "highlights": [
+          "8 GB RAM | 256 GB ROM",
+          "17.02 cm (6.7 inch) Quad HD+ OLED Display",
+          "64MP + 12MP Dual Rear Cameras | 16MP Front Camera",
+          "4600 mAh Battery",
+          "Snapdragon 8 Gen 2 Processor"
+        ],
+        "detailed_description": "The Google Pixel 7 in White combines cutting-edge technology with elegant design to deliver an exceptional smartphone experience. With 8 GB RAM and 256 GB storage, it provides ample space for your apps and files. The 17.02 cm Quad HD+ OLED display delivers stunning visuals, while the dual 64MP + 12MP rear cameras and 16MP front camera capture amazing photos. The 4600 mAh battery ensures long-lasting usage, and the Snapdragon 8 Gen 2 processor offers smooth performance.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+              "Model Number: PIXEL7",
+              "Model Name: Pixel 7",
+              "Color: White",
+              "Browse Type: Smartphones",
+              "SIM Type: eSIM + Nano Sim",
+              "Hybrid Sim Slot: No",
+              "Touchscreen: Yes",
+              "OTG Compatible: Yes",
+              "SAR Value: 1.19 W/kg"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 17.02 cm (6.7 inch)",
+              "Resolution: 3200 x 1440 Pixels",
+              "Resolution Type: Quad HD+",
+              "Display Type: OLED",
+              "Other Display Features: 120Hz Refresh Rate, HDR10+"
+            ]
+          },
+          {
+            "title": "Os & Processor Features",
+            "details": [
+              "Operating System: Android 13",
+              "Processor Type: Snapdragon 8 Gen 2",
+              "Processor Core: Octa Core",
+              "Primary Clock Speed: 3.0 GHz",
+              "Secondary Clock Speed: 2.8 GHz"
+            ]
+          },
+          {
+            "title": "Memory & Storage Features",
+            "details": [
+              "Internal Storage: 256 GB",
+              "RAM: 8 GB"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Primary Camera Available: Yes",
+              "Primary Camera: 64MP + 12MP",
+              "Secondary Camera Available: Yes",
+              "Secondary Camera: 16MP Front Camera",
+              "Flash: Yes",
+              "HD Recording: Yes",
+              "Full HD Recording: Yes",
+              "Video Recording: Yes",
+              "Digital Zoom: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Power Features",
+            "details": [
+              "Battery Capacity: 4600 mAh"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Width: 76.6 mm",
+              "Height: 162.2 mm",
+              "Depth: 8.4 mm",
+              "Weight: 185 g"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+              "Domestic Warranty: 1 Year"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Ethan",
+            "review": "Fantastic phone with amazing camera quality and performance."
+          },
+          {
+            "rating": 4,
+            "customer_name": "Olivia",
+            "review": "Great phone overall, but the price is a bit high."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Is it 5G enabled?",
+            "answer": "Yes, the Google Pixel 7 is 5G enabled."
+          },
+          {
+            "question": "Is it water-resistant?",
+            "answer": "Yes, the Google Pixel 7 is IP68 rated for water and dust resistance."
+          },
+          {
+            "question": "Does it support wireless charging?",
+            "answer": "Yes, the Google Pixel 7 supports wireless charging."
+          }
+        ]
+      },
+      {
+        "product_id": "PIXEL8A1A2BCD3E4F5G6",
+        "product_images": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg",
+          "https://example.com/image3.jpg"
+        ],
+        "product_name": {
+          "name": "Google Pixel 8a (Black, 128 GB) (6 GB RAM)",
+          "brand": "Google Pixel",
+          "description": "The Google Pixel 8a combines advanced features with sleek design for an exceptional smartphone experience."
+        },
+        "rating": 4.7,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 64999,
+          "original_price": 69999,
+          "discount_percent": 7
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on HDFC Bank Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+            "offer_type": "Bank Offer",
+            "description": "5% Unlimited Cashback on Flipkart Axis Bank Credit Card"
+          },
+          {
+            "offer_type": "Special Price",
+            "description": "Extra ₹2000 off (price inclusive of discount)"
+          }
+        ],
+        "highlights": [
+          "6 GB RAM | 128 GB ROM",
+          "15.5 cm (6.1 inch) Full HD+ OLED Display",
+          "48MP + 8MP Dual Rear Cameras | 16MP Front Camera",
+          "4000 mAh Battery",
+          "Snapdragon 7 Gen 3 Processor"
+        ],
+        "detailed_description": "The Google Pixel 8a in Black offers advanced features in a sleek design. With 6 GB RAM and 128 GB storage, it provides ample space for your apps and files. The 15.5 cm Full HD+ OLED display delivers stunning visuals, while the dual 48MP + 8MP rear cameras and 16MP front camera capture amazing photos. The 4000 mAh battery ensures long-lasting usage, and the Snapdragon 7 Gen 3 processor offers smooth performance.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+              "Model Number: PIXEL8A",
+              "Model Name: Pixel 8a",
+              "Color: Black",
+              "Browse Type: Smartphones",
+              "SIM Type: Dual Sim",
+              "Hybrid Sim Slot: No",
+              "Touchscreen: Yes",
+              "OTG Compatible: Yes",
+              "SAR Value: 0.89 W/kg"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 15.5 cm (6.1 inch)",
+              "Resolution: 2340 x 1080 Pixels",
+              "Resolution Type: Full HD+",
+              "Display Type: OLED",
+              "Other Display Features: 90Hz Refresh Rate, HDR10"
+            ]
+          },
+          {
+            "title": "Os & Processor Features",
+            "details": [
+              "Operating System: Android 14",
+              "Processor Type: Snapdragon 7 Gen 3",
+              "Processor Core: Octa Core",
+              "Primary Clock Speed: 2.4 GHz",
+              "Secondary Clock Speed: 1.8 GHz"
+            ]
+          },
+          {
+            "title": "Memory & Storage Features",
+            "details": [
+              "Internal Storage: 128 GB",
+              "RAM: 6 GB"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Primary Camera Available: Yes",
+              "Primary Camera: 48MP + 8MP",
+              "Secondary Camera Available: Yes",
+              "Secondary Camera: 16MP Front Camera",
+              "Flash: Yes",
+              "HD Recording: Yes",
+              "Full HD Recording: Yes",
+              "Video Recording: Yes",
+              "Digital Zoom: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Power Features",
+            "details": [
+              "Battery Capacity: 4000 mAh"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Width: 70.4 mm",
+              "Height: 145.5 mm",
+              "Depth: 8.2 mm",
+              "Weight: 153 g"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+              "Domestic Warranty: 1 Year"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Sophia",
+            "review": "Amazing phone with great camera quality and performance."
+          },
+          {
+            "rating": 4,
+            "customer_name": "James",
+            "review": "Good phone overall, but the battery could be better."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Is it 5G enabled?",
+            "answer": "No, the Google Pixel 8a is not 5G enabled."
+          },
+          {
+            "question": "Is it water-resistant?",
+            "answer": "Yes, the Google Pixel 8a is IP67 rated for water and dust resistance."
+          },
+          {
+            "question": "Does it support wireless charging?",
+            "answer": "Yes, the Google Pixel 8a supports wireless charging."
+          }
+        ]
+      },
+      {
+        "product_id": "PIXEL8PRO1A2BCD3E4F5G6",
+        "product_images": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg",
+          "https://example.com/image3.jpg"
+        ],
+        "product_name": {
+          "name": "Google Pixel 8 Pro (Blue, 256 GB) (12 GB RAM)",
+          "brand": "Google Pixel",
+          "description": "The Google Pixel 8 Pro sets new standards in smartphone technology with its powerful features and elegant design."
+        },
+        "rating": 4.9,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 99999,
+          "original_price": 109999,
+          "discount_percent": 9
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on HDFC Bank Credit Cards, up to ₹3000 on orders of ₹20,000 and above"
+          },
+          {
+            "offer_type": "Bank Offer",
+            "description": "5% Unlimited Cashback on Flipkart Axis Bank Credit Card"
+          },
+          {
+            "offer_type": "Exchange Offer",
+            "description": "Up to ₹15,000 off on exchange"
+          },
+          {
+            "offer_type": "No Cost EMI",
+            "description": "No Cost EMI starting from ₹8,334/month"
+          }
+        ],
+        "highlights": [
+          "12 GB RAM | 256 GB ROM",
+          "17.3 cm (6.8 inch) Quad HD+ AMOLED Display",
+          "108MP + 12MP + 8MP Triple Rear Cameras | 32MP Front Camera",
+          "5000 mAh Battery",
+          "Snapdragon 8 Gen 3 Processor"
+        ],
+        "detailed_description": "The Google Pixel 8 Pro in Blue is a flagship smartphone that offers unparalleled performance and features. With 12 GB RAM and 256 GB storage, it provides ample space for your apps and files. The 17.3 cm Quad HD+ AMOLED display delivers stunning visuals, while the triple 108MP + 12MP + 8MP rear cameras and 32MP front camera capture incredible photos and videos. The 5000 mAh battery ensures long-lasting usage, and the Snapdragon 8 Gen 3 processor offers blazing-fast performance.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+              "Model Number: PIXEL8PRO",
+              "Model Name: Pixel 8 Pro",
+              "Color: Blue",
+              "Browse Type: Smartphones",
+              "SIM Type: Dual Sim",
+              "Hybrid Sim Slot: No",
+              "Touchscreen: Yes",
+              "OTG Compatible: Yes",
+              "SAR Value: 1.18 W/kg"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 17.3 cm (6.8 inch)",
+              "Resolution: 3200 x 1440 Pixels",
+              "Resolution Type: Quad HD+",
+              "Display Type: AMOLED",
+              "Other Display Features: 120Hz Refresh Rate, HDR10+"
+            ]
+          },
+          {
+            "title": "Os & Processor Features",
+            "details": [
+              "Operating System: Android 15",
+              "Processor Type: Snapdragon 8 Gen 3",
+              "Processor Core: Octa Core",
+              "Primary Clock Speed: 3.2 GHz",
+              "Secondary Clock Speed: 2.9 GHz"
+            ]
+          },
+          {
+            "title": "Memory & Storage Features",
+            "details": [
+              "Internal Storage: 256 GB",
+              "RAM: 12 GB"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Primary Camera Available: Yes",
+              "Primary Camera: 108MP + 12MP + 8MP",
+              "Secondary Camera Available: Yes",
+              "Secondary Camera: 32MP Front Camera",
+              "Flash: Yes",
+              "HD Recording: Yes",
+              "Full HD Recording: Yes",
+              "Video Recording: Yes",
+              "Digital Zoom: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Power Features",
+            "details": [
+              "Battery Capacity: 5000 mAh"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Width: 78.2 mm",
+              "Height: 168.5 mm",
+              "Depth: 8.9 mm",
+              "Weight: 210 g"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+              "Domestic Warranty: 1 Year"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Ava",
+            "review": "Absolutely stunning phone with top-notch performance and camera quality."
+          },
+          {
+            "rating": 4,
+            "customer_name": "Jack",
+            "review": "Great phone, but the price is on the higher side."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Is it 5G enabled?",
+            "answer": "Yes, the Google Pixel 8 Pro is 5G enabled."
+          },
+          {
+            "question": "Is it water-resistant?",
+            "answer": "Yes, the Google Pixel 8 Pro is IP68 rated for water and dust resistance."
+          },
+          {
+            "question": "Does it support wireless charging?",
+            "answer": "Yes, the Google Pixel 8 Pro supports wireless charging."
+          }
+        ]
+      },
+      {
+        "product_id": "PIXEL81A2BCD3E4F5G6",
+        "product_images": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg",
+          "https://example.com/image3.jpg"
+        ],
+        "product_name": {
+          "name": "Google Pixel 8 (Black, 128 GB) (8 GB RAM)",
+          "brand": "Google Pixel",
+          "description": "The Google Pixel 8 offers top-notch performance and cutting-edge features in a sleek design."
+        },
+        "rating": 4.8,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 79999,
+          "original_price": 84999,
+          "discount_percent": 6
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on HDFC Bank Credit Cards, up to ₹2000 on orders of ₹15,000 and above"
+          },
+          {
+            "offer_type": "Bank Offer",
+            "description": "5% Unlimited Cashback on Flipkart Axis Bank Credit Card"
+          },
+          {
+            "offer_type": "Exchange Offer",
+            "description": "Up to ₹10,000 off on exchange"
+          },
+          {
+            "offer_type": "No Cost EMI",
+            "description": "No Cost EMI starting from ₹6,667/month"
+          }
+        ],
+        "highlights": [
+          "8 GB RAM | 128 GB ROM",
+          "16.5 cm (6.5 inch) Full HD+ AMOLED Display",
+          "108MP + 12MP Dual Rear Cameras | 32MP Front Camera",
+          "4500 mAh Battery",
+          "Snapdragon 8 Gen 3 Processor"
+        ],
+        "detailed_description": "The Google Pixel 8 in Black combines top-notch performance with cutting-edge features. With 8 GB RAM and 128 GB storage, it provides ample space for your apps and files. The 16.5 cm Full HD+ AMOLED display delivers stunning visuals, while the dual 108MP + 12MP rear cameras and 32MP front camera capture incredible photos and videos. The 4500 mAh battery ensures long-lasting usage, and the Snapdragon 8 Gen 3 processor offers smooth and fast performance.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+              "Model Number: PIXEL8",
+              "Model Name: Pixel 8",
+              "Color: Black",
+              "Browse Type: Smartphones",
+              "SIM Type: Dual Sim",
+              "Hybrid Sim Slot: No",
+              "Touchscreen: Yes",
+              "OTG Compatible: Yes",
+              "SAR Value: 1.16 W/kg"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 16.5 cm (6.5 inch)",
+              "Resolution: 2400 x 1080 Pixels",
+              "Resolution Type: Full HD+",
+              "Display Type: AMOLED",
+              "Other Display Features: 90Hz Refresh Rate, HDR10"
+            ]
+          },
+          {
+            "title": "Os & Processor Features",
+            "details": [
+              "Operating System: Android 16",
+              "Processor Type: Snapdragon 8 Gen 3",
+              "Processor Core: Octa Core",
+              "Primary Clock Speed: 3.0 GHz",
+              "Secondary Clock Speed: 2.7 GHz"
+            ]
+          },
+          {
+            "title": "Memory & Storage Features",
+            "details": [
+              "Internal Storage: 128 GB",
+              "RAM: 8 GB"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Primary Camera Available: Yes",
+              "Primary Camera: 108MP + 12MP",
+              "Secondary Camera Available: Yes",
+              "Secondary Camera: 32MP Front Camera",
+              "Flash: Yes",
+              "HD Recording: Yes",
+              "Full HD Recording: Yes",
+              "Video Recording: Yes",
+              "Digital Zoom: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Power Features",
+            "details": [
+              "Battery Capacity: 4500 mAh"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Width: 74.8 mm",
+              "Height: 158.3 mm",
+              "Depth: 8.9 mm",
+              "Weight: 190 g"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+              "Domestic Warranty: 1 Year"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Sophie",
+            "review": "Absolutely love the Google Pixel 8! Amazing camera and performance."
+          },
+          {
+            "rating": 4,
+            "customer_name": "Michael",
+            "review": "Great phone, but a bit pricey compared to other options."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Is it 5G enabled?",
+            "answer": "Yes, the Google Pixel 8 is 5G enabled."
+          },
+          {
+            "question": "Is it water-resistant?",
+            "answer": "Yes, the Google Pixel 8 is IP68 rated for water and dust resistance."
+          },
+          {
+            "question": "Does it support wireless charging?",
+            "answer": "Yes, the Google Pixel 8 supports wireless charging."
+          }
+        ]
+      },
+      {
+        "product_id": "PIXEL61A2BCD3E4F5G6",
+        "product_images": [
+          "https://example.com/image1.jpg",
+          "https://example.com/image2.jpg",
+          "https://example.com/image3.jpg"
+        ],
+        "product_name": {
+          "name": "Google Pixel 6 (Black, 128 GB) (8 GB RAM)",
+          "brand": "Google Pixel",
+          "description": "The Google Pixel 6 delivers exceptional performance and innovative features in a sleek design."
+        },
+        "rating": 4.7,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 69999,
+          "original_price": 74999,
+          "discount_percent": 7
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on HDFC Bank Credit Cards, up to ₹2000 on orders of ₹15,000 and above"
+          },
+          {
+            "offer_type": "Bank Offer",
+            "description": "5% Unlimited Cashback on Flipkart Axis Bank Credit Card"
+          },
+          {
+            "offer_type": "Exchange Offer",
+            "description": "Up to ₹10,000 off on exchange"
+          },
+          {
+            "offer_type": "No Cost EMI",
+            "description": "No Cost EMI starting from ₹5,834/month"
+          }
+        ],
+        "highlights": [
+          "8 GB RAM | 128 GB ROM",
+          "15.5 cm (6.1 inch) Full HD+ AMOLED Display",
+          "50MP + 12MP Dual Rear Cameras | 16MP Front Camera",
+          "4000 mAh Battery",
+          "Snapdragon 8 Gen 2 Processor"
+        ],
+        "detailed_description": "The Google Pixel 6 in Black combines exceptional performance with innovative features. With 8 GB RAM and 128 GB storage, it provides ample space for your apps and files. The 15.5 cm Full HD+ AMOLED display delivers stunning visuals, while the dual 50MP + 12MP rear cameras and 16MP front camera capture incredible photos and videos. The 4000 mAh battery ensures long-lasting usage, and the Snapdragon 8 Gen 2 processor offers smooth and fast performance.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+              "Model Number: PIXEL6",
+              "Model Name: Pixel 6",
+              "Color: Black",
+              "Browse Type: Smartphones",
+              "SIM Type: Dual Sim",
+              "Hybrid Sim Slot: No",
+              "Touchscreen: Yes",
+              "OTG Compatible: Yes",
+              "SAR Value: 1.17 W/kg"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 15.5 cm (6.1 inch)",
+              "Resolution: 2400 x 1080 Pixels",
+              "Resolution Type: Full HD+",
+              "Display Type: AMOLED",
+              "Other Display Features: 90Hz Refresh Rate, HDR10"
+            ]
+          },
+          {
+            "title": "Os & Processor Features",
+            "details": [
+              "Operating System: Android 14",
+              "Processor Type: Snapdragon 8 Gen 2",
+              "Processor Core: Octa Core",
+              "Primary Clock Speed: 2.8 GHz",
+              "Secondary Clock Speed: 2.4 GHz"
+            ]
+          },
+          {
+            "title": "Memory & Storage Features",
+            "details": [
+              "Internal Storage: 128 GB",
+              "RAM: 8 GB"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Primary Camera Available: Yes",
+              "Primary Camera: 50MP + 12MP",
+              "Secondary Camera Available: Yes",
+              "Secondary Camera: 16MP Front Camera",
+              "Flash: Yes",
+              "HD Recording: Yes",
+              "Full HD Recording: Yes",
+              "Video Recording: Yes",
+              "Digital Zoom: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Power Features",
+            "details": [
+              "Battery Capacity: 4000 mAh"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Width: 73.1 mm",
+              "Height: 151.3 mm",
+              "Depth: 8.9 mm",
+              "Weight: 177 g"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+              "Domestic Warranty: 1 Year"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Emma",
+            "review": "The Google Pixel 6 is amazing! Fantastic camera quality and performance."
+          },
+          {
+            "rating": 4,
+            "customer_name": "Liam",
+            "review": "Great phone, but the battery life could be better."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Is it 5G enabled?",
+            "answer": "Yes, the Google Pixel 6 is 5G enabled."
+          },
+          {
+            "question": "Is it water-resistant?",
+            "answer": "Yes, the Google Pixel 6 is IP68 rated for water and dust resistance."
+          },
+          {
+            "question": "Does it support wireless charging?",
+            "answer": "Yes, the Google Pixel 6 supports wireless charging."
+          }
+        ]
+      },                        
+      {
+        "product_id": "IQOOZ71A2BCD3E4F5G6",
+        "product_images": [
+          "https://m.media-amazon.com/images/I/61Id6WJDWqL._AC_UF1000,1000_QL80_.jpg",
+          "https://exstatic-in.iqoo.com/Oz84QB3Wo0uns8j1/in/1693311545221/902cddd268650f5e42d8b99254959a69.jpg.webp",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLMBm4BzfGizDFppRJIud6S1c62J_E9zwJ625gubwIAa93qQuWT6XykxHypU0iput657Y&usqp=CAU"
+        ],
+        "product_name": {
+          "name": "IQOO Z7 Pro (Blue, 128 GB) (8 GB RAM)",
+          "brand": "IQOO",
+          "description": "The iQOO Z7 Pro offers powerful performance with its advanced processor and stunning design, making it a top choice for smartphone enthusiasts."
+        },
+        "rating": 4.5,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 34999,
+          "original_price": 39999,
+          "discount_percent": 13
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on HDFC Bank Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on SBI Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+          },
+          {
+            "offer_type": "Special Price",
+            "description": "Get extra ₹5,000 off (price inclusive of cashback/coupon)"
+          }
+        ],
+        "highlights": [
+          "8 GB RAM | 128 GB ROM",
+          "16.36 cm (6.44 inch) Full HD+ AMOLED Display",
+          "64MP + 2MP Dual Rear Cameras | 16MP Front Camera",
+          "4500 mAh Battery",
+          "MediaTek Dimensity 900 Processor"
+        ],
+        "detailed_description": "The iQOO Z7 Pro in Blue combines powerful performance with sleek design to deliver an exceptional smartphone experience. With 8 GB RAM and 128 GB storage, it offers ample space for all your needs. The 16.36 cm Full HD+ AMOLED display provides stunning visuals, while the dual 64MP + 2MP rear cameras and 16MP front camera capture amazing photos. The 4500 mAh battery ensures all-day use, and the MediaTek Dimensity 900 processor delivers top-notch performance.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+              "Model Number: IQOOZ7P",
+              "Model Name: iQOO Z7 Pro",
+              "Color: Blue",
+              "Browse Type: Smartphones",
+              "SIM Type: Dual Sim",
+              "Hybrid Sim Slot: No",
+              "Touchscreen: Yes",
+              "OTG Compatible: Yes",
+              "SAR Value: 0.99 W/kg"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 16.36 cm (6.44 inch)",
+              "Resolution: 2400 x 1080 Pixels",
+              "Resolution Type: Full HD+",
+              "Display Type: AMOLED",
+              "Other Display Features: 90Hz Refresh Rate, HDR10+"
+            ]
+          },
+          {
+            "title": "Os & Processor Features",
+            "details": [
+              "Operating System: Android 12",
+              "Processor Type: MediaTek Dimensity 900",
+              "Processor Core: Octa Core",
+              "Primary Clock Speed: 2.4 GHz",
+              "Secondary Clock Speed: 2.0 GHz"
+            ]
+          },
+          {
+            "title": "Memory & Storage Features",
+            "details": [
+              "Internal Storage: 128 GB",
+              "RAM: 8 GB"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Primary Camera Available: Yes",
+              "Primary Camera: 64MP + 2MP",
+              "Secondary Camera Available: Yes",
+              "Secondary Camera: 16MP Front Camera",
+              "Flash: Yes",
+              "HD Recording: Yes",
+              "Full HD Recording: Yes",
+              "Video Recording: Yes",
+              "Digital Zoom: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Power Features",
+            "details": [
+              "Battery Capacity: 4500 mAh"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Width: 75.2 mm",
+              "Height: 160.6 mm",
+              "Depth: 7.8 mm",
+              "Weight: 176 g"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+              "Domestic Warranty: 1 Year"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Aarav",
+            "review": "Outstanding performance and display. The battery life is excellent and the design is sleek."
+          },
+          {
+            "rating": 4,
+            "customer_name": "Maya",
+            "review": "Great phone with good features. The camera quality is impressive, but it could be a bit lighter."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Does it support 5G?",
+            "answer": "Yes, the iQOO Z7 Pro supports 5G."
+          },
+          {
+            "question": "Is it waterproof?",
+            "answer": "No, the iQOO Z7 Pro does not have an IP rating for water resistance."
+          },
+          {
+            "question": "Does it support fast charging?",
+            "answer": "Yes, the iQOO Z7 Pro supports 33W fast charging."
+          }
+        ]
+      },
+      {
+        "product_id": "IQOOZ9XBCD4E5F6H7IJ8KL9M0N1O2P3Q4",
+        "product_images": [
+            "https://static.toiimg.com/photo/92611142.cms",
+            "https://images-na.ssl-images-amazon.com/images/I/61cT89V5LVS._AC_SX679_.jpg",
+            "https://fdn.gsmarena.com/imgroot/reviews/22/iqoo-z9x-cad/gsmarena_010.jpg"
+        ],
+        "product_name": {
+            "name": "iQOO Z9x (Black, 128 GB) (8 GB RAM)",
+            "brand": "iQOO",
+            "description": "The iQOO Z9x offers exceptional performance with a sleek design, advanced camera features, and fast charging capabilities."
+        },
+        "rating": 4.6,
+        "assured": "yes",
+        "price_details": {
+            "current_price": 24999,
+            "original_price": 27999,
+            "discount_percent": 10.7
+        },
+        "offers": [
+            {
+                "offer_type": "Bank Offer",
+                "description": "10% off on HDFC Bank Credit Cards, up to ₹2000 on orders of ₹15,000 and above"
+            },
+            {
+                "offer_type": "Bank Offer",
+                "description": "10% off on ICICI Bank Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+            },
+            {
+                "offer_type": "Special Price",
+                "description": "Get extra ₹500 off (price inclusive of cashback/coupon)"
+            }
+        ],
+        "highlights": [
+            "8 GB RAM | 128 GB ROM",
+            "16.5 cm (6.5 inch) AMOLED Display",
+            "64MP + 8MP + 5MP Triple Rear Cameras | 16MP Front Camera",
+            "5000 mAh Battery",
+            "Qualcomm Snapdragon 778G Processor"
+        ],
+        "detailed_description": "The iQOO Z9x in Black is designed for exceptional performance. With 8 GB RAM and 128 GB storage, it offers ample space for your apps and files. The 16.5 cm AMOLED display delivers vibrant visuals, while the triple 64MP rear cameras and 16MP front camera capture stunning photos. The 5000 mAh battery supports fast charging, and the Qualcomm Snapdragon 778G processor ensures smooth multitasking and gaming.",
+        "specifications": [
+            {
+                "title": "General",
+                "details": [
+                    "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+                    "Model Number: Z9X",
+                    "Model Name: iQOO Z9x",
+                    "Color: Black",
+                    "Browse Type: Smartphones",
+                    "SIM Type: Dual Sim",
+                    "Hybrid Sim Slot: No",
+                    "Touchscreen: Yes",
+                    "OTG Compatible: Yes",
+                    "SAR Value: Head: 0.95 W/kg, Body: 1.02 W/kg"
+                ]
+            },
+            {
+                "title": "Display Features",
+                "details": [
+                    "Display Size: 16.5 cm (6.5 inch)",
+                    "Resolution: 2400 x 1080 Pixels",
+                    "Resolution Type: FHD+",
+                    "Display Type: AMOLED",
+                    "Other Display Features: 120Hz Refresh Rate"
+                ]
+            },
+            {
+                "title": "Os & Processor Features",
+                "details": [
+                    "Operating System: Android 12",
+                    "Processor Type: Qualcomm Snapdragon 778G",
+                    "Processor Core: Octa Core"
+                ]
+            },
+            {
+                "title": "Memory & Storage Features",
+                "details": [
+                    "Internal Storage: 128 GB",
+                    "RAM: 8 GB"
+                ]
+            },
+            {
+                "title": "Camera Features",
+                "details": [
+                    "Primary Camera Available: Yes",
+                    "Primary Camera: 64MP + 8MP + 5MP",
+                    "Secondary Camera Available: Yes",
+                    "Secondary Camera: 16MP Front Camera",
+                    "Flash: Yes",
+                    "HD Recording: Yes",
+                    "Full HD Recording: Yes",
+                    "Video Recording: Yes",
+                    "Digital Zoom: Yes"
+                ]
+            },
+            {
+                "title": "Battery & Power Features",
+                "details": [
+                    "Battery Capacity: 5000 mAh"
+                ]
+            },
+            {
+                "title": "Dimensions",
+                "details": [
+                    "Width: 75.4 mm",
+                    "Height: 163.6 mm",
+                    "Depth: 8.7 mm",
+                    "Weight: 189 g"
+                ]
+            },
+            {
+                "title": "Warranty",
+                "details": [
+                    "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+                    "Domestic Warranty: 1 Year"
+                ]
+            }
+        ],
+        "customer_reviews": [
+            {
+                "rating": 5,
+                "customer_name": "James",
+                "review": "Excellent phone with great camera quality and performance!"
+            },
+            {
+                "rating": 4,
+                "customer_name": "Sophie",
+                "review": "Solid phone with good battery life and fast charging."
+            }
+        ],
+        "qna": [
+            {
+                "question": "Does it support 5G?",
+                "answer": "Yes, the iQOO Z9x supports 5G connectivity."
+            },
+            {
+                "question": "Is it water-resistant?",
+                "answer": "No, the iQOO Z9x is not water-resistant."
+            },
+            {
+                "question": "Does it have expandable storage?",
+                "answer": "Yes, the iQOO Z9x supports expandable storage via microSD card."
+            }
+        ]
+    },
+    {
+      "product_id": "IQOONEO9PROBCD4E5F6H7IJ8KL9M0N1O2P3Q4R5",
+      "product_images": [
+          "https://static.toiimg.com/photo/92611142.cms",
+          "https://images-na.ssl-images-amazon.com/images/I/61cT89V5LVS._AC_SX679_.jpg",
+          "https://fdn.gsmarena.com/imgroot/reviews/22/iqoo-neo-9-pro-cad/gsmarena_010.jpg"
+      ],
+      "product_name": {
+          "name": "iQOO Neo 9 Pro (Blue, 256 GB) (12 GB RAM)",
+          "brand": "iQOO",
+          "description": "The iQOO Neo 9 Pro offers top-of-the-line features with a focus on performance, camera capabilities, and stunning design."
+      },
+      "rating": 4.8,
+      "assured": "yes",
+      "price_details": {
+          "current_price": 37999,
+          "original_price": 39999,
+          "discount_percent": 5
+      },
+      "offers": [
+          {
+              "offer_type": "Bank Offer",
+              "description": "10% off on HDFC Bank Credit Cards, up to ₹3000 on orders of ₹25,000 and above"
+          },
+          {
+              "offer_type": "Bank Offer",
+              "description": "10% off on ICICI Bank Credit Cards, up to ₹2500 on orders of ₹20,000 and above"
+          },
+          {
+              "offer_type": "Special Price",
+              "description": "Get extra ₹1,000 off (price inclusive of cashback/coupon)"
+          }
+      ],
+      "highlights": [
+          "12 GB RAM | 256 GB ROM",
+          "17.2 cm (6.78 inch) Super AMOLED Display",
+          "108MP + 13MP + 2MP Triple Rear Cameras | 50MP Front Camera",
+          "5000 mAh Battery",
+          "Qualcomm Snapdragon 8 Gen 2 Processor"
+      ],
+      "detailed_description": "The iQOO Neo 9 Pro in Blue is a powerhouse of performance and style. With 12 GB RAM and 256 GB storage, it offers seamless multitasking and ample space for your apps and media. The 17.2 cm Super AMOLED display delivers stunning visuals, while the triple 108MP rear cameras and 50MP front camera capture detailed photos and videos. The 5000 mAh battery supports fast charging, and the Qualcomm Snapdragon 8 Gen 2 processor ensures smooth operation.",
+      "specifications": [
+          {
+              "title": "General",
+              "details": [
+                  "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+                  "Model Number: NEO9PRO",
+                  "Model Name: iQOO Neo 9 Pro",
+                  "Color: Blue",
+                  "Browse Type: Smartphones",
+                  "SIM Type: Dual Sim",
+                  "Hybrid Sim Slot: No",
+                  "Touchscreen: Yes",
+                  "OTG Compatible: Yes",
+                  "SAR Value: Head: 0.96 W/kg, Body: 1.03 W/kg"
+              ]
+          },
+          {
+              "title": "Display Features",
+              "details": [
+                  "Display Size: 17.2 cm (6.78 inch)",
+                  "Resolution: 3200 x 1440 Pixels",
+                  "Resolution Type: Quad HD+",
+                  "Display Type: Super AMOLED",
+                  "Other Display Features: 120Hz Refresh Rate, HDR10+"
+              ]
+          },
+          {
+              "title": "Os & Processor Features",
+              "details": [
+                  "Operating System: Android 13",
+                  "Processor Type: Qualcomm Snapdragon 8 Gen 2",
+                  "Processor Core: Octa Core"
+              ]
+          },
+          {
+              "title": "Memory & Storage Features",
+              "details": [
+                  "Internal Storage: 256 GB",
+                  "RAM: 12 GB"
+              ]
+          },
+          {
+              "title": "Camera Features",
+              "details": [
+                  "Primary Camera Available: Yes",
+                  "Primary Camera: 108MP + 13MP + 2MP",
+                  "Secondary Camera Available: Yes",
+                  "Secondary Camera: 50MP Front Camera",
+                  "Flash: Yes",
+                  "HD Recording: Yes",
+                  "Full HD Recording: Yes",
+                  "Video Recording: Yes",
+                  "Digital Zoom: Yes"
+              ]
+          },
+          {
+              "title": "Battery & Power Features",
+              "details": [
+                  "Battery Capacity: 5000 mAh"
+              ]
+          },
+          {
+              "title": "Dimensions",
+              "details": [
+                  "Width: 76.6 mm",
+                  "Height: 162.5 mm",
+                  "Depth: 8.5 mm",
+                  "Weight: 191 g"
+              ]
+          },
+          {
+              "title": "Warranty",
+              "details": [
+                  "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+                  "Domestic Warranty: 1 Year"
+              ]
+          }
+      ],
+      "customer_reviews": [
+          {
+              "rating": 5,
+              "customer_name": "Alex",
+              "review": "Absolutely love this phone! Amazing performance and camera quality."
+          },
+          {
+              "rating": 4,
+              "customer_name": "Sophie",
+              "review": "Solid phone with excellent battery life and fast charging."
+          }
+      ],
+      "qna": [
+          {
+              "question": "Does it support 5G?",
+              "answer": "Yes, the iQOO Neo 9 Pro supports 5G connectivity."
+          },
+          {
+              "question": "Is it water-resistant?",
+              "answer": "No, the iQOO Neo 9 Pro is not water-resistant."
+          },
+          {
+              "question": "Does it have expandable storage?",
+              "answer": "No, the iQOO Neo 9 Pro does not support expandable storage."
+          }
+      ]
+  },
+  {
+    "product_id": "IQOO12BCD4E5F6H7IJ8KL9M0N1O2P3Q4R5S6T7",
+    "product_images": [
+        "https://static.toiimg.com/photo/92611142.cms",
+        "https://images-na.ssl-images-amazon.com/images/I/61cT89V5LVS._AC_SX679_.jpg",
+        "https://fdn.gsmarena.com/imgroot/reviews/22/iqoo-12-cad/gsmarena_010.jpg"
+    ],
+    "product_name": {
+        "name": "iQOO 12 (Phantom Black, 256 GB) (12 GB RAM)",
+        "brand": "iQOO",
+        "description": "The iQOO 12 combines cutting-edge technology with premium design, delivering exceptional performance and advanced features for a superior user experience."
+    },
+    "rating": 4.9,
+    "assured": "yes",
+    "price_details": {
+        "current_price": 45999,
+        "original_price": 48999,
+        "discount_percent": 6.1
+    },
+    "offers": [
+        {
+            "offer_type": "Bank Offer",
+            "description": "10% off on HDFC Bank Credit Cards, up to ₹3500 on orders of ₹30,000 and above"
+        },
+        {
+            "offer_type": "Bank Offer",
+            "description": "10% off on ICICI Bank Credit Cards, up to ₹3000 on orders of ₹25,000 and above"
+        },
+        {
+            "offer_type": "Special Price",
+            "description": "Get extra ₹2,000 off (price inclusive of cashback/coupon)"
+        }
+    ],
+    "highlights": [
+        "12 GB RAM | 256 GB ROM",
+        "17.3 cm (6.8 inch) Super AMOLED Display",
+        "108MP + 13MP + 2MP Triple Rear Cameras | 50MP Front Camera",
+        "5000 mAh Battery",
+        "Qualcomm Snapdragon 8 Gen 2 Processor"
+    ],
+    "detailed_description": "The iQOO 12 in Phantom Black is designed to elevate your smartphone experience. With 12 GB RAM and 256 GB storage, it offers smooth performance and ample space for your apps and files. The 17.3 cm Super AMOLED display delivers stunning visuals, while the triple 108MP rear cameras and 50MP front camera capture detailed photos and videos. The 5000 mAh battery supports fast charging, and the Qualcomm Snapdragon 8 Gen 2 processor ensures seamless multitasking and gaming.",
+    "specifications": [
+        {
+            "title": "General",
+            "details": [
+                "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+                "Model Number: IQOO12",
+                "Model Name: iQOO 12",
+                "Color: Phantom Black",
+                "Browse Type: Smartphones",
+                "SIM Type: Dual Sim",
+                "Hybrid Sim Slot: No",
+                "Touchscreen: Yes",
+                "OTG Compatible: Yes",
+                "SAR Value: Head: 0.97 W/kg, Body: 1.04 W/kg"
+            ]
+        },
+        {
+            "title": "Display Features",
+            "details": [
+                "Display Size: 17.3 cm (6.8 inch)",
+                "Resolution: 3200 x 1440 Pixels",
+                "Resolution Type: Quad HD+",
+                "Display Type: Super AMOLED",
+                "Other Display Features: 120Hz Refresh Rate, HDR10+"
+            ]
+        },
+        {
+            "title": "Os & Processor Features",
+            "details": [
+                "Operating System: Android 13",
+                "Processor Type: Qualcomm Snapdragon 8 Gen 2",
+                "Processor Core: Octa Core"
+            ]
+        },
+        {
+            "title": "Memory & Storage Features",
+            "details": [
+                "Internal Storage: 256 GB",
+                "RAM: 12 GB"
+            ]
+        },
+        {
+            "title": "Camera Features",
+            "details": [
+                "Primary Camera Available: Yes",
+                "Primary Camera: 108MP + 13MP + 2MP",
+                "Secondary Camera Available: Yes",
+                "Secondary Camera: 50MP Front Camera",
+                "Flash: Yes",
+                "HD Recording: Yes",
+                "Full HD Recording: Yes",
+                "Video Recording: Yes",
+                "Digital Zoom: Yes"
+            ]
+        },
+        {
+            "title": "Battery & Power Features",
+            "details": [
+                "Battery Capacity: 5000 mAh"
+            ]
+        },
+        {
+            "title": "Dimensions",
+            "details": [
+                "Width: 77.2 mm",
+                "Height: 163.9 mm",
+                "Depth: 8.4 mm",
+                "Weight: 193 g"
+            ]
+        },
+        {
+            "title": "Warranty",
+            "details": [
+                "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+                "Domestic Warranty: 1 Year"
+            ]
+        }
+    ],
+    "customer_reviews": [
+        {
+            "rating": 5,
+            "customer_name": "John",
+            "review": "Amazing phone with top-notch performance and camera quality!"
+        },
+        {
+            "rating": 4,
+            "customer_name": "Emma",
+            "review": "Great phone overall, but a bit on the expensive side."
+        }
+    ],
+    "qna": [
+        {
+            "question": "Does it support 5G?",
+            "answer": "Yes, the iQOO 12 supports 5G connectivity."
+        },
+        {
+            "question": "Is it water-resistant?",
+            "answer": "No, the iQOO 12 is not water-resistant."
+        },
+        {
+            "question": "Does it have expandable storage?",
+            "answer": "No, the iQOO 12 does not support expandable storage."
+        }
+    ]
+},
+{
+  "product_id": "IQOOZ6BCD4E5F6H7IJ8KL9M0N1O2P3Q4R5S6T7U8",
+  "product_images": [
+      "https://static.toiimg.com/photo/92611142.cms",
+      "https://images-na.ssl-images-amazon.com/images/I/61cT89V5LVS._AC_SX679_.jpg",
+      "https://fdn.gsmarena.com/imgroot/reviews/22/iqoo-z6-cad/gsmarena_010.jpg"
+  ],
+  "product_name": {
+      "name": "iQOO Z6 (Silver, 128 GB) (6 GB RAM)",
+      "brand": "iQOO",
+      "description": "The iQOO Z6 is a feature-packed smartphone with a sleek design, powerful performance, and impressive camera capabilities."
+  },
+  "rating": 4.5,
+  "assured": "yes",
+  "price_details": {
+      "current_price": 18999,
+      "original_price": 19999,
+      "discount_percent": 5
+  },
+  "offers": [
+      {
+          "offer_type": "Bank Offer",
+          "description": "10% off on HDFC Bank Credit Cards, up to ₹1500 on orders of ₹10,000 and above"
+      },
+      {
+          "offer_type": "Bank Offer",
+          "description": "10% off on ICICI Bank Credit Cards, up to ₹1000 on orders of ₹10,000 and above"
+      },
+      {
+          "offer_type": "Special Price",
+          "description": "Get extra ₹1,000 off (price inclusive of cashback/coupon)"
+      }
+  ],
+  "highlights": [
+      "6 GB RAM | 128 GB ROM",
+      "16.8 cm (6.6 inch) Full HD+ Display",
+      "64MP + 8MP + 2MP Triple Rear Cameras | 16MP Front Camera",
+      "5000 mAh Battery",
+      "Qualcomm Snapdragon 680 Processor"
+  ],
+  "detailed_description": "The iQOO Z6 in Silver combines style with performance. With 6 GB RAM and 128 GB storage, it offers smooth multitasking and ample space for your apps and media. The 16.8 cm Full HD+ display delivers vibrant visuals, while the triple 64MP rear cameras and 16MP front camera capture stunning photos and videos. The 5000 mAh battery ensures all-day usage, and the Qualcomm Snapdragon 680 processor provides fast and efficient performance.",
+  "specifications": [
+      {
+          "title": "General",
+          "details": [
+              "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+              "Model Number: IQOOZ6",
+              "Model Name: iQOO Z6",
+              "Color: Silver",
+              "Browse Type: Smartphones",
+              "SIM Type: Dual Sim",
+              "Hybrid Sim Slot: No",
+              "Touchscreen: Yes",
+              "OTG Compatible: Yes",
+              "SAR Value: Head: 0.85 W/kg, Body: 1.02 W/kg"
+          ]
+      },
+      {
+          "title": "Display Features",
+          "details": [
+              "Display Size: 16.8 cm (6.6 inch)",
+              "Resolution: 2400 x 1080 Pixels",
+              "Resolution Type: Full HD+",
+              "Display Type: IPS LCD",
+              "Other Display Features: 120Hz Refresh Rate"
+          ]
+      },
+      {
+          "title": "Os & Processor Features",
+          "details": [
+              "Operating System: Android 12",
+              "Processor Type: Qualcomm Snapdragon 680",
+              "Processor Core: Octa Core"
+          ]
+      },
+      {
+          "title": "Memory & Storage Features",
+          "details": [
+              "Internal Storage: 128 GB",
+              "RAM: 6 GB"
+          ]
+      },
+      {
+          "title": "Camera Features",
+          "details": [
+              "Primary Camera Available: Yes",
+              "Primary Camera: 64MP + 8MP + 2MP",
+              "Secondary Camera Available: Yes",
+              "Secondary Camera: 16MP Front Camera",
+              "Flash: Yes",
+              "HD Recording: Yes",
+              "Full HD Recording: Yes",
+              "Video Recording: Yes",
+              "Digital Zoom: Yes"
+          ]
+      },
+      {
+          "title": "Battery & Power Features",
+          "details": [
+              "Battery Capacity: 5000 mAh"
+          ]
+      },
+      {
+          "title": "Dimensions",
+          "details": [
+              "Width: 76.3 mm",
+              "Height: 163.7 mm",
+              "Depth: 8.4 mm",
+              "Weight: 192 g"
+          ]
+      },
+      {
+          "title": "Warranty",
+          "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+              "Domestic Warranty: 1 Year"
+          ]
+      }
+  ],
+  "customer_reviews": [
+      {
+          "rating": 5,
+          "customer_name": "Sophie",
+          "review": "Great phone with excellent performance and camera quality."
+      },
+      {
+          "rating": 4,
+          "customer_name": "Alex",
+          "review": "Solid phone overall, but battery life could be better."
+      }
+  ],
+  "qna": [
+      {
+          "question": "Does it support 5G?",
+          "answer": "No, the iQOO Z6 does not support 5G connectivity."
+      },
+      {
+          "question": "Is it water-resistant?",
+          "answer": "No, the iQOO Z6 is not water-resistant."
+      },
+      {
+          "question": "Does it have expandable storage?",
+          "answer": "Yes, the iQOO Z6 supports expandable storage via microSD card."
+      }
+  ]
+},
+      {
+        "product_id": "IQOOZ91A2BCD3E4F5G6",
+        "product_images": [
+          "https://m.media-amazon.com/images/I/61pt59LW-lL._AC_UF1000,1000_QL80_.jpg",
+          "https://www.gizmochina.com/wp-content/uploads/2024/03/iQOO-Z9-5G-poster.png",
+          "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/product/1711015079598/zip/img/first-screen-kv.png"
+        ],
+        "product_name": {
+          "name": "IQOO Z9 (Black, 128 GB) (8 GB RAM)",
+          "brand": "IQOO",
+          "description": "The iQOO Z9 offers exceptional performance and a sleek design, making it an excellent choice for tech enthusiasts."
+        },
+        "rating": 4.7,
+        "assured": "yes",
+        "price_details": {
+          "current_price": 37999,
+          "original_price": 42999,
+          "discount_percent": 12
+        },
+        "offers": [
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on HDFC Bank Credit Cards, up to ₹2000 on orders of ₹15,000 and above"
+          },
+          {
+            "offer_type": "Bank Offer",
+            "description": "10% off on SBI Credit Cards, up to ₹2000 on orders of ₹15,000 and above"
+          },
+          {
+            "offer_type": "Special Price",
+            "description": "Get extra ₹5,000 off (price inclusive of cashback/coupon)"
+          }
+        ],
+        "highlights": [
+          "8 GB RAM | 128 GB ROM",
+          "16.71 cm (6.58 inch) Full HD+ AMOLED Display",
+          "64MP + 8MP + 2MP Triple Rear Cameras | 16MP Front Camera",
+          "5000 mAh Battery",
+          "Qualcomm Snapdragon 888 Processor"
+        ],
+        "detailed_description": "The iQOO Z9 in Black combines top-tier performance with an elegant design to deliver an outstanding smartphone experience. With 8 GB RAM and 128 GB storage, it offers ample space for your apps and files. The 16.71 cm Full HD+ AMOLED display delivers stunning visuals, while the triple 64MP + 8MP + 2MP rear cameras and 16MP front camera capture amazing photos. The 5000 mAh battery ensures long-lasting usage, and the Qualcomm Snapdragon 888 processor provides smooth and efficient performance.",
+        "specifications": [
+          {
+            "title": "General",
+            "details": [
+              "In The Box: Handset, Adapter, USB Cable, Quick Start Guide, SIM Card Tool",
+              "Model Number: IQOOZ9",
+              "Model Name: iQOO Z9",
+              "Color: Black",
+              "Browse Type: Smartphones",
+              "SIM Type: Dual Sim",
+              "Hybrid Sim Slot: No",
+              "Touchscreen: Yes",
+              "OTG Compatible: Yes",
+              "SAR Value: 0.97 W/kg"
+            ]
+          },
+          {
+            "title": "Display Features",
+            "details": [
+              "Display Size: 16.71 cm (6.58 inch)",
+              "Resolution: 2400 x 1080 Pixels",
+              "Resolution Type: Full HD+",
+              "Display Type: AMOLED",
+              "Other Display Features: 120Hz Refresh Rate, HDR10+"
+            ]
+          },
+          {
+            "title": "Os & Processor Features",
+            "details": [
+              "Operating System: Android 12",
+              "Processor Type: Qualcomm Snapdragon 888",
+              "Processor Core: Octa Core",
+              "Primary Clock Speed: 2.84 GHz",
+              "Secondary Clock Speed: 2.42 GHz"
+            ]
+          },
+          {
+            "title": "Memory & Storage Features",
+            "details": [
+              "Internal Storage: 128 GB",
+              "RAM: 8 GB"
+            ]
+          },
+          {
+            "title": "Camera Features",
+            "details": [
+              "Primary Camera Available: Yes",
+              "Primary Camera: 64MP + 8MP + 2MP",
+              "Secondary Camera Available: Yes",
+              "Secondary Camera: 16MP Front Camera",
+              "Flash: Yes",
+              "HD Recording: Yes",
+              "Full HD Recording: Yes",
+              "Video Recording: Yes",
+              "Digital Zoom: Yes"
+            ]
+          },
+          {
+            "title": "Battery & Power Features",
+            "details": [
+              "Battery Capacity: 5000 mAh"
+            ]
+          },
+          {
+            "title": "Dimensions",
+            "details": [
+              "Width: 75.4 mm",
+              "Height: 162.3 mm",
+              "Depth: 8.1 mm",
+              "Weight: 190 g"
+            ]
+          },
+          {
+            "title": "Warranty",
+            "details": [
+              "Warranty Summary: 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+              "Domestic Warranty: 1 Year"
+            ]
+          }
+        ],
+        "customer_reviews": [
+          {
+            "rating": 5,
+            "customer_name": "Rahul",
+            "review": "Excellent phone with amazing performance and battery life. The camera quality is top-notch."
+          },
+          {
+            "rating": 4,
+            "customer_name": "Priya",
+            "review": "Great phone with good features. The display is vibrant and the design is sleek."
+          }
+        ],
+        "qna": [
+          {
+            "question": "Does it support 5G?",
+            "answer": "Yes, the iQOO Z9 supports 5G."
+          },
+          {
+            "question": "Is it water-resistant?",
+            "answer": "No, the iQOO Z9 does not have an IP rating for water resistance."
+          },
+          {
+            "question": "Does it support fast charging?",
+            "answer": "Yes, the iQOO Z9 supports 66W fast charging."
+          }
+        ]
+      }
+        
+
+
+      
+
+    
   ]
 
 }
