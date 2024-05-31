@@ -1,0 +1,544 @@
+.main{
+    display: flex;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F1F3F6;
+
+
+    font-family: "Roboto",Arial,sans-serif;
+    background-color: #F1F3F6;
+    color:#212121;
+    font-size: 16px;
+    font-weight: 400;
+
+
+    
+}
+
+.main-left{
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 74px;
+    margin: 16px;
+
+} 
+
+.main-right{
+    background-color: #FFFFFF;
+    width: 60%;
+    height: 5030px;
+    margin-top: 16px;
+
+}
+
+.wishlist-heading{
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 20px 30px;
+    margin: 0px;
+    
+}
+
+.product-container{
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-heading{
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+
+}
+.product-image{
+    display: inline-block;
+    margin: 0px;
+    padding: 8px;
+}
+.rating{
+    background-color: #388E3C;
+    padding: 4px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4px;
+    display: inline-block;
+    height: 16px;
+   
+}
+.review-number{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #878787;
+
+}
+.remove-btn{
+    margin-top: 20px;
+    align-self: start;
+}
+.details-row1{
+    display: flex;
+    padding: 10px;
+    gap: 2rem;
+    align-items: center;
+    
+}
+.review-number{
+    margin: 0px;
+}
+
+.price{
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+
+.real-price{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #878787;
+    text-decoration: line-through;
+    margin: 0px 0px 0px 10px;
+
+}
+
+.off-percentage{
+    font-family: "Roboto", sans-serif;
+    color: #388e3c;
+    font-size: 13px;
+    letter-spacing: -.2px;
+    font-weight: 500;
+
+}
+
+/* NAVBAR  */
+
+
+#para1 {
+    border: 4px solid orange;
+}
+
+nav {
+    background-color: white;
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+
+}
+
+.sign-up-color {
+    color: blue;
+}
+
+.drop-division {
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(30, 28, 28);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.navtab .dropdown .dropbtn {
+    position: relative;
+    /* Necessary for positioning pseudo-elements */
+}
+
+.navtab .dropdown .dropbtn::before {
+    content: url("../Assets/profile-black.svg");
+    /* Initial image */
+    display: inline-block;
+    height: 22px;
+    width: 10px;
+    vertical-align: middle;
+    margin-right: 12px;
+    /* Adjust spacing as needed */
+}
+
+.navtab .dropdown .dropbtn span {
+    vertical-align: middle;
+    /* Align vertically with pseudo-element */
+}
+
+.dropbtn i {
+    transition: transform 0.3s ease-in;
+}
+
+.dropbtn:hover i {
+    transform: rotate(180deg);
+}
+
+
+.navtab .dropdown:hover .dropbtn::before {
+    content: url("../Assets/profile.svg");
+    /* Image on hover */
+}
+
+
+.navtab .dropdown:hover .dropbtn {
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+}
+
+#nav1 {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: #F1F2F4;
+
+}
+
+#logo_name {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: #2A55E5;
+    font-weight: bold;
+}
+
+#input_data {
+    border: none;
+    width: 500px;
+    height: 20px;
+    padding-left: 12px;
+    background-color: #F0F5FF;
+}
+
+.navtab {
+    display: flex;
+    align-items: center;
+}
+
+#searchbar {
+    background-color: #F0F5FF;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+option {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+select {
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+
+
+
+li {
+    list-style: none;
+}
+
+
+.heading {
+    color: gray;
+}
+
+
+
+
+
+/* SIDEBAR  */
+
+
+.account-container{
+    display: flex;
+    margin-left: 64px;
+    width: 25%;
+}
+.account-container hr{
+    border: none; 
+    height: 2px;
+    background-color: #F1F3F6;
+}
+#left-pane{
+    width:100%;
+    margin: 0px 0px 16px;
+    padding: 14px;
+}
+#profile-banner{
+    border-width: 1px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 2px;
+    display: flex;
+    padding: 14px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+
+}
+#hello-display-user-name{
+    margin-left: 16px;
+}
+#hello{
+    font-size: 14px;
+    color: #212121;
+    padding: 3px;
+}
+#display-user-name{
+    font-size: 18px;
+    color: #212121;
+    padding: 3px;
+}
+
+#profile-pic-default{
+    width:50px;
+    height: 50px;
+}
+
+#account-menu{
+    border-width: 1px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+    /* padding: 20px 12px 5px 24px; */
+}
+
+.my-orders{
+    display: flex;
+    padding:20px 12px 17px 24px;
+    font-size: 17px;
+    color: #878787;
+    cursor: pointer;
+}
+
+#account-settings-title{
+    display: flex;
+    padding:20px 12px 17px 24px;
+    font-size: 17px;
+    color: #878787;
+}
+
+#payments-title{
+    display: flex;
+    padding:20px 12px 17px 24px;
+    font-size: 17px;
+    color: #878787;
+}
+
+#my-stuffs-title{
+    display: flex;
+    padding:20px 12px 17px 24px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #878787;
+}
+#log-out{
+    display: flex;
+    padding:20px 12px 17px 24px;
+    font-size: 17px;
+    color: #878787;
+    cursor: pointer;
+}
+
+.left-pane-title-text{
+    margin-left: 20px;
+}
+
+.account-settings-options{
+    padding: 12px 5px 12px 66px;
+    cursor: pointer;
+    transform: all 0.2s ease-in;
+}
+.account-settings-options:hover{
+    background-color: #F5FAFF;
+    color: #2874F0;
+}
+.selected {
+    background-color: #F5FAFF;
+    color: #2874F0;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.account-settings-options::after{
+    background-color: #F5FAFF;
+    color: #2874F0;
+    font-weight: bolder;
+}
+.payments-options{
+    padding: 12px 5px 12px 66px;
+    cursor: pointer;
+    transform: all 0.2s ease-in;
+}
+.payments-options:hover{
+    background-color: #F5FAFF;
+    color: #2874F0;
+}
+.my-stuff-options{
+    padding: 12px 5px 12px 66px;
+    cursor: pointer;
+    transform: all 0.2s ease-in;
+}
+.my-stuff-options:hover{
+    background-color: #F5FAFF;
+    color: #2874F0;
+}
+#log-out-title{
+    margin-left: 16px;
+}
+#frequently-visited{
+    border-width: 1px;
+    background-color: white;
+    padding: 16px;
+    margin-top: 16px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+}
+#frequently-visited-links{
+    display: flex;
+    color:#878787;
+    font-size: 14px;
+}
+#frequently-visited-links-2{
+    margin-left: 16px;
+}
+#detailed-display{
+    border-width: 1px;
+    width:63.5%;
+    background-color: white;
+    padding: 32px 32px 32px 32px;
+    /* margin-left: 8px; */
+    margin-top: 16px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);    
+}
+
+.personal-info-title{
+    font-size: 20px;
+    font-weight: 550;
+    padding-right: 24px;
+    margin-bottom: 24px;
+}
+
+.editing-link-text{
+    color: #2874F0;
+    font-size: 14px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.title-and-editing{
+    margin-bottom: 24px;
+}
+input{
+    /* margin-bottom: 64px; */
+    font-size: 16px;
+    cursor: not-allowed;
+    /* position: relative;
+    padding-left: 8px; */
+}
+.text-input-box{
+    width:260px;
+    height:18px;
+    padding: 16px;
+    margin-right: 12px;
+}
+#select-gender-title{
+    margin-top: -20px;
+    margin-bottom: 12px;
+}
+#faq-title{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.faq-question{
+    
+    font-weight: bold;
+    font-size:15px;
+    margin-bottom: 24px;
+    color: #2F2F2F;
+}
+.faq-answer{
+    font-size:15px;
+    margin-bottom: 24px;
+   
+}
+#container-footer-image{
+    margin-bottom:-32px;
+    margin-left: -32px;
+}
+#submitBtn{
+    background: #2874f0;
+    width: 130px;
+    height: 48px;
+    padding: 14px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 16px;
+    box-shadow: none !important;
+    letter-spacing: 0;
+    border-color: #2874F0;
+    cursor: pointer;
+    outline: none;
+}
