@@ -1,5 +1,5 @@
 const mockApiUrl =
-  "https://run.mocky.io/v3/8f840c4b-a941-42f9-a9e4-3e5c97955ee3";
+  "http://localhost:3000/laptops/1";
 async function fetchProductData() {
   try {
     const response = await fetch(mockApiUrl);
