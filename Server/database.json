@@ -2,6 +2,8 @@
     "laptops": [
         {
           "product_id": "LAPI8J9K0L1M2N3O4",
+          "model": "i7 core",
+          "brand": "Dell",
           "product_images": [
             "https://example.com/laptop4_image1.jpg",
             "https://example.com/laptop4_image2.jpg",
@@ -161,7 +163,319 @@
           ]
         },
         {
+          "product_id": "LAPI5J8K1L2M3N4O5",
+          "model": "i5 core",
+          "brand": "Dell",
+          "product_images": [
+            "https://example.com/laptop5_image1.jpg",
+            "https://example.com/laptop5_image2.jpg",
+            "https://example.com/laptop5_image3.jpg"
+          ],
+          "product_name": {
+            "name": "Dell Inspiron 14 (Black, 256 GB SSD, 8 GB RAM)",
+            "description": "The Dell Inspiron 14 is a versatile laptop with a sleek black finish, featuring 256 GB SSD and 8 GB RAM, ideal for everyday use and productivity."
+          },
+          "rating": 4.4,
+          "price_details": {
+            "current_price": 79999,
+            "original_price": 89999,
+            "discount_percent": 11
+          },
+          "offers": [
+            {
+              "offer_type": "Bank Offer",
+              "description": "10% off on HDFC Bank Credit Cards, up to ₹5000 on orders of ₹50,000 and above"
+            },
+            {
+              "offer_type": "Special Price",
+              "description": "Get extra ₹5,000 off (price inclusive of cashback/coupon)"
+            }
+          ],
+          "highlights": [
+            "8 GB RAM | 256 GB SSD",
+            "35.56 cm (14 inch) Full HD Display",
+            "Intel Core i5 10th Gen Processor",
+            "Windows 10 Home"
+          ],
+          "detailed_description": "The Dell Inspiron 14 is designed for everyday use with a 256 GB SSD and 8 GB RAM. Its 35.56 cm Full HD display offers clear visuals, and the Intel Core i5 10th Gen processor ensures reliable performance, making it ideal for work and entertainment.",
+          "specifications": [
+            {
+              "title": "General",
+              "details": [
+                "Sales Package: Laptop, Power Adapter, User Guide",
+                "Model Number: Inspiron 14 5406",
+                "Part Number: 5406-7747BLK-PUS",
+                "Series: Inspiron",
+                "Color: Black",
+                "Type: Laptop",
+                "Suitable For: Processing & Multitasking, Travel & Business",
+                "Battery Backup: Up to 10 hours",
+                "Power Supply: 45 W AC Adapter",
+                "Battery Cell: 3 cell",
+                "MS Office Provided: Yes"
+              ]
+            },
+            {
+              "title": "Processor And Memory Features",
+              "details": [
+                "Processor Brand: Intel",
+                "Processor Name: Core i5",
+                "Processor Generation: 10th Gen",
+                "SSD: Yes",
+                "SSD Capacity: 256 GB",
+                "RAM: 8 GB",
+                "RAM Type: DDR4",
+                "Processor Variant: 1035G1",
+                "Clock Speed: 1.0 GHz with Turbo Boost up to 3.6 GHz",
+                "Memory Slots: 2",
+                "Expandable Memory: Up to 16 GB",
+                "Cache: 6 MB",
+                "Graphic Processor: Intel Integrated UHD Graphics"
+              ]
+            },
+            {
+              "title": "Operating System",
+              "details": [
+                "OS Architecture: 64 bit",
+                "Operating System: Windows 10 Home",
+                "System Architecture: 64 bit"
+              ]
+            },
+            {
+              "title": "Display And Audio Features",
+              "details": [
+                "Touchscreen: No",
+                "Screen Size: 35.56 cm (14 inch)",
+                "Screen Resolution: 1920 x 1080 Pixel",
+                "Screen Type: Full HD LED Backlit Anti-glare Display",
+                "Speakers: Built-in Speakers",
+                "Internal Mic: Built-in Microphones",
+                "Sound Properties: Waves MaxxAudio Pro"
+              ]
+            },
+            {
+              "title": "Connectivity Features",
+              "details": [
+                "Wireless LAN: Intel Wi-Fi 6 AX201 (2x2)",
+                "Bluetooth: v5.0",
+                "Ethernet: No",
+                "Additional Features: USB 3.1, USB Type-C, HDMI, 3.5mm Headphone Jack"
+              ]
+            },
+            {
+              "title": "Dimensions",
+              "details": [
+                "Dimensions: 321 x 216 x 18.8 mm",
+                "Weight: 1.65 kg"
+              ]
+            },
+            {
+              "title": "Additional Features",
+              "details": [
+                "Disk Drive: Not Available",
+                "Web Camera: HD Webcam",
+                "Read/Write Speed: Not Applicable",
+                "Finger Print Sensor: Yes",
+                "Keyboard: Backlit Keyboard",
+                "Backlit Keyboard: Yes",
+                "Pointer Device: Precision Touchpad",
+                "Included Software: Microsoft Office Home & Student 2019"
+              ]
+            },
+            {
+              "title": "Warranty",
+              "details": [
+                "Warranty Summary: 1 Year Manufacturer Warranty",
+                "Warranty Service Type: Onsite"
+              ]
+            }
+          ],
+          "customer_reviews": [
+            {
+              "customer_name": "Alice Cooper",
+              "rating": 4,
+              "review": "Solid performance for the price. Great for everyday tasks."
+            },
+            {
+              "customer_name": "Bob Dylan",
+              "rating": 5,
+              "review": "Excellent build quality and battery life. Highly recommended."
+            }
+          ],
+          "qna": [
+            {
+              "question": "Does it support expandable memory?",
+              "answer": "Yes, the RAM can be expanded up to 16 GB."
+            },
+            {
+              "question": "Does it have a backlit keyboard?",
+              "answer": "Yes, the Dell Inspiron 14 comes with a backlit keyboard."
+            },
+            {
+              "question": "Does it have an HDMI port?",
+              "answer": "Yes, it has an HDMI port for connecting to external displays."
+            }
+          ]
+        },
+        {
+          "product_id": "LAPI3J7K2L3M4N5O6",
+          "model": "i3 core",
+          "brand": "Dell",
+          "product_images": [
+            "https://example.com/laptop6_image1.jpg",
+            "https://example.com/laptop6_image2.jpg",
+            "https://example.com/laptop6_image3.jpg"
+          ],
+          "product_name": {
+            "name": "Dell Inspiron 15 (Grey, 1 TB HDD, 8 GB RAM)",
+            "description": "The Dell Inspiron 15 is a reliable laptop with a 1 TB HDD and 8 GB RAM, featuring a sleek grey finish, perfect for everyday tasks and light gaming."
+          },
+          "rating": 4.2,
+          "price_details": {
+            "current_price": 59999,
+            "original_price": 64999,
+            "discount_percent": 8
+          },
+          "offers": [
+            {
+              "offer_type": "Bank Offer",
+              "description": "10% off on HDFC Bank Credit Cards, up to ₹4000 on orders of ₹40,000 and above"
+            },
+            {
+              "offer_type": "Special Price",
+              "description": "Get extra ₹3,000 off (price inclusive of cashback/coupon)"
+            }
+          ],
+          "highlights": [
+            "8 GB RAM | 1 TB HDD",
+            "39.62 cm (15.6 inch) Full HD Display",
+            "Intel Core i3 10th Gen Processor",
+            "Windows 10 Home"
+          ],
+          "detailed_description": "The Dell Inspiron 15 is designed for everyday use with a 1 TB HDD and 8 GB RAM. Its 39.62 cm Full HD display offers clear visuals, and the Intel Core i3 10th Gen processor ensures reliable performance, making it ideal for work and entertainment.",
+          "specifications": [
+            {
+              "title": "General",
+              "details": [
+                "Sales Package: Laptop, Power Adapter, User Guide",
+                "Model Number: Inspiron 15 3593",
+                "Part Number: 3593-5789GRY-PUS",
+                "Series: Inspiron",
+                "Color: Grey",
+                "Type: Laptop",
+                "Suitable For: Processing & Multitasking, Travel & Business",
+                "Battery Backup: Up to 8 hours",
+                "Power Supply: 45 W AC Adapter",
+                "Battery Cell: 3 cell",
+                "MS Office Provided: Yes"
+              ]
+            },
+            {
+              "title": "Processor And Memory Features",
+              "details": [
+                "Processor Brand: Intel",
+                "Processor Name: Core i3",
+                "Processor Generation: 10th Gen",
+                "SSD: No",
+                "HDD Capacity: 1 TB",
+                "RAM: 8 GB",
+                "RAM Type: DDR4",
+                "Processor Variant: 1005G1",
+                "Clock Speed: 1.2 GHz with Turbo Boost up to 3.4 GHz",
+                "Memory Slots: 2",
+                "Expandable Memory: Up to 16 GB",
+                "Cache: 4 MB",
+                "Graphic Processor: Intel Integrated UHD Graphics"
+              ]
+            },
+            {
+              "title": "Operating System",
+              "details": [
+                "OS Architecture: 64 bit",
+                "Operating System: Windows 10 Home",
+                "System Architecture: 64 bit"
+              ]
+            },
+            {
+              "title": "Display And Audio Features",
+              "details": [
+                "Touchscreen: No",
+                "Screen Size: 39.62 cm (15.6 inch)",
+                "Screen Resolution: 1920 x 1080 Pixel",
+                "Screen Type: Full HD LED Backlit Anti-glare Display",
+                "Speakers: Built-in Speakers",
+                "Internal Mic: Built-in Microphones",
+                "Sound Properties: Waves MaxxAudio Pro"
+              ]
+            },
+            {
+              "title": "Connectivity Features",
+              "details": [
+                "Wireless LAN: Intel Wi-Fi 6 AX201 (2x2)",
+                "Bluetooth: v5.0",
+                "Ethernet: Yes",
+                "Additional Features: USB 3.1, USB Type-C, HDMI, 3.5mm Headphone Jack"
+              ]
+            },
+            {
+              "title": "Dimensions",
+              "details": [
+                "Dimensions: 380 x 258 x 22.7 mm",
+                "Weight: 1.85 kg"
+              ]
+            },
+            {
+              "title": "Additional Features",
+              "details": [
+                "Disk Drive: Not Available",
+                "Web Camera: HD Webcam",
+                "Read/Write Speed: Not Applicable",
+                "Finger Print Sensor: No",
+                "Keyboard: Standard Keyboard",
+                "Backlit Keyboard: No",
+                "Pointer Device: Precision Touchpad",
+                "Included Software: Microsoft Office Home & Student 2019"
+              ]
+            },
+            {
+              "title": "Warranty",
+              "details": [
+                "Warranty Summary: 1 Year Manufacturer Warranty",
+                "Warranty Service Type: Onsite"
+              ]
+            }
+          ],
+          "customer_reviews": [
+            {
+              "customer_name": "Charlie Brown",
+              "rating": 4,
+              "review": "Good performance for basic tasks. Large storage capacity."
+            },
+            {
+              "customer_name": "Lucy Van Pelt",
+              "rating": 4,
+              "review": "Affordable and reliable. Great for students."
+            }
+          ],
+          "qna": [
+            {
+              "question": "Does it support expandable memory?",
+              "answer": "Yes, the RAM can be expanded up to 16 GB."
+            },
+            {
+              "question": "Does it have an HDMI port?",
+              "answer": "Yes, it has an HDMI port for connecting to external displays."
+            },
+            {
+              "question": "Does it have a backlit keyboard?",
+              "answer": "No, the Dell Inspiron 15 does not have a backlit keyboard."
+            }
+          ]
+        },                
+        {
           "product_id": "LAPI5Q6R7S8T9U0V1",
+          "model": "i7 core",
+          "brand": "Asus",
           "product_images": [
             "https://example.com/laptop5_image1.jpg",
             "https://example.com/laptop5_image2.jpg",
@@ -321,7 +635,625 @@
           ]
         },
         {
+          "product_id": "LAPI3ASUS1",
+          "model": "i3 core",
+          "brand": "Asus",
+          "product_images": [
+            "https://example.com/asus_laptop_i3_image1.jpg",
+            "https://example.com/asus_laptop_i3_image2.jpg",
+            "https://example.com/asus_laptop_i3_image3.jpg"
+          ],
+          "product_name": {
+            "name": "Asus VivoBook 15 (Silver, 1 TB HDD, 4 GB RAM)",
+            "description": "The Asus VivoBook 15 is a budget-friendly laptop with a 1 TB HDD and 4 GB RAM, featuring a sleek silver finish, ideal for everyday tasks and light use."
+          },
+          "rating": 4.0,
+          "price_details": {
+            "current_price": 35999,
+            "original_price": 39999,
+            "discount_percent": 10
+          },
+          "offers": [
+            {
+              "offer_type": "Bank Offer",
+              "description": "10% off on HDFC Bank Credit Cards, up to ₹3000 on orders of ₹30,000 and above"
+            },
+            {
+              "offer_type": "Special Price",
+              "description": "Get extra ₹2,000 off (price inclusive of cashback/coupon)"
+            }
+          ],
+          "highlights": [
+            "4 GB RAM | 1 TB HDD",
+            "39.62 cm (15.6 inch) Full HD Display",
+            "Intel Core i3 10th Gen Processor",
+            "Windows 10 Home"
+          ],
+          "detailed_description": "The Asus VivoBook 15 is designed for everyday use with a 1 TB HDD and 4 GB RAM. Its 39.62 cm Full HD display offers clear visuals, and the Intel Core i3 10th Gen processor ensures reliable performance, making it ideal for work and entertainment.",
+          "specifications": [
+            {
+              "title": "General",
+              "details": [
+                "Sales Package: Laptop, Power Adapter, User Guide",
+                "Model Number: X515JA-BQ322TS",
+                "Series: VivoBook",
+                "Color: Silver",
+                "Type: Laptop",
+                "Suitable For: Processing & Multitasking, Travel & Business",
+                "Battery Backup: Up to 6 hours",
+                "Power Supply: 45 W AC Adapter",
+                "Battery Cell: 2 cell",
+                "MS Office Provided: No"
+              ]
+            },
+            {
+              "title": "Processor And Memory Features",
+              "details": [
+                "Processor Brand: Intel",
+                "Processor Name: Core i3",
+                "Processor Generation: 10th Gen",
+                "SSD: No",
+                "HDD Capacity: 1 TB",
+                "RAM: 4 GB",
+                "RAM Type: DDR4",
+                "Processor Variant: 1005G1",
+                "Clock Speed: 1.2 GHz with Turbo Boost up to 3.4 GHz",
+                "Memory Slots: 2",
+                "Expandable Memory: Up to 12 GB",
+                "Cache: 4 MB",
+                "Graphic Processor: Intel Integrated UHD Graphics"
+              ]
+            },
+            {
+              "title": "Operating System",
+              "details": [
+                "OS Architecture: 64 bit",
+                "Operating System: Windows 10 Home",
+                "System Architecture: 64 bit"
+              ]
+            },
+            {
+              "title": "Display And Audio Features",
+              "details": [
+                "Touchscreen: No",
+                "Screen Size: 39.62 cm (15.6 inch)",
+                "Screen Resolution: 1920 x 1080 Pixel",
+                "Screen Type: Full HD LED Backlit Anti-glare Display",
+                "Speakers: Built-in Speakers",
+                "Internal Mic: Built-in Microphones",
+                "Sound Properties: SonicMaster"
+              ]
+            },
+            {
+              "title": "Connectivity Features",
+              "details": [
+                "Wireless LAN: IEEE 802.11ac",
+                "Bluetooth: v4.1",
+                "Ethernet: No",
+                "Additional Features: USB 3.2, USB Type-C, HDMI, 3.5mm Headphone Jack"
+              ]
+            },
+            {
+              "title": "Dimensions",
+              "details": [
+                "Dimensions: 360 x 235 x 19.9 mm",
+                "Weight: 1.80 kg"
+              ]
+            },
+            {
+              "title": "Additional Features",
+              "details": [
+                "Disk Drive: Not Available",
+                "Web Camera: VGA Webcam",
+                "Read/Write Speed: Not Applicable",
+                "Finger Print Sensor: No",
+                "Keyboard: Chiclet Keyboard",
+                "Backlit Keyboard: No",
+                "Pointer Device: Precision Touchpad",
+                "Included Software: MyASUS"
+              ]
+            },
+            {
+              "title": "Warranty",
+              "details": [
+                "Warranty Summary: 1 Year Manufacturer Warranty",
+                "Warranty Service Type: Onsite"
+              ]
+            }
+          ],
+          "customer_reviews": [
+            {
+              "customer_name": "John Doe",
+              "rating": 4,
+              "review": "Good for basic tasks and light use. Great value for money."
+            },
+            {
+              "customer_name": "Jane Smith",
+              "rating": 4,
+              "review": "Affordable and reliable. Perfect for students."
+            }
+          ],
+          "qna": [
+            {
+              "question": "Does it support expandable memory?",
+              "answer": "Yes, the RAM can be expanded up to 12 GB."
+            },
+            {
+              "question": "Does it have a backlit keyboard?",
+              "answer": "No, the Asus VivoBook 15 does not have a backlit keyboard."
+            },
+            {
+              "question": "Does it have an HDMI port?",
+              "answer": "Yes, it has an HDMI port for connecting to external displays."
+            }
+          ]
+        },
+        {
+          "product_id": "LAPI5ASUS2",
+          "model": "i5 core",
+          "brand": "Asus",
+          "product_images": [
+            "https://example.com/asus_laptop_i5_image1.jpg",
+            "https://example.com/asus_laptop_i5_image2.jpg",
+            "https://example.com/asus_laptop_i5_image3.jpg"
+          ],
+          "product_name": {
+            "name": "Asus VivoBook 15 (Slate Grey, 512 GB SSD, 8 GB RAM)",
+            "description": "The Asus VivoBook 15 is a versatile laptop with a 512 GB SSD and 8 GB RAM, featuring a stylish slate grey finish, perfect for productivity and entertainment."
+          },
+          "rating": 4.5,
+          "price_details": {
+            "current_price": 64999,
+            "original_price": 69999,
+            "discount_percent": 7
+          },
+          "offers": [
+            {
+              "offer_type": "Bank Offer",
+              "description": "10% off on HDFC Bank Credit Cards, up to ₹5000 on orders of ₹50,000 and above"
+            },
+            {
+              "offer_type": "Special Price",
+              "description": "Get extra ₹4,000 off (price inclusive of cashback/coupon)"
+            }
+          ],
+          "highlights": [
+            "8 GB RAM | 512 GB SSD",
+            "39.62 cm (15.6 inch) Full HD Display",
+            "Intel Core i5 10th Gen Processor",
+            "Windows 10 Home"
+          ],
+          "detailed_description": "The Asus VivoBook 15 is designed for productivity with a 512 GB SSD and 8 GB RAM. Its 39.62 cm Full HD display offers stunning visuals, and the Intel Core i5 10th Gen processor ensures reliable performance, making it ideal for work and entertainment.",
+          "specifications": [
+            {
+              "title": "General",
+              "details": [
+                "Sales Package: Laptop, Power Adapter, User Guide",
+                "Model Number: X515JA-EJ522TS",
+                "Series: VivoBook",
+                "Color: Slate Grey",
+                "Type: Laptop",
+                "Suitable For: Processing & Multitasking, Travel & Business",
+                "Battery Backup: Up to 7 hours",
+                "Power Supply: 45 W AC Adapter",
+                "Battery Cell: 3 cell",
+                "MS Office Provided: Yes"
+              ]
+            },
+            {
+              "title": "Processor And Memory Features",
+              "details": [
+                "Processor Brand: Intel",
+                "Processor Name: Core i5",
+                "Processor Generation: 10th Gen",
+                "SSD: Yes",
+                "SSD Capacity: 512 GB",
+                "RAM: 8 GB",
+                "RAM Type: DDR4",
+                "Processor Variant: 1035G1",
+                "Clock Speed: 1.0 GHz with Turbo Boost up to 3.6 GHz",
+                "Memory Slots: 2",
+                "Expandable Memory: Up to 12 GB",
+                "Cache: 6 MB",
+                "Graphic Processor: Intel Integrated UHD Graphics"
+              ]
+            },
+            {
+              "title": "Operating System",
+              "details": [
+                "OS Architecture: 64 bit",
+                "Operating System: Windows 10 Home",
+                "System Architecture: 64 bit"
+              ]
+            },
+            {
+              "title": "Display And Audio Features",
+              "details": [
+                "Touchscreen: No",
+                "Screen Size: 39.62 cm (15.6 inch)",
+                "Screen Resolution: 1920 x 1080 Pixel",
+                "Screen Type: Full HD LED Backlit Anti-glare Display",
+                "Speakers: Built-in Speakers",
+                "Internal Mic: Built-in Microphones",
+                "Sound Properties: SonicMaster"
+              ]
+            },
+            {
+              "title": "Connectivity Features",
+              "details": [
+                "Wireless LAN: IEEE 802.11ac",
+                "Bluetooth: v4.2",
+                "Ethernet: No",
+                "Additional Features: USB 3.2, USB Type-C, HDMI, 3.5mm Headphone Jack"
+              ]
+            },
+            {
+              "title": "Dimensions",
+              "details": [
+                "Dimensions: 360 x 235 x 19.9 mm",
+                "Weight: 1.80 kg"
+              ]
+            },
+            {
+              "title": "Additional Features",
+              "details": [
+                "Disk Drive: Not Available",
+                "Web Camera: VGA Webcam",
+                "Read/Write Speed: Not Applicable",
+                "Finger Print Sensor: No",
+                "Keyboard: Chiclet Keyboard",
+                "Backlit Keyboard: No",
+                "Pointer Device: Precision Touchpad",
+                "Included Software: MyASUS"
+              ]
+            },
+            {
+              "title": "Warranty",
+              "details": [
+                "Warranty Summary: 1 Year Manufacturer Warranty",
+                "Warranty Service Type: Onsite"
+              ]
+            }
+          ],
+          "customer_reviews": [
+            {
+              "customer_name": "Alex Johnson",
+              "rating": 5,
+              "review": "Excellent performance for the price. Great for multitasking."
+            },
+            {
+              "customer_name": "Emily Davis",
+              "rating": 4,
+              "review": "Stylish and efficient. Battery life could be better."
+            }
+          ],
+          "qna": [
+            {
+              "question": "Does it support expandable memory?",
+              "answer": "Yes, the RAM can be expanded up to 12 GB."
+            },
+            {
+              "question": "Does it have a backlit keyboard?",
+              "answer": "No, the Asus VivoBook 15 does not have a backlit keyboard."
+            },
+            {
+              "question": "Does it have an HDMI port?",
+              "answer": "Yes, it has an HDMI port for connecting to external displays."
+            }
+          ]
+        },
+        {
+          "product_id": "LAPI5HP2",
+          "model": "i5 core",
+          "brand": "HP",
+          "product_images": [
+            "https://example.com/hp_laptop_i5_image1.jpg",
+            "https://example.com/hp_laptop_i5_image2.jpg",
+            "https://example.com/hp_laptop_i5_image3.jpg"
+          ],
+          "product_name": {
+            "name": "HP Pavilion (Silver, 512 GB SSD, 8 GB RAM)",
+            "description": "The HP Pavilion is a versatile laptop with a 512 GB SSD and 8 GB RAM, featuring a stylish silver finish, perfect for productivity and entertainment."
+          },
+          "rating": 4.6,
+          "price_details": {
+            "current_price": 64999,
+            "original_price": 69999,
+            "discount_percent": 7
+          },
+          "offers": [
+            {
+              "offer_type": "Bank Offer",
+              "description": "10% off on HDFC Bank Credit Cards, up to ₹5000 on orders of ₹50,000 and above"
+            },
+            {
+              "offer_type": "Special Price",
+              "description": "Get extra ₹4,000 off (price inclusive of cashback/coupon)"
+            }
+          ],
+          "highlights": [
+            "8 GB RAM | 512 GB SSD",
+            "39.62 cm (15.6 inch) Full HD Display",
+            "Intel Core i5 10th Gen Processor",
+            "Windows 10 Home"
+          ],
+          "detailed_description": "The HP Pavilion is designed for productivity with a 512 GB SSD and 8 GB RAM. Its 39.62 cm Full HD display offers stunning visuals, and the Intel Core i5 10th Gen processor ensures reliable performance, making it ideal for work and entertainment.",
+          "specifications": [
+            {
+              "title": "General",
+              "details": [
+                "Sales Package: Laptop, Power Adapter, User Guide",
+                "Model Number: 15-eg0103TX",
+                "Series: Pavilion",
+                "Color: Silver",
+                "Type: Laptop",
+                "Suitable For: Processing & Multitasking, Travel & Business",
+                "Battery Backup: Up to 7 hours",
+                "Power Supply: 45 W AC Adapter",
+                "Battery Cell: 3 cell",
+                "MS Office Provided: Yes"
+              ]
+            },
+            {
+              "title": "Processor And Memory Features",
+              "details": [
+                "Processor Brand: Intel",
+                "Processor Name: Core i5",
+                "Processor Generation: 10th Gen",
+                "SSD: Yes",
+                "SSD Capacity: 512 GB",
+                "RAM: 8 GB",
+                "RAM Type: DDR4",
+                "Processor Variant: 1035G1",
+                "Clock Speed: 1.0 GHz with Turbo Boost up to 3.6 GHz",
+                "Memory Slots: 2",
+                "Expandable Memory: Up to 16 GB",
+                "Cache: 6 MB",
+                "Graphic Processor: Intel Integrated UHD Graphics"
+              ]
+            },
+            {
+              "title": "Operating System",
+              "details": [
+                "OS Architecture: 64 bit",
+                "Operating System: Windows 10 Home",
+                "System Architecture: 64 bit"
+              ]
+            },
+            {
+              "title": "Display And Audio Features",
+              "details": [
+                "Touchscreen: No",
+                "Screen Size: 39.62 cm (15.6 inch)",
+                "Screen Resolution: 1920 x 1080 Pixel",
+                "Screen Type: Full HD LED Backlit Anti-glare Display",
+                "Speakers: Built-in Speakers",
+                "Internal Mic: Built-in Microphones",
+                "Sound Properties: B&O Play, Dual Speakers"
+              ]
+            },
+            {
+              "title": "Connectivity Features",
+              "details": [
+                "Wireless LAN: IEEE 802.11ax",
+                "Bluetooth: v5.0",
+                "Ethernet: No",
+                "Additional Features: USB 3.2, USB Type-C, HDMI, 3.5mm Headphone Jack"
+              ]
+            },
+            {
+              "title": "Dimensions",
+              "details": [
+                "Dimensions: 361 x 245 x 18 mm",
+                "Weight: 1.75 kg"
+              ]
+            },
+            {
+              "title": "Additional Features",
+              "details": [
+                "Disk Drive: Not Available",
+                "Web Camera: HD Webcam",
+                "Read/Write Speed: Not Applicable",
+                "Finger Print Sensor: Yes",
+                "Keyboard: Island Style Keyboard",
+                "Backlit Keyboard: Yes",
+                "Pointer Device: Touchpad with Multi-touch Gesture Support",
+                "Included Software: HP Support Assistant"
+              ]
+            },
+            {
+              "title": "Warranty",
+              "details": [
+                "Warranty Summary: 1 Year Manufacturer Warranty",
+                "Warranty Service Type: Onsite"
+              ]
+            }
+          ],
+          "customer_reviews": [
+            {
+              "customer_name": "Chris Evans",
+              "rating": 5,
+              "review": "Excellent performance and build quality. Highly recommend."
+            },
+            {
+              "customer_name": "Dana Scott",
+              "rating": 4,
+              "review": "Great laptop for the price. Battery life could be better."
+            }
+          ],
+          "qna": [
+            {
+              "question": "Does it support expandable memory?",
+              "answer": "Yes, the RAM can be expanded up to 16 GB."
+            },
+            {
+              "question": "Does it have a backlit keyboard?",
+              "answer": "Yes, the HP Pavilion has a backlit keyboard."
+            },
+            {
+              "question": "Does it have an HDMI port?",
+              "answer": "Yes, it has an HDMI port for connecting to external displays."
+            }
+          ]
+        },
+        {
+          "product_id": "LAPI3HP1",
+          "model": "i3 core",
+          "brand": "HP",
+          "product_images": [
+            "https://example.com/hp_laptop_i3_image1.jpg",
+            "https://example.com/hp_laptop_i3_image2.jpg",
+            "https://example.com/hp_laptop_i3_image3.jpg"
+          ],
+          "product_name": {
+            "name": "HP 15s (Jet Black, 1 TB HDD, 4 GB RAM)",
+            "description": "The HP 15s is a budget-friendly laptop with a 1 TB HDD and 4 GB RAM, featuring a sleek jet black finish, ideal for everyday tasks and light use."
+          },
+          "rating": 4.1,
+          "price_details": {
+            "current_price": 34999,
+            "original_price": 38999,
+            "discount_percent": 10
+          },
+          "offers": [
+            {
+              "offer_type": "Bank Offer",
+              "description": "10% off on HDFC Bank Credit Cards, up to ₹3500 on orders of ₹30,000 and above"
+            },
+            {
+              "offer_type": "Special Price",
+              "description": "Get extra ₹2,500 off (price inclusive of cashback/coupon)"
+            }
+          ],
+          "highlights": [
+            "4 GB RAM | 1 TB HDD",
+            "39.62 cm (15.6 inch) Full HD Display",
+            "Intel Core i3 10th Gen Processor",
+            "Windows 10 Home"
+          ],
+          "detailed_description": "The HP 15s is designed for everyday use with a 1 TB HDD and 4 GB RAM. Its 39.62 cm Full HD display offers clear visuals, and the Intel Core i3 10th Gen processor ensures reliable performance, making it ideal for work and entertainment.",
+          "specifications": [
+            {
+              "title": "General",
+              "details": [
+                "Sales Package: Laptop, Power Adapter, User Guide",
+                "Model Number: 15s-du1010tu",
+                "Series: 15s",
+                "Color: Jet Black",
+                "Type: Laptop",
+                "Suitable For: Processing & Multitasking, Travel & Business",
+                "Battery Backup: Up to 6 hours",
+                "Power Supply: 45 W AC Adapter",
+                "Battery Cell: 2 cell",
+                "MS Office Provided: No"
+              ]
+            },
+            {
+              "title": "Processor And Memory Features",
+              "details": [
+                "Processor Brand: Intel",
+                "Processor Name: Core i3",
+                "Processor Generation: 10th Gen",
+                "SSD: No",
+                "HDD Capacity: 1 TB",
+                "RAM: 4 GB",
+                "RAM Type: DDR4",
+                "Processor Variant: 1005G1",
+                "Clock Speed: 1.2 GHz with Turbo Boost up to 3.4 GHz",
+                "Memory Slots: 2",
+                "Expandable Memory: Up to 16 GB",
+                "Cache: 4 MB",
+                "Graphic Processor: Intel Integrated UHD Graphics"
+              ]
+            },
+            {
+              "title": "Operating System",
+              "details": [
+                "OS Architecture: 64 bit",
+                "Operating System: Windows 10 Home",
+                "System Architecture: 64 bit"
+              ]
+            },
+            {
+              "title": "Display And Audio Features",
+              "details": [
+                "Touchscreen: No",
+                "Screen Size: 39.62 cm (15.6 inch)",
+                "Screen Resolution: 1920 x 1080 Pixel",
+                "Screen Type: Full HD LED Backlit Anti-glare Display",
+                "Speakers: Built-in Speakers",
+                "Internal Mic: Built-in Microphones",
+                "Sound Properties: HD Audio"
+              ]
+            },
+            {
+              "title": "Connectivity Features",
+              "details": [
+                "Wireless LAN: IEEE 802.11ac",
+                "Bluetooth: v4.2",
+                "Ethernet: No",
+                "Additional Features: USB 3.2, USB Type-C, HDMI, 3.5mm Headphone Jack"
+              ]
+            },
+            {
+              "title": "Dimensions",
+              "details": [
+                "Dimensions: 358 x 242 x 19.9 mm",
+                "Weight: 1.74 kg"
+              ]
+            },
+            {
+              "title": "Additional Features",
+              "details": [
+                "Disk Drive: Not Available",
+                "Web Camera: HD Webcam",
+                "Read/Write Speed: Not Applicable",
+                "Finger Print Sensor: No",
+                "Keyboard: Island Style Keyboard",
+                "Backlit Keyboard: No",
+                "Pointer Device: Touchpad with Multi-touch Gesture Support",
+                "Included Software: HP Support Assistant"
+              ]
+            },
+            {
+              "title": "Warranty",
+              "details": [
+                "Warranty Summary: 1 Year Manufacturer Warranty",
+                "Warranty Service Type: Onsite"
+              ]
+            }
+          ],
+          "customer_reviews": [
+            {
+              "customer_name": "Alice Brown",
+              "rating": 4,
+              "review": "Good for basic tasks and light use. Great value for money."
+            },
+            {
+              "customer_name": "Bob Harris",
+              "rating": 4,
+              "review": "Affordable and reliable. Perfect for students."
+            }
+          ],
+          "qna": [
+            {
+              "question": "Does it support expandable memory?",
+              "answer": "Yes, the RAM can be expanded up to 16 GB."
+            },
+            {
+              "question": "Does it have a backlit keyboard?",
+              "answer": "No, the HP 15s does not have a backlit keyboard."
+            },
+            {
+              "question": "Does it have an HDMI port?",
+              "answer": "Yes, it has an HDMI port for connecting to external displays."
+            }
+          ]
+        },                                        
+        {
           "product_id": "LAPI9W0X1Y2Z3A4B5",
+          "model": "i7 core",
+          "brand": "HP",
           "product_images": [
             "https://example.com/laptop6_image1.jpg",
             "https://example.com/laptop6_image2.jpg",
@@ -480,155 +1412,10 @@
             }
           ]
         },
-        {
-            "product_id": "LAPIDELLXPS152023",
-            "product_images": [
-              "https://example.com/dell_xps_15_2023_image1.jpg",
-              "https://example.com/dell_xps_15_2023_image2.jpg",
-              "https://example.com/dell_xps_15_2023_image3.jpg",
-              "https://example.com/dell_xps_15_2023_image4.jpg",
-              "https://example.com/dell_xps_15_2023_image5.jpg"
-            ],
-            "product_name": {
-              "name": "Dell XPS 15 (2023 Edition)",
-              "description": "The Dell XPS 15 (2023 Edition) is a powerhouse featuring a stunning 15.6-inch 4K OLED display, powerful Intel Core i9 processor, and NVIDIA GeForce RTX 3080 GPU."
-            },
-            "rating": 4.8,
-            "price_details": {
-              "current_price": 2599,
-              "original_price": 2999,
-              "discount_percent": 13
-            },
-            "offers": [
-              {
-                "offer_type": "Bank Offer",
-                "description": "5% off on HDFC Bank Debit Cards, up to ₹1000 on orders of ₹20,000 and above"
-              },
-              {
-                "offer_type": "Special Price",
-                "description": "Get extra ₹500 off (price inclusive of cashback/coupon)"
-              }
-            ],
-            "highlights": [
-              "32 GB RAM | 1 TB SSD",
-              "15.6 inch 4K OLED Display",
-              "Intel Core i9 Processor",
-              "NVIDIA GeForce RTX 3080 GPU",
-              "Windows 11 Home"
-            ],
-            "detailed_description": "The Dell XPS 15 (2023 Edition) is designed for performance and portability. With 32 GB of RAM and a 1 TB SSD, it offers ample storage and smooth multitasking. The 15.6-inch 4K OLED display delivers vibrant colors and sharp details. Powered by an Intel Core i9 processor and NVIDIA GeForce RTX 3080 GPU, it handles demanding tasks with ease.",
-            "specifications": [
-              {
-                "title": "General",
-                "details": [
-                  "Sales Package: Laptop, Power Adapter, User Guide",
-                  "Model Number: XPS15-2023",
-                  "Series: XPS",
-                  "Color: Silver",
-                  "Type: Laptop",
-                  "Suitable For: Processing & Multitasking"
-                ]
-              },
-              {
-                "title": "Processor And Memory Features",
-                "details": [
-                  "Processor Brand: Intel",
-                  "Processor Name: Core i9",
-                  "SSD: Yes",
-                  "SSD Capacity: 1 TB",
-                  "RAM: 32 GB",
-                  "RAM Type: DDR4",
-                  "Processor Variant: 12900HK",
-                  "Clock Speed: 2.9 GHz with Turbo Boost up to 4.9 GHz",
-                  "Cache: 24 MB",
-                  "Graphic Processor: NVIDIA GeForce RTX 3080"
-                ]
-              },
-              {
-                "title": "Operating System",
-                "details": [
-                  "OS Architecture: 64 bit",
-                  "Operating System: Windows 11 Home",
-                  "System Architecture: 64 bit"
-                ]
-              },
-              {
-                "title": "Display And Audio Features",
-                "details": [
-                  "Touchscreen: No",
-                  "Screen Size: 15.6 inch",
-                  "Screen Resolution: 3840 x 2160 Pixel",
-                  "Screen Type: 4K OLED Display",
-                  "Speakers: Built-in Quad Speakers",
-                  "Internal Mic: Built-in Microphones",
-                  "Sound Properties: Waves MaxxAudio Pro"
-                ]
-              },
-              {
-                "title": "Connectivity Features",
-                "details": [
-                  "Wireless LAN: Wi-Fi 6 (802.11ax)",
-                  "Bluetooth: v5.2",
-                  "Ethernet: Yes",
-                  "Additional Features: USB 3.2 Gen 2 Type-C, HDMI, 3.5mm Combo Audio Jack"
-                ]
-              },
-              {
-                "title": "Dimensions",
-                "details": [
-                  "Dimensions: 344.4 x 230.3 x 18 mm",
-                  "Weight: 1.8 kg"
-                ]
-              },
-              {
-                "title": "Additional Features",
-                "details": [
-                  "Disk Drive: Not Available",
-                  "Web Camera: HD Webcam",
-                  "Read/Write Speed: Not Applicable",
-                  "Finger Print Sensor: Yes",
-                  "Keyboard: Full-size Backlit Keyboard",
-                  "Backlit Keyboard: Yes",
-                  "Pointer Device: Touchpad",
-                  "Included Software: Microsoft Office Home & Student 2023"
-                ]
-              },
-              {
-                "title": "Warranty",
-                "details": [
-                  "Warranty Summary: 1 Year Limited Hardware Warranty"
-                ]
-              }
-            ],
-            "customer_reviews": [
-              {
-                "customer_name": "Emma Thompson",
-                "rating": 5,
-                "review": "This laptop is a beast! It handles everything I throw at it with ease. The display is stunning and the build quality is top-notch."
-              },
-              {
-                "customer_name": "Michael Johnson",
-                "rating": 4,
-                "review": "Excellent performance and great battery life. However, it does get a bit warm under heavy load."
-              }
-            ],
-            "qna": [
-              {
-                "question": "Is the RAM upgradable?",
-                "answer": "No, the RAM is soldered onto the motherboard and cannot be upgraded."
-              },
-              {
-                "question": "Does it come with a stylus?",
-                "answer": "No, a stylus is not included with the Dell XPS 15 (2023 Edition)."
-              },
-              {
-                "question": "Is the display touch-enabled?",
-                "answer": "No, the display is not touch-enabled."
-              }
-            ]
-          },
           {
             "product_id": "LENLEG5PRO2024",
+            "model":"i7 core",
+            "brand":"Lenovo",
             "product_images": [
               "https://example.com/lenovo_legion_5_pro_image1.jpg",
               "https://example.com/lenovo_legion_5_pro_image2.jpg",
@@ -774,7 +1561,163 @@
             ]
           },
           {
+            "product_id": "LAPI3LEN1",
+            "model": "i3 core",
+            "brand": "Lenovo",
+            "product_images": [
+              "https://example.com/lenovo_laptop_i3_image1.jpg",
+              "https://example.com/lenovo_laptop_i3_image2.jpg",
+              "https://example.com/lenovo_laptop_i3_image3.jpg"
+            ],
+            "product_name": {
+              "name": "Lenovo IdeaPad 3 (Platinum Grey, 1 TB HDD, 4 GB RAM)",
+              "description": "The Lenovo IdeaPad 3 is an affordable laptop with a 1 TB HDD and 4 GB RAM, featuring a sleek platinum grey finish, ideal for everyday tasks."
+            },
+            "rating": 4.0,
+            "price_details": {
+              "current_price": 32999,
+              "original_price": 35999,
+              "discount_percent": 8
+            },
+            "offers": [
+              {
+                "offer_type": "Bank Offer",
+                "description": "10% off on ICICI Bank Credit Cards, up to ₹3000 on orders of ₹30,000 and above"
+              },
+              {
+                "offer_type": "Special Price",
+                "description": "Get extra ₹3,000 off (price inclusive of cashback/coupon)"
+              }
+            ],
+            "highlights": [
+              "4 GB RAM | 1 TB HDD",
+              "39.62 cm (15.6 inch) Full HD Display",
+              "Intel Core i3 10th Gen Processor",
+              "Windows 10 Home"
+            ],
+            "detailed_description": "The Lenovo IdeaPad 3 is designed for everyday use with a 1 TB HDD and 4 GB RAM. Its 39.62 cm Full HD display offers clear visuals, and the Intel Core i3 10th Gen processor ensures reliable performance, making it ideal for work and entertainment.",
+            "specifications": [
+              {
+                "title": "General",
+                "details": [
+                  "Sales Package: Laptop, Power Adapter, User Guide",
+                  "Model Number: 81WE004TIN",
+                  "Series: IdeaPad 3",
+                  "Color: Platinum Grey",
+                  "Type: Laptop",
+                  "Suitable For: Processing & Multitasking, Travel & Business",
+                  "Battery Backup: Up to 6 hours",
+                  "Power Supply: 45 W AC Adapter",
+                  "Battery Cell: 2 cell",
+                  "MS Office Provided: No"
+                ]
+              },
+              {
+                "title": "Processor And Memory Features",
+                "details": [
+                  "Processor Brand: Intel",
+                  "Processor Name: Core i3",
+                  "Processor Generation: 10th Gen",
+                  "SSD: No",
+                  "HDD Capacity: 1 TB",
+                  "RAM: 4 GB",
+                  "RAM Type: DDR4",
+                  "Processor Variant: 1005G1",
+                  "Clock Speed: 1.2 GHz with Turbo Boost up to 3.4 GHz",
+                  "Memory Slots: 2",
+                  "Expandable Memory: Up to 12 GB",
+                  "Cache: 4 MB",
+                  "Graphic Processor: Intel Integrated UHD Graphics"
+                ]
+              },
+              {
+                "title": "Operating System",
+                "details": [
+                  "OS Architecture: 64 bit",
+                  "Operating System: Windows 10 Home",
+                  "System Architecture: 64 bit"
+                ]
+              },
+              {
+                "title": "Display And Audio Features",
+                "details": [
+                  "Touchscreen: No",
+                  "Screen Size: 39.62 cm (15.6 inch)",
+                  "Screen Resolution: 1920 x 1080 Pixel",
+                  "Screen Type: Full HD LED Backlit Anti-glare Display",
+                  "Speakers: Built-in Speakers",
+                  "Internal Mic: Built-in Microphones",
+                  "Sound Properties: Dolby Audio"
+                ]
+              },
+              {
+                "title": "Connectivity Features",
+                "details": [
+                  "Wireless LAN: IEEE 802.11ac",
+                  "Bluetooth: v4.2",
+                  "Ethernet: No",
+                  "Additional Features: USB 3.2, USB Type-C, HDMI, 3.5mm Headphone Jack"
+                ]
+              },
+              {
+                "title": "Dimensions",
+                "details": [
+                  "Dimensions: 362 x 253 x 20 mm",
+                  "Weight: 1.85 kg"
+                ]
+              },
+              {
+                "title": "Additional Features",
+                "details": [
+                  "Disk Drive: Not Available",
+                  "Web Camera: HD Webcam",
+                  "Read/Write Speed: Not Applicable",
+                  "Finger Print Sensor: No",
+                  "Keyboard: Island Style Keyboard",
+                  "Backlit Keyboard: No",
+                  "Pointer Device: Touchpad with Multi-touch Gesture Support",
+                  "Included Software: Lenovo Vantage"
+                ]
+              },
+              {
+                "title": "Warranty",
+                "details": [
+                  "Warranty Summary: 1 Year Manufacturer Warranty",
+                  "Warranty Service Type: Onsite"
+                ]
+              }
+            ],
+            "customer_reviews": [
+              {
+                "customer_name": "Ravi Singh",
+                "rating": 4,
+                "review": "Great value for money. Ideal for basic tasks."
+              },
+              {
+                "customer_name": "Priya Sharma",
+                "rating": 4,
+                "review": "Affordable and reliable. Perfect for students."
+              }
+            ],
+            "qna": [
+              {
+                "question": "Does it support expandable memory?",
+                "answer": "Yes, the RAM can be expanded up to 12 GB."
+              },
+              {
+                "question": "Does it have a backlit keyboard?",
+                "answer": "No, the Lenovo IdeaPad 3 does not have a backlit keyboard."
+              },
+              {
+                "question": "Does it have an HDMI port?",
+                "answer": "Yes, it has an HDMI port for connecting to external displays."
+              }
+            ]
+          },                   
+          {
             "product_id": "RAZBLADE152024",
+            "model":"i5 core",
+            "brand":"Razer",
             "product_images": [
               "https://example.com/razer_blade_15_2024_image1.jpg",
               "https://example.com/razer_blade_15_2024_image2.jpg",
@@ -921,6 +1864,8 @@
           },
           {
             "product_id": "MSI_LAPTOP_001",
+            "model":"i7 core",
+            "brand":"MSI",
             "product_images": [
               "https://example.com/msi_laptop_image1.jpg",
               "https://example.com/msi_laptop_image2.jpg",
@@ -1010,6 +1955,8 @@
           },
           {
             "product_id": "ACER_LAPTOP_001",
+            "model":"i7 core",
+            "brand":"Acer",
             "product_images": [
               "https://example.com/acer_laptop_image1.jpg",
               "https://example.com/acer_laptop_image2.jpg",
@@ -1099,6 +2046,8 @@
           },
           {
             "product_id": "APPLE_LAPTOP_001",
+            "model":"i5 core",
+            "brand":"Apple",
             "product_images": [
               "https://example.com/apple_laptop_image1.jpg",
               "https://example.com/apple_laptop_image2.jpg",
@@ -1185,7 +2134,461 @@
                 "answer": "No, the RAM of this laptop is soldered to the motherboard and cannot be upgraded."
               }
             ]
-          }   
+          },
+          {
+            "product_id": "RAZERI3LAPTOP",
+            "model": "i3 core",
+            "brand": "Razer",
+            "product_images": [
+              "https://example.com/razer_i3_laptop_image1.jpg",
+              "https://example.com/razer_i3_laptop_image2.jpg",
+              "https://example.com/razer_i3_laptop_image3.jpg"
+            ],
+            "product_name": {
+              "name": "Razer Blade 15 Base (Black, 256 GB SSD, 8 GB RAM)",
+              "description": "The Razer Blade 15 Base model combines power and style with a 256 GB SSD and 8 GB RAM, featuring a sleek black design and high-performance components for gaming and productivity."
+            },
+            "rating": 4.5,
+            "price_details": {
+              "current_price": 79999,
+              "original_price": 84999,
+              "discount_percent": 6
+            },
+            "offers": [
+              {
+                "offer_type": "Bank Offer",
+                "description": "5% off on HDFC Bank Debit/Credit Cards, up to ₹4000"
+              },
+              {
+                "offer_type": "EMI Offer",
+                "description": "No cost EMI from ₹13334/month"
+              }
+            ],
+            "highlights": [
+              "8 GB RAM | 256 GB SSD",
+              "39.62 cm (15.6 inch) Full HD Display",
+              "Intel Core i3 10th Gen Processor",
+              "NVIDIA GeForce GTX 1650 Graphics",
+              "Windows 10 Home"
+            ],
+            "detailed_description": "The Razer Blade 15 Base model offers impressive performance with a 256 GB SSD and 8 GB RAM. Its 39.62 cm Full HD display provides immersive visuals, and the Intel Core i3 10th Gen processor combined with NVIDIA GeForce GTX 1650 graphics ensures smooth gaming and multitasking.",
+            "specifications": [
+              {
+                "title": "General",
+                "details": [
+                  "Sales Package: Laptop, Power Adapter, User Guide",
+                  "Model Number: Blade 15 Base",
+                  "Color: Black",
+                  "Type: Gaming Laptop",
+                  "Suitable For: Gaming, Productivity",
+                  "Battery Backup: Up to 6 hours",
+                  "Power Supply: 65 W AC Adapter",
+                  "Battery Cell: 4 cell",
+                  "MS Office Provided: No"
+                ]
+              },
+              {
+                "title": "Processor And Memory Features",
+                "details": [
+                  "Processor Brand: Intel",
+                  "Processor Name: Core i3",
+                  "Processor Generation: 10th Gen",
+                  "SSD: Yes",
+                  "SSD Capacity: 256 GB",
+                  "RAM: 8 GB",
+                  "RAM Type: DDR4",
+                  "Processor Variant: 10100H",
+                  "Clock Speed: 2.5 GHz with Turbo Boost up to 4.5 GHz",
+                  "Memory Slots: 2",
+                  "Expandable Memory: Up to 32 GB",
+                  "Cache: 8 MB",
+                  "Graphic Processor: NVIDIA GeForce GTX 1650"
+                ]
+              },
+              {
+                "title": "Operating System",
+                "details": [
+                  "OS Architecture: 64 bit",
+                  "Operating System: Windows 10 Home",
+                  "System Architecture: 64 bit"
+                ]
+              },
+              {
+                "title": "Display And Audio Features",
+                "details": [
+                  "Touchscreen: No",
+                  "Screen Size: 39.62 cm (15.6 inch)",
+                  "Screen Resolution: 1920 x 1080 Pixel",
+                  "Screen Type: Full HD LED Backlit Display",
+                  "Speakers: Stereo Speakers",
+                  "Internal Mic: Built-in Microphones",
+                  "Sound Properties: Dolby Atmos"
+                ]
+              },
+              {
+                "title": "Connectivity Features",
+                "details": [
+                  "Wireless LAN: IEEE 802.11a/b/g/n/ac",
+                  "Bluetooth: v5.0",
+                  "Ethernet: Yes",
+                  "Additional Features: USB 3.1 Type-C, Thunderbolt 3, HDMI, Headphone/Microphone Combo Jack"
+                ]
+              },
+              {
+                "title": "Dimensions",
+                "details": [
+                  "Dimensions: 355 x 235 x 19.9 mm",
+                  "Weight: 2.3 kg"
+                ]
+              },
+              {
+                "title": "Additional Features",
+                "details": [
+                  "Disk Drive: Not Available",
+                  "Web Camera: HD Webcam",
+                  "Finger Print Sensor: No",
+                  "Keyboard: Chroma RGB Backlit Keyboard",
+                  "Backlit Keyboard: Yes",
+                  "Pointer Device: Glass Touchpad",
+                  "Included Software: Razer Synapse 3, Game Booster, Microsoft Office Trial"
+                ]
+              },
+              {
+                "title": "Warranty",
+                "details": [
+                  "Warranty Summary: 1 Year Limited Warranty"
+                ]
+              }
+            ],
+            "customer_reviews": [
+              {
+                "customer_name": "Alex Johnson",
+                "rating": 4,
+                "review": "Great laptop for gaming. The graphics are impressive, and it runs smoothly."
+              },
+              {
+                "customer_name": "Emily Smith",
+                "rating": 5,
+                "review": "Excellent build quality and performance. Perfect for both gaming and productivity tasks."
+              }
+            ],
+            "qna": [
+              {
+                "question": "Does it have a backlit keyboard?",
+                "answer": "Yes, the Razer Blade 15 Base model comes with a Chroma RGB Backlit Keyboard."
+              },
+              {
+                "question": "Can the RAM be upgraded?",
+                "answer": "Yes, the laptop supports up to 32 GB of RAM with two memory slots."
+              },
+              {
+                "question": "Is it suitable for heavy gaming?",
+                "answer": "Yes, the NVIDIA GeForce GTX 1650 graphics and powerful processor make it suitable for gaming."
+              }
+            ]
+          },
+          {
+            "product_id": "ACERI3LAPTOP",
+            "model": "i3 core",
+            "brand": "Acer",
+            "product_images": [
+              "https://example.com/acer_i3_laptop_image1.jpg",
+              "https://example.com/acer_i3_laptop_image2.jpg",
+              "https://example.com/acer_i3_laptop_image3.jpg"
+            ],
+            "product_name": {
+              "name": "Acer Aspire 5 (Silver, 256 GB SSD, 8 GB RAM)",
+              "description": "The Acer Aspire 5 offers reliable performance with a 256 GB SSD and 8 GB RAM, featuring a sleek silver design and essential features for everyday computing."
+            },
+            "rating": 4.3,
+            "price_details": {
+              "current_price": 39999,
+              "original_price": 42999,
+              "discount_percent": 7
+            },
+            "offers": [
+              {
+                "offer_type": "Bank Offer",
+                "description": "5% off on HDFC Bank Debit/Credit Cards, up to ₹2000"
+              },
+              {
+                "offer_type": "EMI Offer",
+                "description": "No cost EMI from ₹6667/month"
+              }
+            ],
+            "highlights": [
+              "8 GB RAM | 256 GB SSD",
+              "35.56 cm (14 inch) Full HD Display",
+              "Intel Core i3 11th Gen Processor",
+              "Windows 10 Home"
+            ],
+            "detailed_description": "The Acer Aspire 5 delivers reliable performance with a 256 GB SSD and 8 GB RAM, ideal for everyday computing tasks. Its 35.56 cm Full HD display provides clear visuals, and the Intel Core i3 11th Gen processor ensures smooth multitasking.",
+            "specifications": [
+              {
+                "title": "General",
+                "details": [
+                  "Sales Package: Laptop, Power Adapter, User Guide",
+                  "Model Number: Aspire 5",
+                  "Color: Silver",
+                  "Type: Laptop",
+                  "Suitable For: Everyday Use",
+                  "Battery Backup: Up to 7 hours",
+                  "Power Supply: 45 W AC Adapter",
+                  "Battery Cell: 3 cell",
+                  "MS Office Provided: No"
+                ]
+              },
+              {
+                "title": "Processor And Memory Features",
+                "details": [
+                  "Processor Brand: Intel",
+                  "Processor Name: Core i3",
+                  "Processor Generation: 11th Gen",
+                  "SSD: Yes",
+                  "SSD Capacity: 256 GB",
+                  "RAM: 8 GB",
+                  "RAM Type: DDR4",
+                  "Processor Variant: 1115G4",
+                  "Clock Speed: 1.7 GHz with Turbo Boost up to 4.1 GHz",
+                  "Memory Slots: 1",
+                  "Expandable Memory: Up to 12 GB",
+                  "Cache: 6 MB",
+                  "Graphic Processor: Intel Integrated UHD"
+                ]
+              },
+              {
+                "title": "Operating System",
+                "details": [
+                  "OS Architecture: 64 bit",
+                  "Operating System: Windows 10 Home",
+                  "System Architecture: 64 bit"
+                ]
+              },
+              {
+                "title": "Display And Audio Features",
+                "details": [
+                  "Touchscreen: No",
+                  "Screen Size: 35.56 cm (14 inch)",
+                  "Screen Resolution: 1920 x 1080 Pixel",
+                  "Screen Type: Full HD LED Backlit Display",
+                  "Speakers: Built-in Dual Speakers",
+                  "Internal Mic: Built-in Microphones",
+                  "Sound Properties: Acer TrueHarmony Technology"
+                ]
+              },
+              {
+                "title": "Connectivity Features",
+                "details": [
+                  "Wireless LAN: IEEE 802.11a/b/g/n/ac",
+                  "Bluetooth: v5.0",
+                  "Ethernet: Yes",
+                  "Additional Features: USB 3.2, HDMI, Headphone/Microphone Combo Jack"
+                ]
+              },
+              {
+                "title": "Dimensions",
+                "details": [
+                  "Dimensions: 328.7 x 236.22 x 17.95 mm",
+                  "Weight: 1.5 kg"
+                ]
+              },
+              {
+                "title": "Additional Features",
+                "details": [
+                  "Disk Drive: Not Available",
+                  "Web Camera: HD Webcam",
+                  "Finger Print Sensor: No",
+                  "Keyboard: Standard Keyboard",
+                  "Backlit Keyboard: No",
+                  "Pointer Device: Multi Gesture Touchpad",
+                  "Included Software: Acer Collection, Acer Product Registration"
+                ]
+              },
+              {
+                "title": "Warranty",
+                "details": [
+                  "Warranty Summary: 1 Year International Travelers Warranty (ITW)"
+                ]
+              }
+            ],
+            "customer_reviews": [
+              {
+                "customer_name": "David Miller",
+                "rating": 4,
+                "review": "Good laptop for everyday use. Fast and reliable."
+              },
+              {
+                "customer_name": "Sarah Johnson",
+                "rating": 4,
+                "review": "Nice design and decent performance. Great value for money."
+              }
+            ],
+            "qna": [
+              {
+                "question": "Does it have a backlit keyboard?",
+                "answer": "No, the Acer Aspire 5 model does not come with a backlit keyboard."
+              },
+              {
+                "question": "Can the RAM be upgraded?",
+                "answer": "Yes, the laptop supports up to 12 GB of RAM with one memory slot."
+              },
+              {
+                "question": "Is it suitable for gaming?",
+                "answer": "While it can handle basic gaming, it's more suited for everyday use and productivity."
+              }
+            ]
+          },
+          {
+            "product_id": "ACERI5LAPTOP",
+            "model": "i5 core",
+            "brand": "Acer",
+            "product_images": [
+              "https://example.com/acer_i5_laptop_image1.jpg",
+              "https://example.com/acer_i5_laptop_image2.jpg",
+              "https://example.com/acer_i5_laptop_image3.jpg"
+            ],
+            "product_name": {
+              "name": "Acer Swift 3 (Silver, 512 GB SSD, 16 GB RAM)",
+              "description": "The Acer Swift 3 combines performance and portability with a 512 GB SSD and 16 GB RAM, featuring a stylish silver design and powerful features for work and entertainment."
+            },
+            "rating": 4.6,
+            "price_details": {
+              "current_price": 69999,
+              "original_price": 74999,
+              "discount_percent": 7
+            },
+            "offers": [
+              {
+                "offer_type": "Bank Offer",
+                "description": "5% off on HDFC Bank Debit/Credit Cards, up to ₹3500"
+              },
+              {
+                "offer_type": "EMI Offer",
+                "description": "No cost EMI from ₹11667/month"
+              }
+            ],
+            "highlights": [
+              "16 GB RAM | 512 GB SSD",
+              "35.56 cm (14 inch) Full HD Display",
+              "Intel Core i5 11th Gen Processor",
+              "Windows 10 Home"
+            ],
+            "detailed_description": "The Acer Swift 3 offers powerful performance with a 512 GB SSD and 16 GB RAM, perfect for work and entertainment. Its 35.56 cm Full HD display provides clear visuals, and the Intel Core i5 11th Gen processor ensures smooth multitasking.",
+            "specifications": [
+              {
+                "title": "General",
+                "details": [
+                  "Sales Package: Laptop, Power Adapter, User Guide",
+                  "Model Number: Swift 3",
+                  "Color: Silver",
+                  "Type: Laptop",
+                  "Suitable For: Work & Entertainment",
+                  "Battery Backup: Up to 11 hours",
+                  "Power Supply: 65 W AC Adapter",
+                  "Battery Cell: 4 cell",
+                  "MS Office Provided: No"
+                ]
+              },
+              {
+                "title": "Processor And Memory Features",
+                "details": [
+                  "Processor Brand: Intel",
+                  "Processor Name: Core i5",
+                  "Processor Generation: 11th Gen",
+                  "SSD: Yes",
+                  "SSD Capacity: 512 GB",
+                  "RAM: 16 GB",
+                  "RAM Type: DDR4",
+                  "Processor Variant: 1135G7",
+                  "Clock Speed: 2.4 GHz with Turbo Boost up to 4.2 GHz",
+                  "Memory Slots: 1",
+                  "Expandable Memory: Up to 32 GB",
+                  "Cache: 8 MB",
+                  "Graphic Processor: Intel Integrated Iris Xe"
+                ]
+              },
+              {
+                "title": "Operating System",
+                "details": [
+                  "OS Architecture: 64 bit",
+                  "Operating System: Windows 10 Home",
+                  "System Architecture: 64 bit"
+                ]
+              },
+              {
+                "title": "Display And Audio Features",
+                "details": [
+                  "Touchscreen: No",
+                  "Screen Size: 35.56 cm (14 inch)",
+                  "Screen Resolution: 1920 x 1080 Pixel",
+                  "Screen Type: Full HD LED Backlit Display",
+                  "Speakers: Built-in Dual Speakers",
+                  "Internal Mic: Built-in Microphones",
+                  "Sound Properties: Acer TrueHarmony Technology"
+                ]
+              },
+              {
+                "title": "Connectivity Features",
+                "details": [
+                  "Wireless LAN: IEEE 802.11a/b/g/n/ac",
+                  "Bluetooth: v5.1",
+                  "Ethernet: Yes",
+                  "Additional Features: USB 3.2, HDMI, Headphone/Microphone Combo Jack"
+                ]
+              },
+              {
+                "title": "Dimensions",
+                "details": [
+                  "Dimensions: 323 x 218 x 15.9 mm",
+                  "Weight: 1.2 kg"
+                ]
+              },
+              {
+                "title": "Additional Features",
+                "details": [
+                  "Disk Drive: Not Available",
+                  "Web Camera: HD Webcam",
+                  "Finger Print Sensor: Yes",
+                  "Keyboard: Backlit Keyboard",
+                  "Backlit Keyboard: Yes",
+                  "Pointer Device: Multi Gesture Touchpad",
+                  "Included Software: Acer Collection, Acer Care Center, Acer Product Registration"
+                ]
+              },
+              {
+                "title": "Warranty",
+                "details": [
+                  "Warranty Summary: 1 Year International Travelers Warranty (ITW)"
+                ]
+              }
+            ],
+            "customer_reviews": [
+              {
+                "customer_name": "Lisa Taylor",
+                "rating": 4,
+                "review": "Great laptop with fast performance. The design is sleek and portable."
+              },
+              {
+                "customer_name": "John Anderson",
+                "rating": 5,
+                "review": "Excellent build quality and performance. Highly recommended."
+              }
+            ],
+            "qna": [
+              {
+                "question": "Does it have a backlit keyboard?",
+                "answer": "Yes, the Acer Swift 3 model comes with a backlit keyboard."
+              },
+              {
+                "question": "Is it suitable for gaming?",
+                "answer": "While it can handle light gaming, it's more optimized for productivity and everyday use."
+              },
+              {
+                "question": "Can the RAM be upgraded?",
+                "answer": "Yes, the laptop supports up to 32 GB of RAM with one memory slot."
+              }
+            ]
+          }         
       ],
       
     "washing-machine": [
@@ -2220,7 +3623,7 @@
         "description": "Experience the future with the Samsung Galaxy Z Fold5, featuring a revolutionary foldable design and cutting-edge technology."
       },
       "rating": 4.8,
-      "assured": "yes",
+      "assured": "no",
       "price_details": {
         "current_price": 149999,
         "original_price": 169999,
@@ -2498,7 +3901,7 @@
         "description": "Experience powerful performance and stunning design with the Samsung Galaxy A35 smartphone."
       },
       "rating": 4.5,
-      "assured": "yes",
+      "assured": "no",
       "price_details": {
         "current_price": 25999,
         "original_price": 28999,
@@ -2751,7 +4154,7 @@
     "description": "Experience powerful performance and innovative features with the Samsung Galaxy M61 smartphone."
   },
   "rating": 4.6,
-  "assured": "yes",
+  "assured": "no",
   "price_details": {
     "current_price": 18999,
     "original_price": 20999,
@@ -3022,7 +4425,7 @@
           "description": "The Apple iPhone 15 Pro Max offers the ultimate combination of power, performance, and style with its sleek Gold design."
         },
         "rating": 4.9,
-        "assured": "yes",
+        "assured": "no",
         "price_details": {
           "current_price": 139999,
           "original_price": 149999,
@@ -3163,7 +4566,7 @@
           "https://example.com/image3.jpg"
         ],
         "product_name": {
-          "name": "iPhone 14 Pro (Gold, 512 GB) (8 GB RAM)",
+          "name": "Apple iPhone 14 Pro (Gold, 512 GB) (8 GB RAM)",
           "brand": "Apple",
           "description": "Experience the next level of innovation with the iPhone 14 Pro, featuring advanced technology and stunning design."
         },
@@ -3293,12 +4696,12 @@
           "https://example.com/image3.jpg"
         ],
         "product_name": {
-          "name": "iPhone 14 Pro Max (Gold, 512 GB) (8 GB RAM)",
+          "name": "Apple iPhone 14 Pro Max (Gold, 512 GB) (8 GB RAM)",
           "brand": "Apple",
           "description": "Experience the ultimate in smartphone technology with the iPhone 14 Pro Max, featuring a large display, powerful performance, and advanced camera capabilities."
         },
         "rating": 4.9,
-        "assured": "yes",
+        "assured": "no",
         "price_details": {
           "current_price": 119999,
           "original_price": 129999,
@@ -3423,7 +4826,7 @@
           "https://example.com/image3.jpg"
         ],
         "product_name": {
-          "name": "iPhone 13 Pro (Gold, 512 GB) (8 GB RAM)",
+          "name": "Apple iPhone 13 Pro (Gold, 512 GB) (8 GB RAM)",
           "brand": "Apple",
           "description": "Discover the power and sophistication of the iPhone 13 Pro, featuring advanced technology and a stunning design."
         },
@@ -3553,12 +4956,12 @@
           "https://example.com/image3.jpg"
         ],
         "product_name": {
-          "name": "iPhone 13 Pro Max (Gold, 512 GB) (8 GB RAM)",
+          "name": "Apple iPhone 13 Pro Max (Gold, 512 GB) (8 GB RAM)",
           "brand": "Apple",
           "description": "Experience the pinnacle of smartphone technology with the iPhone 13 Pro Max, featuring a large display, powerful performance, and advanced camera capabilities."
         },
         "rating": 4.8,
-        "assured": "yes",
+        "assured": "no",
         "price_details": {
           "current_price": 99999,
           "original_price": 109999,
@@ -3834,7 +5237,7 @@
             "description": "The Realme GT Neo 3 offers top-of-the-line performance with its powerful processor and stunning display."
         },
         "rating": 4.8,
-        "assured": "yes",
+        "assured": "no",
         "price_details": {
             "current_price": 34999,
             "original_price": 39999,
@@ -4126,7 +5529,7 @@
         "description": "The Realme 8 Pro combines style with performance, featuring a stunning display and advanced camera capabilities."
     },
     "rating": 4.4,
-    "assured": "yes",
+    "assured": "no",
     "price_details": {
         "current_price": 16999,
         "original_price": 18999,
@@ -4418,7 +5821,7 @@
           "description": "The Realme Narzo N65 5G delivers a high-speed, powerful performance with its advanced 5G technology."
         },
         "rating": 4.6,
-        "assured": "yes",
+        "assured": "no",
         "price_details": {
           "current_price": 17999,
           "original_price": 19999,
@@ -4714,7 +6117,7 @@
           "description": "The Google Pixel 7 combines cutting-edge technology with elegant design to deliver an exceptional smartphone experience."
         },
         "rating": 4.8,
-        "assured": "yes",
+        "assured": "no",
         "price_details": {
           "current_price": 79999,
           "original_price": 84999,
@@ -6052,7 +7455,7 @@
       "description": "The iQOO Z6 is a feature-packed smartphone with a sleek design, powerful performance, and impressive camera capabilities."
   },
   "rating": 4.5,
-  "assured": "yes",
+  "assured": "no",
   "price_details": {
       "current_price": 18999,
       "original_price": 19999,
