@@ -1,33 +1,35 @@
-// document.addEventListener("DOMContentLoaded", function() {
-//     var inputField = document.getElementById("textInput");
-    
-//     // Add event listener for focus
-//     inputField.addEventListener("focus", function() {
-//       if (this.value === "") { // Check if the input field is empty
-//         this.placeholder = ""; // Remove placeholder text
-//       }
-//     });
-    
-//     // Add event listener for blur
-//     inputField.addEventListener("blur", function() {
-//       if (this.value === "") { // Check if the input field is empty
-//         this.placeholder = "Enter data"; // Restore placeholder text
-//       }
-//     });
-//   });
-  
 
-  function updateInputValue(input) {
-    if (!isNaN(input.value)) { // Check if input is a valid number
-      input.value = '+91 ' + input.value; // Add prefix text
-    }
-    // else if (input.value === '') {
-    //   input.value = ''; // If input is empty, leave it empty
-    // }
-    else if (input.value==='+91 ') {
-        input.value = ''; // Clear the input if it starts with "Email: "
-      }
-    // else {
-    //   input.value = ''; // If input is not a number, clear the input
-    // }
-  }
+const firebaseConfig = {
+  apiKey: "AIzaSyCbX8RTS7jKJ0xApi1s3c3TS7_iExa-BjA",
+  authDomain: "fc-clone-13fe6.firebaseapp.com",
+  databaseURL: "https://fc-clone-13fe6-default-rtdb.firebaseio.com",
+  projectId: "fc-clone-13fe6",
+  storageBucket: "fc-clone-13fe6.appspot.com",
+  messagingSenderId: "1003116691829",
+  appId: "1:1003116691829:web:212b427550a54b7ed0d33c"
+};
+
+firebase.initializeApp(firebaseConfig);
+const auth = firebase.auth();
+
+let EmailInp = document.getElementById('emailInp');
+let PassInp = document.getElementById('passwordInp');
+let MainForm = document.getElementById('MainForm');
+
+let SignInUser = evt => {
+  evt.preventDefault();
+
+  auth.signInWithEmailAndPassword(EmailInp.value, PassInp.value)
+      .then((credentials) => {
+          console.log(credentials);
+          alert("Sign in successful!");
+          window.location.href="../html/home.html";
+      })
+      .catch((error) => {
+          alert(error.message);
+          console.log(error.code);
+          console.log(error.message);
+      });
+}
+
+MainForm.addEventListener('submit', SignInUser);
