@@ -68,20 +68,25 @@
 
 .cardRow {
     width: 97vw;
-    
+    padding-left: 1px;
+    padding-right: 1px;
 }
 
 .card {
     width: 250px;
-    height: auto;
+    height: 400px;
     margin: 0;
     padding: 0;
     padding-left: 5px;
     padding-right: 5px;
 
-
 }
 
+  
+  .card-body {
+    height: 100%; /* Ensure the card body fills the entire card height */
+  }
+  
 .offerLine {
     background-color: #c0fab8;
     padding: 0;
@@ -138,4 +143,16 @@
 }
 .page-info{
     border: 1px solid white;
+}
+
+body{
+    background-color: #f1f3f6;
+    overflow-x: hidden;
+}
+
+#footer {
+    background-color: #f8f8f8; /* Optional: Add background color */
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }

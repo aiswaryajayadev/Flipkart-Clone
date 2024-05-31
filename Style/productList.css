@@ -46,6 +46,14 @@
     width: 15px;
     height: 15px;
 }
+
+.like-btn {
+    outline: none; /* Remove the outline */
+    border: none; /* Remove any border */
+    box-shadow: none; /* Remove any box-shadow */
+}
+
+
 .cardRow{
     width: 97vw;
     gap: 0px;

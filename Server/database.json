@@ -3623,7 +3623,7 @@
         "description": "Experience the future with the Samsung Galaxy Z Fold5, featuring a revolutionary foldable design and cutting-edge technology."
       },
       "rating": 4.8,
-      "assured": "yes",
+      "assured": "no",
       "price_details": {
         "current_price": 149999,
         "original_price": 169999,
@@ -3901,7 +3901,7 @@
         "description": "Experience powerful performance and stunning design with the Samsung Galaxy A35 smartphone."
       },
       "rating": 4.5,
-      "assured": "yes",
+      "assured": "no",
       "price_details": {
         "current_price": 25999,
         "original_price": 28999,
@@ -4154,7 +4154,7 @@
     "description": "Experience powerful performance and innovative features with the Samsung Galaxy M61 smartphone."
   },
   "rating": 4.6,
-  "assured": "yes",
+  "assured": "no",
   "price_details": {
     "current_price": 18999,
     "original_price": 20999,
@@ -4425,7 +4425,7 @@
           "description": "The Apple iPhone 15 Pro Max offers the ultimate combination of power, performance, and style with its sleek Gold design."
         },
         "rating": 4.9,
-        "assured": "yes",
+        "assured": "no",
         "price_details": {
           "current_price": 139999,
           "original_price": 149999,
@@ -4566,7 +4566,7 @@
           "https://example.com/image3.jpg"
         ],
         "product_name": {
-          "name": "iPhone 14 Pro (Gold, 512 GB) (8 GB RAM)",
+          "name": "Apple iPhone 14 Pro (Gold, 512 GB) (8 GB RAM)",
           "brand": "Apple",
           "description": "Experience the next level of innovation with the iPhone 14 Pro, featuring advanced technology and stunning design."
         },
@@ -4696,12 +4696,12 @@
           "https://example.com/image3.jpg"
         ],
         "product_name": {
-          "name": "iPhone 14 Pro Max (Gold, 512 GB) (8 GB RAM)",
+          "name": "Apple iPhone 14 Pro Max (Gold, 512 GB) (8 GB RAM)",
           "brand": "Apple",
           "description": "Experience the ultimate in smartphone technology with the iPhone 14 Pro Max, featuring a large display, powerful performance, and advanced camera capabilities."
         },
         "rating": 4.9,
-        "assured": "yes",
+        "assured": "no",
         "price_details": {
           "current_price": 119999,
           "original_price": 129999,
@@ -4826,7 +4826,7 @@
           "https://example.com/image3.jpg"
         ],
         "product_name": {
-          "name": "iPhone 13 Pro (Gold, 512 GB) (8 GB RAM)",
+          "name": "Apple iPhone 13 Pro (Gold, 512 GB) (8 GB RAM)",
           "brand": "Apple",
           "description": "Discover the power and sophistication of the iPhone 13 Pro, featuring advanced technology and a stunning design."
         },
@@ -4956,12 +4956,12 @@
           "https://example.com/image3.jpg"
         ],
         "product_name": {
-          "name": "iPhone 13 Pro Max (Gold, 512 GB) (8 GB RAM)",
+          "name": "Apple iPhone 13 Pro Max (Gold, 512 GB) (8 GB RAM)",
           "brand": "Apple",
           "description": "Experience the pinnacle of smartphone technology with the iPhone 13 Pro Max, featuring a large display, powerful performance, and advanced camera capabilities."
         },
         "rating": 4.8,
-        "assured": "yes",
+        "assured": "no",
         "price_details": {
           "current_price": 99999,
           "original_price": 109999,
@@ -5237,7 +5237,7 @@
             "description": "The Realme GT Neo 3 offers top-of-the-line performance with its powerful processor and stunning display."
         },
         "rating": 4.8,
-        "assured": "yes",
+        "assured": "no",
         "price_details": {
             "current_price": 34999,
             "original_price": 39999,
@@ -5529,7 +5529,7 @@
         "description": "The Realme 8 Pro combines style with performance, featuring a stunning display and advanced camera capabilities."
     },
     "rating": 4.4,
-    "assured": "yes",
+    "assured": "no",
     "price_details": {
         "current_price": 16999,
         "original_price": 18999,
@@ -5821,7 +5821,7 @@
           "description": "The Realme Narzo N65 5G delivers a high-speed, powerful performance with its advanced 5G technology."
         },
         "rating": 4.6,
-        "assured": "yes",
+        "assured": "no",
         "price_details": {
           "current_price": 17999,
           "original_price": 19999,
@@ -6117,7 +6117,7 @@
           "description": "The Google Pixel 7 combines cutting-edge technology with elegant design to deliver an exceptional smartphone experience."
         },
         "rating": 4.8,
-        "assured": "yes",
+        "assured": "no",
         "price_details": {
           "current_price": 79999,
           "original_price": 84999,
@@ -7455,7 +7455,7 @@
       "description": "The iQOO Z6 is a feature-packed smartphone with a sleek design, powerful performance, and impressive camera capabilities."
   },
   "rating": 4.5,
-  "assured": "yes",
+  "assured": "no",
   "price_details": {
       "current_price": 18999,
       "original_price": 19999,

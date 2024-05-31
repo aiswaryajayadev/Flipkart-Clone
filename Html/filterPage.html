@@ -410,71 +410,64 @@
     </div>
 
     <div class="d-flex">
-        <div class="col-sm-2 border mx-3 mt-2 pe-5">
-            <div class="d-flex justify-content-between ">
+        <div class="col-sm-2 border mx-3 mt-2 pe-5" style="height: fit-content; background-color: white;">
+            <div class="d-flex justify-content-between">
                 <div>
-                    <h5>Filters </h5>
+                    <h5>Filters</h5>
                 </div>
                 <div>
                     <span><a href="#" onclick="clearFilters()">Clear All</a></span>
                 </div>
             </div>
-
+        
             <div class="mt-4">
                 <h6>Categories</h6>
                 <p class="text-secondary mb-0"><i class="bi bi-chevron-left"></i> Electronics </p>
                 <p class="currentCategory mb-4 px-4 mt-1">Mobiles</p>
-
             </div>
-
+        
             <div class="mb-4">
                 <h6>Price Range</h6>
-                <input type="range" class="form-control-range" min="0" max="30000" id="priceRange">
-                <p id="priceValue"></p>
+                <input type="range" class="form-control-range" min="0" max="200000" id="priceRange" oninput="updatePriceRange()">
+                <p id="priceValue">0 - 200000</p>
             </div>
-
+        
             <div class="mb-4 mx-4">
-                <input type="checkbox">
+                <input type="checkbox" id="assuredCheckbox" onchange="applyFilters()">
                 <img class="imgAssured mx-3 mt-0" src="../Assets/images/assured.png" alt="Assured">
             </div>
-
-
+        
             <div class="mb-4">
                 <h6>Brand</h6>
                 <div class="input-group mb-3">
-                    <span class="input-group-text bsi "><i class="bi bi-search "></i></span>
-                    <input type="text" class="form-control brandSearch" placeholder="Search brand">
+                    <span class="input-group-text bsi"><i class="bi bi-search"></i></span>
+                    <input type="text" class="form-control brandSearch" placeholder="Search brand" oninput="filterBrands()">
                 </div>
                 <ul class="list-group mt-2" id="brandList">
-                    <li class="list-group-item"><input type="checkbox"> Brand A</li>
-                    <li class="list-group-item"><input type="checkbox"> Brand B</li>
-                    <li class="list-group-item"><input type="checkbox"> Brand C</li>
-                    <li class="list-group-item"><input type="checkbox"> Brand D</li>
-                    <li class="list-group-item"><input type="checkbox"> Brand E</li>
-                    <li class="list-group-item"><input type="checkbox"> Brand F</li>
+                    <!-- Brands will be populated dynamically -->
                 </ul>
             </div>
-
-
+        
             <div class="mb-4">
                 <h6>Customer Rating</h6>
                 <ul class="list-group">
-                    <li class="list-group-item"><input type="checkbox"> 4 Stars & Up</li>
-                    <li class="list-group-item"><input type="checkbox"> 3 Stars & Up</li>
-                    <li class="list-group-item"><input type="checkbox"> 2 Stars & Up</li>
+                    <li class="list-group-item"><input type="checkbox" class="ratingCheckbox" data-rating="4" onchange="applyFilters()"> 4 Stars & Up</li>
+                    <li class="list-group-item"><input type="checkbox" class="ratingCheckbox" data-rating="3" onchange="applyFilters()"> 3 Stars & Up</li>
+                    <li class="list-group-item"><input type="checkbox" class="ratingCheckbox" data-rating="2" onchange="applyFilters()"> 2 Stars & Up</li>
                 </ul>
             </div>
+        
             <div class="mb-4">
                 <h6>Discount</h6>
                 <ul class="list-group">
-                    <li class="list-group-item"><input type="checkbox">40% and more</li>
-                    <li class="list-group-item"><input type="checkbox">30% and more</li>
-                    <li class="list-group-item"><input type="checkbox">20% and more</li>
-                    <li class="list-group-item"><input type="checkbox">10% and more</li>
+                    <li class="list-group-item"><input type="checkbox" class="discountCheckbox" data-discount="40" onchange="applyFilters()">40% and more</li>
+                    <li class="list-group-item"><input type="checkbox" class="discountCheckbox" data-discount="30" onchange="applyFilters()">30% and more</li>
+                    <li class="list-group-item"><input type="checkbox" class="discountCheckbox" data-discount="20" onchange="applyFilters()">20% and more</li>
+                    <li class="list-group-item"><input type="checkbox" class="discountCheckbox" data-discount="10" onchange="applyFilters()">10% and more</li>
                 </ul>
             </div>
         </div>
-        <div class="ms-1 mt-2 border pdtRightDiv">
+        <div class="ms-1 mt-2 border pdtRightDiv" style="background-color: white;">
             <div class="d-flex align-items-center mx-3 small mt-3">
                 <p class="mb-0 text-secondary">Home</p>
                 <p class="text-secondary mb-0"><i class="bi bi-chevron-right"></i>Electronics<i
@@ -495,29 +488,17 @@
             </div>
 
             <div class="container">
-                <div class="row card-container">
+                <div class="row card-container ml-1">
                     <div class="row mb-4" id="product-list">
 
                     </div>
                 </div>
             </div>
-            <!-- <div class="pagination d-flex justify-content-around mt-4">
-                <div>
-                    <span class="page-info">Page 1 of 2</span>
-                </div>
-                <div class="pagination rightPage">
-                    <a href="#" id="previous" class="hidden page-link active" data-page="1">Previous</a>
-                    <a href="#" class="page-link active" data-page="1">1</a>
-                    <a href="#" class="page-link" data-page="2">2</a>
-                    <a href="#" id="next" class="page-link" data-page="2">Next</a>
-                </div>
-            </div>
-        </div> 
-    </div> -->
+        </div>  
 
     
-    
-     <section id="footer">
+    </div>
+    <section id="footer">
         <footer>
             <div class="footer-div">
                 <div>
