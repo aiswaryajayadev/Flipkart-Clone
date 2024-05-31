@@ -18,9 +18,27 @@
     float: left;
     overflow: hidden;
 
+
+}
+
+.cdropdown-content .cdropdown-content-div1{
+    min-width: 240px;
+   
+}
+
+.cdropdown-content .cdropdown-content-div1 object{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cdropdown-content-1 .cdropdown-content-div2 object{
+    display: flex;
+    flex-direction: column;
+    
 }
 .cdropdown .cdropbtn {
-    font-size: 16px;
+    
     border: none;
     outline: none;
     color: rgb(30, 28, 28);
@@ -51,19 +69,16 @@
  .cdropdown:hover .cdropbtn {
         color:blue;
 }
-
-
-
-
-
-
 .cdropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    box-shadow: 0 8px 8px 1px rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    z-index: 100;
+    
+    
 }
 
 .cdropdown-content a {
@@ -74,7 +89,23 @@
     display: block;
     text-align: left;
 }
-
+.cdropdown-content-1 a {
+    float: none;
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.cdropdown-content-1{
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+/* box-shadow: 0 8px 8px 1px rgba(0, 0, 0, .3); */
+border-radius: 8px;
+z-index: 100;
+left: 570px;
+}
 
 .cdropdown:hover .cdropdown-content {
     display: block;
@@ -90,6 +121,10 @@
 }
 .C-title{
     margin-top: 20px;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
 }
 .image-row, .title-row {
     display: flex;
@@ -113,4 +148,77 @@
     margin:6px 13px 10px;
     text-align: center;
 }
+
+
+.cdropdown-content-div1-item{
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #fff;
+    justify-content: space-between;
+    font-size: 13px;
+    padding-right: 20px;
+    
+}
+
+
+.cdropdown-content-div2-item{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    padding: 8px 16px;
+}
+
+.cdropdown-content-div2-item-link{
+    font-size: 12px;
+    line-height: 20px;
+    padding: 12px 16px;
+   
+}
+
+.cdropdown-content-div2-item-link:hover{
+   font-weight: bold;
+}
+
+ .cdropdown .cdropdown-content .cdropdown-content-div1 object ,
+ .cdropdown .cdropdown-content .cdropdown-content-div1 object :hover, .hover-div {
+    
+    background-color: #f0f5ff;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+}
+
+
+.cdropdown-content .cdropdown-content-div1 object .cdropdown-content-div1-item .cdropdown-content-div1-arrow,
+.cdropdown-content .cdropdown-content-div1 object .cdropdown-content-div1-item:hover .cdropdown-content-div1-arrow,
+.show-div2-arrow
+  {
+    display: inline-block;
+}
+
+.cdropdown-content .cdropdown-content-div1 object .cdropdown-content-div1-item .cdropdown-content-div1-arrow {
+    display: none;
+    margin-left: 75px;
+    margin-bottom: 5px;
+    content: "";
+    position: relative;
+    height: 6px;
+    width: 6px;
+    border-color: #111112;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    transform-origin: 50% 50%;
+    transform: translateY(75%) rotate(-45deg);
+}
+
+.cdropdown-content-div2{
+    display: none;
+    min-height: 100px; /* Adjust this value to ensure consistent height */
+    min-width: 240px;
+    box-shadow: 0 8px 8px 1px rgba(0, 0, 0, .3);
+    
+}
+
+
+
 
