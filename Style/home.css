@@ -333,6 +333,27 @@ left: 570px;
     margin-left: 20px;
     
 }
+.product-heading-container {
+    display: flex;
+    justify-content: space-between; /* This will place the elements on the same row with space between them */
+    align-items: center; /* This will vertically align the items in the center */
+    margin-bottom: 10px; /* Add some margin below the heading container */
+}
+
+
+
+.product-view-all  {
+    
+    padding: 10px;
+    
+    cursor: pointer;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    
+}
 
 .carousel-product-button {
     background-color: #fff;
