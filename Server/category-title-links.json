@@ -1,0 +1,980 @@
+{
+    "Electronics":[ 
+        {
+        "title": "Mobiles",
+        "Links": [
+            {         
+                     "href": "https:/www.flipkart.com/mobile-phones-store?otracker=nmenu_sub_Electronics_0_Mobiles"
+            },
+            {
+         "title": "Mi",
+              "href": "https:/www.flipkart.com/mobiles/mi~brand/pr?sid=tyy,4io&amp;otracker=nmenu_sub_Electronics_0_Mi"
+            },
+            {
+         "title": "Realme",
+              "href": "https:/www.flipkart.com/mobiles/pr?sid=tyy%2C4io&amp;p%5B%5D=facets.brand%255B%255D%3DRealme&amp;otracker=nmenu_sub_Electronics_0_Realme"
+            },
+            {
+         "title": "Samsung",
+              "href": "https:/www.flipkart.com/samsung-mobile-store?otracker=nmenu_sub_Electronics_0_Samsung"
+            },
+            {
+         "title": "Infinix",
+              "href": "https:/www.flipkart.com/mobiles/pr?sid=tyy%2C4io&amp;otracker=categorytree&amp;p%5B%5D=facets.brand%255B%255D%3DInfinix&amp;otracker=nmenu_sub_Electronics_0_Infinix"
+            },
+            {
+         "title": "OPPO",
+         
+      "href": "https:/www.flipkart.com/oppo-mobile-phones-store?otracker=nmenu_sub_Electronics_0_OPPO"
+            },
+            {
+         "title": "Apple",
+              "href": "https:/www.flipkart.com/search?q=apple+mobiles&amp;sid=tyy%2C4io&amp;as=on&amp;as-show=on&amp;otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&amp;otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&amp;as-pos=1&amp;as-type=RECENT&amp;suggestionId=apple+mobiles%7CMobiles&amp;requestId=74513d15-9fcc-41ea-a7e0-16499e689ee3&amp;as-backfill=on&amp;otracker=nmenu_sub_Electronics_0_Apple"
+            },
+            {
+         "title": "Vivo",
+              "href": "https:/www.flipkart.com/mobiles/pr?sid=tyy%2C4io&amp;p%5B%5D=facets.serviceability%5B%5D%3Dfalse&amp;p%5B%5D=facets.brand%255B%255D%3DVivo&amp;otracker=nmenu_sub_Electronics_0_Vivo"
+            },
+            {
+         "title": "Honor",
+              "href": "https:/www.flipkart.com/search?p[]=facets.brand%255B%255D%3DHonor&amp;sid=tyy%2F4io&amp;otracker=CLP_filters&amp;otracker=nmenu_sub_Electronics_0_Honor"
+            },
+            {
+         "title": "Asus",
+              "href": "https:/www.flipkart.com/mobiles/pr?sid=tyy%2C4io&amp;p%5B%5D=facets.brand%255B%255D%3DAsus&amp;otracker=nmenu_sub_Electronics_0_Asus"
+            },
+            {
+           "title": "Poco X2",
+                   "href": "https:/www.flipkart.com/search?q=poco+x2&amp;sid=tyy%2C4io&amp;as=on&amp;as-show=on&amp;otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_ps&amp;otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_ps&amp;as-pos=1&amp;as-type=RECENT&amp;suggestionId=poco+x2%7CMobiles&amp;requestId=408349ea-12b0-4080-8082-5a58a60f6e52&amp;as-backfill=on&amp;otracker=nmenu_sub_Electronics_0_Poco%20X2"
+            },
+            {
+           "title": "realme Narzo 10",
+                   "href": "https:/www.flipkart.com/search?q=realme+narzo&amp;sid=tyy%2C4io&amp;as=on&amp;as-show=on&amp;otracker=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_ps&amp;otracker1=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_ps&amp;as-pos=1&amp;as-type=RECENT&amp;suggestionId=realme+narzo%7CMobiles&amp;requestId=476a6f55-e221-401b-a140-88301c17efcb&amp;as-backfill=on&amp;otracker=nmenu_sub_Electronics_0_realme%20Narzo%2010"
+            },
+            {
+           "title": "Infinix Hot 9",
+                   "href": "https:/www.flipkart.com/search?q=infinix%20hot&amp;otracker=search&amp;otracker1=search&amp;marketplace=FLIPKART&amp;as-show=on&amp;as=off&amp;otracker=nmenu_sub_Electronics_0_Infinix%20Hot%209"
+            },
+            {
+           "title": "IQOO 3",
+                   "href": "https:/www.flipkart.com/search?q=iqoo&amp;otracker=search&amp;otracker1=search&amp;marketplace=FLIPKART&amp;as-show=on&amp;as=off&amp;otracker=nmenu_sub_Electronics_0_IQOO%203"
+            },
+            {
+           "title": "iPhone SE",
+                   "href": "https:/www.flipkart.com/mobiles/~cs-fdeu9sdw9c/pr?sid=tyy%2C4io&amp;collection-tab-name=Iphone%20SE%202020&amp;otracker=nmenu_sub_Electronics_0_iPhone%20SE"
+            },
+            {
+           "title": "Motorola razr",
+                   "href": "https:/www.flipkart.com/search?q=motorola%20mobiles&amp;otracker=search&amp;otracker1=search&amp;marketplace=FLIPKART&amp;as-show=on&amp;as=off&amp;otracker=nmenu_sub_Electronics_0_Motorola%20razr"
+            },
+            {
+           "title": "realme Narzo 10A",
+                   "href": "https:/www.flipkart.com/search?q=realme+narzo&amp;sid=tyy%2C4io&amp;as=on&amp;as-show=on&amp;otracker=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_ps&amp;otracker1=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_ps&amp;as-pos=1&amp;as-type=RECENT&amp;suggestionId=realme+narzo%7CMobiles&amp;requestId=476a6f55-e221-401b-a140-88301c17efcb&amp;as-backfill=on&amp;otracker=nmenu_sub_Electronics_0_realme%20Narzo%2010A"
+            },
+            {
+           "title": "Motorola g8 power lite",
+                  "href": "https:/www.flipkart.com/search?q=motorola+g8+power+lite&amp;sid=tyy%2C4io&amp;as=on&amp;as-show=on&amp;otracker=AS_QueryStore_OrganicAutoSuggest_1_16_sc_na_ps&amp;otracker1=AS_QueryStore_OrganicAutoSuggest_1_16_sc_na_ps&amp;as-pos=1&amp;as-type=RECENT&amp;suggestionId=motorola+g8+power+lite%7CMobiles&amp;requestId=74eccc88-f787-45bb-9454-59f03980c7ca&amp;as-backfill=on&amp;otracker=nmenu_sub_Electronics_0_Motorola%20g8%20power%20lite"
+            }
+
+           
+        ]
+    },
+    {
+        "title": "Mobile Accessories",
+        "Links": [
+            {"title": "Mobile Cases","href": "https:/www.flipkart.com/mobile-accessories/cases-and-covers/pr?sid=tyy,4mr,q2u&amp;otracker=nmenu_sub_Electronics_0_Mobile%20Cases" },
+            {"title": "Headphones & Headsets","href": "https:/www.flipkart.com/headphones-store?otracker=nmenu_sub_Electronics_0_Headphones%20%26%20Headsets" },
+            {"title": "Mobile Accessories","href": "https:/www.flipkart.com/mobile-phone-cases-covers-screenguards-store?otracker=nmenu_sub_Electronics_0_Mobile%20Accessories"},
+            {"title": "Mobile Cases","href": "https:/www.flipkart.com/mobile-accessories/cases-and-covers/pr?sid=tyy,4mr,q2u&amp;otracker=nmenu_sub_Electronics_0_Mobile%20Cases" },
+            {"title": "Headphones & Headsets","href": "https:/www.flipkart.com/headphones-store?otracker=nmenu_sub_Electronics_0_Headphones%20%26%20Headsets"        },
+            {"title": "Power Banks","href": "https:/www.flipkart.com/mobile-accessories/power-banks/pr?sid=tyy,4mr,fu6&amp;otracker=categorytree&amp;otracker=nmenu_sub_Electronics_0_Power%20Banks"            },
+            {"title": "Screenguards","href": "https:/www.flipkart.com/mobile-accessories/screen-guards/pr?sid=tyy,4mr,lrv&amp;otracker=nmenu_sub_Electronics_0_Screenguards"            },
+            {"title": "Memory Cards","href": "https:/www.flipkart.com/mobile-accessories/memory-cards-readers/memory-cards/pr?sid=tyy,4mr,zzf,7y7&amp;otracker=nmenu_sub_Electronics_0_Memory%20Cards"            },
+            {"title": "Smart Headphones","href": "https:/www.flipkart.com/wearable-smart-devices/smart-headphones/pr?sid=ajy,vam&amp;otracker=nmenu_sub_Electronics_0_Smart%20Headphones"            },
+            {"title": "Mobile Cables","href": "https:/www.flipkart.com/mobile-accessories/cables/pr?sid=tyy,4mr,3nu&amp;otracker=nmenu_sub_Electronics_0_Mobile%20Cables"            },
+            {"title": "Mobile Chargers","href": "https:/www.flipkart.com/mobile-accessories/chargers/pr?sid=tyy,4mr,tp2&amp;otracker=nmenu_sub_Electronics_0_Mobile%20Chargers"            },
+            {"title": "Mobile Holders","href": "https:/www.flipkart.com/mobile-accessories/mobile-holders/pr?sid=tyy,4mr,vnf&amp;marketplace=FLIPKART&amp;otracker=nmenu_sub_Electronics_0_Mobile%20Holders"            },
+            {"title": "Smart Wearable Tech","href": "https:/www.flipkart.com/search?q=smart%20wearable&amp;otracker=search&amp;otracker1=search&amp;marketplace=FLIPKART&amp;as-show=on&amp;as=off&amp;otracker=nmenu_sub_Electronics_0_Smart%20Wearable%20Tech"            },
+            {"title": "Smart Watches","href" :"/search?q=smart+watch&amp;sid=ajy%2Cbuh&amp;as=on&amp;as-show=on&amp;otracker=AS_QueryStore_OrganicAutoSuggest_1_8_na_na_ps&amp;otracker1=AS_QueryStore_OrganicAutoSuggest_1_8_na_na_ps&amp;as-pos=1&amp;as-type=RECENT&amp;suggestionId=smart+watch%7CSmart+Watches&amp;requestId=a3a0ac86-976b-49e7-b440-ae427f9159e9&amp;as-backfill=on&amp;otracker=nmenu_sub_Electronics_0_Smart%20Watches"            },
+            {"title": "Smart Glasses (VR)","href": "https:/www.flipkart.com/wearable-smart-devices/smart-glasses/pr?sid=ajy%2Ctcy&amp;otracker=nmenu_sub_Electronics_0_Smart%20Glasses%20(VR)"            },
+            {"title": "Smart Bands","href": "https:/www.flipkart.com/wearable-smart-devices/smart-bands/pr?sid=ajy%2Cq7p&amp;otracker=nmenu_sub_Electronics_0_Smart%20Bands"            },
+            {"title": "Health Care Appliances","href": "https:/www.flipkart.com/health-and-appliances-store?otracker=nmenu_sub_Electronics_0_Health%20Care%20Appliances"            },
+            {"title": "Bp Monitors","href" :"/health-personal-care-appliances/health-care/health-care-devices/blood-pressure-monitors/pr?sid=zlw,nyl,bvv,kbk&amp;otracker=nmenu_sub_Electronics_0_Bp%20Monitors"            },
+            {"title": "Weighing Scale","href" :"/beauty-and-personal-care/health-care/health-care-devices/weighing-scales/pr?sid=t06,nyl,bvv,o4o&amp;otracker=nmenu_sub_Electronics_0_Weighing%20Scale"            }
+                   
+            
+            
+        ]
+
+    },
+    {
+        "title":"Laptops",
+        "Links":[
+            {
+                
+                "href": "https:/www.flipkart.com/laptops-store?otracker=nmenu_sub_Electronics_0_Laptops"
+            },
+            {
+                "title": "Gaming Laptops",
+                "href": "https:/www.flipkart.com/gaming-laptops-store?otracker=nmenu_sub_Electronics_0_Gaming%20Laptops&amp;otracker=nmenu_sub_Electronics_0_Gaming%20Laptops"
+            },
+            {
+                "title": "Desktop PCs",
+                "href": "https:/www.flipkart.com/desktop-pc-store?otracker=nmenu_sub_Electronics_0_Desktop%20PCs"
+            },
+            {
+                "title": "Gaming & Accessories",
+                "href": "https:/www.flipkart.com/gaming-store?otracker=nmenu_sub_Electronics_0_Gaming%20%26%20Accessories"
+            },
+            {
+                "title": "Computer Accessories",
+                "href": "https:/www.flipkart.com/computer-accessories-store?otracker=nmenu_sub_Electronics_0_Computer%20Accessories"
+            },
+            {
+                "title": "External Hard Disks",
+                "href": "https:/www.flipkart.com/external-hard-disk-store?otracker=nmenu_sub_Electronics_0_External%20Hard%20Disks"
+            },
+            {
+                "title": "Pendrives",
+                "href": "https:/www.flipkart.com/computers/storage/pen-drives/pr?sid=6bo,jdy,uar&amp;otracker=nmenu_sub_Electronics_0_Pendrives"
+            },
+            {
+                "title": "Laptop Skins & Decals",
+                "href": "https:/www.flipkart.com/laptop-accessories/laptop-skins-decals/pr?sid=6bo,ai3,zvm&amp;otracker=nmenu_sub_Electronics_0_Laptop%20Skins%20%26%20Decals"
+            },
+            {
+                "title": "Laptop Bags",
+                "href": "https:/www.flipkart.com/laptop-accessories/laptop-bags/pr?sid=6bo%2Cai3%2Cqq9&amp;otracker=nmenu_sub_Electronics_0_Laptop%20Bags"
+            },
+            {
+                "title": "Mouse",
+                "href": "https:/www.flipkart.com/laptop-accessories/mouse/pr?sid=6bo,ai3,2ay&amp;otracker=nmenu_sub_Electronics_0_Mouse"
+            },
+            {
+                "title": "Computer Peripherals",
+                "href": "https:/www.flipkart.com/peripherals-store?otracker=nmenu_sub_Electronics_0_Computer%20Peripherals"
+            },
+            {
+                "title": "Printers & Ink Cartridges",
+                "href": "https:/www.flipkart.com/printer-inks-store?otracker=nmenu_sub_Electronics_0_Printers%20%26%20Ink%20Cartridges"
+            },
+            {
+                "title": "Monitors",
+                "href": "https:/www.flipkart.com/monitors-store?otracker=nmenu_sub_Electronics_0_Monitors"
+            },
+            {
+                "title": "Tablets",
+                "href": "https:/www.flipkart.com/tablets-store?otracker=nmenu_sub_Electronics_0_Tablets"
+            },
+            {
+                "title": "Apple iPads",
+                "href": "https:/www.flipkart.com/tablets/~apple-ipads/pr?sid=tyy,hry&amp;otracker=nmenu_sub_Electronics_0_Apple%20iPads"
+            }
+        ]
+    },
+    {
+        "title":"Televisions",
+        "Links":[
+            {
+               
+                "href": "https:/www.flipkart.com/television-store?otracker=nmenu_sub_Electronics_0_Televisions"
+            },
+            {
+                "title": "Speakers",
+                "href": "https:/www.flipkart.com/audio-speaker-store?otracker=nmenu_sub_Electronics_0_Speakers"
+            },
+            {
+                "title": "Home Audio Speakers",
+                "href": "https:/www.flipkart.com/audio-video/speakers/pr?count=40&amp;otracker=categorytree&amp;p%5B%5D=facets.type%255B%255D%3DHome%2BAudio%2BSpeaker&amp;p%5B%5D=facets.type%255B%255D%3DLaptop%252FDesktop%2BSpeaker&amp;p%5B%5D=facets.type%255B%255D%3DSoundbar&amp;sid=0pm%2F0o7&amp;otracker=nmenu_sub_Electronics_0_Home%20Audio%20Speakers"
+            },
+            {
+                "title": "Home Theatres",
+                "href": "https:/www.flipkart.com/audio-video/speakers/pr?sid=0pm%2C0o7&amp;otracker=categorytree&amp;p%5B%5D=facets.type%255B%255D%3DHome%2BTheatre&amp;p%5B%5D=facets.type%255B%255D%3DTower%2BSpeaker&amp;p%5B%5D=facets.type%255B%255D%3DSoundbar&amp;p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&amp;otracker=nmenu_sub_Electronics_0_Home%20Theatres"
+            },
+            {
+                "title": "Soundbars",
+                "href": "https:/www.flipkart.com/audio-video/speakers/pr?sid=0pm%2C0o7&amp;p%5B%5D=facets.type%255B%255D%3DSoundbar&amp;otracker=categorytree&amp;p%5B%5D=facets.serviceability%5B%5D%3Dtrue&amp;p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&amp;otracker=nmenu_sub_Electronics_0_Soundbars"
+            },
+            {
+                "title": "Bluetooth Speakers",
+                "href": "https:/www.flipkart.com/audio-video/speakers/pr?sid=0pm%2C0o7&amp;otracker=categorytree&amp;p%5B%5D=facets.features%255B%255D%3DBluetooth&amp;otracker=nmenu_sub_Electronics_0_Bluetooth%20Speakers"
+            },
+            {
+                "title": "DTH Set Top Box",
+                "href": "https:/www.flipkart.com/home-entertainment/dth/pr?count=40&amp;otracker=categorytree&amp;p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&amp;sid=ckf%2F9wn&amp;otracker=nmenu_sub_Electronics_0_DTH%20Set%20Top%20Box"
+            },
+            {
+                "title": "Smart Home Automation",
+                "href": "https:/www.flipkart.com/smart-home-automation-store?otracker=nmenu_sub_Electronics_0_Smart%20Home%20Automation"
+            },
+            {
+                "title": "Google Nest",
+                "href": "https:/www.flipkart.com/google-nest-mini-store?otracker=nmenu_sub_Electronics_0_Google%20Nest"
+            },
+            {
+                "title": "Camera",
+                "href": "https:/www.flipkart.com/camera-clp-store?otracker=nmenu_sub_Electronics_0_Camera"
+            },
+            {
+                "title": "DSLR & Mirrorless",
+                "href": "https:/www.flipkart.com/cameras/dslr~type/pr?sid=jek%2Cp31&amp;otracker=nmenu_sub_Electronics_0_DSLR%20%26%20Mirrorless"
+            },
+            {
+                "title": "Compact & Bridge Cameras",
+                "href": "https:/www.flipkart.com/cameras/point-shoot~type/pr?sid=jek%2Cp31&amp;otracker=nmenu_sub_Electronics_0_Compact%20%26%20Bridge%20Cameras"
+            },
+            {
+                "title": "Sports & Action",
+                "href": "https:/www.flipkart.com/cameras/sports-action/pr?count=40&amp;sid=jek%2Fp31%2Fs3q&amp;otracker=nmenu_sub_Electronics_0_Sports%20%26%20Action"
+            },
+            {
+                "title": "Camera Accessories",
+                "href": "https:/www.flipkart.com/search?q=camera+accessories&amp;sid=jek%2C6l2&amp;as=on&amp;as-show=on&amp;otracker=AS_QueryStore_OrganicAutoSuggest_1_10_na_na_na&amp;otracker1=AS_QueryStore_OrganicAutoSuggest_1_10_na_na_na&amp;as-pos=1"
+            },
+            {
+                "title": "Lens",
+                "href": "https:/www.flipkart.com/camera-accessories/camera-lenses/pr?uniqueBstoreparam1=val1&amp;sid=jek%2C6l2%2Ce9y&amp;otracker=nmenu_sub_Electronics_0_Lens"
+            },
+            {
+                "title": "Tripods",
+                "href": "https:/www.flipkart.com/camera-accessories/tripods/pr?count=40&amp;otracker=categorytree&amp;p%5B%5D=sort%3Dpopularity&amp;sid=jek%2F6l2%2Fce6&amp;otracker=nmenu_sub_Electronics_0_Tripods"
+            },
+            {
+                "title": "Network Components",
+                "href": "https:/www.flipkart.com/computers/network-components/pr?sid=6bo,70k&amp;otracker=categorytree&amp;otracker=nmenu_sub_Electronics_0_Network%20Components"
+            },
+            {
+                "title": "Routers",
+                "href": "https:/www.flipkart.com/computers/network-components/routers/pr?sid=6bo%2F70k%2F2a2&amp;otracker=nmenu_sub_Electronics_0_Routers"
+            }
+        ]
+                
+        
+    },
+    {
+        "title":"Feature",
+        "Links":[
+            {
+                "title": "Google Assistant Store",
+                "href": "https:/www.flipkart.com/search?q=google+assistant&amp;sid=0pm%2C0o7&amp;as=on&amp;as-show=on&amp;otracker=AS_QueryStore_OrganicAutoSuggest_1_11_na_na_na&amp;otracker1=AS_QueryStore_OrganicAutoSuggest_1_11_na_na_na&amp;as-pos=1&amp;as-type=RECENT&amp;suggestionId=google+assistant%7CSpeakers&amp;requestId=229564b1-efc3-45ad-814c-b30f7e92468a&amp;as-backfill=on&amp;otracker=nmenu_sub_Electronics_0_Google%20Assistant%20Store"
+            },
+            {
+                "title": "Laptops on Buyback Guarantee",
+                "href": "https:/www.flipkart.com/laptops/~buyback-guarantee-on-laptops-/pr?sid=6bo%2Cb5g&amp;otracker=nmenu_sub_Electronics_0_Laptops%20on%20Buyback%20Guarantee"
+            },
+            {
+                "title": "Flipkart SmartBuy",
+                "href": "https:/www.flipkart.com/flipkart-smartbuy-store?otracker=nmenu_sub_Electronics_0_Flipkart%20SmartBuy"
+            },
+            {
+                "title": "Li-Polymer Power Banks",
+                "href": "https:/www.flipkart.com/lithium-polymer-power-banks-store?otracker=nmenu_sub_Electronics_0_Li-Polymer%20Power%20Banks"
+            },
+            {
+                "title": "Sony PS4 Pro & Slim",
+                "href": "https:/www.flipkart.com/search?q=sony%20playstation%20&amp;otracker=search&amp;otracker1=search&amp;marketplace=FLIPKART&amp;as-show=on&amp;as=off&amp;otracker=nmenu_sub_Electronics_0_Sony%20PS4%20Pro%20%26%20Slim"
+            },
+            {
+                "title": "Apple Products",
+                "href": "https:/www.flipkart.com/search?q=apple+mobiles&amp;sid=tyy%2C4io&amp;as=on&amp;as-show=on&amp;otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&amp;otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&amp;as-pos=1&amp;as-type=RECENT&amp;suggestionId=apple+mobiles%7CMobiles&amp;requestId=74513d15-9fcc-41ea-a7e0-16499e689ee3&amp;as-backfill=on&amp;otracker=nmenu_sub_Electronics_0_Apple%20Products"
+            },
+            {
+                "title": "Microsoft Store",
+                "href": "https:/www.flipkart.com/microsoft-store?otracker=nmenu_sub_Electronics_0_Microsoft%20Store"
+            },
+            {
+                "title": "Lenovo Phab Series",
+                "href": "https:/www.flipkart.com/mobiles-accessories/~lenovo-phab-series1/pr?sid=tyy&amp;otracker=nmenu_sub_Electronics_0_Lenovo%20Phab%20Series"
+            },
+            {
+                "title": "JBL Speakers",
+                "href": "https:/www.flipkart.com/all/audio-video/jbl~brand/pr?otracker=categorytree&amp;p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&amp;p%5B%5D=facets.brand%255B%255D%3DJBL&amp;sid=all%2F0pm&amp;otracker=nmenu_sub_Electronics_0_JBL%20Speakers"
+            },
+            {
+                "title": "Smartphones On Buyback Guarantee",
+                "href": "https:/www.flipkart.com/buyback-guarantee-store?otracker=nmenu_sub_Electronics_0_Smartphones%20On%20Buyback%20Guarantee"
+            },
+            {
+                "title": "Philips",
+                "href": "https:/www.flipkart.com/health-personal-care-appliances/pr?count=40&amp;otracker=categorytree&amp;p%5B%5D=facets.brand%255B%255D%3DPhilips&amp;p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&amp;sid=zlw&amp;otracker=nmenu_sub_Electronics_0_Philips"
+            },
+            {
+                "title": "Dr. Morepen",
+                "href": "https:/www.flipkart.com/search?as=off&amp;as-show=on&amp;count=40&amp;otracker=start&amp;p%5B%5D=facets.brand%255B%255D%3DDr.%2BMorepen&amp;q=bp+monitor&amp;sid=zlw&amp;otracker=nmenu_sub_Electronics_0_Dr.%20Morepen"
+            },
+            {
+                "title": "Complete Mobile Protection",
+                "href": "https:/www.flipkart.com/mobile-complete-protection-bbd-store?otracker=nmenu_sub_Electronics_0_Complete%20Mobile%20Protection"
+            },
+            {
+                "title": "Mobiles No Cost EMI",
+                "href": "https:/www.flipkart.com/no-cost-emi-mobiles-store?otracker=nmenu_sub_Electronics_0_Mobiles%20No%20Cost%20EMI"
+            },
+            {
+                "title": "Huawei Watch Gt 2e Smart Watch",
+                "href": "https:/www.flipkart.com/search?q=huawei%20watch%20&amp;otracker=search&amp;otracker1=search&amp;marketplace=FLIPKART&amp;as-show=on&amp;as=off&amp;otracker=nmenu_sub_Electronics_0_Huawei%20Watch%20Gt%202e%20Smart%20Watch"
+            }
+
+        ]
+    }   
+],
+"TVs & Appliances":[
+    {
+        "title": "Television and Accessories",
+        "Links": [
+            {
+                "title": "Television",
+                "href": "https:/www.flipkart.com/television-store?otracker=nmenu_sub_TVs%20and%20Appliances_0_Televisions&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Television"
+            },
+            {
+                "title": "New Launches",
+                "href": "https:/www.flipkart.com/search?q=new+launch+tv&sid=ckf%2Cczl&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_12_na_na_ps&as-pos=1&as-type=RECENT&suggestionId=new+launch+tv%7CTelevisions&requestId=33ae24d5-65fa-4e7d-ae1b-36f74371f62d&as-backfill=on&otracker=nmenu_sub_TVs%20%26%20Appliances_0_New%20Launches"
+            },
+            {
+                "title": "Smart & Ultra HD",
+                "href": "https:/www.flipkart.com/search?count=40&otracker=CLP_filters&p%5B%5D=facets.smart_tv%255B%255D%3DYes&p%5B%5D=facets.resolution%255B%255D%3DUltra%2BHD%2B%25284K%2529&sid=ckf%2Fczl&otracker=nmenu_sub_TVs%20and%20Appliances_0_Smart%20and%20Ultra%20HD&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Smart%20%26%20Ultra%20HD"
+            },
+            {
+                "title": "Mi",
+                "href": "https:/www.flipkart.com/televisions/pr?sid=ckf%2Cczl&p%5B%5D=facets.brand%255B%255D%3DMi&otracker=categorytree&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Mi"
+            },
+            {
+                "title": "Vu",
+                "href": "https:/www.flipkart.com/televisions/pr?sid=ckf%2Cczl&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&otracker=categorytree&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DVu&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Vu"
+            },
+            {
+                "title": "Thomson",
+                "href": "https:/www.flipkart.com/televisions/pr?sid=ckf%2Cczl&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&otracker=categorytree&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DThomson&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Thomson"
+            },
+            {
+                "title": "Samsung",
+                "href": "https:/www.flipkart.com/televisions/pr?sid=ckf%2Cczl&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&otracker=categorytree&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DSamsung&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Samsung"
+            },
+            {
+                "title": "iFFALCON by TCL",
+                "href": "https:/www.flipkart.com/search?q=iffalcon+smart+tv&sid=ckf%2Cczl&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_ps&as-pos=1&as-type=RECENT&suggestionId=iffalcon+smart+tv%7CTelevisions&requestId=3e90ce86-6c1f-4840-a2cf-2809f504dbf0&as-backfill=on&otracker=nmenu_sub_TVs%20%26%20Appliances_0_iFFALCON%20by%20TCL"
+            },
+            {
+                "title": "Nokia",
+                "href": "https:/www.flipkart.com/search?q=nokia+tv&sid=ckf%2Cczl&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_ps&as-pos=1&as-type=RECENT&suggestionId=nokia+tv%7CTelevisions&requestId=62e60a0c-4ff5-4b7f-aec7-df5241a0e2c5&as-backfill=on&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Nokia"
+            },
+            {
+                "title": "LG",
+                "href": "https:/www.flipkart.com/televisions/pr?sid=ckf%2Cczl&p%5B%5D=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&otracker=categorytree&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&p%5B%5D=facets.brand%255B%255D%3DLG&otracker=nmenu_sub_TVs%20%26%20Appliances_0_LG"
+            },
+            {
+                "title": "realme",
+                "href": "https:/www.flipkart.com/televisions/pr?sid=ckf%2Cczl&p%5B%5D=facets.brand%255B%255D%3DRealme&otracker=nmenu_sub_TVs%20%26%20Appliances_0_realme"
+            },
+            {
+                "title": "Motorola",
+                "href": "https:/www.flipkart.com/televisions/pr?sid=ckf,czl&p[]=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p[]=facets.brand%255B%255D%3DMotorola&otracker=categorytree&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Motorola"
+            },
+            {
+                "title": "24 & below",
+                "href": "https:/www.flipkart.com/search?sid=czl&otracker=CLP_Filters&p%5B%5D=facets.screen_size%255B%255D%3D24%2Binch%2B%2BBelow&otracker=nmenu_sub_TVs%20%26%20Appliances_0_24%20%26%20below"
+            },
+            {
+                "title": "28 - 32",
+                "href": "https:/www.flipkart.com/televisions/pr?sid=ckf,czl&p[]=facets.screen_size%255B%255D%3D28%2B-%2B32%2Binch&p[]=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&otracker=categorytree&otracker=nmenu_sub_TVs%20%26%20Appliances_0_28%20-%2032"
+            },
+            {
+                "title": "39 - 43",
+                "href": "https:/www.flipkart.com/televisions/pr?sid=ckf,czl&p[]=facets.screen_size%255B%255D%3D39%2B-%2B43%2Binch&p[]=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&otracker=categorytree&otracker=nmenu_sub_TVs%20%26%20Appliances_0_39%20-%2043"
+            },
+            {
+                "title": "48 - 55",
+                "href": "https:/www.flipkart.com/televisions/pr?sid=ckf,czl&p[]=facets.screen_size%255B%255D%3D48%2B-%2B55%2Binch&p[]=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&otracker=categorytree&otracker=nmenu_sub_TVs%20%26%20Appliances_0_48%20-%2055"
+            },
+            {
+                "title": "60 & above",
+                "href": "https:/www.flipkart.com/search?sid=czl&otracker=CLP_Filters&p%5B%5D=facets.screen_size%255B%255D%3D60%2Binch%2B%2BAbove&otracker=nmenu_sub_TVs%20%26%20Appliances_0_60%20%26%20above"
+            }
+        ]
+    }
+    ,
+    {
+        
+            "title": "Washing Machine",
+            "Links": [
+              {
+                
+                "href": "https:/www.flipkart.com/washing-machine-store?otracker=nmenu_sub_TVs%20%26%20Appliances_0_Washing%20Machine"
+              },
+              {
+                "title": "Fully Automatic Front Load",
+               
+                "href": "https:/www.flipkart.com/home-kitchen/home-appliances/washing-machines/fully-automatic-front-load~function/pr?sid=j9e%2Cabm%2C8qx&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Fully%20Automatic%20Front%20Load"
+              },
+              {
+                "title": "Semi Automatic Top Load",
+               
+                "href": "https:/www.flipkart.com/home-kitchen/home-appliances/washing-machines/semi-automatic-top-load~function/pr?sid=j9e%2Cabm%2C8qx&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Semi%20Automatic%20Top%20Load"
+              },
+              {
+                "title": "Fully Automatic Top Load",
+               
+                "href": "https:/www.flipkart.com/home-kitchen/home-appliances/washing-machines/fully-automatic-top-load~function/pr?sid=j9e%2Cabm%2C8qx&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Fully%20Automatic%20Top%20Load"
+              }
+            ]
+          },
+        
+          {
+            "title": "Air Conditioners",
+            "Links": [
+              {
+                     
+                "href": "https:/www.flipkart.com/acnewclp-store?otracker=nmenu_sub_TVs%20%26%20Appliances_0_Air%20Conditioners"
+              },
+              {
+                "title": "Inverter AC",
+               
+                "href": "https:/www.flipkart.com/air-conditioners/pr?sid=j9e,abm,c54&amp;p[]=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&amp;p[]=facets.technology%255B%255D%3DInverter&amp;p[]=facets.serviceability%5B%5D%3Dtrue&amp;otracker=categorytree&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Inverter%20AC"
+              },
+              {
+                "title": "Split ACs",
+               
+                "href": "https:/www.flipkart.com/home-kitchen/home-appliances/air-conditioners/split~type/pr?sid=j9e,abm,c54&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Split%20ACs"
+              },
+              {
+                "title": "Window ACs",
+               
+                "href": "https:/www.flipkart.com/home-kitchen/home-appliances/air-conditioners/window~type/pr?sid=j9e%2Cabm%2Cc54&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Window%20ACs"
+              }
+            ]
+          },
+          {
+            
+                "title": "Kitchen Appliances",
+                "Links": [
+                  {
+                    
+                    "href": "https:/www.flipkart.com/kitchen-appliances-store?otracker=nmenu_sub_Appliances_0_Kitchen%20Appliances&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Kitchen%20Appliances"
+                  },
+                  {
+                    "title": "Microwave Ovens",
+                    
+                    "href": "https:/www.flipkart.com/search?q=microwave+oven&amp;sid=j9e%2Cm38%2Co49&amp;as=on&amp;as-show=on&amp;otracker=AS_QueryStore_OrganicAutoSuggest_1_10_na_na_na&amp;otracker1=AS_QueryStore_OrganicAutoSuggest_1_10_na_na_na&amp;as-pos=1&amp;as-type=RECENT&amp;suggestionId=microwave+oven%7CMicrowave+Ovens&amp;requestId=7786a822-b9b3-433c-8d4c-008ae2772f8d&amp;as-backfill=on&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Microwave%20Ovens"
+                  },
+                  {
+                    "title": "Oven Toaster Grills (OTG)",
+                    
+                    "href": "https:/www.flipkart.com/oven-toaster-grills/pr?sid=j9e%2Cm38%2Cvr5&amp;otracker=product_breadCrumbs_Oven%20Toaster%20Grills&amp;otracker=nmenu_sub_Appliances_0_Oven%20Toaster%20Grills&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Oven%20Toaster%20Grills%20(OTG)"
+                  },
+                  {
+                    "title": "Juicer/Mixer/Grinder",
+                    
+                    "href": "https:/www.flipkart.com/mixerjuicergrinders/pr?sid=j9e%2Cm38%2C7ek&amp;otracker=nmenu_sub_Appliances_0_Mixer%2FJuicer%2FGrinder&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Juicer%2FMixer%2FGrinder"
+                  },
+                  {
+                    "title": "Electric Kettle",
+                    
+                    "href": "https:/www.flipkart.com/electric-jugheatertravel-kettles/pr?sid=j9e%2Cm38%2Cxrv&amp;otracker=nmenu_sub_Appliances_0_Electric%20Kettle&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Electric%20Kettle"
+                  },
+                  {
+                    "title": "Induction Cooktops",
+                    
+                    "href": "https:/www.flipkart.com/induction-cooktops/pr?sid=j9e%2Cm38%2C575&amp;otracker=nmenu_sub_Appliances_0_Induction%20Cooktops&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Induction%20Cooktops"
+                  },
+                  {
+                    "title": "Chimneys",
+                    
+                    "href": "https:/www.flipkart.com/chimneys-store?otracker=nmenu_sub_TVs%20and%20Appliances_0_Chimneys&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Chimneys"
+                  },
+                  {
+                    "title": "Hand Blenders",
+                    
+                    "href": "https:/www.flipkart.com/hand-blenders/pr?sid=j9e%2Cm38%2Cu7m&amp;otracker=nmenu_sub_Appliances_0_Hand%20Blender&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Hand%20Blenders"
+                  },
+                  {
+                    "title": "Sandwich Makers",
+                    
+                    "href": "https:/www.flipkart.com/sandwich-makers/pr?sid=j9e%2Cm38%2C1vj&amp;otracker=nmenu_sub_Appliances_0_Sandwich%20Makers&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Sandwich%20Makers"
+                  },
+                  {
+                    "title": "Pop Up Toasters",
+                    
+                    "href": "https:/www.flipkart.com/home-kitchen/kitchen-appliances/popup-toasters/pr?sid=j9e,m38,txh&amp;otracker=categorytree&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Pop%20Up%20Toasters"
+                  },
+                  {
+                    "title": "Electric Cookers",
+                    
+                    "href": "https:/www.flipkart.com/home-kitchen/kitchen-appliances/electric-cookers/pr?sid=j9e,m38,9m9&amp;otracker=nmenu_sub_Appliances_0_Electric%20Cookers&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Electric%20Cookers"
+                  },
+                  {
+                    "title": "Wet Grinders",
+                    
+                    "href": "https:/www.flipkart.com/home-kitchen/kitchen-appliances/wet-grinders/pr?sid=j9e,m38,htd&amp;otracker=categorytree&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Wet%20Grinders"
+                  },
+                  {
+                    "title": "Food Processors",
+                    
+                    "href": "https:/www.flipkart.com/food-processors/pr?sid=j9e%2Cm38%2Crj3&amp;otracker=nmenu_sub_Appliances_0_Food%20Processors&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Food%20Processors"
+                  },
+                  {
+                    "title": "Coffee Makers",
+                    
+                    "href": "https:/www.flipkart.com/home-kitchen/kitchen-appliances/coffee-makers/pr?sid=j9e,m38,wqo&amp;otracker=nmenu_sub_Appliances_0_Coffee%20Makers&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Coffee%20Makers"
+                  },
+                  {
+                    "title": "Dishwashers",
+                    
+                    "href": "https:/www.flipkart.com/dishwasher-store?otracker=nmenu_sub_Appliances_0_Dishwashers&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Dishwashers"
+                  },
+                  {
+                    "title": "Healthy Living Appliances",
+                    
+                    "href": "https:/www.flipkart.com/home-kitchen/~appliances-for-a-healthy-living/pr?sid=j9e&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Healthy%20Living%20Appliances"
+                  }
+                ]
+                            
+          },
+          {
+            "title": "Small Home Appliances",
+            "Links": [
+              {
+                "title": "Small Home Appliances",
+                
+                "href": "https:/www.flipkart.com/home-appliance-store?otracker=nmenu_sub_Appliances_0_Small%20Home%20Appliances&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Small%20Home%20Appliances"
+              },
+              {
+                "title": "Irons",
+                   "href": "https:/www.flipkart.com/iron/pr?sid=j9e%2Cabm%2Ca0u&amp;otracker=nmenu_sub_Appliances_0_Irons&amp;otracker=nmenu_sub_Appliances_0_Irons&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Irons"
+              },
+              {
+                "title": "Water Purifiers",
+                   "href": "https:/www.flipkart.com/water-purifiers/pr?sid=j9e%2Cabm%2Ci45&amp;otracker=nmenu_sub_Appliances_0_Water%20Purifiers&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Water%20Purifiers"
+              },
+              {
+                "title": "Fans",
+                   "href": "https:/www.flipkart.com/home-kitchen/home-appliances/fans/pr?sid=j9e,abm,lbz&amp;otracker=categorytree&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Fans"
+              },
+              {
+                "title": "Air Coolers",
+                   "href": "https:/www.flipkart.com/home-kitchen/home-appliances/air-coolers/pr?sid=j9e,abm,52j&amp;otracker=categorytree&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Air%20Coolers"
+              },
+              {
+                "title": "Inverters",
+                   "href": "https:/www.flipkart.comhome-kitchen/home-appliances/inverters/pr?sid=j9e,abm,7no&amp;otracker=categorytree&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Inverters"
+              },
+              {
+                "title": "Vacuum Cleaners",
+                   "href": "https:/www.flipkart.com/vacuum-cleaners/pr?sid=j9e%2Cabm%2Cul2&amp;otracker=nmenu_sub_Appliances_0_Vacuum%20Cleaners&amp;otracker=nmenu_sub_Appliances_0_Vacuum%20Cleaners&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Vacuum%20Cleaners"
+              },
+              {
+                "title": "Sewing Machines",
+                   "href": "https:/www.flipkart.com/home-kitchen/home-appliances/sewing-machines/pr?sid=j9e,abm,0zg&amp;otracker=categorytree&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Sewing%20Machines"
+              },
+              {
+                "title": "Voltage Stabilizers",
+                   "href": "https:/www.flipkart.com/home-kitchen/home-appliances/voltage-stabilizers/pr?sid=j9e,abm,xf4&amp;otracker=categorytree&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Voltage%20Stabilizers"
+              },
+              {
+                "title": "Water Geysers",
+                   "href": "https:/www.flipkart.com/water-geysers/pr?sid=j9e%2Cabm%2Cbfm&amp;otracker=categorytree&amp;otracker=nmenu_sub_Appliances_0_Water%20Geysers&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Water%20Geysers"
+              },
+              {
+                "title": "Immersion Rods",
+                   "href": "https:/www.flipkart.com/home-kitchen/home-appliances/immersion-rods/pr?sid=j9e,abm,rqo&amp;otracker=categorytree&amp;otracker=nmenu_sub_TVs%20%26%20Appliances_0_Immersion%20Rods"
+              }
+            ]
+        },
+          
+{
+            "title":"New Launches",
+            "Links": [
+              {
+                "title": "Coocaa Smart TVs",
+                   "href": "https:/www.flipkart.com/televisions/pr?sid=ckf,czl&p[]=facets.availability%255B%255D%3DExclude%2BOut%2Bof%2BStock&p[]=facets.brand%255B%255D%3DCoocaa&otracker=categorytree&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Coocaa%20Smart%20TVs"
+              },
+              {
+                "title": "Nokia (55) 4K Android TV",
+                   "href": "https:/www.flipkart.com/search?q=nokia+tv&sid=ckf,czl&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_ps&as-pos=1&as-type=RECENT&suggestionId=nokia+tv|Televisions&requestId=62e60a0c-4ff5-4b7f-aec7-df5241a0e2c5&as-backfill=on&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Nokia%20(55)%204K%20Android%20TV"
+              },
+              {
+                "title": "Mi (32) 4A Pro Android TV",
+                   "href": "https:/www.flipkart.com/mi-led-smart-tv-4a-pro-80-cm-32-android/p/itmfdwh5jyqhmvzg?pid=TVSFDWH5K9N2FDTK&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Mi%20(32)%204A%20Pro%20Android%20TV"
+              },
+              {
+                "title": "MarQ (43) FHD Smart TV",
+                   "href": "https:/www.flipkart.com/marq-flipkart-ultra-thin-bezel-108cm-43-inch-full-hd-led-smart-tv-android/p/itmfaqvze443xze3?pid=TVSFAQVZ8SRBHZ2Z&otracker=nmenu_sub_TVs%20%26%20Appliances_0_MarQ%20(43)%20FHD%20Smart%20TV"
+              },
+              {
+                "title": "LG Refrigerators",
+                   "href": "https:/www.flipkart.com/search?q=lg+refrigerator&sid=j9e,abm,hzg&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_ps&as-pos=1&as-type=RECENT&suggestionId=lg+refrigerator|Refrigerators&requestId=f9caac0a-f5b6-40de-84c7-6f022bf14d1b&as-backfill=on&otracker=nmenu_sub_TVs%20%26%20Appliances_0_LG%20Refrigerators"
+              },
+              {
+                "title": "Thomson (40) 4K Smart TV",
+                   "href": "https:/www.flipkart.com/search?q=thomson+tv&sid=ckf,czl&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&as-pos=1&as-type=RECENT&suggestionId=thomson+tv|Televisions&requestId=91a4b85f-de48-443c-ac1a-ac9d874074bd&as-backfill=on&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Thomson%20(40)%204K%20Smart%20TV"
+              },
+              {
+                "title": "Whirlpool Refrigerators",
+                   "href": "https:/www.flipkart.com/search?q=whirlpool+refrigerator&sid=j9e,abm,hzg&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_ps&as-pos=1&as-type=RECENT&suggestionId=whirlpool+refrigerator|Refrigerators&requestId=be6aa62c-7732-42d3-a4a1-01741bb7f9db&as-backfill=on&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Whirlpool%20Refrigerators"
+              },
+              {
+                "title": "Kodak (22) | (32) LED TVs",
+                   "href": "https:/www.flipkart.com/search?q=kodak%20led%20tv&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&otracker=nmenu_sub_TVs%20%26%20Appliances_0_Kodak%20(22)%20|%20(32)%20LED%20TVs"
+              }
+            ]
+          } 
+],
+
+"Men":[
+  {
+    
+      "title": "Men's Fashion",
+      "Links": [
+        {
+          "title": "Footwear",
+          "href": "https:/www.flipkart.comhttps://mens-footwear/pr?sid=osp,cil&otracker=nmenu_sub_Men_0_Footwear"
+        },
+        {
+          "title": "Sports Shoes",
+          "href": "https:/www.flipkart.com/mens-footwear/sports-shoes/pr?sid=osp,cil,1cu&otracker=nmenu_sub_Men_0_Sports%20Shoes"
+        },
+        {
+          "title": "Casual Shoes",
+          "href": "https:/www.flipkart.com/mens-footwear/casual-shoes/pr?sid=osp,cil,e1f&otracker=nmenu_sub_Men_0_Casual%20Shoes"
+        },
+        {
+          "title": "Formal Shoes",
+          "href": "https:/www.flipkart.com/mens-footwear/formal-shoes/pr?sid=osp,cil,ssb&otracker=nmenu_sub_Men_0_Formal%20Shoes"
+        },
+        {
+          "title": "Sandals & Floaters",
+          "href": "https:/www.flipkart.com/mens-footwear/sandals-floaters/pr?sid=osp,cil,e83&otracker=nmenu_sub_Men_0_Sandals%20%26%20Floaters"
+        },
+        {
+          "title": "Flip- Flops",
+          "href": "https:/www.flipkart.com/mens-footwear/slippers-flip-flops/pr?sid=osp,cil,e1r&otracker=nmenu_sub_Men_0_Flip-%20Flops"
+        },
+        {
+          "title": "Loafers",
+          "href": "https:/www.flipkart.com/mens-footwear/casual-shoes/loafers~type/pr?sid=osp,cil,e1f&otracker=nmenu_sub_Men_0_Loafers"
+        },
+        {
+          "title": "Boots",
+          "href": "https:/www.flipkart.com/mens-footwear/casual-shoes/boots~type/pr?sid=osp,cil,e1f&otracker=nmenu_sub_Men_0_Boots"
+        },
+        {
+          "title": "Running Shoes",
+          "href": "https:/www.flipkart.com/mens-footwear/sports-shoes/running-shoes~type/pr?sid=osp,cil,1cu&otracker=nmenu_sub_Men_0_Running%20Shoes"
+        },
+        {
+          "title": "Sneakers",
+          "href": "https:/www.flipkart.com/mens-footwear/casual-shoes/sneakers~type/pr?sid=osp,cil,e1f&otracker=nmenu_sub_Men_0_Sneakers"
+        },
+        {
+          "title": "Men's Grooming",
+          "href": "https:/www.flipkart.com/search?q=men%27s%20grooming&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&otracker=nmenu_sub_Men_0_Men's%20Grooming"
+        },
+        {
+          "title": "Deodorants",
+          "href": "https:/www.flipkart.com/beauty-and-grooming/fragrances/deodorants/pr?sid=g9b,0yh,vp1&p%5B%5D=facets.ideal_for%255B%255D%3DMen%2B%2526%2BWomen&otracker=categorytree&p%5B%5D=facets.ideal_for%255B%255D%3DMen&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&otracker=nmenu_sub_Men_0_Deodorants"
+        },
+        {
+          "title": "Perfumes",
+          "href": "https:/www.flipkart.com/beauty-and-grooming/fragrances/perfume/pr?sid=g9b,0yh,jhz&p[]=facets.ideal_for%255B%255D%3DMen%2B%2526%2BWomen&p[]=facets.ideal_for%255B%255D%3DMen&p[]=facets.serviceability%5B%5D%3Dtrue&otracker=categorytree&otracker=nmenu_sub_Men_0_Perfumes"
+        },
+        {
+          "title": "Beard Care & Grooming",
+          "href": "https:/www.flipkart.com/beauty-and-grooming/pr?sid=g9b&p%5B%5D=facets.brand%255B%255D%3DBeardo&p%5B%5D=facets.brand%255B%255D%3DUstraa&p%5B%5D=facets.brand%255B%255D%3DThe%2BMan%2BCompany&p%5B%5D=facets.brand%255B%255D%3DSpruce%2BShave%2BClub&p%5B%5D=facets.brand%255B%255D%3DMan%2BArden&p%5B%5D=facets.brand%255B%255D%3DMeralite&p%5B%5D=facets.brand%255B%255D%3DBrylcreem&p%5B%5D=facets.brand%255B%255D%3DUrbanMooch&p%5B%5D=facets.brand%255B%255D%3DVihado&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&otracker=nmenu_sub_Men_0_Beard%20Care%20%26%20Grooming"
+        },
+        {
+          "title": "Shaving & Aftershave",
+          "href": "https:/www.flipkart.com/beauty-and-grooming/~shaving-aftershave/pr?sid=g9b&otracker=nmenu_sub_Men_0_Shaving%20%26%20Aftershave"
+        },
+        {
+          "title": "Sexual Wellness",
+          "href": "https:/www.flipkart.com/beauty-and-grooming/sexual-wellness/pr?sid=g9b,alu&p[]=facets.serviceability%5B%5D%3Dtrue&otracker=categorytree&otracker=nmenu_sub_Men_0_Sexual%20Wellness"
+        }
+      ] 
+     },
+      
+{
+  "title": "Clothing",
+  "Links": [
+  
+    {
+      "title": "Top wear",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo%2Cash&otracker=categorytree&p%5B%5D=facets.ideal_for%255B%255D%3DMen&otracker=nmenu_sub_Men_0_Top%20wear"
+    },
+    {
+      "title": "T-Shirts",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/topwear/tshirt/men-tshirt/pr?sid=clo,ash,ank,edy&otracker=categorytree&otracker=nmenu_sub_Men_0_T-Shirts"
+    },
+    {
+      "title": "Formal Shirts",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/topwear/shirt/men-shirt/formal-shirt/pr?sid=clo,ash,axc,mmk,bk1&otracker=categorytree&otracker=nmenu_sub_Men_0_Formal%20Shirts"
+    },
+    {
+      "title": "Casual Shirts",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/topwear/shirt/men-shirt/casual-shirt/pr?sid=clo,ash,axc,mmk,kp7&otracker=categorytree&otracker=nmenu_sub_Men_0_Casual%20Shirts"
+    },
+    {
+      "title": "Bottom wear",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/bottomwear/pr?sid=clo%2Cvua&otracker=categorytree&p%5B%5D=facets.ideal_for%255B%255D%3DMen&otracker=nmenu_sub_Men_0_Bottom%20wear"
+    },
+    {
+      "title": "Jeans",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/bottomwear/jeans/men-jeans/pr?sid=clo,vua,k58,i51&otracker=categorytree&otracker=nmenu_sub_Men_0_Jeans"
+    },
+    {
+      "title": "Casual Trousers",
+      "href": "https:/www.flipkart.com/mens-clothing/trousers/pr?sid=2oq,s9b,9uj&otracker=nmenu_sub_Men_0_Casual%20Trousers"
+    },
+    {
+      "title": "Formal Trousers",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/bottomwear/trouser/men-trouser/pr?sid=clo%2Cvua%2Cmle%2Clhk&otracker=categorytree&p%5B%5D=facets.occasion%255B%255D%3DFormal&otracker=nmenu_sub_Men_0_Formal%20Trousers"
+    },
+    {
+      "title": "Track pants",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/bottomwear/track-pants/men-track-pants/pr?sid=clo,vua,jlk,6ql&otracker=categorytree&otracker=nmenu_sub_Men_0_Track%20pants"
+    },
+    {
+      "title": "Shorts",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/bottomwear/shorts/men-shorts/pr?sid=clo,vua,e8g,kc7&otracker=categorytree&otracker=nmenu_sub_Men_0_Shorts"
+    },
+    {
+      "title": "Cargos",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/bottomwear/cargo/men-cargo/pr?sid=clo,vua,rqy,nli&otracker=categorytree&otracker=nmenu_sub_Men_0_Cargos"
+    },
+    {
+      "title": "Three Fourths",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/bottomwear/threefourths/men-threefourths/pr?sid=clo,vua,eum,4qq&otracker=categorytree&otracker=nmenu_sub_Men_0_Three%20Fourths"
+    },
+    {
+      "title": "Suits, Blazers & Waistcoats",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/blazers-suits-waistcoat-coat/pr?sid=clo%2Cupk&otracker=categorytree&p%5B%5D=facets.ideal_for%255B%255D%3DMen&otracker=nmenu_sub_Men_0_Suits%2C%20Blazers%20%26%20Waistcoats"
+    },
+    {
+      "title": "Ties, Socks, Caps & More",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/clothing-accessories/pr?sid=clo,qd8&p[]=facets.ideal_for%255B%255D%3DMen&p[]=facets.ideal_for%255B%255D%3Dmen&p[]=facets.ideal_for%255B%255D%3Dmen&otracker=categorytree&otracker=nmenu_sub_Men_0_Ties%2C%20Socks%2C%20Caps%20%26%20More"
+    },
+    {
+      "title": "Fabrics",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/fabric/pr?sid=clo,qfi&p[]=facets.ideal_for%255B%255D%3DMen&p[]=facets.ideal_for%255B%255D%3Dmen&p[]=facets.ideal_for%255B%255D%3Dmen&otracker=categorytree&otracker=nmenu_sub_Men_0_Fabrics"
+    }
+  ]
+
+
+      },
+      
+{
+  "title": "Winter Wear",
+  "Links": [
+   
+    {
+      "title": "Sweatshirts",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/winter-wear/sweatshirt/men-sweatshirt/pr?sid=clo,qvw,64a,vui&amp;otracker=categorytree&amp;otracker=nmenu_sub_Men_0_Sweatshirts"
+    },
+    {
+      "title": "Jackets",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/winter-wear/jackets/men-jackets/pr?sid=clo,qvw,z0g,jbm&amp;otracker=categorytree&amp;otracker=nmenu_sub_Men_0_Jackets"
+    },
+    {
+      "title": "Sweater",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/winter-wear/sweater/men-sweater/pr?sid=clo,qvw,vkb,ieq&amp;otracker=categorytree&amp;otracker=nmenu_sub_Men_0_Sweater"
+    },
+    {
+      "title": "Tracksuits",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/tracksuit/men-tracksuit/pr?sid=clo,nyk,zp4&amp;otracker=categorytree&amp;otracker=nmenu_sub_Men_0_Tracksuits"
+    },
+    {
+      "title": "Ethnic wear",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/ethnic-wear/pr?sid=clo%2Ccfv&amp;otracker=categorytree&amp;p%5B%5D=facets.ideal_for%255B%255D%3DMen&amp;otracker=nmenu_sub_Men_0_Ethnic%20wear"
+    },
+    {
+      "title": "Kurta",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/ethnic-wear/kurtas/men-kurtas/pr?sid=clo,cfv,cib,jks&amp;otracker=categorytree&amp;otracker=nmenu_sub_Men_0_Kurta"
+    },
+    {
+      "title": "Ethnic Sets",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/ethnic-wear/ethnic-sets/men-ethnic-sets/pr?sid=clo,cfv,itg,pme&amp;otracker=categorytree&amp;otracker=nmenu_sub_Men_0_Ethnic%20Sets"
+    },
+    {
+      "title": "Sherwanis",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/ethnic-wear/sherwani/men-sherwani/pr?sid=clo,cfv,dra,brt&amp;otracker=categorytree&amp;otracker=nmenu_sub_Men_0_Sherwanis"
+    },
+    {
+      "title": "Ethnic Pyjama",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/ethnic-wear/ethnic-pyjama/men-ethnic-pyjama/pr?sid=clo,cfv,e1p,5l2&amp;otracker=categorytree&amp;otracker=nmenu_sub_Men_0_Ethnic%20Pyjama"
+    },
+    {
+      "title": "Dhoti",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/ethnic-wear/dhoti/pr?sid=clo%2Ccfv%2Cnnk&amp;otracker=categorytree&amp;p%5B%5D=facets.ideal_for%255B%255D%3DMen&amp;otracker=nmenu_sub_Men_0_Dhoti"
+    },
+    {
+      "title": "Lungi",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/bottomwear/lungi/men-lungi/pr?sid=clo,vua,5jo,cqs&amp;otracker=categorytree&amp;otracker=nmenu_sub_Men_0_Lungi"
+    },
+    {
+      "title": "Innerwear & Loungewear",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/~cs-axj382hyd1/pr?sid=clo&amp;collection-tab-name=Innerwear%20And%20Loungewear&amp;otracker=nmenu_sub_Men_0_Innerwear%20%26%20Loungewear"
+    },
+    {
+      "title": "Briefs & Trunks",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/innerwear/brief-and-trunk/men-brief-and-trunk/pr?sid=clo,qfl,szr,3xl&amp;otracker=categorytree&amp;otracker=nmenu_sub_Men_0_Briefs%20%26%20Trunks"
+    },
+    {
+      "title": "Vests",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/innerwear/vests/men-vests/pr?sid=clo,qfl,wp7,zpk&amp;otracker=categorytree&amp;otracker=nmenu_sub_Men_0_Vests"
+    },
+    {
+      "title": "Boxers",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/innerwear/boxers/men-boxers/pr?sid=clo,qfl,1pt,jlb&amp;otracker=categorytree&amp;otracker=nmenu_sub_Men_0_Boxers"
+    },
+    {
+      "title": "Pyjamas and Lounge Pants",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/sleepwear/pyjamas-and-lounge-pants/men-pyjamas-and-lounge-pants/pr?sid=clo,1hc,a7m,b4p&amp;otracker=categorytree&amp;otracker=nmenu_sub_Men_0_Pyjamas%20and%20Lounge%20Pants"
+    },
+    {
+      "title": "Thermals",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/winter-wear/thermals/men-thermals/pr?sid=clo,qvw,ugg,oak&amp;otracker=categorytree&amp;otracker=nmenu_sub_Men_0_Thermals"
+    },
+    {
+      "title": "Night Suits",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/sleepwear/night-suits/men-night-suits/pr?sid=clo,1hc,5d2,dos&amp;otracker=categorytree&amp;otracker=nmenu_sub_Men_0_Night%20Suits"
+    },
+    {
+      "title": "Raincoats & Windcheaters",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/~cs-4ayq68p3ip/pr?sid=clo&amp;collection-tab-name=Raincoats%20And%20Windcheaters&amp;otracker=nmenu_sub_Men_0_Raincoats%20%26%20Windcheaters"
+    }
+  ]
+},
+{
+  "title":"Watches",
+  "Links": [
+  
+    {
+      "title": "Fastrack",
+      "href": "https:/www.flipkart.com/watches/fastrack~brand/pr?sid=r18&otracker=nmenu_sub_Men_0_Fastrack"
+    },
+    {
+      "title": "Casio",
+      "href": "https:/www.flipkart.com/watches/casio~brand/pr?sid=r18&otracker=nmenu_sub_Men_0_Casio"
+    },
+    {
+      "title": "Titan",
+      "href": "https:/www.flipkart.com/watches/titan~brand/pr?sid=r18&otracker=nmenu_sub_Men_0_Titan"
+    },
+    {
+      "title": "Fossil",
+      "href": "https:/www.flipkart.com/watches/fossil~brand/pr?sid=r18&otracker=nmenu_sub_Men_0_Fossil"
+    },
+    {
+      "title": "Sonata",
+      "href": "https:/www.flipkart.com/watches/sonata~brand/pr?sid=r18&otracker=nmenu_sub_Men_0_Sonata"
+    },
+    {
+      "title": "Accessories",
+      "href": "https:/www.flipkart.com/mens-bags-wallet-store?otracker=nmenu_sub_Men_0_Accessories"
+    },
+    {
+      "title": "Backpacks",
+      "href": "https:/www.flipkart.com/bags-wallets-belts/bags-backpacks/backpacks/pr?sid=reh,4d7,ak9&otracker=nmenu_sub_Men_0_Backpacks"
+    },
+    {
+      "title": "Wallets",
+      "href": "https:/www.flipkart.com/bags-wallets-belts/wallets-clutches/wallets/pr?sid=reh,cca,h76&marketplace=FLIPKART&p%5B%5D=facets.ideal_for%255B%255D%3DMen&p%5B%5D=facets.ideal_for%255B%255D%3DBoys&p%5B%5D=facets.serviceability%5B%5D%3Dtrue&otracker=nmenu_sub_Men_0_Wallets"
+    },
+    {
+      "title": "Belts",
+      "href": "https:/www.flipkart.com/bags-wallets-belts/belts/~men/pr?sid=reh,wq9&otracker=nmenu_sub_Men_0_Belts"
+    },
+    {
+      "title": "Sunglasses",
+      "href": "https:/www.flipkart.com/sunglasses/pr?p%5B%5D=facets.ideal_for%255B%255D%3DMen&sid=26x&otracker=nmenu_sub_Men_0_Sunglasses&p%5B%5D=facets.ideal_for%255B%255D%3DMen%2B%2526%2BWomen&otracker=nmenu_sub_Men_0_Sunglasses"
+    },
+    {
+      "title": "Luggage & Travel",
+      "href": "https:/www.flipkart.com/bags-wallets-belts/luggage-travel/pr?count=40&p%5B%5D=facets.ideal_for%255B%255D%3DBoys%2B%2526%2BGirls&p%5B%5D=facets.ideal_for%255B%255D%3DMen%2B%2526%2BWomen&p%5B%5D=facets.ideal_for%255B%255D%3DMen&p%5B%5D=facets.ideal_for%255B%255D%3DMen%2527s&p%5B%5D=facets.ideal_for%255B%255D%3DBoys&sid=reh/plk&otracker=nmenu_sub_Men_0_Luggage%20%26%20Travel"
+    },
+    {
+      "title": "Frames",
+      "href": "https:/www.flipkart.com/eyewear/frames/pr?count=40&p%5B%5D=facets.ideal_for%255B%255D%3DMen&p%5B%5D=facets.ideal_for%255B%255D%3DUnisex&sid=u73/h4k&otracker=nmenu_sub_Men_0_Frames"
+    },
+    {
+      "title": "Jewellery",
+      "href": "https:/www.flipkart.com/jewellery/pr?p%5B%5D=facets.ideal_for%255B%255D%3DMen&p%5B%5D=facets.ideal_for%255B%255D%3DBoys&sid=mcr&otracker=nmenu_sub_Men_0_Jewellery"
+    },
+    {
+      "title": "Sports & Fitness Store",
+      "href": "https:/www.flipkart.com/sport-store?otracker=nmenu_sub_Men_0_Sports%20%26%20Fitness%20Store"
+    }
+  ]
+},
+
+{
+  "title": "Smart Watches",
+  "Links": [
+   
+    {
+      "title": "Smart Bands",
+      "href": "https:/www.flipkart.com/wearable-smart-devices/smart-bands/pr?sid=ajy,q7p&otracker=nmenu_sub_Men_0_Smart%20Bands"
+    },
+    {
+      "title": "Personal Care Appliances",
+      "href": "https:/www.flipkart.com/personal-care-appliances-men-store?otracker=nmenu_sub_Men_0_Personal%20Care%20Appliances"
+    },
+    {
+      "title": "Trimmers",
+      "href": "https:/www.flipkart.com/health-personal-care-appliances/personal-care-appliances/trimmers/pr?count=40&otracker=nmenu_sub_Men_0_Trimmers&p%5B%5D=facets.ideal_for%255B%255D%3DMen&p%5B%5D=facets.ideal_for%255B%255D%3DMen%2B%2526%2BWomen&sid=zlw%2F79s%2Fby3&otracker=nmenu_sub_Men_0_Trimmers"
+    },
+    {
+      "title": "Shavers",
+      "href": "https:/www.flipkart.com/health-personal-care-appliances/personal-care-appliances/shavers/pr?sid=zlw,79s,u3j&otracker=nmenu_sub_Men_0_Shavers"
+    },
+    {
+      "title": "Grooming Kits",
+      "href": "https:/www.flipkart.com/health-personal-care-appliances/personal-care-appliances/grooming-kit/pr?sid=zlw,79s,bi7&otracker=nmenu_sub_Men_0_Grooming%20Kits"
+    },
+    {
+      "title": "Watches Store",
+      "href": "https:/www.flipkart.com/mens-watches-store?otracker=nmenu_sub_Men_0_Watches%20Store"
+    },
+    {
+      "title": "Footwear Club",
+      "href": "https:/www.flipkart.com/men-exclusive-store?otracker=nmenu_sub_Men_0_Footwear%20Club"
+    },
+    {
+      "title": "Bags & Wallet",
+      "href": "https:/www.flipkart.com/mens-bags-wallet-store?otracker=nmenu_sub_Men_0_Bags%20%26%20Wallet"
+    },
+    {
+      "title": "T-Shirt Store",
+      "href": "https:/www.flipkart.com/clothing-and-accessories/topwear/tshirt/men-tshirt/pr?sid=clo,ash,ank,edy&otracker=categorytree&otracker=nmenu_sub_Men_0_T-Shirts&otracker=nmenu_sub_Men_0_T-Shirt%20Store"
+    },
+    {
+      "title": "Adidas",
+      "href": "https:/www.flipkart.com/mens-footwear/pr?sid=osp%2Ccil&otracker=nmenu_sub_Men_0_Footwear&p%5B%5D=facets.brand%255B%255D%3DADIDAS&p%5B%5D=facets.brand%255B%255D%3DADIDAS%2BNEO&p%5B%5D=facets.brand%255B%255D%3DADIDAS%2BORIGINALS&otracker=nmenu_sub_Men_0_Adidas"
+    },
+    {
+      "title": "Beardo",
+      "href": "https:/www.flipkart.com/beauty-and-personal-care/mens-grooming/hair-care/pr?count=40&otracker=categorytree&p%5B%5D=facets.brand%255B%255D%3DBeardo&sid=t06%2Fhb1%2Fb7e&otracker=nmenu_sub_Men_0_Beardo"
+    },
+    {
+      "title": "Reebok",
+      "href": "https:/www.flipkart.com/mens-footwear/reebok~brand/pr?sid=osp,cil&otracker=nmenu_sub_Men_0_Reebok"
+    },
+    {
+      "title": "Skechers",
+      "href": "https:/www.flipkart.com/mens-footwear/skechers~brand/pr?sid=osp,cil&otracker=nmenu_sub_Men_0_Skechers"
+    },
+    {
+      "title": "Nike",
+      "href": "https:/www.flipkart.com/mens-footwear/nike~brand/pr?sid=osp,cil&otracker=nmenu_sub_Men_0_Nike"
+    }
+  ]
+}
+],
+"Women":[
+  {
+    
+  }
+],
+"Baby & Kids":[],
+"Home & Furniture":[],
+"Sports, Books & More":[]
+
+        }
