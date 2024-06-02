@@ -38,7 +38,7 @@
 }
 
 .rating {
-    width: 60px;
+    width: 35px;
     border-radius: 4px;
 }
 
@@ -79,7 +79,7 @@
 .product-img {
     width: 150px; /* Set the width */
     height: 150px; /* Set the height */
-    object-fit: cover; /* Ensure the image covers the area without distortion */
+    object-fit: contain; /* Ensure the image covers the area without distortion */
 }
 
 .card-text span {
