@@ -5,11 +5,10 @@
           "model": "i7 core",
           "brand": "Dell",
           "product_images": [
-            "https://example.com/laptop4_image1.jpg",
-            "https://example.com/laptop4_image2.jpg",
-            "https://example.com/laptop4_image3.jpg",
-            "https://example.com/laptop4_image4.jpg",
-            "https://example.com/laptop4_image5.jpg"
+            "https://m.media-amazon.com/images/I/61OBvwVHtQL._AC_UF1000,1000_QL80_.jpg",
+            "https://m.media-amazon.com/images/I/61NkZfY+lqL._AC_UF350,350_QL80_.jpg",
+            "https://m.media-amazon.com/images/I/61fMp4UcwyL._AC_UF350,350_QL80_.jpg"
+            
           ],
           "product_name": {
             "name": "Dell XPS 13 (Silver, 512 GB SSD, 16 GB RAM)",
@@ -167,9 +166,9 @@
           "model": "i5 core",
           "brand": "Dell",
           "product_images": [
-            "https://example.com/laptop5_image1.jpg",
-            "https://example.com/laptop5_image2.jpg",
-            "https://example.com/laptop5_image3.jpg"
+            "https://m.media-amazon.com/images/I/913jBBW-SDL._AC_UF1000,1000_QL80_.jpg",
+            "https://m.media-amazon.com/images/I/713FjhbQPYS._AC_UF1000,1000_QL80_.jpg",
+            "https://m.media-amazon.com/images/I/81h0wf6zPLS._AC_UF1000,1000_QL80_.jpg"
           ],
           "product_name": {
             "name": "Dell Inspiron 14 (Black, 256 GB SSD, 8 GB RAM)",
@@ -322,9 +321,9 @@
           "model": "i3 core",
           "brand": "Dell",
           "product_images": [
-            "https://example.com/laptop6_image1.jpg",
-            "https://example.com/laptop6_image2.jpg",
-            "https://example.com/laptop6_image3.jpg"
+            "https://m.media-amazon.com/images/I/41ptKfRH4oS._AC_UF1000,1000_QL80_.jpg",
+            "https://m.media-amazon.com/images/I/71+0g7rK0JL.jpg",
+            "https://m.media-amazon.com/images/I/51Y3rnOyy4L._SX350_.jpg"
           ],
           "product_name": {
             "name": "Dell Inspiron 15 (Grey, 1 TB HDD, 8 GB RAM)",
@@ -477,11 +476,9 @@
           "model": "i7 core",
           "brand": "Asus",
           "product_images": [
-            "https://example.com/laptop5_image1.jpg",
-            "https://example.com/laptop5_image2.jpg",
-            "https://example.com/laptop5_image3.jpg",
-            "https://example.com/laptop5_image4.jpg",
-            "https://example.com/laptop5_image5.jpg"
+            "https://m.media-amazon.com/images/I/71zNU5UBINL.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg00_EudjfWMaQmRpvSccRXVIFZGWjHVJ6Dg&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLZTYEvgYx4Qrd-it_Q9fHp6Df8ASP0TgeOw&s"
           ],
           "product_name": {
             "name": "Asus ROG Zephyrus G14 (Moonlight White, 1 TB SSD, 16 GB RAM)",
@@ -639,9 +636,9 @@
           "model": "i3 core",
           "brand": "Asus",
           "product_images": [
-            "https://example.com/asus_laptop_i3_image1.jpg",
-            "https://example.com/asus_laptop_i3_image2.jpg",
-            "https://example.com/asus_laptop_i3_image3.jpg"
+            "https://m.media-amazon.com/images/I/61IAsGiFAKL._AC_UF1000,1000_QL80_.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGb_bZnxn3eC0f21x_lAqN2UY9UyV__Lm3Ph0-AoA6UblSCzL_XDXWk62fZye_Pr5_0Iw&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7imkda33iYlIjcvgGGlUae3vMjrQB7q6jf_5L8tKAd1PQaiprGJgwl9eYd4PbrrMZK5Q&usqp=CAU"
           ],
           "product_name": {
             "name": "Asus VivoBook 15 (Silver, 1 TB HDD, 4 GB RAM)",
@@ -793,9 +790,9 @@
           "model": "i5 core",
           "brand": "Asus",
           "product_images": [
-            "https://example.com/asus_laptop_i5_image1.jpg",
-            "https://example.com/asus_laptop_i5_image2.jpg",
-            "https://example.com/asus_laptop_i5_image3.jpg"
+            "https://m.media-amazon.com/images/I/71+OsqRPBML._AC_UF1000,1000_QL80_.jpg",
+            "https://www.laptopsdirect.co.uk/Images/X1704ZA-AU037W_1_Classic.jpg?v=5",
+            "https://api-rayashop.freetls.fastly.net/media/catalog/product/cache/4e49ac3a70c0b98a165f3fa6633ffee1/7/b/7bqxpi2_hbpyclakvk86hzjb.png?format=jpeg&width=368"
           ],
           "product_name": {
             "name": "Asus VivoBook 15 (Slate Grey, 512 GB SSD, 8 GB RAM)",
@@ -947,9 +944,9 @@
           "model": "i5 core",
           "brand": "HP",
           "product_images": [
-            "https://example.com/hp_laptop_i5_image1.jpg",
-            "https://example.com/hp_laptop_i5_image2.jpg",
-            "https://example.com/hp_laptop_i5_image3.jpg"
+            "https://m.media-amazon.com/images/I/7124fVt3T3L._AC_UF1000,1000_QL80_.jpg",
+            "https://www.vishalperipherals.in/image/cache/catalog/%20RTX%203070-8gb/laptops/hp5-550x550w.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzN7__RbD2VecylzENTBHafbW9z4qIb6D6H6gT7lf4iA8zxvRFYxPW68Yl-4BFMOln7_U&usqp=CAU"
           ],
           "product_name": {
             "name": "HP Pavilion (Silver, 512 GB SSD, 8 GB RAM)",
@@ -1101,9 +1098,9 @@
           "model": "i3 core",
           "brand": "HP",
           "product_images": [
-            "https://example.com/hp_laptop_i3_image1.jpg",
-            "https://example.com/hp_laptop_i3_image2.jpg",
-            "https://example.com/hp_laptop_i3_image3.jpg"
+            "https://m.media-amazon.com/images/I/71P-UrYTwJL.jpg",
+            "https://m.media-amazon.com/images/I/71H3J3+KFBL.jpg",
+            "https://m.media-amazon.com/images/I/51j1FJlANaL._SX350_.jpg"
           ],
           "product_name": {
             "name": "HP 15s (Jet Black, 1 TB HDD, 4 GB RAM)",
@@ -1255,11 +1252,9 @@
           "model": "i7 core",
           "brand": "HP",
           "product_images": [
-            "https://example.com/laptop6_image1.jpg",
-            "https://example.com/laptop6_image2.jpg",
-            "https://example.com/laptop6_image3.jpg",
-            "https://example.com/laptop6_image4.jpg",
-            "https://example.com/laptop6_image5.jpg"
+            "https://m.media-amazon.com/images/I/81KPk6ZeglL.jpg",
+            "https://m.media-amazon.com/images/I/71JnxtbhkAL._AC_UF1000,1000_QL80_.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpkgGt6MvQS9k291t048rP7DtU7ThWsZZ8ru1hrgjwdB8KjisvHDwuUzFScgNyPLdUPp4&usqp=CAU"
           ],
           "product_name": {
             "name": "HP Spectre x360 (Poseidon Blue, 1 TB SSD, 16 GB RAM)",
@@ -1417,11 +1412,9 @@
             "model":"i7 core",
             "brand":"Lenovo",
             "product_images": [
-              "https://example.com/lenovo_legion_5_pro_image1.jpg",
-              "https://example.com/lenovo_legion_5_pro_image2.jpg",
-              "https://example.com/lenovo_legion_5_pro_image3.jpg",
-              "https://example.com/lenovo_legion_5_pro_image4.jpg",
-              "https://example.com/lenovo_legion_5_pro_image5.jpg"
+              "https://m.media-amazon.com/images/I/71glTO3lJNL.jpg",
+              "https://m.media-amazon.com/images/I/61hjlwFV2LL._AC_UF894,1000_QL80_.jpg",
+              "https://www.bcgroup-online.com/upload/b/135320-lenovo-legion-5-pro-16ach6h-storm-grey-wqxga-ips-165hz-r5-5600h-16gb-1tb-ssd-rtx-3060-6gb-82jq00beya-3.jpg"
             ],
             "product_name": {
               "name": "Lenovo Legion 5 Pro",
@@ -1565,9 +1558,9 @@
             "model": "i3 core",
             "brand": "Lenovo",
             "product_images": [
-              "https://example.com/lenovo_laptop_i3_image1.jpg",
-              "https://example.com/lenovo_laptop_i3_image2.jpg",
-              "https://example.com/lenovo_laptop_i3_image3.jpg"
+              "https://m.media-amazon.com/images/I/41PnIUzyYML._AC_.jpg",
+              "https://m.media-amazon.com/images/I/61IqGRs3P+L._AC_UF350,350_QL80_.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjcHtT3EX8-Fq9LvCoPp3h9CCbbZEA2mnDUkPoCF9X9ha4tp2botHJYc1SUxq6HMgv-K8&usqp=CAU"
             ],
             "product_name": {
               "name": "Lenovo IdeaPad 3 (Platinum Grey, 1 TB HDD, 4 GB RAM)",
@@ -1719,11 +1712,9 @@
             "model":"i5 core",
             "brand":"Razer",
             "product_images": [
-              "https://example.com/razer_blade_15_2024_image1.jpg",
-              "https://example.com/razer_blade_15_2024_image2.jpg",
-              "https://example.com/razer_blade_15_2024_image3.jpg",
-              "https://example.com/razer_blade_15_2024_image4.jpg",
-              "https://example.com/razer_blade_15_2024_image5.jpg"
+              "https://m.media-amazon.com/images/I/413Mo11zRjL._AC_SY350_QL15_.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShjaewaX00bsGXtMxbeo6xq-xl51uphkEA5NPdCByKYLNj0Qb4rH0LtViZ9_dxQUO3yMA&usqp=CAU",
+              "https://m.media-amazon.com/images/I/71Y75JyYwML.jpg"
             ],
             "product_name": {
               "name": "Razer Blade 15 (2024)",
@@ -1867,9 +1858,9 @@
             "model":"i7 core",
             "brand":"MSI",
             "product_images": [
-              "https://example.com/msi_laptop_image1.jpg",
-              "https://example.com/msi_laptop_image2.jpg",
-              "https://example.com/msi_laptop_image3.jpg"
+              "https://m.media-amazon.com/images/I/71D0XCtir7L._AC_UF1000,1000_QL80_.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIirXJWtlBUxiGD536E1Zgwnkw8cbqbmjvm2zkwxU5S-WkwT4L9M7TRJxZxyTpe5G0r8Q&usqp=CAU",
+              "https://m.media-amazon.com/images/I/41qu6v5ueqL.jpg"
             ],
             "product_name": {
               "name": "MSI Prestige 15",
@@ -1958,9 +1949,9 @@
             "model":"i7 core",
             "brand":"Acer",
             "product_images": [
-              "https://example.com/acer_laptop_image1.jpg",
-              "https://example.com/acer_laptop_image2.jpg",
-              "https://example.com/acer_laptop_image3.jpg"
+              "https://m.media-amazon.com/images/I/81-7vw3t38L._AC_UF1000,1000_QL80_.jpg",
+              "https://m.media-amazon.com/images/I/71nLhMRtTLL._AC_UF894,1000_QL80_.jpg",
+              "https://i.gadgets360cdn.com/large/acer_predator_helios_300_press_release_1645089606704.jpg"
             ],
             "product_name": {
               "name": "Acer Predator Helios 300",
@@ -2049,9 +2040,9 @@
             "model":"i5 core",
             "brand":"Apple",
             "product_images": [
-              "https://example.com/apple_laptop_image1.jpg",
-              "https://example.com/apple_laptop_image2.jpg",
-              "https://example.com/apple_laptop_image3.jpg"
+              "https://m.media-amazon.com/images/I/61aUBxqc5PL._AC_UF1000,1000_QL80_.jpg",
+              "https://shop.eventag.ch/wp-content/uploads/2023/07/image.jpeg",
+              "https://m.media-amazon.com/images/I/61-zv308ZEL._AC_UF894,1000_QL80_.jpg"
             ],
             "product_name": {
               "name": "MacBook Pro M1 Pro",
@@ -2140,9 +2131,9 @@
             "model": "i3 core",
             "brand": "Razer",
             "product_images": [
-              "https://example.com/razer_i3_laptop_image1.jpg",
-              "https://example.com/razer_i3_laptop_image2.jpg",
-              "https://example.com/razer_i3_laptop_image3.jpg"
+              "https://m.media-amazon.com/images/I/71kcJxMggRL._AC_UF1000,1000_QL80_.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlK4fTe-k7pn4KimAYLtrk5V4313MXrpvx20FrQ73Wa_R-48ez5buN6KbQuSr5wEOS-X0&usqp=CAU",
+              "https://m.media-amazon.com/images/I/71kBeFDgCkL._AC_UF894,1000_QL80_.jpg"
             ],
             "product_name": {
               "name": "Razer Blade 15 Base (Black, 256 GB SSD, 8 GB RAM)",
@@ -2292,9 +2283,9 @@
             "model": "i3 core",
             "brand": "Acer",
             "product_images": [
-              "https://example.com/acer_i3_laptop_image1.jpg",
-              "https://example.com/acer_i3_laptop_image2.jpg",
-              "https://example.com/acer_i3_laptop_image3.jpg"
+              "https://m.media-amazon.com/images/I/81AdDRxcO7L._AC_UF1000,1000_QL80_.jpg",
+              "https://m.media-amazon.com/images/I/71n8y6pVRJL._AC_UF350,350_QL80_.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFF0c3215SsAO3XzRVfZT7ksTb-eUvscvSd4eDpmmT2X2hXJCH0mT2vCxmikWcPWchsII&usqp=CAU"
             ],
             "product_name": {
               "name": "Acer Aspire 5 (Silver, 256 GB SSD, 8 GB RAM)",
@@ -2443,9 +2434,9 @@
             "model": "i5 core",
             "brand": "Acer",
             "product_images": [
-              "https://example.com/acer_i5_laptop_image1.jpg",
-              "https://example.com/acer_i5_laptop_image2.jpg",
-              "https://example.com/acer_i5_laptop_image3.jpg"
+              "https://m.media-amazon.com/images/I/71r2lxwW0PL.jpg",
+              "https://rukminim2.flixcart.com/image/850/1000/l48s9zk0/computer/m/a/g/-original-imagf6npeeqzxpzd.jpeg?q=90&crop=false",
+              "https://rukminim2.flixcart.com/image/850/1000/xif0q/computer/z/w/6/-original-imagh922jhjrwawh.jpeg?q=20&crop=false"
             ],
             "product_name": {
               "name": "Acer Swift 3 (Silver, 512 GB SSD, 16 GB RAM)",
@@ -3613,9 +3604,9 @@
     {
       "product_id": "MOBXYZ123456789",
       "product_images": [
-        "https://example.com/image1.jpg",
-        "https://example.com/image2.jpg",
-        "https://example.com/image3.jpg"
+        "https://m.media-amazon.com/images/I/71RLYJvBidL.jpg",
+        "https://m.media-amazon.com/images/I/61ZqdMLZDaL._AC_UF350,350_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/61bjfEWCd5L.jpg"
       ],
       "product_name": {
         "name": "Samsung Galaxy Z Fold5 ( Gray, 128 GB) (6 GB RAM)",
@@ -3891,9 +3882,9 @@
     {
       "product_id": "MOBXYZ789012345",
       "product_images": [
-        "https://example.com/image1.jpg",
-        "https://example.com/image2.jpg",
-        "https://example.com/image3.jpg"
+        "https://m.media-amazon.com/images/I/51VfGGh7quL.jpg",
+        "https://m.media-amazon.com/images/I/61MzvYkRMUL._AC_UF350,350_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81JuGc3BF0L.jpg"
       ],
       "product_name": {
         "name": "Samsung Galaxy A35 (Grey white, 128 GB) (8 GB RAM)",
@@ -4019,9 +4010,9 @@
     {
   "product_id": "MOBXYZ987654321",
   "product_images": [
-    "https://example.com/image1.jpg",
-    "https://example.com/image2.jpg",
-    "https://example.com/image3.jpg"
+    "https://m.media-amazon.com/images/I/71U+YdsvMPL._AC_UF1000,1000_QL80_.jpg",
+    "https://m.media-amazon.com/images/I/71hilJccpHL.jpg",
+    "https://m.media-amazon.com/images/I/614GLZ7wkyL._AC_UF350,350_QL80_.jpg"
   ],
   "product_name": {
     "name": "Samsung Galaxy Z Flip5 (Phantom Gray, 128 GB) (8 GB RAM)",
@@ -4144,9 +4135,9 @@
 },{
   "product_id": "MOBXYZ246813579",
   "product_images": [
-    "https://example.com/image1.jpg",
-    "https://example.com/image2.jpg",
-    "https://example.com/image3.jpg"
+    "https://m.media-amazon.com/images/I/71yc7gMPOyL.jpg",
+    "https://m.media-amazon.com/images/I/61gc4fl6NWL._AC_UF1000,1000_QL80_.jpg",
+    "https://m.media-amazon.com/images/S/aplus-media/vc/b1d3cfec-798b-45f7-9aa8-fc26df2306fb.__CR0,0,600,450_PT0_SX600_V1___.jpg"
   ],
   "product_name": {
     "name": "Samsung Galaxy M61 (black, 128 GB) (8 GB RAM)",
@@ -4561,9 +4552,9 @@
       {
         "product_id": "IPHXYZ123456789",
         "product_images": [
-          "https://example.com/image1.jpg",
-          "https://example.com/image2.jpg",
-          "https://example.com/image3.jpg"
+          "https://m.media-amazon.com/images/I/71ZDY57yTQL._AC_UF1000,1000_QL80_.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media/sota/2e6fa411-650b-4385-a43c-acb812b964a5.__PT0_V1___.jpg",
+          "https://m.media-amazon.com/images/I/61nYJlEhnhL._AC_UF1000,1000_QL80_.jpg"
         ],
         "product_name": {
           "name": "Apple iPhone 14 Pro (Gold, 512 GB) (8 GB RAM)",
@@ -4691,9 +4682,10 @@
       {
         "product_id": "IPHXYZ987654321",
         "product_images": [
-          "https://example.com/image1.jpg",
-          "https://example.com/image2.jpg",
-          "https://example.com/image3.jpg"
+          "https://m.media-amazon.com/images/I/71T5NVOgbpL._AC_UF1000,1000_QL80_.jpg",
+          "https://m.media-amazon.com/images/I/61clO95EgwL._AC_UF350,350_QL80_.jpg",
+          "https://rukminim2.flixcart.com/image/850/1000/xif0q/mobile/c/t/w/-original-imaghxej3hqz37kh.jpeg?q=90&crop=false"
+          
         ],
         "product_name": {
           "name": "Apple iPhone 14 Pro Max (Gold, 512 GB) (8 GB RAM)",
@@ -4701,11 +4693,11 @@
           "description": "Experience the ultimate in smartphone technology with the iPhone 14 Pro Max, featuring a large display, powerful performance, and advanced camera capabilities."
         },
         "rating": 4.9,
-        "assured": "no",
+        "assured": "yes",
         "price_details": {
           "current_price": 119999,
           "original_price": 129999,
-          "discount_percent": 8
+          "discount_percent": 18
         },
         "offers": [
           {
@@ -4821,9 +4813,9 @@
       {
         "product_id": "IPHXYZ789012345",
         "product_images": [
-          "https://example.com/image1.jpg",
-          "https://example.com/image2.jpg",
-          "https://example.com/image3.jpg"
+          "https://m.media-amazon.com/images/I/51tFyA6q6eL.jpg",
+          "https://5.imimg.com/data5/SELLER/Default/2022/4/VH/IV/YE/14357089/iphone-13-pro-max-128gb-256-512gb-and-1-tb-silver-gold-sierra-blue-graphite-and-many-more--500x500.jpg",
+          "https://m.media-amazon.com/images/I/61nWzrdyUwL.jpg"
         ],
         "product_name": {
           "name": "Apple iPhone 13 Pro (Gold, 512 GB) (8 GB RAM)",
@@ -4951,9 +4943,9 @@
       {
         "product_id": "IPHXYZ135792468",
         "product_images": [
-          "https://example.com/image1.jpg",
-          "https://example.com/image2.jpg",
-          "https://example.com/image3.jpg"
+          "https://images-na.ssl-images-amazon.com/images/I/61OgrkMY4XL._MCnd_AC_SR462,462_.jpg",
+          "https://5.imimg.com/data5/SELLER/Default/2022/4/VH/IV/YE/14357089/iphone-13-pro-max-128gb-256-512gb-and-1-tb-silver-gold-sierra-blue-graphite-and-many-more--500x500.jpg",
+          "https://img.etimg.com/thumb/width-1200,height-1200,imgsize-37614,resizemode-75,msid-104103762/industry/cons-products/electronics/iphone-13-to-be-available-at-an-unbelievable-price-during-amazon-great-indian-festival.jpg"
         ],
         "product_name": {
           "name": "Apple iPhone 13 Pro Max (Gold, 512 GB) (8 GB RAM)",
@@ -4965,7 +4957,7 @@
         "price_details": {
           "current_price": 99999,
           "original_price": 109999,
-          "discount_percent": 9
+          "discount_percent": 11
         },
         "offers": [
           {
@@ -5227,9 +5219,9 @@
       {
         "product_id": "REALMEGTNEO3BCD4E5F6H7IJ8KL9M0N1",
         "product_images": [
-            "https://www.gizmochina.com/wp-content/uploads/2022/11/Realme-GT-Neo-3-1.jpg",
-            "https://www.xda-developers.com/files/2022/11/realme-GT-Neo-3-featured-720x405.jpg",
-            "https://static.hub.91mobiles.com/wp-content/uploads/2022/11/realme-GT-Neo-3-official-photos-91mobiles-11.jpg"
+            "https://m.media-amazon.com/images/I/81lhCu7dK0L._AC_UF1000,1000_QL80_.jpg",
+            "https://m.media-amazon.com/images/I/81SN2ckqNfL.jpg",
+            "https://m.media-amazon.com/images/I/71k328TxpjL._AC_UF1000,1000_QL80_.jpg"
         ],
         "product_name": {
             "name": "Realme GT Neo 3 (Black, 256 GB) (12 GB RAM)",
@@ -5373,9 +5365,9 @@
     {
       "product_id": "REALME9PROBCD4E5F6H7IJ8KL9M0N1O2",
       "product_images": [
-          "https://static.toiimg.com/photo/92611142.cms",
-          "https://images-na.ssl-images-amazon.com/images/I/61cT89V5LVS._AC_SX679_.jpg",
-          "https://fdn.gsmarena.com/imgroot/reviews/22/realme-9-pro-cad/gsmarena_010.jpg"
+          "https://m.media-amazon.com/images/I/31UUJ-Y-V1L._AC_UF1000,1000_QL80_.jpg",
+          "https://m.media-amazon.com/images/I/31GSHGGPWyL._AC_UF1000,1000_QL80_.jpg",
+          "https://m.media-amazon.com/images/I/51yr3y+FIKL._SX350_.jpg"
       ],
       "product_name": {
           "name": "Realme 9 Pro (Blue, 128 GB) (6 GB RAM)",
@@ -5519,16 +5511,16 @@
   {
     "product_id": "REALME8PROBCD4E5F6H7IJ8KL9M0N1O2",
     "product_images": [
-        "https://static.toiimg.com/photo/92611142.cms",
-        "https://images-na.ssl-images-amazon.com/images/I/61cT89V5LVS._AC_SX679_.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/22/realme-8-pro-cad/gsmarena_010.jpg"
+        "https://m.media-amazon.com/images/I/717kY6Rk+oL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/51zN08EK8LL.jpg",
+        "https://m.media-amazon.com/images/I/417Zcf2yGaS._AC_UF350,350_QL80_.jpg"
     ],
     "product_name": {
         "name": "Realme 8 Pro (Blue, 128 GB) (8 GB RAM)",
         "brand": "Realme",
         "description": "The Realme 8 Pro combines style with performance, featuring a stunning display and advanced camera capabilities."
     },
-    "rating": 4.4,
+    "rating": 3.4,
     "assured": "no",
     "price_details": {
         "current_price": 16999,
@@ -5665,16 +5657,16 @@
 {
   "product_id": "REALMEGT2PROBCD4E5F6H7IJ8KL9M0N1O2P3",
   "product_images": [
-      "https://static.toiimg.com/photo/92611142.cms",
-      "https://images-na.ssl-images-amazon.com/images/I/61cT89V5LVS._AC_SX679_.jpg",
-      "https://fdn.gsmarena.com/imgroot/reviews/22/realme-gt2-pro-cad/gsmarena_010.jpg"
+      "https://m.media-amazon.com/images/I/51a0Yqo83wL._AC_UF1000,1000_QL80_.jpg",
+      "https://down-ph.img.susercontent.com/file/2b85407d6a407326f0d131e03e4bc651_tn",
+      "https://soyacincau.com/wp-content/uploads/2022/03/220324-realme-gt-2-pro-malaysia-price-1024x575.jpg"
   ],
   "product_name": {
       "name": "Realme GT 2 Pro (Black, 256 GB) (12 GB RAM)",
       "brand": "Realme",
       "description": "The Realme GT 2 Pro offers cutting-edge technology with a powerful processor and premium features for an exceptional user experience."
   },
-  "rating": 4.7,
+  "rating": 3.7,
   "assured": "yes",
   "price_details": {
       "current_price": 42999,
@@ -5820,7 +5812,7 @@
           "brand": "Realme",
           "description": "The Realme Narzo N65 5G delivers a high-speed, powerful performance with its advanced 5G technology."
         },
-        "rating": 4.6,
+        "rating": 3.6,
         "assured": "no",
         "price_details": {
           "current_price": 17999,
@@ -6255,9 +6247,9 @@
       {
         "product_id": "PIXEL8A1A2BCD3E4F5G6",
         "product_images": [
-          "https://example.com/image1.jpg",
-          "https://example.com/image2.jpg",
-          "https://example.com/image3.jpg"
+          "https://m.media-amazon.com/images/I/71n1Bn04lJL.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_jCOscJLFfcEwoKQcAhvdaNyNm6NSso0UIw&s",
+          "https://m.media-amazon.com/images/I/61arRzgKIsL._AC_UF1000,1000_QL80_.jpg"
         ],
         "product_name": {
           "name": "Google Pixel 8a (Black, 128 GB) (6 GB RAM)",
@@ -6403,9 +6395,9 @@
       {
         "product_id": "PIXEL8PRO1A2BCD3E4F5G6",
         "product_images": [
-          "https://example.com/image1.jpg",
-          "https://example.com/image2.jpg",
-          "https://example.com/image3.jpg"
+          "https://m.media-amazon.com/images/I/61X4kxP-OnL._AC_UF1000,1000_QL80_.jpg",
+          "https://m.media-amazon.com/images/I/71mPCj-+QLL._AC_UF350,350_QL80_.jpg",
+          "https://cdn.sanity.io/images/3azemr64/production/aef6ff9babc274e56650d03784a92891b90bb3ff-1204x580.png?w=700"
         ],
         "product_name": {
           "name": "Google Pixel 8 Pro (Blue, 256 GB) (12 GB RAM)",
@@ -6555,9 +6547,9 @@
       {
         "product_id": "PIXEL81A2BCD3E4F5G6",
         "product_images": [
-          "https://example.com/image1.jpg",
-          "https://example.com/image2.jpg",
-          "https://example.com/image3.jpg"
+          "https://m.media-amazon.com/images/I/51mx-T5uZAL._AC_UF1000,1000_QL80_.jpg",
+          "https://m.media-amazon.com/images/I/5147FexZgpL.jpg",
+          "https://m.media-amazon.com/images/I/51lN7x+g0uL.jpg"
         ],
         "product_name": {
           "name": "Google Pixel 8 (Black, 128 GB) (8 GB RAM)",
@@ -6707,9 +6699,9 @@
       {
         "product_id": "PIXEL61A2BCD3E4F5G6",
         "product_images": [
-          "https://example.com/image1.jpg",
-          "https://example.com/image2.jpg",
-          "https://example.com/image3.jpg"
+          "https://m.media-amazon.com/images/I/61d6OnWpttL._AC_UF1000,1000_QL80_.jpg",
+          "https://m.media-amazon.com/images/I/51wAMy0uohL._SX350_.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZqZAlG1FrofuylLqsC4zGk2Jra7Ybu_Wx5k3uPfqt6B2mQkq9jghfn7fuMtmW3EI99Y0&usqp=CAU"
         ],
         "product_name": {
           "name": "Google Pixel 6 (Black, 128 GB) (8 GB RAM)",
@@ -7007,9 +6999,9 @@
       {
         "product_id": "IQOOZ9XBCD4E5F6H7IJ8KL9M0N1O2P3Q4",
         "product_images": [
-            "https://static.toiimg.com/photo/92611142.cms",
-            "https://images-na.ssl-images-amazon.com/images/I/61cT89V5LVS._AC_SX679_.jpg",
-            "https://fdn.gsmarena.com/imgroot/reviews/22/iqoo-z9x-cad/gsmarena_010.jpg"
+            "https://m.media-amazon.com/images/I/612JxXPJPPL._AC_UF1000,1000_QL80_.jpg",
+            "https://images-eu.ssl-images-amazon.com/images/G/31/brandstore/MSotles/JanartMSO/Z9launch/inspire/Sale/Z9_Top-saleLIVE-App.jpg",
+            "https://i.gadgets360cdn.com/large/iqoo_z8_small_1704800675991.jpg"
         ],
         "product_name": {
             "name": "iQOO Z9x (Black, 128 GB) (8 GB RAM)",
@@ -7153,9 +7145,9 @@
     {
       "product_id": "IQOONEO9PROBCD4E5F6H7IJ8KL9M0N1O2P3Q4R5",
       "product_images": [
-          "https://static.toiimg.com/photo/92611142.cms",
-          "https://images-na.ssl-images-amazon.com/images/I/61cT89V5LVS._AC_SX679_.jpg",
-          "https://fdn.gsmarena.com/imgroot/reviews/22/iqoo-neo-9-pro-cad/gsmarena_010.jpg"
+          "https://m.media-amazon.com/images/I/61p6Zeag-7L._AC_UF1000,1000_QL80_.jpg",
+          "https://m.media-amazon.com/images/I/51fYq9Rr8NL._SX350_.jpg",
+          "https://m.media-amazon.com/images/I/71kBtEPX2oL._AC_UF350,350_QL80_.jpg"
       ],
       "product_name": {
           "name": "iQOO Neo 9 Pro (Blue, 256 GB) (12 GB RAM)",
@@ -7299,9 +7291,9 @@
   {
     "product_id": "IQOO12BCD4E5F6H7IJ8KL9M0N1O2P3Q4R5S6T7",
     "product_images": [
-        "https://static.toiimg.com/photo/92611142.cms",
-        "https://images-na.ssl-images-amazon.com/images/I/61cT89V5LVS._AC_SX679_.jpg",
-        "https://fdn.gsmarena.com/imgroot/reviews/22/iqoo-12-cad/gsmarena_010.jpg"
+        "https://m.media-amazon.com/images/I/61JUyx1-SbL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/6196XvphsML.jpg",
+        "https://m.media-amazon.com/images/I/61UqQ+zXz7L._AC_UF350,350_QL80_.jpg"
     ],
     "product_name": {
         "name": "iQOO 12 (Phantom Black, 256 GB) (12 GB RAM)",
@@ -7445,9 +7437,9 @@
 {
   "product_id": "IQOOZ6BCD4E5F6H7IJ8KL9M0N1O2P3Q4R5S6T7U8",
   "product_images": [
-      "https://static.toiimg.com/photo/92611142.cms",
-      "https://images-na.ssl-images-amazon.com/images/I/61cT89V5LVS._AC_SX679_.jpg",
-      "https://fdn.gsmarena.com/imgroot/reviews/22/iqoo-z6-cad/gsmarena_010.jpg"
+      "https://m.media-amazon.com/images/I/61E4zA32FrL.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9oj7_txj_j0qKwxJvk-ycwJAaCk2bgH1mSQ&s",
+      "https://m.media-amazon.com/images/I/71k7sjq1-iL.jpg"
   ],
   "product_name": {
       "name": "iQOO Z6 (Silver, 128 GB) (6 GB RAM)",

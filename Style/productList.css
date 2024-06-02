@@ -38,8 +38,9 @@
 }
 
 .rating {
-    width: 60px;
-    border-radius: 4px;
+  display: flex;
+  font-size: small;
+  width: fit-content;
 }
 
 .like {
@@ -77,7 +78,7 @@
 .product-img {
     width: 150px; /* Set the width */
     height: 150px; /* Set the height */
-    object-fit: cover; /* Ensure the image covers the area without distortion */
+    object-fit: contain; /* Ensure the image covers the area without distortion */
 }
 
 .card-text span {
@@ -102,6 +103,13 @@
     text-align: start; /* Center align content */
     margin-bottom: 0;
     padding-bottom: 0;
+}
+.productcard {
+    
+    text-align: start; /* Center align content */
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 210px;
 }
 
 .card-title {
