@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Wishlist</title>
         <link rel="stylesheet" href="../Style/wishlist.css">
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -226,7 +226,7 @@
                     </div>      
                     </div>
                     <div class="remove-btn">
-                        <img src="../Assets/images/remove-btn.svg" alt="remove-btn">
+                        <button id="add-to-wishlist-button" ><img src="../Assets/images/remove-btn.svg" alt="remove-btn"></button>
                     </div>
 
                     <div>
@@ -236,6 +236,9 @@
 
             </div>
         </div>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
         <script src="../Script/wishlist.js"></script>
     </body>
 </html>
