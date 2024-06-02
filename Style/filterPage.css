@@ -75,26 +75,16 @@
 .card {
     width: 250px;
     height: 400px;
-    margin: 10px;
+    margin: 0;
     padding: 0;
     padding-left: 5px;
     padding-right: 5px;
-    box-sizing: border-box;
 
-}
-
-
-.card .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
 }
 
   
   .card-body {
     height: 100%; /* Ensure the card body fills the entire card height */
-    
   }
   
 .offerLine {
@@ -165,45 +155,4 @@ body{
     position: relative;
     bottom: 0;
     width: 100%;
-}
-
-.card-img-top {
-    width: 100%; /* Ensure the image takes the full width of the card */
-    height: 150px; /* Set a fixed height for the image */
-    object-fit: contain; /* Ensure the image covers the area and maintains aspect ratio */
-}
-
-.card-title {
-    font-size: 1rem; /* Adjust font size as needed */
-    margin: 10px 0; /* Add some margin for spacing */
-}
-
-.quantity-wght,
-.rating,
-.salesCount,
-.card-text,
-.freeDelivery {
-    font-size: 0.875rem; /* Adjust font size for smaller text */
-    margin: 2px 0; /* Add some margin for spacing */
-}
-
-.rating {
-    display: flex;
-    width: 35px;
-}
-
-
-
-.like-btn {
-    background: none;
-    border: none;
-    padding: 0;
-}
-
-#product-list {
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-around; */
-    min-height: 400px; /* Ensure the container has a minimum height */
-    
 }

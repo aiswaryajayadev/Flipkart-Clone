@@ -84,28 +84,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Your existing code to fetch and display product cards
+  const likeButtons = document.querySelectorAll('.like-btn');
 
-  // Wait for the product cards to be displayed, then attach event listener to like buttons
-  setTimeout(function () {
-    const likeButtons = document.querySelectorAll(".like-btn");
-    console.log(likeButtons); // Check if this logs the correct elements
-    likeButtons.forEach(function (likeButton) {
-      const likeImage = likeButton.querySelector(".like");
+  likeButtons.forEach(function (likeButton) {
+      const likeImage = likeButton.querySelector('.like');
 
-      likeButton.addEventListener("click", function () {
-        const currentSrc = likeImage.src;
+      likeButton.addEventListener('click', function () {
+          const currentSrc = likeImage.src;
 
-        if (currentSrc.includes("plainheart.png")) {
-          likeImage.src = "../Assets/redheart.png";
-        } else {
-          likeImage.src = "../Assets/plainheart.png";
-        }
+          if (currentSrc.includes('plainheart.png')) {
+              likeImage.src = '../Assets/redheart.png';
+          } else {
+              likeImage.src = '../Assets/plainheart.png';
+          }
       });
-    });
-  }, 100); // Adjust the timeout value as needed based on your application's timing
+  });
 });
-
 
 const jsonURL = 'http://localhost:3000/mobiles';
 
@@ -119,26 +113,25 @@ fetch(jsonURL)
   function displayProductDetails(product) {
     const productDetailsContainer = document.getElementById('product-list');
     const productCard = document.createElement('div');
-    productCard.classList.add('card');
+    productCard.classList.add('card', 'col-sm-3', 'm-2');
   
     productCard.innerHTML = `
       <div class="card-body text-start">
-        <div class="d-flex justify-content-end mt-1" style="border:none;">
-          <div class="btn like-btn">
+        <div class="d-flex justify-content-end mt-1 mx-1" style="border:none;">
+          <button class="btn like-btn">
             <img class="like" src="../Assets/plainheart.png" alt="">
-          </div>
+          </button>
         </div>
-        <a href="#" class="product-link">
-         <img class="card-img-top px-3" src="${product.product_images[0]}" alt="Product Image">
-        </a>
+        <img class="card-img-top px-3" src="${product.product_images[0]}" alt="Product Image">
         <h6 class="card-title mb-0">${product.product_name.name}</h6>
-        <div class="d-flex justify-content-start align-items-center">
+        <p class="quantity-wght text-secondary small mt-0 p-0">800g</p>
+        <div class="d-flex justify-content-center align-items-center">
           <div class="rating bg-success text-white small m-1">
             <span>${product.rating}<i class="bi bi-star-fill"></i></span>
           </div>
-          <div class="salesCount"><span>(${product.customer_reviews.length})</span></div>
+          <div class="salesCount"><span>(1000)</span></div>
           <div>
-            ${product.assured === 'yes' ? '<img class="imgAssured mx-3 mt-0" src="../Assets/images/assured.png" alt="Assured">' : ''}
+            ${product.assured === 'yes' ? '<img class="imgAssured mx-3 mt-0" src="asset/assured.png" alt="Assured">' : ''}
           </div>
         </div>
         <p class="card-text m-0 p-0">
@@ -151,10 +144,8 @@ fetch(jsonURL)
     `;
   
     productDetailsContainer.appendChild(productCard);
-}
-
-
-    
+  }
+  
   // Function to clear all displayed products
   function clearProductList() {
     const productDetailsContainer = document.getElementById('product-list');
@@ -167,23 +158,22 @@ fetch(jsonURL)
 
     const priceRange = document.getElementById('priceRange').value;
     const assuredChecked = document.getElementById('assuredCheckbox').checked;
-    const selectedRating = [...document.querySelectorAll('.ratingCheckbox:checked')].map(cb => parseInt(cb.dataset.rating));
-    const selectedDiscount = [...document.querySelectorAll('.discountCheckbox:checked')].map(cb => parseInt(cb.dataset.discount));
+    const selectedRating = [...document.querySelectorAll('.ratingCheckbox:checked')].map(cb => parseFloat(cb.dataset.rating));
+    const selectedDiscount = [...document.querySelectorAll('.discountCheckbox:checked')].map(cb => parseFloat(cb.dataset.discount));
     const searchBrand = document.querySelector('.brandSearch').value.toLowerCase();
 
     const filteredProducts = products.filter(product => {
-        const matchesPrice = product.price_details.current_price <= priceRange;
-        const matchesAssured = !assuredChecked || product.assured === 'yes';
-        const matchesRating = selectedRating.length === 0 || selectedRating.includes(parseInt(product.rating));
-        const matchesDiscount = selectedDiscount.length === 0 || selectedDiscount.some(discount => product.price_details.discount_percent >= discount);
-        const matchesBrand = searchBrand === '' || product.product_name.name.toLowerCase().includes(searchBrand);
+      const matchesPrice = product.price_details.current_price <= priceRange;
+      const matchesAssured = !assuredChecked || product.assured === 'yes';
+      const matchesRating = selectedRating.length === 0 || selectedRating.includes(parseFloat(product.rating));
+      const matchesDiscount = selectedDiscount.length === 0 || selectedDiscount.some(discount => product.price_details.discount_percent >= discount);
+      const matchesBrand = searchBrand === '' || product.product_name.name.toLowerCase().includes(searchBrand);
 
-        return matchesPrice && matchesAssured && matchesRating && matchesDiscount && matchesBrand;
+      return matchesPrice && matchesAssured && matchesRating && matchesDiscount && matchesBrand;
     });
 
     filteredProducts.forEach(displayProductDetails);
-}
-
+  }
 
   // Function to sort products by price
   function sortProductsByPrice(order) {
