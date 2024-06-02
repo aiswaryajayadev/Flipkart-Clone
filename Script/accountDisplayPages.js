@@ -1,23 +1,12 @@
 function displayPersonalInfo() {
-    // const firebaseConfig = {
-    //     apiKey: "AIzaSyCbX8RTS7jKJ0xApi1s3c3TS7_iExa-BjA",
-    //     authDomain: "fc-clone-13fe6.firebaseapp.com",
-    //     databaseURL: "https://fc-clone-13fe6-default-rtdb.firebaseio.com",
-    //     projectId: "fc-clone-13fe6",
-    //     storageBucket: "fc-clone-13fe6.appspot.com",
-    //     messagingSenderId: "1003116691829",
-    //     appId: "1:1003116691829:web:212b427550a54b7ed0d33c"
-    // };
-
-    // // Make a GET request to fetch data from the server
-    // firebase.initializeApp(firebaseConfig);
-    // const auth = firebase.auth();
-    // const database = firebase.database();
-
-    // const username = localStorage.getItem('user');
-
-    var formHtml = `
-    <div class="single-block-detailed-display">
+    const database = firebase.database();
+    const userDetailsRef = database.ref('UserProfileList/User1');
+    userDetailsRef.once('value', (snapshot) => {
+        const userDetails = snapshot.val();
+        console.log(userDetails);
+        if (userDetails) {
+            var formHtml = `
+             <div class="single-block-detailed-display">
                 <div class="title-and-editing">
                     <span class="personal-info-title">Personal Information</span>
                     <span class="editing-link-text" onclick="editAccountName();">Edit</span>
@@ -25,9 +14,9 @@ function displayPersonalInfo() {
                 <form id="personal-info-form">
                     <div class="input-elements">
                         <input type="text" class="text-input-box" name="firstName" required disabled autocomplete="name"
-                            tabindex="1" value="User">
+                            tabindex="1" value="${userDetails.firstName}">
                         <input type="text" class="text-input-box" name="lastName" required disabled autocomplete="name"
-                            tabindex="1" value="User">
+                            tabindex="1" value="${userDetails.lastName}">
                         <div id="select-gender">
                             <div id="select-gender-title">Your Gender</div>
                             <input type="radio" id="male" name="gender" value="male" disabled style="width:16px">
@@ -47,7 +36,7 @@ function displayPersonalInfo() {
                 <form id="email-form">
                     <div class="input-elements">
                         <input type="email" class="text-input-box" name="emailID" required disabled autocomplete="name"
-                            tabindex="1" value="Email">
+                            tabindex="1" value="${userDetails.email}">
                     </div>
                 </form>
             </div>
@@ -60,7 +49,7 @@ function displayPersonalInfo() {
                 <form id="phone-form">
                     <div class="input-elements">
                         <input type="number" class="text-input-box" name="emailID" required disabled autocomplete="name"
-                            tabindex="1" value="0000000000">
+                            tabindex="1" value="${userDetails.phone}">
                     </div>
                 </form>
             </div>
@@ -125,18 +114,24 @@ function displayPersonalInfo() {
             </div>
             <img id="container-footer-image" src="../Assets/myProfileFooter_4e9fe2.png">
 `;
-
-    var formElement = document.getElementById("detailed-display");
-    if (formElement) {
-        formElement.innerHTML = formHtml;
-    } else {
-        console.error("Form element with id 'personal-info-form' not found.");
-    }
-
+            var formElement = document.getElementById("detailed-display");
+            if (formElement) {
+                formElement.innerHTML = formHtml;
+            } else {
+                console.error("Form element with id 'personal-info-form' not found.");
+            }
+        }
+    });
 }
 
 function displayManageCards() {
-    var formHtml = `
+    const database = firebase.database();
+    const userDetailsRef = database.ref('UserProfileList/User1');
+    userDetailsRef.once('value', (snapshot) => {
+        const userDetails = snapshot.val();
+        console.log(userDetails);
+        if (userDetails) {
+            var formHtml = `
     <div class="single-block-detailed-display">
                 <div class="title-and-editing">
                     <span class="personal-info-title">Manage Saved Cards</span>
@@ -144,12 +139,12 @@ function displayManageCards() {
                 <div class="single-saved-card">
                     <div class="single-saved-card-title" id="saved-card-single-block">
                         <form id="manage-card-form">
-                            <input type="text" class="bank-name" name="bank-name" required disabled value="Axis Bank Credit Card">
+                            <input type="text" class="bank-name" name="bank-name" required disabled value="${userDetails.cardName}">
                         </form>
                         <div class="edit-card-name" id="edit-card-name" onclick="editCardName();">EDIT</div>
                         <div class="delete-button"><img src="../Assets/delete-icon.svg"></div>
                     </div>
-                    <div class="card-number">**** **** **** 9841</div>
+                    <div class="card-number">**** **** **** ${userDetails.cardDigits}</div>
                 </div>
             </div>
 
@@ -217,14 +212,14 @@ function displayManageCards() {
                 </a>
             </div>
 `;
-
-    var formElement = document.getElementById("detailed-display");
-    if (formElement) {
-        formElement.innerHTML = formHtml;
-    } else {
-        console.error("Form element with id 'personal-info-form' not found.");
-    }
-
+            var formElement = document.getElementById("detailed-display");
+            if (formElement) {
+                formElement.innerHTML = formHtml;
+            } else {
+                console.error("Form element with id 'personal-info-form' not found.");
+            }
+        }
+    });
 }
 
 function displayManageAddresses() {
@@ -272,7 +267,7 @@ function nothingToShow() {
                     Nothing to display here
                 </div>
                 <div class="go-home-button">
-                    <a href="#">
+                    <a href="home.html">
                         <button id="goHomeBtn">GO HOME</button>
                     </a>
                 </div>

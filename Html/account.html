@@ -17,6 +17,19 @@
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script>
+        const firebaseConfig = {
+        apiKey: "AIzaSyCbX8RTS7jKJ0xApi1s3c3TS7_iExa-BjA",
+        authDomain: "fc-clone-13fe6.firebaseapp.com",
+        databaseURL: "https://fc-clone-13fe6-default-rtdb.firebaseio.com",
+        projectId: "fc-clone-13fe6",
+        storageBucket: "fc-clone-13fe6.appspot.com",
+        messagingSenderId: "1003116691829",
+        appId: "1:1003116691829:web:212b427550a54b7ed0d33c"
+    };
+    firebase.initializeApp(firebaseConfig);
+    window.onload = displayPersonalInfo();
+    </script>
 </head>
 
 <body>
@@ -42,7 +55,7 @@
                     <form class="nav-search header-form-search" action="/search" method="GET">
                         <div class="col-12-12 nav-search-1">
                             <div class="nav-search-2">
-                                <input class="search-input" style="margin-bottom: 0px;" type="text"
+                                <input class="search-input" style="margin-bottom: 0px; cursor: text;" type="text"
                                     title="Search for products, brands and more" name="q" autocomplete="off"
                                     placeholder="Search for products, brands and more" value="">
                             </div>
@@ -413,7 +426,7 @@
                 </div>
                 <div id="hello-display-user-name">
                     <div id="hello">Hello,</div>
-                    <div id="display-user-name"><b>Kailas Nadh J</b></div>
+                    <div id="display-user-name"><b>Flipkart User</b></div>
                 </div>
             </div>
             <div id="account-menu">
@@ -767,4 +780,5 @@
     </div>
 
 </body>
+
 </html>
