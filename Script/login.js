@@ -34,7 +34,7 @@ firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL)
   // Signed in
   const user = userCredential.user;
   console.log('User signed in:', user);
-  // window.location.href="../html/home.html";
+  window.location.href="../html/home.html";
 })
 .catch((error) => {
   // Handle Errors here.
@@ -49,6 +49,17 @@ firebase.auth().onAuthStateChanged((user) => {
     console.log(user);
     // User is signed in, redirect to the dashboard
    // Replace with your desired URL
+  }
+});
+firebase.auth().onAuthStateChanged((user) => {
+  if (user) {
+    console.log(user);
+    // User is signed in, redirect to the dashboard
+      // Replace with your desired URL
+  } else {
+    // User is signed out, you can handle this case if needed
+    console.log('No user is signed in.');
+    window.location.href = "../html/home.html";
   }
 });
 

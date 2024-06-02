@@ -41,7 +41,9 @@ const addProductToWishlist = (username, productId) => {
 
 document.getElementById('add-to-wishlist-button').addEventListener('click', function(event) {
   event.preventDefault();
-  const username = "fardeen";
+  
+  console.log("clcked");
+  const username = "anish";
   const productId = "41321312";
   addProductToWishlist(username, productId);
 });
