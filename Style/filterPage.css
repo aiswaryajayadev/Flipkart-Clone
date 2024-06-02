@@ -1,0 +1,117 @@
+.navbar-custom {
+    background-color: #2874f0;
+    color: white;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white;
+}
+
+.navbar-custom .form-control {
+    border-radius: 0;
+}
+
+.navbar-custom .btn-outline-light {
+    color: white;
+    border-color: white;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.brandSearch {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+.bsi {
+    width: 35px;
+    height: 20px;
+    border: none;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.imgAssured {
+    width: 90px;
+    height: 25px;
+}
+
+.pdtRightDiv {
+    width: 78vw;
+
+    border: 2px solid black;
+}
+
+.secondary-navbar {
+    padding: 0px;
+}
+
+.sort-option.active {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.rating {
+    width: 35px;
+    border-radius: 4px;
+}
+
+.like {
+    width: 15px;
+    height: 15px;
+}
+
+.cardRow {
+    width: 97vw;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.card {
+    width: 250px;
+    height: 400px;
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; /* Ensure image fits inside the card */
+  }
+  .productcard-img{
+    width: 200px;
+    height: 205px;
+    object-fit: contain;
+  }
+  
+  .card-body {
+    height: 100%; /* Ensure the card body fills the entire card height */
+  }
+  
+.offerLine {
+    background-color: #c0fab8;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    max-width: 70px;
+}
+
+body{
+    background-color: #f1f3f6;
+    overflow-x: hidden;
+}
+
+#footer {
+    background-color: #f8f8f8; /* Optional: Add background color */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
