@@ -1,3 +1,10 @@
+.body{
+    overflow-x: hidden;
+}
+
+
+
+
 .navbar-custom {
     background-color: #2874f0;
     color: white;
@@ -104,6 +111,7 @@
     text-align: start; /* Center align content */
     margin-bottom: 0;
     padding-bottom: 0;
+    border: none;
 }
 
 .card-title {

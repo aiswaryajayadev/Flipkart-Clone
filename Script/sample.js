@@ -1,20 +1,39 @@
 
-// let variable='shoes';
-// const mockApiUrl = "http://localhost:3000/${variable}/";
+ 
+const firebaseConfig = {
+  apiKey: "AIzaSyCbX8RTS7jKJ0xApi1s3c3TS7_iExa-BjA",
+  authDomain: "fc-clone-13fe6.firebaseapp.com",
+  databaseURL: "https://fc-clone-13fe6-default-rtdb.firebaseio.com",
+  projectId: "fc-clone-13fe6",
+  storageBucket: "fc-clone-13fe6.appspot.com",
+  messagingSenderId: "1003116691829",
+  appId: "1:1003116691829:web:212b427550a54b7ed0d33c"
+};
+ 
+
+firebase.initializeApp(firebaseConfig);
+const auth = firebase.auth();
+const database = firebase.database();
+  
+
+
+
+// var urlParams = new URLSearchParams(window.location.search);
+// var category= urlParams.get("category");
+// var urlParams = new URLSearchParams(window.location.search);
+// var pid= urlParams.get("productId");
+ 
+
+
+
 let variable = 'shoes';
 let pid='REEBOK001';
 const mockApiUrl = `http://localhost:3000/${variable}/`;
-// productData.product_id = pid; // Assign pid to productData.pid
-// console.log(productData.product_id);
-
-// const index = productData.findIndex(product => product.product_id === pid);
-
-// console.log(index); // Output: 1 (if 'ADIDAS002' is the product_id of the second element in the array)
 
 
-// const laptop = productData[index];
 
-//   console.log(mockApiUrl);
+
+
 
   
   
@@ -33,6 +52,35 @@ const mockApiUrl = `http://localhost:3000/${variable}/`;
 }
 
 
+
+
+  const wishlistRef = firebase.database().ref('wishlist');
+  const username = localStorage.getItem('user');
+  document.getElementById("wishlist-icon").addEventListener("click", function (event) {
+    event.preventDefault();
+    console.log("clcked");
+   
+    addProductToWishlist(username,variable,pid);
+  });
+  
+
+  const addProductToWishlist = (username,category, product) => {
+  
+    const productId = category.substring(0, 4) + '-' + product;
+  
+    wishlistRef.child(username).child(productId).set(true)
+      .then(() => {
+        console.log('Product added to wishlist successfully');
+      })
+      .catch((error) => {
+        console.error('Error adding product to wishlist:', error);
+      });
+  };
+  
+
+
+
+
 async function displayDetails() {
   try {
     const productData = await fetchProductData();
@@ -44,42 +92,43 @@ async function displayDetails() {
 
     
 
-    productData.product_id = pid; // Assign pid to productData.pid
+    productData.product_id = pid; 
     console.log(productData.product_id);
     
     const index = productData.findIndex(product => product.product_id === pid);
     
-    console.log(index); // Output: 1 (if 'ADIDAS002' is the product_id of the second element in the array)
+    console.log(index); 
     
     
     const laptop = productData[index];
 
 
 
-    function addToWishList(category, productIndex) {
-      // Retrieve the current wishlist from local storage
-      let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+  //   function addToWishList(category, productIndex) {
+    
+  //     let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
   
-      // Add the new item to the wishlist
-      wishlist.push({ category, productIndex });
+     
+  //     wishlist.push({ category, productIndex });
   
-      // Save the updated wishlist back to local storage
-      localStorage.setItem('wishlist', JSON.stringify(wishlist));
+      
+  //     localStorage.setItem('wishlist', JSON.stringify(wishlist));
   
-      console.log('Wishlist:', wishlist);
-  }
-  
-  // Example usage: Add to wishlist when an event occurs
-  // You can call this function from an event listener, such as a button click
-  addToWishList(variable, index);
-  
-  // Example to display the wishlist on page load (for demonstration purposes)
-  window.onload = function() {
-      let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
-      console.log('Stored Wishlist on Page Load:', wishlist);
-  };
+  //     console.log('Wishlist:', wishlist);
+  // }
   
   
+  // addToWishList(variable, index);
+  
+ 
+  // window.onload = function() {
+  //     let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+  //     console.log('Stored Wishlist on Page Load:', wishlist);
+  // };
+  
+  
+
+ 
 
 
 
@@ -93,40 +142,43 @@ async function displayDetails() {
 
 
 
-
-
-
-
-
-
-
-
-
-    // Display Product Images
     const productImages = laptop.product_images;
     const productName = laptop.product_name.name;
     const imageContainer = document.getElementById("image-container");
     const previewContainer = document.getElementById("preview-image");
 
     if (imageContainer && previewContainer) {
-      productImages.forEach((imgUrl, index) => {
-        const imgElement = document.createElement("img");
-        imgElement.src = imgUrl;
-        imgElement.alt = productName;
+        productImages.forEach((imgUrl, index) => {
+            const imgElement = document.createElement("img");
+            imgElement.src = imgUrl;
+            imgElement.alt = productName;
 
-        imgElement.addEventListener("mouseover", () => {
-          previewContainer.src = imgUrl; 
+          
+            imgElement.addEventListener("mouseover", () => {
+              previewContainer.src = imgUrl;
+              imgElement.classList.add("hovered");
+          });
+
+          imgElement.addEventListener("mouseout", () => {
+              imgElement.classList.remove("hovered");
+          });
+            if (index === 0) {
+                previewContainer.src = imgUrl;
+            }
+
+            imageContainer.appendChild(imgElement);
         });
-
-        if (index === 0) {
-          previewContainer.src = imgUrl;
-        }
-
-        imageContainer.appendChild(imgElement);
-      });
     }
 
-    // Display Product Name
+
+
+
+
+
+
+
+
+ 
     const productContainer = document.getElementById("product-heading");
     if (productContainer) {
       const productElement = document.createElement("p");
@@ -134,7 +186,7 @@ async function displayDetails() {
       productContainer.appendChild(productElement);
     }
 
-    // Display Rating
+  
     const rating = laptop.rating;
     const ratingContainer = document.getElementById("current-rating");
     if (ratingContainer) {
@@ -147,7 +199,7 @@ async function displayDetails() {
       ratingContainer.appendChild(ratingImage);
     }
 
-    // Display Prices
+  
     const rupeeSymbol = "₹";
     const currentPrice = laptop.price_details.current_price;
     const originalPrice = laptop.price_details.original_price;
@@ -171,7 +223,7 @@ async function displayDetails() {
       amountContainer.appendChild(discountElement);
     }
 
-    // Display Offers
+ 
     const offerContainer = document.getElementById("list1");
     const offers = laptop.offers;
 
@@ -205,7 +257,7 @@ async function displayDetails() {
       });
     }
 
-    // Display Highlights
+   
     const highLight = laptop.highlights;
     const highlightsList = document.getElementById("highlights-list");
 
@@ -218,7 +270,7 @@ async function displayDetails() {
       });
     }
 
-    // Display Specifications with "Read More" functionality
+ 
     const specifications = laptop.specifications;
     const tbody = document.querySelector(".specification-table tbody");
 
@@ -256,13 +308,13 @@ async function displayDetails() {
         blankRow.appendChild(blankCell);
         tbody.appendChild(blankRow);
 
-        // Hide all inner tables and headings initially
+      
         if (index !== 0) {
           titleRow.style.display = "none";
           nestedRow.style.display = "none";
         }
 
-        // Append the "Read More" link just after the first set of specifications
+       
         if (index === 0) {
           const readMoreRow = document.createElement("tr");
           const readMoreCell = document.createElement("td");
@@ -272,13 +324,13 @@ async function displayDetails() {
           readMoreLink.textContent = "Read More";
 
           readMoreLink.onclick = function () {
-            // Show the remaining tables and headings
+      
             for (let i = 1; i < tbody.children.length; i++) {
               tbody.children[i].style.display = "table-row";
             }
-            // Hide the "Read More" link
+          
             readMoreRow.style.display = "none";
-            return false; // Prevent default link behavior
+            return false;
           };
 
           readMoreCell.appendChild(readMoreLink);
@@ -288,7 +340,7 @@ async function displayDetails() {
       });
     }
 
-    // Display Customer Reviews
+   
     const review = laptop.customer_reviews;
     const reviewElement = document.getElementById("customer-review");
 
@@ -330,7 +382,7 @@ async function displayDetails() {
       });
     }
 
-    // Display Customer Questions and Answers
+  
     const questions = laptop.qna;
     const questionsElement = document.getElementById("customer-question");
 
@@ -371,7 +423,7 @@ async function displayDetails() {
       
           const interested = productData[index+1];
       
-          // Check if interested object exists and has product_images property
+        
           if (interested && interested.product_images && Array.isArray(interested.product_images) && interested.product_images.length > 0) {
               const interestElement = document.createElement("div");
               const interestedName = document.createElement("div");
