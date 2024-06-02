@@ -16,20 +16,42 @@ let EmailInp = document.getElementById('emailInp');
 let PassInp = document.getElementById('passwordInp');
 let MainForm = document.getElementById('MainForm');
 
+
+
+
+
+
+
 let SignInUser = evt => {
   evt.preventDefault();
+  // Set persistence to LOCAL
+firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL)
+.then(() => {
+  // Now we can sign in the user
+  return firebase.auth().signInWithEmailAndPassword(EmailInp.value, PassInp.value);
+})
+.then((userCredential) => {
+  // Signed in
+  const user = userCredential.user;
+  console.log('User signed in:', user);
+  // window.location.href="../html/home.html";
+})
+.catch((error) => {
+  // Handle Errors here.
+  var errorCode = error.code;
+  var errorMessage = error.message;
+  console.error('Error setting persistence:', errorCode, errorMessage);
+});
+};
 
-  auth.signInWithEmailAndPassword(EmailInp.value, PassInp.value)
-      .then((credentials) => {
-          console.log(credentials);
-          alert("Sign in successful!");
-          window.location.href="../html/home.html";
-      })
-      .catch((error) => {
-          alert(error.message);
-          console.log(error.code);
-          console.log(error.message);
-      });
-}
+firebase.auth().onAuthStateChanged((user) => {
+  if (user) {
+    console.log(user);
+    // User is signed in, redirect to the dashboard
+   // Replace with your desired URL
+  }
+});
+
+
 
 MainForm.addEventListener('submit', SignInUser);
