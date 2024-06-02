@@ -7,8 +7,6 @@
           "product_images": [
             "https://example.com/laptop4_image1.jpg",
             "https://example.com/laptop4_image2.jpg",
-            "https://example.com/laptop4_image3.jpg",
-            "https://example.com/laptop4_image4.jpg",
             "https://example.com/laptop4_image5.jpg"
           ],
           "product_name": {
@@ -159,6 +157,1088 @@
             {
               "question": "Does it have a backlit keyboard?",
               "answer": "Yes, the Dell XPS 13 comes with a backlit keyboard."
+            }
+          ]
+        },
+        {
+          "product_id": "LAPIM3456K789012",
+          "brand": "Acer",
+          "model": "i3",
+          "product_images": [
+            "https://example.com/laptop1_image1.jpg",
+            "https://example.com/laptop1_image2.jpg",
+            "https://example.com/laptop1_image3.jpg"
+          ],
+          "product_name": {
+            "name": "Acer Aspire 5 (Black, 256 GB SSD, 8 GB RAM)",
+            "description": "The Acer Aspire 5 offers reliable performance with a sleek black design, featuring 256 GB SSD and 8 GB RAM, suitable for everyday use."
+          },
+          "rating": 4.3,
+          "price_details": {
+            "current_price": 49999,
+            "original_price": 54999,
+            "discount_percent": 9
+          },
+          "offers": [
+            {
+              "offer_type": "Bank Offer",
+              "description": "5% off on Axis Bank Debit Cards, up to ₹2000 on orders of ₹40,000 and above"
+            },
+            {
+              "offer_type": "Special Price",
+              "description": "Get extra ₹5000 off (price inclusive of cashback/coupon)"
+            }
+          ],
+          "highlights": [
+            "8 GB RAM | 256 GB SSD",
+            "39.62 cm (15.6 inch) Display",
+            "Intel Core i3 Processor",
+            "Windows 10 Home",
+            "HD Display"
+          ],
+          "detailed_description": "The Acer Aspire 5 is designed for everyday tasks with a 256 GB SSD and 8 GB RAM. Its 39.62 cm HD display offers clear visuals, while the Intel Core i3 processor ensures smooth performance. This laptop is suitable for both work and entertainment.",
+          "specifications": [],
+          "customer_reviews": [
+            {
+              "customer_name": "Emily Johnson",
+              "rating": 4,
+              "review": "Good value for money. Performs well for my daily tasks."
+            },
+            {
+              "customer_name": "Michael Smith",
+              "rating": 4.5,
+              "review": "Sleek design and decent performance. Happy with the purchase."
+            }
+          ],
+          "qna": [
+            {
+              "question": "Is it suitable for gaming?",
+              "answer": "While it can handle light gaming, it's not designed for heavy gaming."
+            },
+            {
+              "question": "Does it come with a webcam?",
+              "answer": "Yes, it comes with a built-in webcam for video calls."
+            }
+          ]
+        },
+        {
+          "product_id": "LAPI89ABCD234567",
+          "brand": "HP",
+          "model": "i3",
+          "product_images": [
+            "https://example.com/laptop2_image1.jpg",
+            "https://example.com/laptop2_image2.jpg",
+            "https://example.com/laptop2_image3.jpg"
+          ],
+          "product_name": {
+            "name": "HP Pavilion 14 (Silver, 128 GB SSD, 4 GB RAM)",
+            "description": "The HP Pavilion 14 offers compact design with reliable performance, featuring 128 GB SSD and 4 GB RAM, ideal for on-the-go computing."
+          },
+          "rating": 4,
+          "price_details": {
+            "current_price": 37999,
+            "original_price": 39999,
+            "discount_percent": 5
+          },
+          "offers": [
+            {
+              "offer_type": "Bank Offer",
+              "description": "Flat ₹2000 off on ICICI Bank Credit Cards, up to ₹3000 on orders of ₹35,000 and above"
+            }
+          ],
+          "highlights": [
+            "4 GB RAM | 128 GB SSD",
+            "35.56 cm (14 inch) Display",
+            "Intel Core i3 Processor",
+            "Windows 10 Home",
+            "Lightweight Design"
+          ],
+          "detailed_description": "The HP Pavilion 14 is designed for portability with a 128 GB SSD and 4 GB RAM. Its 35.56 cm display offers clear visuals, while the Intel Core i3 processor ensures reliable performance. This laptop is perfect for users who need a lightweight yet powerful device.",
+          "specifications": [],
+          "customer_reviews": [
+            {
+              "customer_name": "David Brown",
+              "rating": 3.5,
+              "review": "Decent laptop for basic tasks. Not suitable for heavy multitasking."
+            },
+            {
+              "customer_name": "Sarah Wilson",
+              "rating": 4.5,
+              "review": "Great value for money. Compact and easy to carry around."
+            }
+          ],
+          "qna": [
+            {
+              "question": "Does it have a DVD drive?",
+              "answer": "No, this model does not have a built-in DVD drive."
+            },
+            {
+              "question": "Is the keyboard backlit?",
+              "answer": "Yes, it comes with a backlit keyboard for typing in low-light conditions."
+            }
+          ]
+        },
+        {
+          "product_id": "LAPIDEF12GHI345678",
+          "brand": "Lenovo",
+          "model": "i3",
+          "product_images": [
+            "https://example.com/laptop3_image1.jpg",
+            "https://example.com/laptop3_image2.jpg",
+            "https://example.com/laptop3_image3.jpg"
+          ],
+          "product_name": {
+            "name": "Lenovo IdeaPad 3 (Blue, 256 GB SSD, 8 GB RAM)",
+            "description": "The Lenovo IdeaPad 3 combines style with performance, featuring 256 GB SSD and 8 GB RAM, suitable for productivity and entertainment."
+          },
+          "rating": 4.2,
+          "price_details": {
+            "current_price": 44999,
+            "original_price": 47999,
+            "discount_percent": 6
+          },
+          "offers": [
+            {
+              "offer_type": "Bank Offer",
+              "description": "5% off on HDFC Bank Debit Cards, up to ₹2000 on orders of ₹35,000 and above"
+            },
+            {
+              "offer_type": "Special Price",
+              "description": "Get extra ₹3000 off (price inclusive of cashback/coupon)"
+            }
+          ],
+          "highlights": [
+            "8 GB RAM | 256 GB SSD",
+            "35.56 cm (14 inch) Display",
+            "Intel Core i3 Processor",
+            "Windows 10 Home",
+            "Stylish Design"
+          ],
+          "detailed_description": "The Lenovo IdeaPad 3 offers both style and performance with a 256 GB SSD and 8 GB RAM. Its 35.56 cm display delivers vibrant visuals, while the Intel Core i3 processor ensures smooth multitasking. This laptop is perfect for users who value both aesthetics and functionality.",
+          "specifications": [],
+          "customer_reviews": [
+            {
+              "customer_name": "Lisa Johnson",
+              "rating": 4,
+              "review": "Good performance for everyday tasks. Stylish design stands out."
+            },
+            {
+              "customer_name": "Mark Thompson",
+              "rating": 4.5,
+              "review": "Impressive build quality and"
+            }
+          ],
+          "qna": [
+            {
+              "question": "Does it have a fingerprint scanner?",
+              "answer": "No, this model does not come with a fingerprint scanner."
+            },
+            {
+              "question": "Is it suitable for photo editing?",
+              "answer": "Yes, it can handle basic photo editing tasks effectively."
+            }
+          ]
+        },
+        {
+          "product_id": "LAPI5A1B2C3D4E5F6",
+          "brand": "Dell",
+          "model": "i5",
+          "product_images": [
+            "https://example.com/laptop4_image1.jpg",
+            "https://example.com/laptop4_image2.jpg",
+            "https://example.com/laptop4_image5.jpg"
+          ],
+          "product_name": {
+            "name": "Dell XPS 15 (Silver, 512 GB SSD, 16 GB RAM)",
+            "description": "The Dell XPS 15 offers exceptional performance with a sleek silver finish, featuring 512 GB SSD and 16 GB RAM, perfect for both work and play."
+          },
+          "rating": 4.6,
+          "price_details": {
+            "current_price": 159999,
+            "original_price": 169999,
+            "discount_percent": 6
+          },
+          "offers": [
+            {
+              "offer_type": "Bank Offer",
+              "description": "10% off on HDFC Bank Credit Cards, up to ₹8000 on orders of ₹80,000 and above"
+            },
+            {
+              "offer_type": "Bank Offer",
+              "description": "10% off on SBI Credit Cards, up to ₹8000 on orders of ₹80,000 and above"
+            },
+            {
+              "offer_type": "Special Price",
+              "description": "Get extra ₹12,000 off (price inclusive of cashback/coupon)"
+            }
+          ],
+          "highlights": [
+            "16 GB RAM | 512 GB SSD",
+            "39.62 cm (15.6 inch) Full HD Display",
+            "Intel Core i5 11th Gen Processor",
+            "Windows 10 Home",
+            "InfinityEdge Display"
+          ],
+          "detailed_description": "The Dell XPS 15 is designed for superior performance with a 512 GB SSD and 16 GB RAM. Its 39.62 cm Full HD display offers stunning visuals with an InfinityEdge design, while the Intel Core i5 11th Gen processor ensures high-speed performance. This laptop is ideal for both professional and personal use.",
+          "specifications": [
+            {
+              "title": "General",
+              "details": [
+                "Sales Package: Laptop, Power Adapter, User Guide",
+                "Model Number: XPS 15 9510",
+                "Part Number: 9510-7895SLV-PUS",
+                "Series: XPS",
+                "Color: Silver",
+                "Type: Laptop",
+                "Suitable For: Processing & Multitasking, Travel & Business",
+                "Battery Backup: Up to 12 hours",
+                "Power Supply: 90 W AC Adapter",
+                "Battery Cell: 6 cell",
+                "MS Office Provided: Yes"
+              ]
+            },
+            {
+              "title": "Processor And Memory Features",
+              "details": [
+                "Processor Brand: Intel",
+                "Processor Name: Core i5",
+                "Processor Generation: 11th Gen",
+                "SSD: Yes",
+                "SSD Capacity: 512 GB",
+                "RAM: 16 GB",
+                "RAM Type: LPDDR4x",
+                "Processor Variant: 11500H",
+                "Clock Speed: 2.5 GHz with Turbo Boost up to 4.5 GHz",
+                "Memory Slots: Not Applicable",
+                "Expandable Memory: No",
+                "Cache: 12 MB",
+                "Graphic Processor: Intel Integrated Iris Xe"
+              ]
+            },
+            {
+              "title": "Operating System",
+              "details": [
+                "OS Architecture: 64 bit",
+                "Operating System: Windows 10 Home",
+                "System Architecture: 64 bit"
+              ]
+            },
+            {
+              "title": "Display And Audio Features",
+              "details": [
+                "Touchscreen: No",
+                "Screen Size: 39.62 cm (15.6 inch)",
+                "Screen Resolution: 1920 x 1080 Pixel",
+                "Screen Type: Full HD LED Backlit Anti-glare Display",
+                "Speakers: Built-in Speakers",
+                "Internal Mic: Built-in Microphones",
+                "Sound Properties: Waves MaxxAudio Pro"
+              ]
+            },
+            {
+              "title": "Connectivity Features",
+              "details": [
+                "Wireless LAN: Killer Wi-Fi 6 AX1650 (2x2)",
+                "Bluetooth: v5.1",
+                "Ethernet: No",
+                "Additional Features: Thunderbolt 4, USB 3.2, 3.5mm Headphone Jack"
+              ]
+            },
+            {
+              "title": "Dimensions",
+              "details": [
+                "Dimensions: 344.4 x 230.1 x 18 mm",
+                "Weight: 1.83 kg"
+              ]
+            },
+            {
+              "title": "Additional Features",
+              "details": [
+                "Disk Drive: Not Available",
+                "Web Camera: HD Webcam",
+                "Read/Write Speed: Not Applicable",
+                "Finger Print Sensor: Yes",
+                "Keyboard: Backlit Keyboard",
+                "Backlit Keyboard: Yes",
+                "Pointer Device: Precision Touchpad",
+                "Included Software: Microsoft Office Home & Student 2019"
+              ]
+            },
+            {
+              "title": "Warranty",
+              "details": [
+                "Warranty Summary: 1 Year Manufacturer Warranty",
+                "Warranty Service Type: Onsite"
+              ]
+            }
+          ],
+          "customer_reviews": [
+            {
+              "customer_name": "John Doe",
+              "rating": 5,
+              "review": "Excellent build quality and performance. The display is gorgeous."
+            },
+            {
+              "customer_name": "Jane Smith",
+              "rating": 4,
+              "review": "Great laptop with amazing features. A bit pricey, but worth it."
+            }
+          ],
+          "qna": [
+            {
+              "question": "Does it support Thunderbolt 4?",
+              "answer": "Yes, the Dell XPS 15 supports Thunderbolt 4."
+            },
+            {
+              "question": "Can the RAM be upgraded?",
+              "answer": "No, the RAM cannot be upgraded as it is soldered onto the motherboard."
+            },
+            {
+              "question": "Does it have a backlit keyboard?",
+              "answer": "Yes, the Dell XPS 15 comes with a backlit keyboard."
+            }
+          ]
+        },
+        {
+          "product_id": "LAPI5G1H2I3J4K5L6",
+          "brand": "Lenovo",
+          "model": "i5",
+          "product_images": [
+            "https://example.com/laptop5_image1.jpg",
+            "https://example.com/laptop5_image2.jpg",
+            "https://example.com/laptop5_image3.jpg"
+          ],
+          "product_name": {
+            "name": "Lenovo ThinkPad E15 (Black, 512 GB SSD, 16 GB RAM)",
+            "description": "The Lenovo ThinkPad E15 combines power with durability, featuring 512 GB SSD and 16 GB RAM, perfect for business professionals."
+          },
+          "rating": 4.5,
+          "price_details": {
+            "current_price": 79999,
+            "original_price": 84999,
+            "discount_percent": 6
+          },
+          "offers": [
+            {
+              "offer_type": "Bank Offer",
+              "description": "5% off on HDFC Bank Debit Cards, up to ₹3000 on orders of ₹60,000 and above"
+            },
+            {
+              "offer_type": "Special Price",
+              "description": "Get extra ₹8000 off (price inclusive of cashback/coupon)"
+            }
+          ],
+          "highlights": [
+            "16 GB RAM | 512 GB SSD",
+            "39.62 cm (15.6 inch) Full HD Display",
+            "Intel Core i5 10th Gen Processor",
+            "Windows 10 Pro",
+            "Durable Build"
+          ],
+          "detailed_description": "The Lenovo ThinkPad E15 is built for business with a durable design and powerful performance. It features a 512 GB SSD and 16 GB RAM, ideal for multitasking and productivity. With its Intel Core i5 10th Gen processor and Windows 10 Pro, this laptop is a reliable companion for professionals.",
+          "specifications": [
+            {
+              "title": "General",
+              "details": [
+                "Sales Package: Laptop, Power Adapter, User Guide",
+                "Model Number: ThinkPad E15",
+                "Part Number: 20RD002KIG",
+                "Series: ThinkPad",
+                "Color: Black",
+                "Type: Laptop",
+                "Suitable For: Business, Processing & Multitasking",
+                "Battery Backup: Up to 12 hours",
+                "Power Supply: 65 W AC Adapter",
+                "Battery Cell: 3 cell",
+                "MS Office Provided: No"
+              ]
+            },
+            {
+              "title": "Processor And Memory Features",
+              "details": [
+                "Processor Brand: Intel",
+                "Processor Name: Core i5",
+                "Processor Generation: 10th Gen",
+                "SSD: Yes",
+                "SSD Capacity: 512 GB",
+                "RAM: 16 GB",
+                "RAM Type: DDR4",
+                "Processor Variant: 10210U",
+                "Clock Speed: 1.6 GHz with Turbo Boost up to 4.2 GHz",
+                "Memory Slots: 1",
+                "Expandable Memory: 32 GB",
+                "Cache: 6 MB",
+                "Graphic Processor: Intel Integrated UHD"
+              ]
+            },
+            {
+              "title": "Operating System",
+              "details": [
+                "OS Architecture: 64 bit",
+                "Operating System: Windows 10 Pro",
+                "System Architecture: 64 bit"
+              ]
+            },
+            {
+              "title": "Display And Audio Features",
+              "details": [
+                "Touchscreen: No",
+                "Screen Size: 39.62 cm (15.6 inch)",
+                "Screen Resolution: 1920 x 1080 Pixel",
+                "Screen Type: Full HD LED Backlit Anti-glare Display",
+                "Speakers: Built-in Dual Speakers",
+                "Internal Mic: Built-in Microphones",
+                "Sound Properties: Dolby Audio"
+              ]
+            },
+            {
+              "title": "Connectivity Features",
+              "details": [
+                "Wireless LAN: Intel Wi-Fi 6 AX201 (2x2)",
+                "Bluetooth: v5.1",
+                "Ethernet: 100/1000 Mbps",
+                "Additional Features: USB Type-C, USB 3.1, HDMI, RJ45"
+              ]
+            },
+            {
+              "title": "Dimensions",
+              "details": [
+                "Dimensions: 368 x 245 x 18.9 mm",
+                "Weight: 1.9 kg"
+              ]
+            },
+            {
+              "title": "Additional Features",
+              "details": [
+                "Disk Drive: Not Available",
+                "Web Camera: HD Webcam",
+                "Finger Print Sensor: Yes",
+                "Keyboard: Spill-resistant Keyboard",
+                "Backlit Keyboard: No",
+                "Pointer Device: Touchpad",
+                "Included Software: Lenovo Vantage, Microsoft Office Trial"
+              ]
+            },
+            {
+              "title": "Warranty",
+              "details": [
+                "Warranty Summary: 1 Year Onsite Warranty",
+                "Warranty Service Type: Onsite"
+              ]
+            }
+          ],
+          "customer_reviews": [
+            {
+              "customer_name": "Emma Brown",
+              "rating": 4.5,
+              "review": "Excellent laptop for business use. Reliable and durable."
+            },
+            {
+              "customer_name": "John Smith",
+              "rating": 4.5,
+              "review": "Great build quality and performance. Perfect for professionals."
+            }
+          ],
+          "qna": [
+            {
+              "question": "Is it suitable for gaming?",
+              "answer": "While it can handle some light gaming, it's not designed for gaming purposes."
+            },
+            {
+              "question": "Does it come with a fingerprint scanner?",
+              "answer": "Yes, it features a fingerprint scanner for added security."
+            }
+          ]
+        },
+        {
+          "product_id": "LAPI5M1N2O3P4Q5R6",
+          "brand": "HP",
+          "model": "i5",
+          "product_images": [
+            "https://example.com/laptop6_image1.jpg",
+            "https://example.com/laptop6_image2.jpg",
+            "https://example.com/laptop6_image3.jpg"
+          ],
+          "product_name": {
+            "name": "HP Envy 13 (Silver, 512 GB SSD, 16 GB RAM)",
+            "description": "The HP Envy 13 combines elegance with performance, featuring 512 GB SSD and 16 GB RAM, perfect for productivity and entertainment."
+          },
+          "rating": 4.4,
+          "price_details": {
+            "current_price": 74999,
+            "original_price": 79999,
+            "discount_percent": 6
+          },
+          "offers": [
+            {
+              "offer_type": "Bank Offer",
+              "description": "10% off on HDFC Bank Credit Cards, up to ₹6000 on orders of ₹60,000 and above"
+            },
+            {
+              "offer_type": "Special Price",
+              "description": "Get extra ₹10,000 off (price inclusive of cashback/coupon)"
+            }
+          ],
+          "highlights": [
+            "16 GB RAM | 512 GB SSD",
+            "33.78 cm (13.3 inch) Full HD Display",
+            "Intel Core i5 11th Gen Processor",
+            "Windows 10 Home",
+            "Thin and Lightweight Design"
+          ],
+          "detailed_description": "The HP Envy 13 is crafted for elegance and performance with a 512 GB SSD and 16 GB RAM. Its 33.78 cm Full HD display offers crisp visuals, while the Intel Core i5 11th Gen processor ensures smooth multitasking. This laptop is perfect for users who value style and efficiency.",
+          "specifications": [
+            {
+              "title": "General",
+              "details": [
+                "Sales Package: Laptop, Power Adapter, User Guide",
+                "Model Number: Envy 13-BA0082TU",
+                "Part Number: 2K0E1PA#ACJ",
+                "Series: Envy",
+                "Color: Silver",
+                "Type: Thin and Light Laptop",
+                "Suitable For: Processing & Multitasking, Travel & Business",
+                "Battery Backup: Up to 11 hours",
+                "Power Supply: 65 W AC Adapter",
+                "Battery Cell: 4 cell",
+                "MS Office Provided: No"
+              ]
+            },
+            {
+              "title": "Processor And Memory Features",
+              "details": [
+                "Processor Brand: Intel",
+                "Processor Name: Core i5",
+                "Processor Generation: 11th Gen",
+                "SSD: Yes",
+                "SSD Capacity: 512 GB",
+                "RAM: 16 GB",
+                "RAM Type: LPDDR4x",
+                "Processor Variant: 1135G7",
+                "Clock Speed: 2.4 GHz with Turbo Boost up to 4.2 GHz",
+                "Memory Slots: Not Applicable",
+                "Expandable Memory: No",
+                "Cache: 8 MB",
+                "Graphic Processor: Intel Integrated Iris Xe"
+              ]
+            },
+            {
+              "title": "Operating System",
+              "details": [
+                "OS Architecture: 64 bit",
+                "Operating System: Windows 10 Home",
+                "System Architecture: 64 bit"
+              ]
+            },
+            {
+              "title": "Display And Audio Features",
+              "details": [
+                "Touchscreen: No",
+                "Screen Size: 33.78 cm (13.3 inch)",
+                "Screen Resolution: 1920 x 1080 Pixel",
+                "Screen Type: Full HD LED Backlit BrightView Display",
+                "Speakers: Built-in Dual Speakers",
+                "Internal Mic: Built-in Microphones",
+                "Sound Properties: Bang & Olufsen, HP Audio Boost"
+              ]
+            },
+            {
+              "title": "Connectivity Features",
+              "details": [
+                "Wireless LAN: Intel Wi-Fi 6 AX201 (2x2)",
+                "Bluetooth: v5.2",
+                "Ethernet: No",
+                "Additional Features: Thunderbolt 4, USB 3.1, 3.5mm Headphone Jack"
+              ]
+            },
+            {
+              "title": "Dimensions",
+              "details": [
+                "Dimensions: 307 x 194.6 x 16.9 mm",
+                "Weight: 1.32 kg"
+              ]
+            },
+            {
+              "title": "Additional Features",
+              "details": [
+                "Disk Drive: Not Available",
+                "Web Camera: HP TrueVision HD Camera",
+                "Finger Print Sensor: Yes",
+                "Keyboard: Backlit Keyboard",
+                "Backlit Keyboard: Yes",
+                "Pointer Device: HP Imagepad with Multi-touch Gesture Support",
+                "Included Software: Microsoft Office Home & Student 2019"
+              ]
+            },
+            {
+              "title": "Warranty",
+              "details": [
+                "Warranty Summary: 1 Year Onsite Warranty",
+                "Warranty Service Type: Onsite"
+              ]
+            }
+          ],
+          "customer_reviews": [
+            {
+              "customer_name": "Sophia Miller",
+              "rating": 4.5,
+              "review": "Beautiful laptop with powerful performance. Lightweight and easy to carry around."
+            },
+            {
+              "customer_name": "Robert Wilson",
+              "rating": 4.5,
+              "review": "Sleek design and impressive specs. Performs well for everyday tasks."
+            }
+          ],
+          "qna": [
+            {
+              "question": "Is the display touchscreen?",
+              "answer": "No, the display is not touchscreen."
+            },
+            {
+              "question": "Does it come with a stylus?",
+              "answer": "No, a stylus is not included with this model."
+            }
+          ]
+        },
+        {
+          "product_id": "LAPI7A1B2C3D4E5F6",
+          "brand": "Apple",
+          "model": "i7",
+          "product_images": [
+            "https://example.com/laptop7_image1.jpg",
+            "https://example.com/laptop7_image2.jpg",
+            "https://example.com/laptop7_image3.jpg"
+          ],
+          "product_name": {
+            "name": "MacBook Pro 13 (Space Gray, 1 TB SSD, 16 GB RAM)",
+            "description": "The MacBook Pro 13 delivers powerful performance in a compact design, featuring 1 TB SSD and 16 GB RAM, perfect for professionals."
+          },
+          "rating": 4.8,
+          "price_details": {
+            "current_price": 189999,
+            "original_price": 199999,
+            "discount_percent": 5
+          },
+          "offers": [
+            {
+              "offer_type": "Bank Offer",
+              "description": "5% off on HDFC Bank Debit Cards, up to ₹5000 on orders of ₹100,000 and above"
+            },
+            {
+              "offer_type": "Special Price",
+              "description": "Get extra ₹15,000 off (price inclusive of cashback/coupon)"
+            }
+          ],
+          "highlights": [
+            "16 GB RAM | 1 TB SSD",
+            "33.78 cm (13.3 inch) Retina Display",
+            "Intel Core i7 Processor",
+            "macOS Big Sur",
+            "Touch Bar and Touch ID"
+          ],
+          "detailed_description": "The MacBook Pro 13 is designed to deliver exceptional performance with a 1 TB SSD and 16 GB RAM. Its 33.78 cm Retina display offers vibrant visuals, while the Intel Core i7 processor ensures seamless multitasking. With macOS Big Sur and innovative features like Touch Bar and Touch ID, this laptop is ideal for professionals.",
+          "specifications": [
+            {
+              "title": "General",
+              "details": [
+                "Sales Package: Laptop, Power Adapter, User Guide",
+                "Model Number: MacBook Pro 13",
+                "Part Number: MXK32HN/A",
+                "Series: MacBook Pro",
+                "Color: Space Gray",
+                "Type: Thin and Light Laptop",
+                "Suitable For: Processing & Multitasking, Travel & Business",
+                "Battery Backup: Up to 10 hours",
+                "Power Supply: 61 W AC Adapter",
+                "Battery Cell: 4 cell",
+                "MS Office Provided: No"
+              ]
+            },
+            {
+              "title": "Processor And Memory Features",
+              "details": [
+                "Processor Brand: Intel",
+                "Processor Name: Core i7",
+                "SSD: Yes",
+                "SSD Capacity: 1 TB",
+                "RAM: 16 GB",
+                "RAM Type: LPDDR4X",
+                "Processor Variant: 1068NG7",
+                "Clock Speed: 2.3 GHz with Turbo Boost up to 4.8 GHz",
+                "Cache: 8 MB",
+                "Graphic Processor: Intel Iris Plus Graphics"
+              ]
+            },
+            {
+              "title": "Operating System",
+              "details": [
+                "Operating System: macOS Big Sur"
+              ]
+            },
+            {
+              "title": "Display And Audio Features",
+              "details": [
+                "Touchscreen: No",
+                "Screen Size: 33.78 cm (13.3 inch)",
+                "Screen Resolution: 2560 x 1600 Pixel",
+                "Screen Type: Retina Display with True Tone",
+                "Speakers: Stereo Speakers",
+                "Internal Mic: Three Array Microphones",
+                "Sound Properties: Wide Stereo Sound"
+              ]
+            },
+            {
+              "title": "Connectivity Features",
+              "details": [
+                "Wireless LAN: IEEE 802.11ax (Wi-Fi 6)",
+                "Bluetooth: v5.0"
+              ]
+            },
+            {
+              "title": "Dimensions",
+              "details": [
+                "Dimensions: 304.1 x 212.4 x 15.6 mm",
+                "Weight: 1.4 kg"
+              ]
+            },
+            {
+              "title": "Additional Features",
+              "details": [
+                "Disk Drive: Not Available",
+                "Web Camera: 720p FaceTime HD Camera",
+                "Finger Print Sensor: Touch ID",
+                "Keyboard: Backlit Magic Keyboard",
+                "Backlit Keyboard: Yes",
+                "Pointer Device: Force Touch Trackpad",
+                "Included Software: Siri, Photos, iMovie, GarageBand, Pages, Numbers, Keynote, Safari, Mail, FaceTime, Messages, Maps, Stocks, Notes, Calendar, Contacts, Reminders, Photo Booth, Preview, Music, Podcasts, TV, Books, App Store, Time Machine, Find My, QuickTime Player"
+              ]
+            },
+            {
+              "title": "Warranty",
+              "details": [
+                "Warranty Summary: 1 Year Limited Warranty"
+              ]
+            }
+          ],
+          "customer_reviews": [
+            {
+              "customer_name": "Michael Johnson",
+              "rating": 5,
+              "review": "Fantastic laptop with lightning-fast performance. The Retina display is stunning."
+            },
+            {
+              "customer_name": "Emily Brown",
+              "rating": 4.5,
+              "review": "Great for professional use. The Touch Bar adds a lot of convenience."
+            }
+          ],
+          "qna": [
+            {
+              "question": "Does it support external displays?",
+              "answer": "Yes, it supports up to two external displays with 6K resolution."
+            },
+            {
+              "question": "Can I upgrade the RAM?",
+              "answer": "No, the RAM is soldered onto the motherboard and cannot be upgraded."
+            },
+            {
+              "question": "Is it suitable for video editing?",
+              "answer": "Absolutely, it's powerful enough to handle demanding video editing tasks."
+            }
+          ]
+        },
+        {
+          "product_id": "LAPI7G1H2I3J4K5L6",
+          "brand": "HP",
+          "model": "i7",
+          "product_images": [
+            "https://example.com/laptop8_image1.jpg",
+            "https://example.com/laptop8_image2.jpg",
+            "https://example.com/laptop8_image3.jpg"
+          ],
+          "product_name": {
+            "name": "HP Spectre x360 13 (Dark Ash Silver, 512 GB SSD, 16 GB RAM)",
+            "description": "The HP Spectre x360 13 combines versatility with performance, featuring 512 GB SSD and 16 GB RAM, perfect for creative professionals."
+          },
+          "rating": 4.7,
+          "price_details": {
+            "current_price": 134999,
+            "original_price": 144999,
+            "discount_percent": 6
+          },
+          "offers": [
+            {
+              "offer_type": "Bank Offer",
+              "description": "5% off on HDFC Bank Debit Cards, up to ₹5000 on orders of ₹100,000 and above"
+            },
+            {
+              "offer_type": "Special Price",
+              "description": "Get extra ₹10,000 off (price inclusive of cashback/coupon)"
+            }
+          ],
+          "highlights": [
+            "16 GB RAM | 512 GB SSD",
+            "33.78 cm (13.3 inch) 4K OLED Touchscreen Display",
+            "Intel Core i7 Processor",
+            "Windows 11",
+            "360-degree Convertible Design"
+          ],
+          "detailed_description": "The HP Spectre x360 13 offers the perfect blend of style and performance with a 512 GB SSD and 16 GB RAM. Its 33.78 cm 4K OLED touchscreen display provides stunning visuals, while the Intel Core i7 processor ensures smooth multitasking. With its 360-degree convertible design and Windows 11, this laptop is ideal for creative professionals.",
+          "specifications": [
+            {
+              "title": "General",
+              "details": [
+                "Sales Package: Laptop, Stylus, Power Adapter, User Guide",
+                "Model Number: Spectre x360 13-aw0214TU",
+                "Part Number: 3D5S1PA#ACJ",
+                "Series: Spectre",
+                "Color: Dark Ash Silver",
+                "Type: Convertible Laptop",
+                "Suitable For: Processing & Multitasking, Travel & Business",
+                "Battery Backup: Up to 12 hours",
+                "Power Supply: 65 W AC Adapter",
+                "Battery Cell: 4 cell",
+                "MS Office Provided: No"
+              ]
+            },
+            {
+              "title": "Processor And Memory Features",
+              "details": [
+                "Processor Brand: Intel",
+                "Processor Name: Core i7",
+                "SSD: Yes",
+                "SSD Capacity: 512 GB",
+                "RAM: 16 GB",
+                "RAM Type: LPDDR4X",
+                "Processor Variant: 1165G7",
+                "Clock Speed: 2.8 GHz with Turbo Boost up to 4.7 GHz",
+                "Cache: 12 MB",
+                "Graphic Processor: Intel Integrated Iris Xe"
+              ]
+            },
+            {
+              "title": "Operating System",
+              "details": [
+                "Operating System: Windows 11"
+              ]
+            },
+            {
+              "title": "Display And Audio Features",
+              "details": [
+                "Touchscreen: Yes",
+                "Screen Size: 33.78 cm (13.3 inch)",
+                "Screen Resolution: 3840 x 2160 Pixel",
+                "Screen Type: 4K UHD OLED BrightView Micro-edge Touchscreen",
+                "Speakers: Quad Speakers",
+                "Internal Mic: Dual Array Digital Microphones",
+                "Sound Properties: Bang & Olufsen, HP Audio Boost"
+              ]
+            },
+            {
+              "title": "Connectivity Features",
+              "details": [
+                "Wireless LAN: Intel Wi-Fi 6 AX201 (2x2)",
+                "Bluetooth: v5.2"
+              ]
+            },
+            {
+              "title": "Dimensions",
+              "details": [
+                "Dimensions: 306.5 x 194.5 x 16.9 mm",
+                "Weight: 1.27 kg"
+              ]
+            },
+            {
+              "title": "Additional Features",
+              "details": [
+                "Disk Drive: Not Available",
+                "Web Camera: HP Wide Vision 720p HD Camera with Integrated Privacy Shutter",
+                "Finger Print Sensor: Yes",
+                "Keyboard: Full-size Backlit Keyboard",
+                "Backlit Keyboard: Yes",
+                "Pointer Device: Touchpad",
+                "Included Software: Microsoft Office Home & Student 2021"
+              ]
+            },
+            {
+              "title": "Warranty",
+              "details": [
+                "Warranty Summary: 1 Year Onsite Warranty"
+              ]
+            }
+          ],
+          "customer_reviews": [
+            {
+              "customer_name": "Oliver Smith",
+              "rating": 4.7,
+              "review": "Amazing laptop with a stunning OLED display. The convertible design is very practical."
+            },
+            {
+              "customer_name": "Sophia Garcia",
+              "rating": 4.7,
+              "review": "Love the versatility of this laptop. Great performance and beautiful design."
+            }
+          ],
+          "qna": [
+            {
+              "question": "Does it come with a stylus?",
+              "answer": "Yes, it comes with a stylus for precise input and drawing."
+            },
+            {
+              "question": "Is the SSD upgradeable?",
+              "answer": "No, the SSD is soldered onto the motherboard and cannot be upgraded."
+            },
+            {
+              "question": "Is it suitable for graphic design?",
+              "answer": "Absolutely, the high-resolution display and powerful specs make it great for graphic design tasks."
+            }
+          ]
+        },
+        {
+          "product_id": "LAPI7M1N2O3P4Q5R6",
+          "brand": "Dell",
+          "model": "i7",
+          "product_images": [
+            "https://example.com/laptop9_image1.jpg",
+            "https://example.com/laptop9_image2.jpg",
+            "https://example.com/laptop9_image3.jpg"
+          ],
+          "product_name": {
+            "name": "Dell Inspiron 15 (Platinum Silver, 1 TB SSD, 16 GB RAM)",
+            "description": "The Dell Inspiron 15 offers reliable performance with a spacious SSD and ample RAM, making it perfect for multitasking and productivity."
+          },
+          "rating": 4.6,
+          "price_details": {
+            "current_price": 99999,
+            "original_price": 104999,
+            "discount_percent": 5
+          },
+          "offers": [
+            {
+              "offer_type": "Bank Offer",
+              "description": "5% off on HDFC Bank Debit Cards, up to ₹5000 on orders of ₹100,000 and above"
+            },
+            {
+              "offer_type": "Special Price",
+              "description": "Get extra ₹5000 off (price inclusive of cashback/coupon)"
+            }
+          ],
+          "highlights": [
+            "16 GB RAM | 1 TB SSD",
+            "39.62 cm (15.6 inch) Full HD Display",
+            "Intel Core i7 Processor",
+            "Windows 11",
+            "Thin and Lightweight Design"
+          ],
+          "detailed_description": "The Dell Inspiron 15 is built for performance with a spacious 1 TB SSD and 16 GB RAM. Its 39.62 cm Full HD display provides clear visuals, while the Intel Core i7 processor ensures smooth multitasking. With Windows 11 and a sleek design, this laptop is perfect for both work and entertainment.",
+          "specifications": [
+            {
+              "title": "General",
+              "details": [
+                "Sales Package: Laptop, Power Adapter, User Guide",
+                "Model Number: Inspiron 15 7510",
+                "Part Number: B560031WIN9",
+                "Series: Inspiron",
+                "Color: Platinum Silver",
+                "Type: Thin and Light Laptop",
+                "Suitable For: Processing & Multitasking, Entertainment",
+                "Battery Backup: Up to 8 hours",
+                "Power Supply: 90 W AC Adapter",
+                "Battery Cell: 3 cell",
+                "MS Office Provided: No"
+              ]
+            },
+            {
+              "title": "Processor And Memory Features",
+              "details": [
+                "Processor Brand: Intel",
+                "Processor Name: Core i7",
+                "SSD: Yes",
+                "SSD Capacity: 1 TB",
+                "RAM: 16 GB",
+                "RAM Type: DDR4",
+                "Processor Variant: 11800H",
+                "Clock Speed: 2.3 GHz with Turbo Boost up to 4.6 GHz",
+                "Cache: 24 MB",
+                "Graphic Processor: NVIDIA GeForce RTX 3050"
+              ]
+            },
+            {
+              "title": "Operating System",
+              "details": [
+                "Operating System: Windows 11"
+              ]
+            },
+            {
+              "title": "Display And Audio Features",
+              "details": [
+                "Touchscreen: No",
+                "Screen Size: 39.62 cm (15.6 inch)",
+                "Screen Resolution: 1920 x 1080 Pixel",
+                "Screen Type: Full HD LED Backlit IPS Display",
+                "Speakers: Built-in Dual Speakers",
+                "Internal Mic: Integrated Dual Array Microphones",
+                "Sound Properties: Realtek ALC3204"
+              ]
+            },
+            {
+              "title": "Connectivity Features",
+              "details": [
+                "Wireless LAN: Intel Wi-Fi 6 AX201 (2x2)",
+                "Bluetooth: v5.1"
+              ]
+            },
+            {
+              "title": "Dimensions",
+              "details": [
+                "Dimensions: 354.6 x 232.8 x 17.9 mm",
+                "Weight: 1.79 kg"
+              ]
+            },
+            {
+              "title": "Additional Features",
+              "details": [
+                "Disk Drive: Not Available",
+                "Web Camera: HD Webcam",
+                "Finger Print Sensor: Yes",
+                "Keyboard: Backlit Keyboard",
+                "Backlit Keyboard: Yes",
+                "Pointer Device: Touchpad",
+                "Included Software: Dell Mobile Connect, McAfee LiveSafe 12 month Subscription"
+              ]
+            },
+            {
+              "title": "Warranty",
+              "details": [
+                "Warranty Summary: 1 Year Onsite Warranty"
+              ]
+            }
+          ],
+          "customer_reviews": [
+            {
+              "customer_name": "Daniel Thompson",
+              "rating": 4.6,
+              "review": "Impressive laptop with powerful specs. Great for gaming and productivity."
+            },
+            {
+              "customer_name": "Sophie Clark",
+              "rating": 4.6,
+              "review": "Sleek design and excellent performance. The SSD makes a huge difference."
+            }
+          ],
+          "qna": [
+            {
+              "question": "Does it have a dedicated graphics card?",
+              "answer": "Yes, it comes with an NVIDIA GeForce RTX 3050 for enhanced graphics performance."
+            },
+            {
+              "question": "Can I upgrade the SSD?",
+              "answer": "Yes, the SSD can be upgraded as it is not soldered onto the motherboard."
+            },
+            {
+              "question": "Does it support Wi-Fi 6?",
+              "answer": "Yes, it supports Wi-Fi 6 for fast and reliable wireless connectivity."
             }
           ]
         },

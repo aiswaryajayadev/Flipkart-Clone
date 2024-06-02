@@ -34,9 +34,9 @@ function createProductCard(mobile) {
               <div class="card-body m-auto">
                   <h6 class="card-title"><a href="#" class="product-name">${mobile.product_name.name}</a></h6>
                   <div class="d-flex justify-content-around">
-                      <div class="rating bg-success text-white px-2 mb-2">
-                          <span>${mobile.rating}<i class="bi bi-star-fill"></i></span>
-                      </div>
+                  <div class="rating bg-success text-white small m-1">
+                  <span>${mobile.rating}<i class="bi bi-star-fill"></i></span>
+                </div>
                       <div class="salesCount"><span>(${mobile.customer_reviews.length})</span></div>
                   </div>
                   <p class="card-price d-flex justify-content-start align-items-start">
