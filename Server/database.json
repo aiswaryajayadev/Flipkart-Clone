@@ -2,6 +2,8 @@
     "laptops": [
         {
           "product_id": "LAPI8J9K0L1M2N3O4",
+          "brand":"dell",
+          "model":"i7", 
           "product_images": [
             "https://example.com/laptop4_image1.jpg",
             "https://example.com/laptop4_image2.jpg",
@@ -162,6 +164,8 @@
         },
         {
           "product_id": "LAPI5Q6R7S8T9U0V1",
+          "brand":"asus",
+          "model":"i5", 
           "product_images": [
             "https://example.com/laptop5_image1.jpg",
             "https://example.com/laptop5_image2.jpg",
@@ -322,6 +326,8 @@
         },
         {
           "product_id": "LAPI9W0X1Y2Z3A4B5",
+          "brand":"hp",
+          "model":"i3", 
           "product_images": [
             "https://example.com/laptop6_image1.jpg",
             "https://example.com/laptop6_image2.jpg",
@@ -482,6 +488,8 @@
         },
         {
             "product_id": "LAPIDELLXPS152023",
+            "brand":"dell",
+          "model":"i7", 
             "product_images": [
               "https://example.com/dell_xps_15_2023_image1.jpg",
               "https://example.com/dell_xps_15_2023_image2.jpg",
@@ -629,6 +637,8 @@
           },
           {
             "product_id": "LENLEG5PRO2024",
+            "brand":"lenovo",
+          "model":"i5", 
             "product_images": [
               "https://example.com/lenovo_legion_5_pro_image1.jpg",
               "https://example.com/lenovo_legion_5_pro_image2.jpg",
@@ -775,6 +785,8 @@
           },
           {
             "product_id": "RAZBLADE152024",
+            "brand":"razer",
+          "model":"i3", 
             "product_images": [
               "https://example.com/razer_blade_15_2024_image1.jpg",
               "https://example.com/razer_blade_15_2024_image2.jpg",
@@ -921,6 +933,8 @@
           },
           {
             "product_id": "MSI_LAPTOP_001",
+            "brand":"msi",
+          "model":"i7", 
             "product_images": [
               "https://example.com/msi_laptop_image1.jpg",
               "https://example.com/msi_laptop_image2.jpg",
@@ -1010,6 +1024,8 @@
           },
           {
             "product_id": "ACER_LAPTOP_001",
+            "brand":"acer",
+          "model":"i5", 
             "product_images": [
               "https://example.com/acer_laptop_image1.jpg",
               "https://example.com/acer_laptop_image2.jpg",
@@ -1099,6 +1115,8 @@
           },
           {
             "product_id": "APPLE_LAPTOP_001",
+            "brand":"apple",
+          "model":"i3", 
             "product_images": [
               "https://example.com/apple_laptop_image1.jpg",
               "https://example.com/apple_laptop_image2.jpg",
@@ -7393,9 +7411,11 @@
     {
       "product_id": "NIKESH002",
       "product_images": [
-        "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,b_rgb:f5f5f5/1682a4d8-5784-4caa-bbc8-0472199a6097/custom-reactx-infinity-rn-4-by-you.png",
-         "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/b99d6bbd-25d4-47f6-8501-e7048804c6e5/custom-reactx-infinity-rn-4-by-you.png" ,
-        "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/a5d04c20-0631-4364-8431-250e3648d58c/custom-reactx-infinity-rn-4-by-you.png" 
+        "https://images.pexels.com/photos/4171362/pexels-photo-4171362.jpeg",
+        "https://images.pexels.com/photos/3928418/pexels-photo-3928418.jpeg",
+        "https://images.pexels.com/photos/1004964/pexels-photo-1004964.jpeg",
+        "https://images.pexels.com/photos/4171356/pexels-photo-4171356.jpeg",
+        "https://images.pexels.com/photos/4171368/pexels-photo-4171368.jpeg"
       ],
       "product_name": {
         "name": "Nike React Infinity Run Flyknit",
@@ -7493,12 +7513,11 @@
     {
       "product_id": "NIKESH001",
       "product_images": [
-        
-"https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/9005c997-949f-4c9f-af77-32e82e214d31/air-zoom-pegasus-38-younger-older-road-running-shoes-sdD49r.png" ,
-"https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/36f0852d-b9b6-4f64-a050-653edcba4586/air-zoom-pegasus-38-younger-older-road-running-shoes-sdD49r.png",
-        
-"https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/a8f94e30-1714-4d4f-a61d-43484f18b492/air-zoom-pegasus-38-younger-older-road-running-shoes-sdD49r.png" 
-     
+        "https://images.pexels.com/photos/1598503/pexels-photo-1598503.jpeg",
+        "https://images.pexels.com/photos/3171570/pexels-photo-3171570.jpeg",
+        "https://images.pexels.com/photos/5329206/pexels-photo-5329206.jpeg",
+        "https://images.pexels.com/photos/5420463/pexels-photo-5420463.jpeg",
+        "https://images.pexels.com/photos/5329212/pexels-photo-5329212.jpeg"
       ],
       "product_name": {
         "name": "Nike Air Zoom Pegasus 38",
@@ -7596,13 +7615,11 @@
     {
       "product_id": "REEBOKZ001",
       "product_images": [
-        
-
-"//img.tatacliq.com/images/i7/437Wx649H/MP000000009610800_437Wx649H_202105231907291.jpeg" ,
-"//img.tatacliq.com/images/i7/437Wx649H/MP000000009610800_437Wx649H_202105231907324.jpeg" ,
-
-"//img.tatacliq.com/images/i7/437Wx649H/MP000000009610800_437Wx649H_202105231907335.jpeg" 
-
+        "https://images.pexels.com/photos/4682186/pexels-photo-4682186.jpeg",
+        "https://images.pexels.com/photos/4682175/pexels-photo-4682175.jpeg",
+        "https://images.pexels.com/photos/4682183/pexels-photo-4682183.jpeg",
+        "https://images.pexels.com/photos/4682181/pexels-photo-4682181.jpeg",
+        "https://images.pexels.com/photos/4682184/pexels-photo-4682184.jpeg"
       ],
       "product_name": {
         "name": "Reebok Nano X1",
@@ -7700,10 +7717,11 @@
     {
       "product_id": "UNDERARMOUR001",
       "product_images": [
-        
-        "//www.kickscrew.com/cdn/shop/files/main-square_9cd651da-d74d-4a8a-82b4-8420ac3cffd4_540x.jpg",
-        "//www.kickscrew.com/cdn/shop/files/1_ac81317c-4869-4483-95bb-b31b75d263de_540x.jpg" ,
-        "//www.kickscrew.com/cdn/shop/files/4_2ed3abc9-c29f-4f44-b1c5-9fe738e691ec_540x.jpg"
+        "https://images.pexels.com/photos/4134713/pexels-photo-4134713.jpeg",
+        "https://images.pexels.com/photos/4134705/pexels-photo-4134705.jpeg",
+        "https://images.pexels.com/photos/4134704/pexels-photo-4134704.jpeg",
+        "https://images.pexels.com/photos/4134709/pexels-photo-4134709.jpeg",
+        "https://images.pexels.com/photos/4134711/pexels-photo-4134711.jpeg"
       ],
       "product_name": {
         "name": "Under Armour HOVR Phantom 2",
@@ -7801,10 +7819,11 @@
     {
       "product_id": "ASICS001",
       "product_images": [
-        "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/d/o/m/-original-imagg4kpv9mpahxj.jpeg",
-        
-"https://rukminim2.flixcart.com/image/128/128/l0fm07k0/shoe/3/0/v/11-1011b359-001-asics-black-white-original-imagc84gfgfzsmbd.jpeg",
-"https://rukminim2.flixcart.com/image/128/128/l0fm07k0/shoe/m/m/p/11-1011b359-001-asics-black-white-original-imagc84gmscqjxkh.jpeg"
+        "https://images.pexels.com/photos/4145795/pexels-photo-4145795.jpeg",
+        "https://images.pexels.com/photos/4145791/pexels-photo-4145791.jpeg",
+        "https://images.pexels.com/photos/4145793/pexels-photo-4145793.jpeg",
+        "https://images.pexels.com/photos/4145792/pexels-photo-4145792.jpeg",
+        "https://images.pexels.com/photos/4145790/pexels-photo-4145790.jpeg"
       ],
       "product_name": {
         "name": "ASICS Gel-Nimbus 24",
@@ -7902,10 +7921,11 @@
     {
       "product_id": "NEWBALANCE001",
       "product_images": [
-      
-        "https://m.media-amazon.com/images/I/81AGxc4LQuL._SX675_.jpg" ,
-        "https://m.media-amazon.com/images/I/81EJzt9awDL._SX675_.jpg",
-"https://m.media-amazon.com/images/I/813QzLJR2HL._SX675_.jpg" 
+        "https://images.pexels.com/photos/5780344/pexels-photo-5780344.jpeg",
+        "https://images.pexels.com/photos/5780338/pexels-photo-5780338.jpeg",
+        "https://images.pexels.com/photos/5780345/pexels-photo-5780345.jpeg",
+        "https://images.pexels.com/photos/5780340/pexels-photo-5780340.jpeg",
+        "https://images.pexels.com/photos/5780342/pexels-photo-5780342.jpeg"
       ],
       "product_name": {
         "name": "New Balance Fresh Foam 1080v11",
@@ -8003,9 +8023,11 @@
     {
       "product_id": "SAUCONY001",
       "product_images": [
-        "//img.tatacliq.com/images/i8/437Wx649H/MP000000012549569_437Wx649H_202203221454543.jpeg", 
-"//img.tatacliq.com/images/i8/437Wx649H/MP000000012549569_437Wx649H_202203221454554.jpeg",
-"//img.tatacliq.com/images/i8/437Wx649H/MP000000012549569_437Wx649H_202203221454565.jpeg" 
+        "https://images.pexels.com/photos/6248172/pexels-photo-6248172.jpeg",
+        "https://images.pexels.com/photos/6248170/pexels-photo-6248170.jpeg",
+        "https://images.pexels.com/photos/6248176/pexels-photo-6248176.jpeg",
+        "https://images.pexels.com/photos/6248174/pexels-photo-6248174.jpeg",
+        "https://images.pexels.com/photos/6248178/pexels-photo-6248178.jpeg"
       ],
       "product_name": {
         "name": "Saucony Triumph 19",
@@ -8103,11 +8125,11 @@
     {
       "product_id": "NIKE001",
       "product_images": [
-       
-"https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/9005c997-949f-4c9f-af77-32e82e214d31/air-zoom-pegasus-38-younger-older-road-running-shoes-sdD49r.png",
-"https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/17d126af-9581-4984-a42e-25d444f78e37/air-zoom-pegasus-38-younger-older-road-running-shoes-sdD49r.png",
-"https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/a8f94e30-1714-4d4f-a61d-43484f18b492/air-zoom-pegasus-38-younger-older-road-running-shoes-sdD49r.png"
-
+        "https://images.pexels.com/photos/7184848/pexels-photo-7184848.jpeg",
+        "https://images.pexels.com/photos/7184846/pexels-photo-7184846.jpeg",
+        "https://images.pexels.com/photos/7184852/pexels-photo-7184852.jpeg",
+        "https://images.pexels.com/photos/7184849/pexels-photo-7184849.jpeg",
+        "https://images.pexels.com/photos/7184851/pexels-photo-7184851.jpeg"
       ],
       "product_name": {
         "name": "Nike Air Zoom Pegasus 38",
@@ -8205,12 +8227,11 @@
     {
       "product_id": "ADIDAS002",
       "product_images": [
-        
-
-        "https://rukminim2.flixcart.com/image/128/128/kl175ow0/shoe/w/j/z/8-kyq93-adidas-ftwwht-cblack-syello-original-imagy8qyuee8djxw.jpeg",
-        "https://rukminim2.flixcart.com/image/128/128/kl175ow0/shoe/k/r/r/8-kyq93-adidas-ftwwht-cblack-syello-original-imagy8qyhry73tyk.jpeg",
-        "https://rukminim2.flixcart.com/image/128/128/kl175ow0/shoe/d/8/9/8-kyq93-adidas-ftwwht-cblack-syello-original-imagy8qybprdtcwz.jpeg"
-         
+        "https://images.pexels.com/photos/6297556/pexels-photo-6297556.jpeg",
+        "https://images.pexels.com/photos/6297555/pexels-photo-6297555.jpeg",
+        "https://images.pexels.com/photos/6297557/pexels-photo-6297557.jpeg",
+        "https://images.pexels.com/photos/6297559/pexels-photo-6297559.jpeg",
+        "https://images.pexels.com/photos/6297560/pexels-photo-6297560.jpeg"
       ],
       "product_name": {
         "name": "Adidas Ultraboost 21",
@@ -8308,9 +8329,11 @@
     {
       "product_id": "REEBOK001",
       "product_images": [
-        "https://cdn11.bigcommerce.com/s-azs446wiic/images/stencil/500x659/products/583/7287/gb5gxfhxdsyfejbx7ziz__79044.1688133484.png",
-"https://cdn11.bigcommerce.com/s-azs446wiic/images/stencil/500x659/products/583/7290/mul1arpyov3mnreogkvh__47442.1688133509.png",
-"https://cdn11.bigcommerce.com/s-azs446wiic/images/stencil/500x659/products/583/7291/cm68a6mx51yxbtjmjzrs__52635.1688133517.png"
+        "https://images.pexels.com/photos/9297782/pexels-photo-9297782.jpeg",
+        "https://images.pexels.com/photos/9297784/pexels-photo-9297784.jpeg",
+        "https://images.pexels.com/photos/9297781/pexels-photo-9297781.jpeg",
+        "https://images.pexels.com/photos/9297783/pexels-photo-9297783.jpeg",
+        "https://images.pexels.com/photos/9297780/pexels-photo-9297780.jpeg"
       ],
       "product_name": {
         "name": "Reebok Nano X1",
