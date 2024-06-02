@@ -1001,7 +1001,7 @@ color: black;
 .questions-answers{
     display: flex;
     justify-content: space-between;
-    border-bottom:1px solid black;
+    border-bottom:1px solid #f0f0f0;
 }
 .customer-questions p{
     margin-left:15px;
@@ -1009,11 +1009,11 @@ color: black;
 }
 .customer-questions{
     
-    border-bottom:1px solid black;
+    border-bottom:1px solid #f0f0f0;
 
 }
 .rating-reviews{
-    border-bottom:1px solid black;
+    border-bottom:1px solid #f0f0f0;
 }
 
 .customer-questions:last-child {
@@ -1025,7 +1025,7 @@ color: black;
 }
 .question-search{
     margin-left: 300px;
-   border-left: 1px solid black;   
+   border-left: 1px solid #f0f0f0;   
     width: 9%;
     cursor: pointer;
     text-align: center;}

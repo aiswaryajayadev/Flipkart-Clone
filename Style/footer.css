@@ -82,3 +82,80 @@ footer a:hover{
 .footer-contact-social-icons{
     margin-right: 16px;
 }
+.footer-product-list{
+    color: #666;
+    position: relative;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    text-align: left;
+    padding: 25px;
+    line-height: 1.5;
+}
+.footer-product-list-heading{
+    color: #565656;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 14px;
+    padding: 14px 0;
+    font-size: 16px;
+}
+.footer-product-list-heading-link{
+color: #565656;
+font-weight: bold;
+margin-left: 4px;
+}
+.footer-product-list-heading-link:hover{
+    color: #565656;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.footer-product-list-content{
+margin: 4px 0;
+    line-height: 1.5;
+}
+
+.footer-product-list-content-link:hover{
+    text-decoration: none;
+    color: #565656;
+
+
+}
+.footer-product-list-content-title{
+   color: #565656;
+    text-transform: uppercase;
+    margin-right: 4px;
+    font-size: 14px;
+}
+.footer-product-list-content-link{
+color: #565656;
+    padding: 0 5px;
+    border-right: 1px solid #333;
+    font-size: 12px;
+}
+
+.footer-flipkart-about{
+padding: 30px;
+color: #878787;
+background-color: #f5f5f5;
+}
+
+.footer-flipkart-about-content{
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.footer-flipkart-about .footer-flipkart-about-content h1{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-flipkart-about .footer-flipkart-about-content h2{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-flipkart-about .footer-flipkart-about-content a{
+    color: #2874f0;
+}

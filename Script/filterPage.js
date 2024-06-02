@@ -1,32 +1,30 @@
-const firebaseConfig = {
-  apiKey: "AIzaSyCbX8RTS7jKJ0xApi1s3c3TS7_iExa-BjA",
-  authDomain: "fc-clone-13fe6.firebaseapp.com",
-  databaseURL: "https://fc-clone-13fe6-default-rtdb.firebaseio.com",
-  projectId: "fc-clone-13fe6",
-  storageBucket: "fc-clone-13fe6.appspot.com",
-  messagingSenderId: "1003116691829",
-  appId: "1:1003116691829:web:212b427550a54b7ed0d33c"
-};
-
-
-firebase.initializeApp(firebaseConfig);
-const auth = firebase.auth();
+// const auth = firebase.auth();
 const database = firebase.database();
-
 const wishlistRef = firebase.database().ref('wishlist');
-  const username = localStorage.getItem('user');
+
+setTimeout(function(){
+  let variable = 'mobiles';
+let pid='REEBOK001';
+  const wishlistRef = firebase.database().ref('wishlist');
+  // const username = localStorage.getItem('user');
+   const username='hari';
+  console.log(document.querySelector(".like"))
   document.querySelector(".like").addEventListener("click", function (event) {
     event.preventDefault();
     console.log("clcked");
 
     addProductToWishlist(username,variable,pid);
   });
+},500)
+
+
 
 
   const addProductToWishlist = (username,category, product) => {
 
     const productId = category.substring(0, 4) + '-' + product;
-
+ console.log(productId)
+ console.log(username)
     wishlistRef.child(username).child(productId).set(true)
       .then(() => {
         console.log('Product added to wishlist successfully');
@@ -104,9 +102,9 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   }
-
   let variable = 'mobiles';
-let pid='REEBOK001';
+  let pid='REEBOK001';
+  
 const jsonURL = `http://localhost:3000/${variable}/`;
   // Fetch and display product cards
 

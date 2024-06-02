@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
                  
                           <div class="card">
                               <div class="d-flex justify-content-end mt-1 mx-1">
-                                  <button class="btn like-btn"><img class="like" src="../Assets/plainheart.png" alt=""></button>
+                                  <button id="add-to-wishlist-button" class="btn like-btn"><img class="like" src="../Assets/plainheart.png" alt=""></button>
                               </div>
                               <a href="#" class="product-link">
                               <img class="card-img-top px-3 product-img" src="${mobile.product_images[0]}" alt="Product Image">
@@ -121,3 +121,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }, 100); // Adjust the timeout value as needed based on your application's timing
 });
+

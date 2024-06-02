@@ -1,4 +1,4 @@
-const mockApiUrl ="https://run.mocky.io/v3/36c2e3d3-8e44-4160-a083-c928df1acce6";
+const mockApiUrl ="https://run.mocky.io/v3/e2630f15-1664-48b6-b3d3-5f3d16dddeed";
 
 async function fetchCategoryList(){
     try{
