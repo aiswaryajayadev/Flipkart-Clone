@@ -1,0 +1,182 @@
+[
+  { 
+    "Laptops":[ 
+        {
+      "id": 1,
+      "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+      "description": "Home Toys"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+      "description": "Another Product"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+      "description": "Yet Another Product"
+    },
+    {
+        "id": 4,
+        "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+        "description": "Yet Another Product"
+      },
+      {
+        "id": 5,
+        "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+        "description": "Yet Another Product"
+      },
+      {
+        "id": 6,
+        "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+        "description": "Yet Another Product"
+      },
+      {
+        "id": 7,
+        "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+        "description": "Yet Another Product"
+      },
+      {
+        "id": 8,
+        "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+        "description": "Yet Another Product"
+      }
+    ]
+  },
+  
+  {
+  "Electronics":[ 
+    {
+        "id": 1,
+        "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+        "description": "Home Toys"
+      },
+      {
+        "id": 2,
+        "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+        "description": "Another Product"
+      },
+      {
+        "id": 3,
+        "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+        "description": "Yet Another Product"
+      },
+      {
+          "id": 4,
+          "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+          "description": "Yet Another Product"
+        },
+        {
+          "id": 5,
+          "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+          "description": "Yet Another Product"
+        },
+        {
+          "id": 6,
+          "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+          "description": "Yet Another Product"
+        },
+        {
+          "id": 7,
+          "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+          "description": "Yet Another Product"
+        },
+        {
+          "id": 8,
+          "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+          "description": "Yet Another Product"
+        }
+]
+  },
+  {
+    "TV":[ 
+      {
+          "id": 1,
+          "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+          "description": "Home Toys"
+        },
+        {
+          "id": 2,
+          "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+          "description": "Another Product"
+        },
+        {
+          "id": 3,
+          "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+          "description": "Yet Another Product"
+        },
+        {
+            "id": 4,
+            "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+            "description": "Yet Another Product"
+          },
+          {
+            "id": 5,
+            "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+            "description": "Yet Another Product"
+          },
+          {
+            "id": 6,
+            "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+            "description": "Yet Another Product"
+          },
+          {
+            "id": 7,
+            "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+            "description": "Yet Another Product"
+          },
+          {
+            "id": 8,
+            "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+            "description": "Yet Another Product"
+          }
+  ]
+    },
+    {
+        "Washing-machine":[ 
+          {
+              "id": 1,
+              "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+              "description": "Home Toys"
+            },
+            {
+              "id": 2,
+              "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+              "description": "Another Product"
+            },
+            {
+              "id": 3,
+              "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+              "description": "Yet Another Product"
+            },
+            {
+                "id": 4,
+                "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+                "description": "Yet Another Product"
+              },
+              {
+                "id": 5,
+                "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+                "description": "Yet Another Product"
+              },
+              {
+                "id": 6,
+                "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+                "description": "Yet Another Product"
+              },
+              {
+                "id": 7,
+                "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+                "description": "Yet Another Product"
+              },
+              {
+                "id": 8,
+                "imageUrl": "https://static.toiimg.com/photo/92611142.cms",
+                "description": "Yet Another Product"
+              }
+      ]
+        }
+        
+    
+  ]
+  

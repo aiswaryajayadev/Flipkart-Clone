@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="../Style/flipkartcart_check.css">
+    <link rel="icon" type="image/x-icon"
+        href="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/flipkart-icon.png">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<link rel="stylesheet" href="../Style/flipkart_cartnon-mty.css">
+
+</head>
+
+<body>
+    <div class="checkout-verify-container">
+        <div class="checkout-verify-left-container">
+            <div class="checkout-verify-const">
+                <div class="checkout-verify-header1">
+                   <p class="checkout-verify-header-num"> 1</p> <p>LOGIN</p>
+                    <img src="Assets\bluetick.png" class="checkout-verify-bluetick-1">
+
+                </div>
+                <div class="checkout-verify-change-link" style="text-decoration: none; color: #2874f0;"> <a
+                        href="#">CHANGE</a></div>
+                <div class="checkout-verify-login-info">
+                    <p class="checkout-verify-contact-name">John Doe</p>
+                    <p class="checkout-verify-contact-number">+91 9876543210</p>
+
+                </div>
+                <!-- <div class="login-container">
+                   
+                </div> -->
+                <div class="checkout-verify-login-details-container" style="display: none;">
+                    <div class="checkout-verify-login-details">
+                        <div class="checkout-verify-login-details-left">
+                            <p>John Doe</p>
+                            <br>
+                            <p>+91 9876543210</p>
+                             <br>
+                            <a href="#">Logout & Sign in to another account</a>
+                            <a href="#" class="checkout-verify-continue-btn">CONTINUE TO CHECKOUT</a>
+                        </div>
+                        <div class="checkout-verify-login-details-right">
+                            <h4>Advantages of Secure Login</h4>
+                            <ul>
+                                <li><img src="Assets\image_delivery_icon.png" alt="Truck" class="checkout-verify-icon">
+                                    Easy track
+                                    orders,Hassle free returns</li>
+                                <li><img src="Assets\image_blueicon bell.png" alt="Bell" class="checkout-verify-icon">
+                                    Get relevant alerts and
+                                    recommendations</li>
+                                <li><img src="Assets\star.png" alt="Star" class="checkout-verify-icon"> Wishlist,
+                                    reviews, ratings and more
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="checkout-verify-info-row">
+
+                        Please note that upon clicking "Logout" you will lose all items in cart and will be redirected
+                        to Flipkart home page.
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="checkout-verify-const" style="margin-top: 30px;  background-color: #F5FAFF;">
+                <div class="checkout-verify-header2">
+                    <p class="checkout-verify-header-num"> 2</p><p>DELIVERY ADDRESS</p>
+                    <img src="Assets\bluetick.png" class="checkout-verify-bluetick-2">
+                </div>
+                <div class="checkout-verify-delivery-address">
+                    <div class="checkout-verify-address-line">
+                        <input type="radio" checked id="home" name="address">
+
+                        <span class="checkout-verify-bold-text">John Doe <label style=" border: 1px solid #ccc;"
+                                for="home" class="address-label">HOME</label></span>
+
+                        <span class="checkout-verify-bold-text">+91 9876543210</span>
+                        <button class="checkout-verify-edit-button">EDIT</button>
+                    </div>
+                    <div class="checkout-verify-address-line">
+                        <p>123 Street Name</p>
+                        <p>City, State, Zip Code</p>
+                        <p>Country</p>
+                    </div>
+                </div>
+                <button class="checkout-verify-deliver-here-button">DELIVER HERE</button>
+            </div>
+            <div class="checkout-verify-const" style="margin-top: 30px;">
+                <div class="checkout-verify-header3">
+                   
+                    <p class="checkout-verify-header-num"> 3</p> <p>ORDER SUMMARY</p>
+                    <img src="Assets\bluetick.png" class="checkout-verify-bluetick-3">
+
+                </div>
+                <div class="checkout-verify-order-summary">
+                    <div class="checkout_nonmty-card-body">
+                        <div class="checkout_nonmty-product_row">
+                            <div class="checkout_nonmty-col-1" style="background-color: white;">
+                                <div class="checkout_nonmty-product">
+                                    <img class="checkout_nonmty-product_img" id="productImage" src="" alt="">
+                                </div>
+                                <div class="checkout_nonmty-quantity_row">
+                                    <div class="checkout_nonmty-quantity_col1" style="background-color: white;" onclick="updateQuantity('decrement')">
+                                        <a href="#" class="checkout_nonmty-circle-btn-minus">-</a>
+                                    </div>
+                                    <div class="checkout_nonmty-quantity_col2" style="background-color: white;">
+                                        <input type="number" class="checkout_nonmty-small-input" id="productQuantity" value="1" min="1" max="10">
+                                    </div>
+                                    <div class="checkout_nonmty-quantity_col3" style="background-color: white;" onclick="updateQuantity('increment')">
+                                        <a href="#" class="checkout_nonmty-circle-btn-plus">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkout_nonmty-col-2">
+                                <a class="checkout_nonmty-product_imgline1" id="productName" href="#"></a>
+                                <div class="checkout_nonmty-product_line2" id="productRAM"></div>
+                                <div class="checkout_nonmty-product_imgline3" id="productSeller">
+                                    Seller:Emna
+                                    <img class="checkout_nonmty-line3img" id="sellerImage" src="">
+                                    <div class="checkout_nonmty-price-container">
+                                        <div class="checkout_nonmty-price original-price" id="originalPrice"></div>
+                                        <div class="checkout_nonmty-price discounted-price" id="discountedPrice"></div>
+                                        <div class="checkout_nonmty-discount" id="discount"></div>
+                                    </div>
+                                </div>
+                                <div class="checkout_nonmty-product_line5" id="packagingFee"></div>
+                                <div class="checkout_nonmty-product_line6">
+                                    <a href="#"> SAVE FOR LATER </a>
+                                    <a href="#"> REMOVE </a>
+                                </div>
+                            </div>
+                            <div class="checkout_nonmty-col-3">
+                                <div class="checkout_nonmty-delivery-container">
+                                    <div class="checkout_nonmty-delivery-info" id="deliveryInfo"></div>
+                                    <div class="checkout_nonmty-delivery-cost">
+                                        <s id="deliveryCost"></s>
+                                        <span style="color: green; background-color: white;" id="freeDelivery"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="checkout-verify-ordersummary-const">
+                            <button class="checkout-verify-continue-btn-order">CONTINUE</button>
+                        </div>                     
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="checkout-verify-const" style="margin-top: 30px;">
+                <div class="checkout-verify-header4">
+                    <p class="checkout-verify-header-num"> 4</p><p>PAYMENT OPTIONS</p>
+                </div>
+                <div class="checkout-verify-payment-options">
+                    <!-- Payment options content here -->
+                    <img class="checkout-verify-payment-options-trouble"   src="Assets\trouble i.png">
+                    <h5 style="font-size: 15px; margin: 30px;">Unable to Show payment options!</h5>
+                    <p style="font-size: 10px;">Please try agin</p>
+                    <button
+                        style="background-color: #2874f0; color: #fff; border:none ; padding: 20px 50px 20px; margin-top: 20px; font-size: 10px;">RETRY</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="checkout_nonmty-right-container">
+            <div class="checkout_nonmty-price-const">
+                <div class="checkout_nonmty-price-header">
+                    <h4>PRICE DETAILS</h4>
+                </div>
+            </div>
+            <div class="checkout_nonmty-price-line">
+                <div class="checkout_nonmty-price-left">Price  items</div>
+                <div class="checkout_nonmty-price-right" id="totalPrice"></div>
+            </div>
+            <div class="checkout_nonmty-price-line">
+                <div class="checkout_nonmty-price-left">Discount</div>
+                <div class="checkout_nonmty-price-right" id="chkt-discount"></div>
+            </div>
+            <div class="checkout_nonmty-price-line">
+                <div class="checkout_nonmty-price-left">Delivery Charges</div>
+                <div class="checkout_nonmty-price-right"><span style="text-decoration: line-through;background-color: white;">₹40</span> <span style=" color: green; background-color: white;">Free</span></div>
+            </div>
+            <div class="checkout_nonmty-price-linetotal">
+                <div class="checkout_nonmty-price-lefttotal" style="font-weight: bold; margin-top: 30px;margin-bottom: 20px; ">Total Amount</div>
+                <div class="checkout_nonmty-price-righttotal" style="font-weight: bold; margin-top: 30px;margin-bottom: 20px;" id="chkt-totalAmount"></div>
+            </div>
+            <div class="checkout_nonmty-price-line">
+                <div class="checkout_nonmty-price-center" style="color: green;" id="savings"></div>
+            </div>
+        </div>
+
+
+
+    </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.checkout-verify-change-link').forEach(link => {
+
+
+            link.addEventListener('click', () => {
+                document.querySelector('.checkout-verify-change-link').style.display = 'none';
+                document.querySelector('.checkout-verify-login-info').style.display = 'none';
+                document.querySelector('.checkout-verify-login-details-container').style.display = 'block';
+                document.querySelector('.checkout-verify-header1').classList.add('checkout-verify-change-link-active');
+            });
+        });
+
+
+        document.querySelectorAll('.checkout-verify-continue-btn').forEach(button => {
+            document.querySelector('.checkout-verify-deliver-here-button').style.display = 'none';
+            document.querySelector('.checkout-verify-delivery-address').style.display = 'none';
+            button.addEventListener('click', () => {
+                document.querySelector('.checkout-verify-change-link').style.display = 'block';
+                document.querySelector('.checkout-verify-login-details-container').style.display = 'none';
+                document.querySelector('.checkout-verify-bluetick-1').style.display = 'block';
+                document.querySelector('.checkout-verify-delivery-address').style.display = 'block';
+
+                document.querySelector('.checkout-verify-deliver-here-button').style.display = 'block';
+                document.querySelector('.checkout-verify-header1').classList.remove('checkout-verify-change-link-active');
+                document.querySelector('.checkout-verify-header2').classList.add('checkout-verify-change-link-active');
+                document.querySelector('.checkout-verify-header3').classList.remove('checkout-verify-change-link-active');
+            });
+        });
+
+        document.querySelectorAll('.checkout-verify-deliver-here-button').forEach(button => {
+
+            document.querySelector('.checkout-verify-order-summary').style.display = 'none';
+            button.addEventListener('click', () => {
+
+                document.querySelector('.checkout-verify-delivery-address').style.display = 'none';
+                document.querySelector('.checkout-verify-bluetick-2').style.display = 'block';
+                document.querySelector('.checkout-verify-order-summary').style.display = 'block';
+                document.querySelector('.checkout-verify-deliver-here-button').style.display = 'block';
+                document.querySelector('.checkout-verify-deliver-here-button').style.display = 'none';
+                document.querySelector('.checkout-verify-header2').classList.remove('checkout-verify-change-link-active');
+                document.querySelector('.checkout-verify-header3').classList.add('checkout-verify-change-link-active');
+            });
+        });
+
+        document.querySelectorAll('.checkout-verify-continue-btn-order').forEach(button => {
+            document.querySelector('.checkout-verify-payment-options').style.display = 'none';
+            button.addEventListener('click', () => {
+                document.querySelector('.checkout-verify-order-summary').style.display = 'none';
+                document.querySelector('.checkout-verify-bluetick-3').style.display = 'block';
+                document.querySelector('.checkout-verify-payment-options').style.display = 'block';
+                document.querySelector('.checkout-verify-header3').classList.remove('checkout-verify-change-link-active');
+                document.querySelector('.checkout-verify-header4').classList.add('checkout-verify-change-link-active');
+            });
+        });
+    </script>
+
+
+
+<footer>
+    <div class="checkout-verify-footer">
+    <div class="checkout-verify-footer-details">
+          <div class="checkout-verify-footer-co1">
+          <span>Policies:Returns Policy | Terms of use | Security | Privacy|Infringement</span>
+        </div>
+          <div class="checkout-verify-footer-co2">
+           <span>© 2007-2024 Flipkart.com</span>
+        </div>
+        <div class="checkout-verify-footer-co3">
+           <span>Need help? Visit the </span>
+           
+           <span class="checkout-verify-footer-help">
+           <a href="#">Help Center</a>
+           </span>
+          <span>
+           or
+          </span>
+          <span class="checkout-verify-footer-contact">
+        <a href="#">Contact Us</a>
+
+         </span>
+        </div>
+   
+
+    </div>
+</div>
+</footer> 
+<script src="../Script/flipcart-check.js"></script>
+</body>
+</html>

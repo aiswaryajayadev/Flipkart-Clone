@@ -8,48 +8,21 @@
     <link rel="stylesheet" href="../Style/navbar.css">
     <link rel="stylesheet" href="../Style/home.css">
     <link rel="stylesheet" href="../Style/footer.css">
+   
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>-->
+    
 
-   
+       
 
 
 </head>
 <style>
-    .carousel {
-        margin: 30px;
-
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-        position: absolute;
-        top: 25%;
-        align-items: baseline;
-        background-color: white;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        padding: 10px 20px;
-        text-decoration: none;
-    }
 
 
-
-    .carousel-control-prev button,
-    .carousel-control-next button {
-        background: none;
-        border: none;
-        color: white;
-        font-size: 16px;
-        cursor: pointer;
-        outline: none;
+    .show-div {
+        display: block;
     }
 </style>
 
@@ -61,79 +34,497 @@
     <section id="categories">
 
         <div class="categories-class">
-
             <div class="image-row">
                 <div class="category-dropDown">
-                    <img src="https://rukminim1.flixcart.com/flap/80/80/image/29327f40e9c4d26b.png?q=100">
-                </div>
-                <div class="category-dropDown">
-                    <img src="https://rukminim1.flixcart.com/flap/80/80/image/22fddf3c7da4c4f4.png?q=100">
-                </div>
-                <div class="category-dropDown">
-                    <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100"
-                        width="70px" height="70px">
-
-                </div>
-                <div class="category-dropDown">
-                    <img src="https://rukminim1.flixcart.com/flap/80/80/image/69c6589653afdb9a.png?q=100">
-
-                </div>
-                <div class="category-dropDown">
-                    <img src="https://rukminim1.flixcart.com/flap/80/80/image/ab7e2b022a4587dd.jpg?q=100">
-
-                </div>
-                <div class="category-dropDown">
-                    <img src="https://rukminim1.flixcart.com/flap/80/80/image/0ff199d1bd27eb98.png?q=100">
-
-                </div>
-
-                <div class="category-dropDown">
-                    <img src="https://rukminim1.flixcart.com/flap/80/80/image/dff3f7adcf3a90c6.png?q=100">
-
-                </div>
-                <div class="category-dropDown">
-                    <img src="https://rukminim1.flixcart.com/fk-p-flap/80/80/image/05d708653beff580.png?q=100">
-                </div>
-            </div>
-            <div class="title-row">
-                <div class="category-dropDown">
+                    <img src="../Assets/grocery.png">
                     <div class="C-title">Grocery</div>
                 </div>
                 <div class="category-dropDown">
+                    <img src="../Assets/mobile.png">
                     <div class="C-title">Mobiles</div>
                 </div>
                 <div class="category-dropDown cdropdown">
-                    <div></div>
-                    <button class="cdropbtn ">
+                    <img src="../Assets/fasion.png" width="70px" height="70px" style="margin-bottom: 15px;">
+                    <div>
+                    </div>
+                    <button class="cdropbtn C-title">
                         <span>Fashion</span>
                         <i class='bx bx-chevron-up'></i>
                     </button>
+
                     <div class="cdropdown-content">
-                        <a href="#">My Profile</a>
-                        <a href="#">Flipkart Plus Zone</a>
-                        <a href="#">Orders</a>
-                        <a href="#">Wishlist</a>
-                        <a href="#">Rewards</a>
+                        <div class="cdropdown-content-div1">
+                            <object>
+                                <a href="" class="cdropdown-content-div1-item cdropdown-content-div1-item-heading"
+                                    id="div1-item-1">
+                                    Men's Top Wear
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-2">
+                                    Men's Bottom Wear
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-3">
+                                    Women Ethnic
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-4">
+                                    Men Footwear
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-5">
+                                    Women Footwear
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-6">
+                                    Watches and Accessories
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-7">
+                                    Women Western
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-8">
+                                    Bags, Suitcases & Luggage
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-9">
+                                    Kids
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-10">
+                                    Essentials
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-11">
+                                    Winter
+                                </a>
+                            </object>
+
+                        </div>
                     </div>
+                    <div class="cdropdown-content-1">
+                        <div class="cdropdown-content-div2" id="div2-item-1">
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Men's Top Wear</div><a href=""
+                                    class="cdropdown-content-div2-item-link">All</a><a href=""
+                                    class="cdropdown-content-div2-item-link">Men's T-Shirts</a><a href=" "
+                                    class="cdropdown-content-div2-item-link">Men's Casual Shirts</a><a href="  "
+                                    class="cdropdown-content-div2-item-link">Men's Formal Shirts</a><a href=""
+                                    class="cdropdown-content-div2-item-link">Men's Kurtas</a><a href="   "
+                                    class="cdropdown-content-div2-item-link">Men's Ethnic Sets</a><a href=""
+                                    class="cdropdown-content-div2-item-link">Men's Blazers</a><a href=""
+                                    class="cdropdown-content-div2-item-link">Men's Raincoat</a><a href=""
+                                    class="cdropdown-content-div2-item-link">Men's Windcheaters</a><a href=""
+                                    class="cdropdown-content-div2-item-link">Men's Suit</a><a href=""
+                                    class="cdropdown-content-div2-item-link">Men's Fabrics</a>
+                            </object>
+
+
+                        </div>
+
+                        <div class="cdropdown-content-div2" id="div2-item-2">
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Men's Bottom Wear</div>
+                                <a href="" class="cdropdown-content-div2-item-link">All</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Jeans</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Trousers</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Trackpants</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Shorts</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Cargos</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Threefourths</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Pyjamas &amp; Loungepants</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Dhoti</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Ethnic Pyjama</a>
+                            </object>
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-3">
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Women Ethnic</div>
+                                <a href="" class="cdropdown-content-div2-item-link">All</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Sarees</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Kurtas &amp; Kurtis</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Kurta Sets &amp; Salwar
+                                    Suits</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Ethnic Dresses</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Dress Materials</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Gowns</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Lehenga Cholis</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Leggings &amp; Patialas</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Palazzos &amp; Shararas</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Blouse</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Dupatta</a>
+                            </object>
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-4">
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Men Footwear</div>
+                                <a href="" class="cdropdown-content-div2-item-link">All</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Sports Shoes</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Casual Shoes</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Sandals &amp; Floaters</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Slippers &amp; Flip Flops</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Formal Shoes</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Ethnic Shoes</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Shoe Care</a>
+                            </object>
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-5">
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Women Footwear</div>
+                                <a href="" class="cdropdown-content-div2-item-link">All</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Flats</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Heels</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Wedges</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Slipper Flip Flops</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Casual Shoes</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Sports Shoes</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Ballerinas</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Ethnic Shoes</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Sneakers</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Walking Shoes</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Boots</a>
+                            </object>
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-6">
+                            
+                                <object>
+                                    <div class="cdropdown-content-div2-item">More in Watches and Accessories</div>
+                                    <a href="" class="cdropdown-content-div2-item-link">Men &amp; Women Watches</a>
+                                    <a href="" class="cdropdown-content-div2-item-link">Men &amp; Women Sunglasses</a>
+                                    <a href="" class="cdropdown-content-div2-item-link">Wallets</a>
+                                    <a href="" class="cdropdown-content-div2-item-link">Men &amp; Women Belts</a>
+                                    <a href="" class="cdropdown-content-div2-item-link">Men Fashion Jewellery</a>
+                                    <a href="" class="cdropdown-content-div2-item-link">Precious Articles</a>
+                                    <a href="" class="cdropdown-content-div2-item-link">Kids Accessories</a>
+                                    <a href="" class="cdropdown-content-div2-item-link">Women Fashion Jewellery</a></object>
+                      
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-7">
+
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Women Western</div>
+                                <a href="" class="cdropdown-content-div2-item-link">All</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Tops</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Dresses</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women T-shirts &amp; Polo T-shirts</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Jeans</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Nighties &amp; Night Dresses</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Nightsuit</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Track Pants</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Trouser</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Jumpsuit</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Shapewear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Sports Bra</a>
+                            </object>
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-8">
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Bags, Suitcases &amp; Luggage</div>
+                                <a href="" class="cdropdown-content-div2-item-link">All</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Bags &amp; Backpacks</a>
+                                <a href=""class="cdropdown-content-div2-item-link">Suitcases &amp; Trolleys</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Dufflebags</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Rucksacks</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Handbags</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Slingbags</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women's Clutches &amp; Wallets</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Messenger Bags</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Travel Accessories</a>
+                            </object>
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-9">
+                            <object><div class="cdropdown-content-div2-item">More in Kids</div>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys Innerwear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">All</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Girls Dresses</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys &amp; Girls Tshirts</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys &amp; Girls Combosets</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys &amp; Girls Ethnic Wear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys &amp; Girls Jeans</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys &amp; Girls Shorts</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys &amp; Girls Trackpants</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys &amp; Girls Innerwear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Infant Wear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Kids Slipper Flip Flops</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Kids Sports Shoes</a>
+                            </object>
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-10">
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Essentials</div>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys Innerwear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Briefs &amp; Trunks</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Vests</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Boxers</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Lingerie Sets</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Bra</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Panty</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Sarees</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Kurtas</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Kurta Sets &amp; Salwar Suits</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys Innerwear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys Innerwear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Girls Innerwear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Slipper Flip Flops</a>
+                            </object>
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-11">
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Winter</div>
+                                <a href="" class="cdropdown-content-div2-item-link">All</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Jackets</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Sweatshirts</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Sweaters</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Thermals</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women's Jackets</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women's Sweatshirts</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women's Sweaters &amp; Cardigans</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women's Shrugs</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Kids SweatShirts</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Kurtas</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys Innerwear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Kids Jackets</a>
+                            </object>
+                        </div>
+
+
+                    </div>
+
+
                 </div>
-                <div class="category-dropDown cdropdown">
+                <div class="category-dropDown  cdropdown">
+                    <img src="../Assets/electronics.png" style="margin-bottom: 5px;">
                     <div></div>
-                    <button class="cdropbtn ">
+                    <button class="cdropbtn C-title">
                         <span>Electronics</span>
                         <i class='bx bx-chevron-up'></i>
                     </button>
                     <div class="cdropdown-content">
-                        <a href="#">My Profile</a>
-                        <a href="#">Flipkart Plus Zone</a>
-                        <a href="#">Orders</a>
-                        <a href="#">Wishlist</a>
-                        <a href="#">Rewards</a>
+                        <div class="cdropdown-content-div1">
+                            <object>
+                                <a href="" class="cdropdown-content-div1-item cdropdown-content-div1-item-heading"
+                                    id="div1-item-1">
+                                    Men's Top Wear
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-2">
+                                    Men's Bottom Wear
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-3">
+                                    Women Ethnic
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-4">
+                                    Men Footwear
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-5">
+                                    Women Footwear
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-6">
+                                    Watches and Accessories
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-7">
+                                    Women Western
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-8">
+                                    Bags, Suitcases & Luggage
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-9">
+                                    Kids
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-10">
+                                    Essentials
+                                </a>
+                                <a href="" class="cdropdown-content-div1-item" id="div1-item-11">
+                                    Winter
+                                </a>
+                            </object>
+
+                        </div>
+                    </div>
+                    <div class="cdropdown-content-1">
+                        <div class="cdropdown-content-div2" id="div2-item-1">
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Men's Top Wear</div><a href=""
+                                    class="cdropdown-content-div2-item-link">All</a><a href=""
+                                    class="cdropdown-content-div2-item-link">Men's T-Shirts</a><a href=" "
+                                    class="cdropdown-content-div2-item-link">Men's Casual Shirts</a><a href="  "
+                                    class="cdropdown-content-div2-item-link">Men's Formal Shirts</a><a href=""
+                                    class="cdropdown-content-div2-item-link">Men's Kurtas</a><a href="   "
+                                    class="cdropdown-content-div2-item-link">Men's Ethnic Sets</a><a href=""
+                                    class="cdropdown-content-div2-item-link">Men's Blazers</a><a href=""
+                                    class="cdropdown-content-div2-item-link">Men's Raincoat</a><a href=""
+                                    class="cdropdown-content-div2-item-link">Men's Windcheaters</a><a href=""
+                                    class="cdropdown-content-div2-item-link">Men's Suit</a><a href=""
+                                    class="cdropdown-content-div2-item-link">Men's Fabrics</a>
+                            </object>
+
+
+                        </div>
+
+                        <div class="cdropdown-content-div2" id="div2-item-2">
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Men's Bottom Wear</div>
+                                <a href="" class="cdropdown-content-div2-item-link">All</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Jeans</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Trousers</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Trackpants</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Shorts</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Cargos</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Threefourths</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Pyjamas &amp; Loungepants</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Dhoti</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Ethnic Pyjama</a>
+                            </object>
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-3">
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Women Ethnic</div>
+                                <a href="" class="cdropdown-content-div2-item-link">All</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Sarees</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Kurtas &amp; Kurtis</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Kurta Sets &amp; Salwar
+                                    Suits</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Ethnic Dresses</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Dress Materials</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Gowns</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Lehenga Cholis</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Leggings &amp; Patialas</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Palazzos &amp; Shararas</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Blouse</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Dupatta</a>
+                            </object>
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-4">
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Men Footwear</div>
+                                <a href="" class="cdropdown-content-div2-item-link">All</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Sports Shoes</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Casual Shoes</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Sandals &amp; Floaters</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Slippers &amp; Flip Flops</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Formal Shoes</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Ethnic Shoes</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Shoe Care</a>
+                            </object>
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-5">
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Women Footwear</div>
+                                <a href="" class="cdropdown-content-div2-item-link">All</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Flats</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Heels</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Wedges</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Slipper Flip Flops</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Casual Shoes</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Sports Shoes</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Ballerinas</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Ethnic Shoes</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Sneakers</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Walking Shoes</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Boots</a>
+                            </object>
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-6">
+                            
+                                <object>
+                                    <div class="cdropdown-content-div2-item">More in Watches and Accessories</div>
+                                    <a href="" class="cdropdown-content-div2-item-link">Men &amp; Women Watches</a>
+                                    <a href="" class="cdropdown-content-div2-item-link">Men &amp; Women Sunglasses</a>
+                                    <a href="" class="cdropdown-content-div2-item-link">Wallets</a>
+                                    <a href="" class="cdropdown-content-div2-item-link">Men &amp; Women Belts</a>
+                                    <a href="" class="cdropdown-content-div2-item-link">Men Fashion Jewellery</a>
+                                    <a href="" class="cdropdown-content-div2-item-link">Precious Articles</a>
+                                    <a href="" class="cdropdown-content-div2-item-link">Kids Accessories</a>
+                                    <a href="" class="cdropdown-content-div2-item-link">Women Fashion Jewellery</a></object>
+                      
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-7">
+
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Women Western</div>
+                                <a href="" class="cdropdown-content-div2-item-link">All</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Tops</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Dresses</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women T-shirts &amp; Polo T-shirts</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Jeans</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Nighties &amp; Night Dresses</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Nightsuit</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Track Pants</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Trouser</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Jumpsuit</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Shapewear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Sports Bra</a>
+                            </object>
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-8">
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Bags, Suitcases &amp; Luggage</div>
+                                <a href="" class="cdropdown-content-div2-item-link">All</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Bags &amp; Backpacks</a>
+                                <a href=""class="cdropdown-content-div2-item-link">Suitcases &amp; Trolleys</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Dufflebags</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Rucksacks</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Handbags</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Slingbags</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women's Clutches &amp; Wallets</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Messenger Bags</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Travel Accessories</a>
+                            </object>
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-9">
+                            <object><div class="cdropdown-content-div2-item">More in Kids</div>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys Innerwear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">All</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Girls Dresses</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys &amp; Girls Tshirts</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys &amp; Girls Combosets</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys &amp; Girls Ethnic Wear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys &amp; Girls Jeans</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys &amp; Girls Shorts</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys &amp; Girls Trackpants</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys &amp; Girls Innerwear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Infant Wear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Kids Slipper Flip Flops</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Kids Sports Shoes</a>
+                            </object>
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-10">
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Essentials</div>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys Innerwear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Briefs &amp; Trunks</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Vests</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Boxers</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Lingerie Sets</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Bra</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Panty</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Sarees</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Kurtas</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Kurta Sets &amp; Salwar Suits</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys Innerwear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys Innerwear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Girls Innerwear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Slipper Flip Flops</a>
+                            </object>
+                        </div>
+                        <div class="cdropdown-content-div2" id="div2-item-11">
+                            <object>
+                                <div class="cdropdown-content-div2-item">More in Winter</div>
+                                <a href="" class="cdropdown-content-div2-item-link">All</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Jackets</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Sweatshirts</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Sweaters</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Men's Thermals</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women's Jackets</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women's Sweatshirts</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women's Sweaters &amp; Cardigans</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women's Shrugs</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Kids SweatShirts</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Women Kurtas</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Boys Innerwear</a>
+                                <a href="" class="cdropdown-content-div2-item-link">Kids Jackets</a>
+                            </object>
+                        </div>
+
+
                     </div>
                 </div>
                 <div class="category-dropDown cdropdown">
+                    <img src="../Assets/furniture.jpeg" style="margin-bottom: 2px;">
+
                     <div></div>
-                    <button class="cdropbtn ">
-                        <span>Home &<br>Furniture</span>
+                    <button class="cdropbtn C-title">
+                        <span>Home &amp;<br>Furniture</span>
                         <i class='bx bx-chevron-up'></i>
                     </button>
                     <div class="cdropdown-content">
@@ -145,13 +536,14 @@
                     </div>
                 </div>
                 <div class="category-dropDown">
+                    <img src="../Assets/appliances.png" style="margin-bottom: -5px;">
                     <div class="C-title">Appliances</div>
                 </div>
-
                 <div class="category-dropDown cdropdown">
+                    <img src="../Assets/toys.png" style="margin-bottom: 5px;">
                     <div></div>
-                    <button class="cdropbtn ">
-                        <span>Beauty,Toys &<br>More</span>
+                    <button class="cdropbtn C-title">
+                        <span>Beauty,Toys &amp;<br>More</span>
                         <i class='bx bx-chevron-up'></i>
                     </button>
                     <div class="cdropdown-content">
@@ -161,11 +553,14 @@
                         <a href="#">Wishlist</a>
                         <a href="#">Rewards</a>
                     </div>
+
                 </div>
                 <div class="category-dropDown cdropdown">
+                    <img src="../Assets/two-wheeler.png" style="margin-bottom: 5px;">
+
                     <div></div>
-                    <button class="cdropbtn ">
-                        <span>Two Wheelers</span>
+                    <button class="cdropbtn C-title">
+                        <span>Two<br>wheeler</span>
                         <i class='bx bx-chevron-up'></i>
                     </button>
                     <div class="cdropdown-content">
@@ -180,53 +575,275 @@
         </div>
     </section>
 
-    <!-- <section id="carousal">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100"
-                        src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/3351c6e7bf60c6bc.png?q=20"
-                        alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100"
-                        src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/3351c6e7bf60c6bc.png?q=20"
-                        alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100"
-                        src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/3351c6e7bf60c6bc.png?q=20"
-                        alt="Third slide">
+    <section id="carousal">
+        
+       
+        <div class="carousel-display">
+            <button class="carousel-button left" onclick="carouselScrollLeft1()">&#8249;</button>
+            <div class="carousel-container" id="carousel-container">                     
+                <img src="../Assets/carousel-1.jpeg" class="carousel-display-image"> 
+                <img src="../Assets/carousel-2.png" class="carousel-display-image"> 
+                <img src="../Assets/carousel-3.jpeg" class="carousel-display-image"> 
+                <img src="../Assets/carousel-4.jpeg" class="carousel-display-image"> 
+                <img src="../Assets/carousel-5.jpeg" class="carousel-display-image"> 
+                <img src="../Assets/carousel-6.jpeg" class="carousel-display-image"> 
+                <img src="../Assets/carousel-7.jpeg" class="carousel-display-image">
+                            
+            </div>
+            <button class="carousel-button right" onclick="carouselScrollRight()">&#8250;</button>
+            <div class="dots-container" id="dots-container"></div>     
+        </div>
+       
+    </section> 
+
+    <section id="product-display">
+
+<div class="product-display-container">
+        <div class="product-display adjusted" id="product-display-1">
+            <div class="product-heading-container">
+                <div class="product-display-heading">Laptops</div>
+                <div class="product-view-all">
+                    <a href="../Html/laptopList.html">
+                        <svg width="20" height="20" fill="#2a55e5" viewBox="0 0 17 17" class="arrow-icon">
+                            <circle cx="8.5" cy="8.5" r="8.5" fill="#2a55e5"></circle>
+                            <path d="m6.627 3.749 5 5-5 5" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>         
+
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <div class="carousel-product-container">
+                <button class="carousel-product-button left" id="carousel-product-button-left-1" onclick="scrollLeft1('1')">&#8249;</button>
+                
+                <div class="product-cards-wrapper">
+                    <div class="product-cards-container" id="product-cards-container-1"></div>
+                </div>
+        
+                <button class="carousel-product-button right" id="carousel-product-button-right-1" onclick="scrollRight('1')">&#8250;</button>
+            </div>
+        </div>
+        <div class="home-adv-image">
+            <img src="../Assets/home-adv.jpeg" class="adv-img"> 
+        </div>
+    </div>
+        
+        <div class="product-display" id="product-display-2">
+            <div class="product-heading-container">
+                <div class="product-display-heading">Washing Machines</div>
+                <div class="product-view-all">
+                    <a href="../Html/filterPage.html?category='washing-machine'">
+                        <svg width="20" height="20" fill="#2a55e5" viewBox="0 0 17 17" class="arrow-icon">
+                            <circle cx="8.5" cy="8.5" r="8.5" fill="#2a55e5"></circle>
+                            <path d="m6.627 3.749 5 5-5 5" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>         
 
-                <button class="">Previous</button>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                </div>
+            </div>
+            
+            <div class="carousel-product-container">
+                <button class="carousel-product-button left" id="carousel-product-button-left-2" onclick="scrollLeft1('2')">&#8249;</button>
+                
+                <div class="product-cards-wrapper">
+                    <div class="product-cards-container" id="product-cards-container-2"></div>
+                </div>
+        
+                <button class="carousel-product-button right" id="carousel-product-button-right-2" onclick="scrollRight('2')">&#8250;</button>
+            </div>
+        </div>
 
-                <button class="">Next</button>
-            </a>
+        <div class="product-display" id="product-display-3">            
+            <div class="product-heading-container">
+                <div class="product-display-heading">Mobiles</div>
+                <div class="product-view-all">
+                    <a href="../Html/mobileList.html">
+                        <svg width="20" height="20" fill="#2a55e5" viewBox="0 0 17 17" class="arrow-icon">
+                            <circle cx="8.5" cy="8.5" r="8.5" fill="#2a55e5"></circle>
+                            <path d="m6.627 3.749 5 5-5 5" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>         
+
+                </div>
+            </div>
+            <div class="carousel-product-container">
+                <button class="carousel-product-button left" id="carousel-product-button-left-3" onclick="scrollLeft1('3')">&#8249;</button>
+                
+                <div class="product-cards-wrapper">
+                    <div class="product-cards-container" id="product-cards-container-3"></div>
+                </div>
+        
+                <button class="carousel-product-button right" id="carousel-product-button-right-3" onclick="scrollRight('3')">&#8250;</button>
+            </div>
+            
+
+
+
         </div>
 
 
-    </section> -->
-<div id="Container-footer"></div>
+        <div class="product-display" id="product-display-4">            
+            <div class="product-heading-container">
+                <div class="product-display-heading">Fashion</div>
+                <div class="product-view-all">
+                    <a href="../Html/filterPage.html?category='dress'">
+                        <svg width="20" height="20" fill="#2a55e5" viewBox="0 0 17 17" class="arrow-icon">
+                            <circle cx="8.5" cy="8.5" r="8.5" fill="#2a55e5"></circle>
+                            <path d="m6.627 3.749 5 5-5 5" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>         
+
+                </div>
+            </div>
+            <div class="carousel-product-container">
+                <button class="carousel-product-button left" id="carousel-product-button-left-4" onclick="scrollLeft1('4')">&#8249;</button>
+                
+                <div class="product-cards-wrapper">
+                    <div class="product-cards-container" id="product-cards-container-4"></div>
+                </div>
+        
+                <button class="carousel-product-button right" id="carousel-product-button-right-4" onclick="scrollRight('4')">&#8250;</button>
+            </div>
+            
 
 
-    <script>
+
+        </div>
+
+
+        <div class="product-display" id="product-display-5">            
+            <div class="product-heading-container">
+                <div class="product-display-heading">Shoes</div>
+                <div class="product-view-all">
+                    <a href="../Html/filterPage.html?category='shoes'">
+                        <svg width="20" height="20" fill="#2a55e5" viewBox="0 0 17 17" class="arrow-icon">
+                            <circle cx="8.5" cy="8.5" r="8.5" fill="#2a55e5"></circle>
+                            <path d="m6.627 3.749 5 5-5 5" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>         
+
+                </div>
+            </div>
+            <div class="carousel-product-container">
+                <button class="carousel-product-button left" id="carousel-product-button-left-5" onclick="scrollLeft1('5')">&#8249;</button>
+                
+                <div class="product-cards-wrapper">
+                    <div class="product-cards-container" id="product-cards-container-5"></div>
+                </div>
+        
+                <button class="carousel-product-button right" id="carousel-product-button-right-5" onclick="scrollRight('5')">&#8250;</button>
+            </div>
+                </div>
+
+
+                <div class="product-display" id="product-display-6">            
+                    <div class="product-heading-container">
+                        <div class="product-display-heading">Television</div>
+                        <div class="product-view-all">
+                            <a href="../Html/filterPage.html?category='television'">
+                                <svg width="20" height="20" fill="#2a55e5" viewBox="0 0 17 17" class="arrow-icon">
+                                    <circle cx="8.5" cy="8.5" r="8.5" fill="#2a55e5"></circle>
+                                    <path d="m6.627 3.749 5 5-5 5" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </a>         
+        
+                        </div>
+                    </div>
+                    <div class="carousel-product-container">
+                        <button class="carousel-product-button left" id="carousel-product-button-left-6" onclick="scrollLeft1('6')">&#8249;</button>
+                        
+                        <div class="product-cards-wrapper">
+                            <div class="product-cards-container" id="product-cards-container-6"></div>
+                        </div>
+                
+                        <button class="carousel-product-button right" id="carousel-product-button-right-6" onclick="scrollRight('6')">&#8250;</button>
+                    </div>
+                        </div>
+
+       
+        
+
+       
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <div id="Container-footer"></div>
+
+    <script>    
+   
         $(function () {
             $("#container").load("./navbar.html");
             $("#Container-footer").load("./footer.html");
 
         });
-    </script>
 
+        // Function to toggle classes
+        // Function to toggle classes
+        function toggleClasses(elementId, addClasses, removeClasses) {
+            const element = document.getElementById(elementId);
+            if (element) {
+                addClasses.forEach(className => element.classList.add(className));
+                removeClasses.forEach(className => element.classList.remove(className));
+            }
+        }
+
+        // Function to handle showing a div
+        function showDiv(divIndex) {
+            // Hide all div2 items and remove hover from all div1 items
+            for (let i = 1; i <= 11; i++) {
+                hideDiv(i);
+            }
+            // Show the current div2 item and add hover to the current div1 item
+            toggleClasses(`div2-item-${divIndex}`, ['show-div'], []);
+            toggleClasses(`div1-item-${divIndex}`, ['hover-div'], []);
+        }
+
+        // Function to handle hiding a div
+        function hideDiv(divIndex) {
+            toggleClasses(`div2-item-${divIndex}`, [], ['show-div']);
+            toggleClasses(`div1-item-${divIndex}`, [], ['hover-div']);
+        }
+
+        // Function to handle mouse enter on div1 items
+        function handleDiv1MouseEnter(divIndex) {
+            clearTimeout(window.hideTimeout);  // Clear any hide timeout to prevent hiding
+            showDiv(divIndex);
+        }
+
+        // Function to handle mouse leave from div1 items
+        function handleDiv1MouseLeave(divIndex) {
+            window.hideTimeout = setTimeout(() => hideDiv(divIndex), 300);  // Delay to allow transition to div2
+        }
+
+        // Function to handle mouse enter on div2 items
+        function handleDiv2MouseEnter(divIndex) {
+            clearTimeout(window.hideTimeout);  // Clear any hide timeout to prevent hiding
+            showDiv(divIndex);
+        }
+
+        // Function to handle mouse leave from div2 items
+        function handleDiv2MouseLeave(divIndex) {
+            hideDiv(divIndex);
+        }
+
+        // Loop to assign event listeners to all div1 items
+        for (let i = 1; i <= 11; i++) {
+            document.getElementById(`div1-item-${i}`).addEventListener('mouseenter', () => handleDiv1MouseEnter(i));
+            document.getElementById(`div1-item-${i}`).addEventListener('mouseleave', () => handleDiv1MouseLeave(i));
+            document.getElementById(`div2-item-${i}`).addEventListener('mouseenter', () => handleDiv2MouseEnter(i));
+            document.getElementById(`div2-item-${i}`).addEventListener('mouseleave', () => handleDiv2MouseLeave(i));
+        }
+    </script>
+ <script src="../Script/image-carousel.js"></script>
+ <script src="../Script/product-home-carousel.js"></script>
 </body>
 
 </html>
