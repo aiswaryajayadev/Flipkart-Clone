@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Price range input handling
   const priceRangeInput = document.getElementById("priceRange");
   if (priceRangeInput) {
-    priceRangeInput.value = 0;
+    priceRangeInput.value = 200000;
     document.getElementById("priceValue").textContent = "₹" + priceRangeInput.value;
 
     priceRangeInput.addEventListener("input", function () {
@@ -177,6 +177,24 @@ const jsonURL = `http://localhost:3000/${variable}/`;
         });
 
         filteredProducts.forEach(displayProductDetails);
+
+        setTimeout(function () {
+          const likeButtons = document.querySelectorAll(".like-btn");
+          likeButtons.forEach(function (likeButton) {
+            const likeImage = likeButton.querySelector(".like");
+  
+            likeButton.addEventListener("click", function () {
+              console.log("like clicked");
+              const currentSrc = likeImage.src;
+  
+              if (currentSrc.includes("plainheart.png")) {
+                likeImage.src = "../Assets/redheart.png";
+              } else {
+                likeImage.src = "../Assets/plainheart.png";
+              }
+            });
+          });
+        }, 1000);
       }
 
       function sortProductsByPrice(order) {
@@ -189,6 +207,23 @@ const jsonURL = `http://localhost:3000/${variable}/`;
         });
         clearProductList();
         sortedProducts.forEach(displayProductDetails);
+        setTimeout(function () {
+          const likeButtons = document.querySelectorAll(".like-btn");
+          likeButtons.forEach(function (likeButton) {
+            const likeImage = likeButton.querySelector(".like");
+  
+            likeButton.addEventListener("click", function () {
+              console.log("like clicked");
+              const currentSrc = likeImage.src;
+  
+              if (currentSrc.includes("plainheart.png")) {
+                likeImage.src = "../Assets/redheart.png";
+              } else {
+                likeImage.src = "../Assets/plainheart.png";
+              }
+            });
+          });
+        }, 1000); 
       }
 
       document.getElementById('priceRange').addEventListener('input', applyFilters);
@@ -220,6 +255,7 @@ const jsonURL = `http://localhost:3000/${variable}/`;
           const likeImage = likeButton.querySelector(".like");
 
           likeButton.addEventListener("click", function () {
+            console.log("like clicked");
             const currentSrc = likeImage.src;
 
             if (currentSrc.includes("plainheart.png")) {
@@ -229,21 +265,37 @@ const jsonURL = `http://localhost:3000/${variable}/`;
             }
           });
         });
-      }, 100); // Adjust the timeout value as needed based on your application's timing
+      }, 1000); // Adjust the timeout value as needed based on your application's timing
     })
     .catch(error => console.error('Error fetching data:', error));
 
-  function clearFilters() {
-    document.getElementById('priceRange').value = 0;
-    document.getElementById('priceValue').textContent = '';
+  // function clearFilters() {
+  //   console.log('called clear filter')
+  //   document.getElementById('priceRange').value = '200000';
+  //   document.getElementById('priceValue').textContent = '';
 
-    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
-    checkboxes.forEach((checkbox) => {
-      checkbox.checked = false;
-    });
+  //   const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+  //   checkboxes.forEach((checkbox) => {
+  //     checkbox.checked = false;
+  //   });
 
-    document.querySelector('.brandSearch').value = '';
+  //   document.querySelector('.brandSearch').value = '';
 
-    applyFilters();
-  }
+  //   applyFilters();
+  // }
 });
+
+function clearFilters() {
+  console.log('called clear filter')
+  document.getElementById('priceRange').value = '200000';
+  document.getElementById('priceValue').textContent = '';
+
+  const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+  checkboxes.forEach((checkbox) => {
+    checkbox.checked = false;
+  });
+
+  document.querySelector('.brandSearch').value = '';
+
+  applyFilters();
+}
