@@ -1,3 +1,23 @@
+function displayFlipkartUsername(){
+    const database = firebase.database();
+    const userDetailsRef = database.ref('UserProfileList/User1');
+    userDetailsRef.once('value', (snapshot) => {
+        const userDetails = snapshot.val();
+        console.log(userDetails);
+        if (userDetails) {
+            var formHtml = `
+                <b>${userDetails.firstName} ${userDetails.lastName}</b>
+`;
+            var formElement = document.getElementById("display-user-name");
+            if (formElement) {
+                formElement.innerHTML = formHtml;
+            } else {
+                console.error("Form element with id 'display-user-name' not found.");
+            }
+        }
+    });
+
+}
 function displayPersonalInfo() {
     const database = firebase.database();
     const userDetailsRef = database.ref('UserProfileList/User1');
