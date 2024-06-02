@@ -6,24 +6,44 @@ function changeColor(element) {
     }
     element.classList.add('selected');
     selectedOption = element;
-}
+};
+
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCbX8RTS7jKJ0xApi1s3c3TS7_iExa-BjA",
+  authDomain: "fc-clone-13fe6.firebaseapp.com",
+  databaseURL: "https://fc-clone-13fe6-default-rtdb.firebaseio.com",
+  projectId: "fc-clone-13fe6",
+  storageBucket: "fc-clone-13fe6.appspot.com",
+  messagingSenderId: "1003116691829",
+  appId: "1:1003116691829:web:212b427550a54b7ed0d33c"
+};
 
 // Make a GET request to fetch data from the server
-fetch('http://localhost:3000/laptops')
-  .then(response => {
-    // Check if the request was successful
-    if (!response.ok) {
-      throw new Error('Failed to fetch data');
-    }
-    // Parse the JSON response
-    return response.json();
-  })
-  .then(data => {
-    // Iterate over the array of laptops and print their product names
-    data.forEach(laptop => {
-      console.log(laptop.product_name.name);
+firebase.initializeApp(firebaseConfig);
+
+const auth = firebase.auth();
+const database = firebase.database();
+
+// Reference to the wishlist node
+const wishlistRef = firebase.database().ref('wishlist');
+
+// Function to add product to wishlist
+const addProductToWishlist = (username, productId) => {
+  wishlistRef.child(username).child(productId).set(true)
+    .then(() => {
+      console.log('Product added to wishlist successfully');
+    })
+    .catch((error) => {
+      console.error('Error adding product to wishlist:', error);
     });
-  })
-  .catch(error => {
-    console.error('Error:', error);
-  });
+};
+
+document.getElementById('add-to-wishlist-button').addEventListener('click', function(event) {
+  event.preventDefault();
+  
+  console.log("clcked");
+  const username = "anish";
+  const productId = "41321312";
+  addProductToWishlist(username, productId);
+});
