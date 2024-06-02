@@ -88,45 +88,51 @@ function editAccountPhone() {
 }
 
 function editAddressLine() {
-    var formHtml = `
-    <div id="edit-address-container">
+    const database = firebase.database();
+    const userDetailsRef = database.ref('UserProfileList/User1');
+    userDetailsRef.once('value', (snapshot) => {
+        const userDetails = snapshot.val();
+        console.log(userDetails);
+        if (userDetails) {
+            var formHtml = `
+                <div id="edit-address-container">
                     <div class="edit-address-title">
                         EDIT ADDRESS
                     </div>
                     <div class="detailed-address">
                         <form id="address-form">
                             <div class="address-input-container" style="display: block;">
-                                <input class="input-address-edit" type="text" id="account-name" name="account-name" required>
+                                <input class="input-address-edit" type="text" id="account-name" name="account-name" required value="${userDetails.firstName} ${userDetails.lastName}">
                                 <label for="account-name">Name</label>
                             </div>
 
                             <div class="address-input-container" style="display: block;">
-                                <input class="input-address-edit" type="text" id="account-phone" name="account-phone" required>
+                                <input class="input-address-edit" type="text" id="account-phone" name="account-phone" required value="${userDetails.phone}">
                                 <label for="account-phone">Phone Number</label>
                             </div>
 
                             <div class="address-input-container">
-                                <input class="input-address-edit" type="text" id="account-pincode" name="account-pincode" required>
+                                <input class="input-address-edit" type="text" id="account-pincode" name="account-pincode" required value="${userDetails.pincode}">
                                 <label for="account-pincode">Pincode</label>
                             </div>
 
                             <div class="address-input-container">
-                                <input class="input-address-edit" type="text" id="account-locality" name="account-locality" required>
+                                <input class="input-address-edit" type="text" id="account-locality" name="account-locality" required value="${userDetails.locality}">
                                 <label for="account-locality">Locality</label>
                             </div>
 
                             <div class="address-input-container">
-                                <textarea id="account-address" name="account-address" style="width:400px;" required></textarea>
+                                <textarea id="account-address" name="account-address" style="width:400px;" required>${userDetails.address}</textarea>
                                 <label for="account-address">Address</label>
                             </div>
 
                             <div class="address-input-container">
-                                <input class="input-address-edit" type="text" id="account-city" name="account-city" required>
+                                <input class="input-address-edit" type="text" id="account-city" name="account-city" required value="${userDetails.city}">
                                 <label for="account-city">City/Town</label>
                             </div>
 
                             <div class="address-input-container">
-                                <input class="input-address-edit" type="text" id="account-state" name="account-state" required>
+                                <input class="input-address-edit" type="text" id="account-state" name="account-state" required value="${userDetails.state}">
                                 <label for="account-state">State</label>
                             </div>
                             <button type="submit" id="submitBtn">SAVE</button>
@@ -134,13 +140,14 @@ function editAddressLine() {
                     </div>
                 </div>
 `;
-
-    var formElement = document.getElementById("address-edit-body");
-    if (formElement) {
-        formElement.innerHTML = formHtml;
-    } else {
-        console.error("Form element with id 'phone-form' not found.");
-    }
+            var formElement = document.getElementById("address-edit-body");
+            if (formElement) {
+                formElement.innerHTML = formHtml;
+            } else {
+                console.error("Form element with id 'address-edit-body' not found.");
+            }
+        }
+    });
 }
 
 function editCardName() {

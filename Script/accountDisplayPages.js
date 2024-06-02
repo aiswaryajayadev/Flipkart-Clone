@@ -223,7 +223,13 @@ function displayManageCards() {
 }
 
 function displayManageAddresses() {
-    var formHtml = `
+    const database = firebase.database();
+    const userDetailsRef = database.ref('UserProfileList/User1');
+    userDetailsRef.once('value', (snapshot) => {
+        const userDetails = snapshot.val();
+        console.log(userDetails);
+        if (userDetails) {
+            var formHtml = `
     <div class="single-block-detailed-display">
                 <div class="title-and-editing">
                     <span class="personal-info-title">Manage Addresses</span>
@@ -231,8 +237,8 @@ function displayManageAddresses() {
                 <div id="address-edit-body">
                 <div class="single-saved-card">
                     <div class="single-saved-card-title">
-                        <div class="name-on-address">Kailas Nadh J</div>
-                        <div class="phone-number-address-page">9012349344</div>
+                        <div class="name-on-address">${userDetails.firstName} ${userDetails.lastName}</div>
+                        <div class="phone-number-address-page">${userDetails.phone}</div>
                         <div class="three-dots"><img src="../Assets/three-dots.svg">
                             <div class="dropdown-menu">
                                 <div class="dropdown-item" onclick="editAddressLine();">Edit</div>
@@ -241,19 +247,20 @@ function displayManageAddresses() {
                         </div>
                     </div>
                     <form id="manage-address-form">
-                        <input type="text" style="background-color:white;" class="detailed-address" name="detailedAddress" required disabled value="No. 221b, Baker Street, London, United Kingdom, PIN-567890">
+                        <input type="text" style="background-color:white;" class="detailed-address" name="detailedAddress" required disabled value="${userDetails.address}, ${userDetails.locality}, ${userDetails.city}, ${userDetails.state} - ${userDetails.pincode}">
                     </form>
                     </div>                
                     </div>
             </div>
 `;
-
-    var formElement = document.getElementById("detailed-display");
-    if (formElement) {
-        formElement.innerHTML = formHtml;
-    } else {
-        console.error("Form element with id 'personal-info-form' not found.");
-    }
+            var formElement = document.getElementById("detailed-display");
+            if (formElement) {
+                formElement.innerHTML = formHtml;
+            } else {
+                console.error("Form element with id 'personal-info-form' not found.");
+            }
+        }
+    });
 
 }
 
