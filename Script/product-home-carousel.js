@@ -31,7 +31,7 @@ function fetchAndPopulateProducts(displayId, containerId, category) {
 
                     // Create the link element
                     const productLink = document.createElement('a');
-                    productLink.href = `../Html/productList.html?category=${category}&productId=${product.product_id}`;
+                    productLink.href = `../Html/productDescription.html?category=${category}&productId=${product.product_id}`;
                     productLink.appendChild(productCard);
 
                     // Append the link (with the product card inside) to the container
@@ -48,6 +48,9 @@ function fetchAndPopulateProducts(displayId, containerId, category) {
 fetchAndPopulateProducts('1', 'product-cards-container-1', 'laptops');
 fetchAndPopulateProducts('2', 'product-cards-container-2', 'washing-machine');
 fetchAndPopulateProducts('3', 'product-cards-container-3', 'mobiles');
+fetchAndPopulateProducts('4', 'product-cards-container-4', 'dress');
+fetchAndPopulateProducts('5', 'product-cards-container-5', 'shoes');
+fetchAndPopulateProducts('6', 'product-cards-container-6', 'television');
 
 // fetchAndPopulateProducts('4', 'product-cards-container-4', 'Washing-machine');
 

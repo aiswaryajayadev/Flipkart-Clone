@@ -1,3 +1,162 @@
+/* .navbar-custom {
+    background-color: #2874f0;
+    color: white;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white;
+}
+
+.navbar-custom .form-control {
+    border-radius: 0;
+}
+
+.navbar-custom .btn-outline-light {
+    color: white;
+    border-color: white;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.brandSearch {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+.bsi {
+    width: 35px;
+    height: 20px;
+    border: none;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.imgAssured {
+    width: 90px;
+    height: 25px;
+}
+
+.pdtRightDiv {
+    width: 78vw;
+
+    border: 2px solid black;
+}
+
+.secondary-navbar {
+    padding: 0px;
+}
+
+.sort-option.active {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.rating {
+    width: 60px;
+    border-radius: 4px;
+}
+
+.like {
+    width: 15px;
+    height: 15px;
+}
+
+.cardRow {
+    width: 97vw;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.card {
+    width: 250px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+  
+  .card-body {
+    height: 100%; /* Ensure the card body fills the entire card height 
+  }
+  
+.offerLine {
+    background-color: #c0fab8;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    max-width: 70px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.pagination a, .pagination span {
+    margin: 0 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+.pagination a.page-link-circle {
+    border-radius: 50%;
+}
+
+.pagination a:hover {
+    background-color: #f0f0f0;
+}
+
+.pagination a.active, .pagination a:focus {
+    color: white;
+    background-color: blue;
+    border-color: blue;
+}
+
+.pagination .disabled {
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+.pagination .hidden {
+    display: none;
+}
+.hidden {
+    display: none;
+}
+.page-link {
+    cursor: pointer;
+}
+.active {
+    font-weight: bold;
+}
+.page-info{
+    border: 1px solid white;
+}
+
+body{
+    background-color: #f1f3f6;
+    overflow-x: hidden;
+}
+
+#footer {
+    background-color: #f8f8f8; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+} */
+
 .navbar-custom {
     background-color: #2874f0;
     color: white;

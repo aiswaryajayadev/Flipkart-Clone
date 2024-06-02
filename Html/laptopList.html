@@ -448,28 +448,8 @@
     </div>
 
     <div class="container mt-3 mx-3 px-3">
-        <div class="row productRowlist">
-            <div class="col-md-12">
-                <div class="d-flex justify-content-between align-items-center mb-4 border">
-                    <h4>Core i5 Laptops</h4>
-                    <button class="btn btn-primary">View All</button>
-                </div>
-                <div class="row mb-4" id="i5-product-list"></div>
-            </div>
-            <div class="col-md-12">
-                <div class="d-flex justify-content-between align-items-center mb-4 border">
-                    <h4>Core i3 Laptops</h4>
-                    <button class="btn btn-primary">View All</button>
-                </div>
-                <div class="row mb-4" id="i3-product-list"></div>
-            </div>
-            <div class="col-md-12">
-                <div class="d-flex justify-content-between align-items-center mb-4 border">
-                    <h4>Gaming Laptops</h4>
-                    <button class="btn btn-primary">View All</button>
-                </div>
-                <div class="row mb-4" id="i7-product-list"></div>
-            </div>
+        <div class="row productRowlist" id="model-sections">
+            <!-- Model sections will be dynamically generated here -->
         </div>
     </div>
 
@@ -625,6 +605,44 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 </body>
 
 </html>
