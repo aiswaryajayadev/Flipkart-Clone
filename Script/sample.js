@@ -1,7 +1,22 @@
-const mockApiUrl = "http://localhost:3000/mobiles/";
-  console.log(mockApiUrl);
+
+// let variable='shoes';
+// const mockApiUrl = "http://localhost:3000/${variable}/";
+let variable = 'shoes';
+let pid='REEBOK001';
+const mockApiUrl = `http://localhost:3000/${variable}/`;
+// productData.product_id = pid; // Assign pid to productData.pid
+// console.log(productData.product_id);
+
+// const index = productData.findIndex(product => product.product_id === pid);
+
+// console.log(index); // Output: 1 (if 'ADIDAS002' is the product_id of the second element in the array)
 
 
+// const laptop = productData[index];
+
+//   console.log(mockApiUrl);
+
+  
   
  async function fetchProductData() {
   try {
@@ -27,7 +42,65 @@ async function displayDetails() {
       return;
     }
 
-    const laptop = productData[0];
+    
+
+    productData.product_id = pid; // Assign pid to productData.pid
+    console.log(productData.product_id);
+    
+    const index = productData.findIndex(product => product.product_id === pid);
+    
+    console.log(index); // Output: 1 (if 'ADIDAS002' is the product_id of the second element in the array)
+    
+    
+    const laptop = productData[index];
+
+
+
+    function addToWishList(category, productIndex) {
+      // Retrieve the current wishlist from local storage
+      let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+  
+      // Add the new item to the wishlist
+      wishlist.push({ category, productIndex });
+  
+      // Save the updated wishlist back to local storage
+      localStorage.setItem('wishlist', JSON.stringify(wishlist));
+  
+      console.log('Wishlist:', wishlist);
+  }
+  
+  // Example usage: Add to wishlist when an event occurs
+  // You can call this function from an event listener, such as a button click
+  addToWishList(variable, index);
+  
+  // Example to display the wishlist on page load (for demonstration purposes)
+  window.onload = function() {
+      let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+      console.log('Stored Wishlist on Page Load:', wishlist);
+  };
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // Display Product Images
     const productImages = laptop.product_images;
@@ -223,14 +296,23 @@ async function displayDetails() {
       review.forEach((reviewItem) => {
         const rate = reviewItem.rating;
         const reviewText = reviewItem.review;
+        const reviewerName = reviewItem.customer_name;
 
         const ratingElements = document.createElement("p");
         const reviewImage = document.createElement("img");
         reviewImage.src = `data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMiI+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTYuNSA5LjQzOWwtMy42NzQgMi4yMy45NC00LjI2LTMuMjEtMi44ODMgNC4yNTQtLjQwNEw2LjUuMTEybDEuNjkgNC4wMSA0LjI1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==`;
         reviewImage.classList.add("star");
+        const reviewName=document.createElement("p");
 
         const reviewRating = document.createTextNode(` ${rate}`);
         const reviewTextElement = document.createTextNode(` ${reviewText}`);
+        const reviewerNameElement=document.createTextNode(`${reviewerName}`);
+
+        reviewName.innerHTML=`<div class="row review-row">
+                               <p class=fipkart-buyer>${reviewerName }<p> Flipkart Customer
+                               <svg width="14" height="14" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" class="VjlQyz"><g><circle cx="6" cy="6" r="6" fill="#878787"></circle><path stroke="#FFF" stroke-width="1.5" d="M3 6l2 2 4-4" fill="#878787"></path></g></svg>
+                               Certified Buyer , 1 day ago</p></p>
+                               `
 
         ratingElements.appendChild(reviewRating);
         ratingElements.appendChild(reviewImage);
@@ -240,7 +322,11 @@ async function displayDetails() {
         const reviewElements = document.createElement("p");
         reviewElements.appendChild(reviewTextElement);
         reviewElements.classList.add("review-text");
+        
+    
         reviewElement.appendChild(reviewElements);
+        reviewElement.appendChild(reviewName);
+        reviewName.classList.add("name");
       });
     }
 
@@ -254,7 +340,7 @@ async function displayDetails() {
         const answer = qna.answer;
 
         const questionElement = document.createElement("div");
-        questionElement.classList.add("questions");
+        questionElement.classList.add("customer-questions");
 
         const questionText = document.createTextNode(`Q: ${question}`);
         const answerText = document.createTextNode(`A: ${answer}`);
@@ -272,7 +358,49 @@ async function displayDetails() {
         questionElement.appendChild(answerParagraph);
 
         questionsElement.appendChild(questionElement);
+
       });
+
+
+
+
+
+
+      const interestedElement = document.getElementById("product-display-card");
+
+      
+          const interested = productData[index+1];
+      
+          // Check if interested object exists and has product_images property
+          if (interested && interested.product_images && Array.isArray(interested.product_images) && interested.product_images.length > 0) {
+              const interestElement = document.createElement("div");
+              const interestedName = document.createElement("div");
+              const interestedDiscount = document.createElement("div");
+      
+              const interestedImageSrc = interested.product_images[0];
+      
+              const interestedImage = document.createElement("img");
+              interestedImage.src = interestedImageSrc;
+      
+              interestedName.textContent = interested.product_name.name;
+              interestedDiscount.textContent = interested.price_details.discount_percent;
+      
+              interestElement.classList.add("you-may-be-interested");
+      
+              interestElement.appendChild(interestedImage);
+              interestElement.appendChild(interestedName);
+              interestElement.appendChild(interestedDiscount);
+      
+              // Append interestElement to interestedElement
+              interestedElement.appendChild(interestElement);
+         
+      }
+      
+
+
+
+
+
     }
   } catch (error) {
     console.error("Error displaying product details:", error);
@@ -280,6 +408,7 @@ async function displayDetails() {
 }
 
 document.addEventListener("DOMContentLoaded", displayDetails);
+
 
 
 

@@ -217,7 +217,7 @@
                 </div>
               </div>
             </div>
-            <div class="wishlist-icon">
+            <div class="wishlist-icon"onclick=addToWishList();>
               <div class="inside-wishlist">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -595,7 +595,7 @@
 
 
             <div class="review">
-              <div class="rating-reviews my-5 mx-3">
+              <div class="rating-reviews ">
                 <div class="rating-heading-and-button">
                 <h4>Ratings & Reviews</h4>
                 <button type="submit" class="rate-button">Rate Product</button>
@@ -641,7 +641,7 @@
                         </div>
                       </li>
                     </ul>
-                    <div class="progress-bar my-4">
+                    <div class="progress-bar ">
                       <div class="parent-progress-bar-5">
                         <div class="child-progress-bar-5"></div>
                       </div>
@@ -658,23 +658,33 @@
                         <div class="child-progress-bar-1"></div>
                       </div>
                     </div>
+                    <div class="progress-number">
+                      <ul class="progress-number-list">
+                        <li>84</li>
+                        <li>30</li>
+                        <li>0</li>
+                        <li>0</li>
+                        <li>14</li>
+                      </ul>
+                    </div>
                   </div>
-                  
+                </div>
                 </div>
               </div>
               <div class="rating-div">
                 <div id="current-rating"></div>
               </div>
-              <div class="customer-review mx-3" id="customer-review"></div>
+              <div class="customer-review " id="customer-review"></div>
             </div>
 
             <div class="questions my-4">
-              <div class="questions-answers m-3">
+              <div class="questions-answers ">
                 <h4>Questions and Answers</h4>
+                <div class="col question-search"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R3JvdXAgNTwvdGl0bGU+PGcgZmlsbD0iIzIxMjEyMSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTEuNjE4IDkuODk3bDQuMjI0IDQuMjEyYy4wOTIuMDkuMS4yMy4wMi4zMTJsLTEuNDY0IDEuNDZjLS4wOC4wOC0uMjIyLjA3Mi0uMzE0LS4wMkw5Ljg2OCAxMS42Nk02LjQ4NiAxMC45Yy0yLjQyIDAtNC4zOC0xLjk1NS00LjM4LTQuMzY3IDAtMi40MTMgMS45Ni00LjM3IDQuMzgtNC4zN3M0LjM4IDEuOTU3IDQuMzggNC4zN2MwIDIuNDEyLTEuOTYgNC4zNjgtNC4zOCA0LjM2OG0wLTEwLjgzNEMyLjkwNC4wNjYgMCAyLjk2IDAgNi41MzMgMCAxMC4xMDUgMi45MDQgMTMgNi40ODYgMTNzNi40ODctMi44OTUgNi40ODctNi40NjdjMC0zLjU3Mi0yLjkwNS02LjQ2Ny02LjQ4Ny02LjQ2NyIvPjwvZz48L3N2Zz4=" height="20" width="20"></div>
               </div>
-              <div class="customer-question m-3" id="customer-question"></div>
+              <div class="customer-question " id="customer-question"></div>
             </div>
-          </div>
+         
         </div>
       </div>
 </div>
@@ -686,44 +696,17 @@
             <div class="carousel-product-container">
                 <button class="carousel-product-button left" onclick="scrollLeft1()">&#8249;</button>                
                 
-                <div class="product-cards-wrapper">
+                <div class="product-cards-wrapper" id="product-cards-wrapper">
                     <div class="product-cards-container">
-                        <div class="product-display-card">
-                            <img src="https://static.toiimg.com/photo/92611142.cms" class="product-display-image">
-                            <div class="prodcut-display-description">Home Toys</div>
+                        <div class="product-display-card" id="product-display-card">
+                            <!-- <img src="https://static.toiimg.com/photo/92611142.cms" class="product-display-image">
+                            <div class="product-detials">
+                            <div class="prodcut-display-description">Shoes</div>
+                            <div class="product-off-percent">50%</div>
+                            <button type="submit">Shop Now</button>
+                          </div> -->
                         </div>
-                        <div class="product-display-card">
-                            <img src="https://static.toiimg.com/photo/92611142.cms" class="product-display-image">
-                            <div class="prodcut-display-description">Home Toys</div>
-                        </div>
-                        <div class="product-display-card">
-                            <img src="https://static.toiimg.com/photo/92611142.cms" class="product-display-image">
-                            <div class="prodcut-display-description">Home Toys</div>
-                        </div>
-                        <div class="product-display-card">
-                            <img src="https://static.toiimg.com/photo/92611142.cms" class="product-display-image">
-                            <div class="prodcut-display-description">Home Toys</div>
-                        </div>
-                        <div class="product-display-card">
-                            <img src="https://static.toiimg.com/photo/92611142.cms" class="product-display-image">
-                            <div class="prodcut-display-description">Home Toys</div>
-                        </div>
-                        <div class="product-display-card">
-                            <img src="https://static.toiimg.com/photo/92611142.cms" class="product-display-image">
-                            <div class="prodcut-display-description">Home Toys</div>
-                        </div>
-                        <div class="product-display-card">
-                            <img src="https://static.toiimg.com/photo/92611142.cms" class="product-display-image">
-                            <div class="prodcut-display-description">Home Toys</div>
-                        </div>
-                        <div class="product-display-card">
-                            <img src="https://static.toiimg.com/photo/92611142.cms" class="product-display-image">
-                            <div class="prodcut-display-description">Home Toys</div>
-                        </div>
-                        <div class="product-display-card">
-                            <img src="https://static.toiimg.com/photo/92611142.cms" class="product-display-image">
-                            <div class="prodcut-display-description">Home Toys</div>
-                        </div>
+                      
                     </div>
                 </div>
 
