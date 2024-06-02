@@ -169,6 +169,7 @@ function updateCount(inputField,operation) {
   }
   
   inputField.value = count.toString();
+  console.log(inputField.value);
   
   // Get the current price per unit
   const currentPrice = parseFloat(document.getElementById('originalPrice').textContent);
