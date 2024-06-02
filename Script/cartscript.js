@@ -143,12 +143,13 @@ console.log(1);
     document.getElementById('discountedPrice').textContent = details.price_details.current_price;
     document.getElementById('discount').textContent = details.price_details.discount_percent;
     document.getElementById('totalPrice').textContent = details.price_details.original_price;
-    document.getElementById('chkt-discount').textContent = details.price_details.discount_percent;
+    document.getElementById('chkt-discount').textContent = details.price_details.discount_percent+"%";
 
     let totalAmount = details.price_details.original_price - details.price_details.discount_percent;
     document.getElementById('chkt-totalAmount').textContent = details.price_details.current_price;
     
     console.log(totalAmount);
+   
 
   } catch (error) {
     console.log("Error displaying product details:", error);
@@ -159,18 +160,50 @@ document.addEventListener('DOMContentLoaded', displayProductDetails);
 
 const inputFields = document.querySelectorAll('.checkout_nonmty-small-input');
 
-function updateCount(inputField, operation) {
+// function updateCount(inputField, operation) {
+//   let count = parseInt(inputField.value);
+//   if (operation === 'increment') {
+//     count = Math.min(count + 1, 10);
+//     return count;
+//   } else if (operation === 'decrement') {
+//     count = Math.max(count - 1, 1);
+//   }
+//   inputField.value = count.toString();
+// }
+
+
+
+
+function updateCount(inputField,operation) {
+  // const inputField = document.getElementById('productQuantity');
   let count = parseInt(inputField.value);
+
   if (operation === 'increment') {
     count = Math.min(count + 1, 10);
   } else if (operation === 'decrement') {
     count = Math.max(count - 1, 1);
   }
+  
   inputField.value = count.toString();
+  
+  // Get the current price per unit
+  const currentPrice = parseFloat(document.getElementById('originalPrice').textContent);
+  const totalDiscountPrice = parseFloat(document.getElementById('discountedPrice').textContent);
+  // Calculate the new total price
+  const totalPrice = currentPrice * count;
+  const finalPrice=totalDiscountPrice * count;
+  
+  // Update the total price display
+  document.getElementById('totalPrice').textContent = `₹${totalPrice.toFixed(2)}`;
+  document.getElementById('chkt-totalAmount').textContent = `₹${finalPrice.toFixed(2)}`;
 }
+
+
+
 
 function updateQuantity(operation) {
   const quantityInput = document.querySelector('.checkout_nonmty-small-input');
+
   updateCount(quantityInput, operation);
 }
 
@@ -178,28 +211,28 @@ function updateQuantity(operation) {
 document.querySelector('.checkout_nonmty-quantity_col1').addEventListener('click', () => updateQuantity('decrement'));
 document.querySelector('.checkout_nonmty-quantity_col3').addEventListener('click', () => updateQuantity('increment'));
 
-document.addEventListener("DOMContentLoaded", function() {
-  // Sample product data
-  var products = [
-      { name: "Product 1", price: 5000 },
-      { name: "Product 2", price: 6000 },
-      { name: "Product 3", price: 7000 },
-      { name: "Product 4", price: 8000 }
-  ];
+// document.addEventListener("DOMContentLoaded", function() {
+//   // Sample product data
+//   var products = [
+//       { name: "Product 1", price: 5000 },
+//       { name: "Product 2", price: 6000 },
+//       { name: "Product 3", price: 7000 },
+//       { name: "Product 4", price: 8000 }
+//   ];
 
-  // Calculate total price and discount
-  var totalPrice = products.reduce((acc, curr) => acc + curr.price, 0);
-  var discount = 5003; // Example discount
+//   // Calculate total price and discount
+//   var totalPrice = products.reduce((acc, curr) => acc + curr.price, 0);
+//   var discount = 5003; // Example discount
 
-  // Update price details in HTML
-  document.querySelector('.checkout_nonmty-price-line .checkout_nonmty-price-right').textContent = '₹' + totalPrice;
-  document.querySelector('.checkout_nonmty-price-line:nth-child(2) .checkout_nonmty-price-right').textContent = '− ₹' + discount;
+//   // Update price details in HTML
+//   document.querySelector('.checkout_nonmty-price-line .checkout_nonmty-price-right').textContent = '₹' + totalPrice;
+//   document.querySelector('.checkout_nonmty-price-line:nth-child(2) .checkout_nonmty-price-right').textContent = '− ₹' + discount;
 
-  // Calculate and update total amount
-  var totalAmount = totalPrice - discount;
-  document.querySelector('.checkout_nonmty-price-righttotal').textContent = '₹' + totalAmount;
+//   // Calculate and update total amount
+//   var totalAmount = totalPrice - discount;
+//   document.querySelector('.checkout_nonmty-price-righttotal').textContent = '₹' + totalAmount;
 
-  // Calculate and update savings
-  var savings = totalPrice + discount - totalAmount;
-  document.querySelector('.checkout_nonmty-price-center').textContent = 'You will save ₹' + savings + ' on this order';
-});
+//   // Calculate and update savings
+//   var savings = totalPrice + discount - totalAmount;
+//   document.querySelector('.checkout_nonmty-price-center').textContent = 'You will save ₹' + savings + ' on this order';
+// });
