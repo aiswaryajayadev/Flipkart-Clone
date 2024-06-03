@@ -27,19 +27,27 @@
             appId: "1:1003116691829:web:212b427550a54b7ed0d33c"
         };
         firebase.initializeApp(firebaseConfig);
-        firebase.database().ref('UserProfileList/User1').once('value', (snapshot) => {
-            const userData = snapshot.val();
-            if (userData && userData.gender) {
-                // Update radio button based on fetched gender value
-                if (userData.gender === "male") {
-                    document.getElementById('male').checked = true;
-                } else if (userData.gender === 'female') {
-                    document.getElementById('female').checked = true;
-                }
+        firebase.auth().onAuthStateChanged((user) => {
+            if (user) {
+                const uid = user.uid;
+                const database = firebase.database();
+                const userDetailsRef = database.ref('UserProfileList').child(uid);
+                userDetailsRef.once('value', (snapshot) => {
+                    const userData = snapshot.val();
+                    if (userData && userData.gender) {
+                        displayPersonalInfo();
+                        displayFlipkartUsername();
+                        if (userData.gender === "male") {
+                            document.getElementById('male').checked = true;
+                        } else if (userData.gender === 'female') {
+                            document.getElementById('female').checked = true;
+                        }
+                    }
+                });
+            } else {
+                console.log("User is signed out");
             }
         });
-        window.onload = displayPersonalInfo();
-        window.onload = displayFlipkartUsername();
     </script>
 </head>
 
