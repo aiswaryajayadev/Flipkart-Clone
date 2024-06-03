@@ -68,7 +68,7 @@ return `
 document.addEventListener('DOMContentLoaded', async () => {
 const laptops = await fetchLaptops();
 
-// Extract unique models
+
 const models = [...new Set(laptops.map(laptop => laptop.model))];
 
 const modelSections = models.map(model => {
@@ -82,7 +82,7 @@ document.getElementById('model-sections').innerHTML = modelSections.join('');
   
 setTimeout(function () {
   const likeButtons = document.querySelectorAll(".like-btn");
-  console.log(likeButtons); // Check if this logs the correct elements
+  console.log(likeButtons);
   likeButtons.forEach(function (likeButton) {
     const likeImage = likeButton.querySelector(".like");
 
@@ -96,4 +96,4 @@ setTimeout(function () {
       }
     });
   });
-}, 100); // Adjust the timeout value as needed based on your application's timing
+}, 100); 
