@@ -1,4 +1,5 @@
 
+
  
 const firebaseConfig = {
   apiKey: "AIzaSyCbX8RTS7jKJ0xApi1s3c3TS7_iExa-BjA",
@@ -9,11 +10,14 @@ const firebaseConfig = {
   messagingSenderId: "1003116691829",
   appId: "1:1003116691829:web:212b427550a54b7ed0d33c"
 };
+
+
+
  
 
-firebase.initializeApp(firebaseConfig);
-const auth = firebase.auth();
-const database = firebase.database();
+// firebase.initializeApp(firebaseConfig);
+// const auth = firebase.auth();
+// const database = firebase.database();
   
 
 
@@ -22,12 +26,70 @@ const database = firebase.database();
 // var category= urlParams.get("category");
 // var urlParams = new URLSearchParams(window.location.search);
 // var pid= urlParams.get("productId");
+
+
+firebase.initializeApp(firebaseConfig);
+
+
+// let variable = 'shoes';
+// let pid = 'REEBOKZ001';
+const username = 'hari';
+
+var urlParams = new URLSearchParams(window.location.search);
+var variable = urlParams.get("category");
+
+var urlParams = new URLSearchParams(window.location.search);
+var pid = urlParams.get("productId");
+
+const auth = firebase.auth();
+
+const app = firebase.initializeApp(firebaseConfig);
+const database = firebase.database();
+const wishlistRef = database.ref('wishlist');
+
+setTimeout(function() {
+  // Replace with dynamic value as needed
+
+  const wishlistIcon = document.getElementById("wishlist-icon");
+  if (wishlistIcon) {
+    wishlistIcon.addEventListener("click", function(event) {
+      event.preventDefault();
+      console.log("clicked");
+
+      addProductToWishlist(username, variable, pid);
+    });
+  } else {
+    console.error('Wishlist icon element not found');
+  }
+}, 500);
+
+const addProductToWishlist = (username, category, product) => {
+  const productId = category.substring(0, 4) + '-' + product;
+  console.log('Product ID:', productId);
+  console.log('Username:', username);
+
+  wishlistRef.child(username).child(productId).set(true)
+    .then(() => {
+      console.log('Product added to wishlist successfully');
+    })
+    .catch((error) => {
+      console.error('Error adding product to wishlist:', error);
+    });
+};
+
+
+
+
+
+
+
+
  
 
 
 
-let variable = 'shoes';
-let pid='REEBOK001';
+// let variable = 'shoes';
+// let pid='REEBOK001';
 const mockApiUrl = `http://localhost:3000/${variable}/`;
 
 
@@ -54,28 +116,28 @@ const mockApiUrl = `http://localhost:3000/${variable}/`;
 
 
 
-  const wishlistRef = firebase.database().ref('wishlist');
-  const username = localStorage.getItem('user');
-  document.getElementById("wishlist-icon").addEventListener("click", function (event) {
-    event.preventDefault();
-    console.log("clcked");
+  // const wishlistRef = firebase.database().ref('wishlist');
+  // const username = localStorage.getItem('user');
+  // document.getElementById("wishlist-icon").addEventListener("click", function (event) {
+  //   event.preventDefault();
+  //   console.log("clcked");
    
-    addProductToWishlist(username,variable,pid);
-  });
+  //   addProductToWishlist(username,variable,pid);
+  // });
   
 
-  const addProductToWishlist = (username,category, product) => {
+  // const addProductToWishlist = (username,category, product) => {
   
-    const productId = category.substring(0, 4) + '-' + product;
+  //   const productId = category.substring(0, 4) + '-' + product;
   
-    wishlistRef.child(username).child(productId).set(true)
-      .then(() => {
-        console.log('Product added to wishlist successfully');
-      })
-      .catch((error) => {
-        console.error('Error adding product to wishlist:', error);
-      });
-  };
+  //   wishlistRef.child(username).child(productId).set(true)
+  //     .then(() => {
+  //       console.log('Product added to wishlist successfully');
+  //     })
+  //     .catch((error) => {
+  //       console.error('Error adding product to wishlist:', error);
+  //     });
+  // };
   
 
 
@@ -102,38 +164,94 @@ async function displayDetails() {
     
     const laptop = productData[index];
 
+console.log(laptop);
 
+// Function to show notification
+function showNotification(message) {
+  // Create notification element
+  const notification = document.createElement('div');
+  notification.classList.add('notification');
+  notification.textContent = message;
 
-  //   function addToWishList(category, productIndex) {
-    
-  //     let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
-  
-     
-  //     wishlist.push({ category, productIndex });
-  
-      
-  //     localStorage.setItem('wishlist', JSON.stringify(wishlist));
-  
-  //     console.log('Wishlist:', wishlist);
-  // }
-  
-  
-  // addToWishList(variable, index);
-  
+  // Append notification to the body
+  document.body.appendChild(notification);
+
+  // Remove notification after a delay
+  setTimeout(() => {
+    notification.remove();
+  }, 4000); // Remove after 3 seconds
+}
+
+// Function to add to wishlist and show notification
+function addToWishList(category, productIndex) {
+  // Add to wishlist
+  let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+  wishlist.push({ category, productIndex });
+  localStorage.setItem('wishlist', JSON.stringify(wishlist));
+
+  // Show notification
+  showNotification('Item added to wishlist');
+}
+
+// Example icon click event listener
+const wishlistIcon = document.getElementById('wishlist-icon');
+wishlistIcon.addEventListener('click', function() {
  
-  // window.onload = function() {
-  //     let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
-  //     console.log('Stored Wishlist on Page Load:', wishlist);
-  // };
-  
-  
+  addToWishList(variable,index);
+});
 
+
+
+
+function showNotification(message) {
+  // Create notification element
+  const notification = document.createElement('div');
+  notification.classList.add('notification');
+  notification.textContent = message;
+
+  // Append notification to the body
+  document.body.appendChild(notification);
+
+  // Remove notification after a delay
+  setTimeout(() => {
+    notification.remove();
+  }, 4000); // Remove after 3 seconds
+}
+
+// Function to add to wishlist and show notification
+function addToCart(category, productIndex) {
+  // Add to wishlist
+  let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+  wishlist.push({ category, productIndex });
+  localStorage.setItem('wishlist', JSON.stringify(wishlist));
+
+  // Show notification
+  showNotification('Item added to cart');
+}
+
+// Example icon click event listener
+const cartIcon = document.getElementById('cart-click');
+cartIcon.addEventListener('click', function() {
  
+  addToCart(variable,index);
+});
 
 
+function buy(category, productIndex) {
+  // Add to wishlist
+  let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+  wishlist.push({ category, productIndex });
+  localStorage.setItem('wishlist', JSON.stringify(wishlist));
 
 
+}
 
+// Example icon click event listener
+const buyIcon = document.getElementById('buy-click');
+buyIcon.addEventListener('click', function() {
+ 
+  buy(variable,index);
+});
 
 
 
@@ -415,43 +533,7 @@ async function displayDetails() {
 
 
 
-
-
-
-      const interestedElement = document.getElementById("product-display-card");
-
-      
-          const interested = productData[index+1];
-      
-        
-          if (interested && interested.product_images && Array.isArray(interested.product_images) && interested.product_images.length > 0) {
-              const interestElement = document.createElement("div");
-              const interestedName = document.createElement("div");
-              const interestedDiscount = document.createElement("div");
-      
-              const interestedImageSrc = interested.product_images[0];
-      
-              const interestedImage = document.createElement("img");
-              interestedImage.src = interestedImageSrc;
-      
-              interestedName.textContent = interested.product_name.name;
-              interestedDiscount.textContent = interested.price_details.discount_percent;
-      
-              interestElement.classList.add("you-may-be-interested");
-      
-              interestElement.appendChild(interestedImage);
-              interestElement.appendChild(interestedName);
-              interestElement.appendChild(interestedDiscount);
-      
-              // Append interestElement to interestedElement
-              interestedElement.appendChild(interestElement);
-         
-      }
-      
-
-
-
-
+    
 
     }
   } catch (error) {
@@ -469,9 +551,130 @@ document.addEventListener("DOMContentLoaded", displayDetails);
 
 
 
+// Function to display the first three product cards
+function displayFirstThreeCards(productData) {
+  const cardsContainer = document.getElementById("product-cards-container");
 
+  if (!cardsContainer) {
+    console.error("Product cards container not found");
+    return;
+  }
 
+  // Clear previous cards
+  cardsContainer.innerHTML = '';
 
+  // Display the first three cards
+  for (let i = 0; i < 3; i++) {
+    const product = productData[i];
+    if (!product) return; // Make sure there are enough products
 
+    const card = createProductCard(product);
+    cardsContainer.appendChild(card);
+  }
+}
 
+// Function to create a single product card element
+function createProductCard(product) {
+  const card = document.createElement("div");
+  card.className = "product-display-card";
 
+  // Product image
+  const imgElement = document.createElement("img");
+  imgElement.src = product.product_images[0];
+  imgElement.alt = product.product_name.name;
+  imgElement.className = "product-display-image";
+  card.appendChild(imgElement);
+
+  // Product details container
+  const detailsContainer = document.createElement("div");
+  detailsContainer.className = "product-details";
+
+  // Product description
+  const descriptionElement = document.createElement("div");
+  descriptionElement.className = "product-display-description";
+  descriptionElement.textContent = product.product_name.name;
+  detailsContainer.appendChild(descriptionElement);
+
+  // Product discount
+  const discountElement = document.createElement("div");
+  discountElement.className = "product-off-percent";
+  discountElement.textContent = `${product.price_details.discount_percent}% off`;
+  detailsContainer.appendChild(discountElement);
+
+  // Shop Now button
+  const anchorElement = document.createElement("a");
+  anchorElement.href = `../Html/productDescription.html?category=${category}&productId=${product.product_id}`;
+  detailsContainer.appendChild(anchorElement);
+  
+  const buttonElement = document.createElement("button");
+  buttonElement.type = "submit";
+  buttonElement.textContent = "Shop Now";
+  anchorElement.appendChild(buttonElement);
+  
+
+  card.appendChild(detailsContainer);
+
+  return card;
+}
+
+// Function to initialize the carousel functionality
+function initializeCarousel(productData) {
+  let currentIndex = 0; // Index of the first visible card
+
+  // Display the first three cards
+  displayFirstThreeCards(productData);
+
+  // Function to move the carousel to the left
+  function scrollLeft() {
+    if (currentIndex === 0) return; // Already at the beginning
+
+    const cardsContainer = document.getElementById("product-cards-container");
+    if (!cardsContainer) return;
+
+    currentIndex--;
+    cardsContainer.innerHTML = ''; // Clear previous cards
+
+    // Display the cards from currentIndex to currentIndex + 2
+    for (let i = currentIndex; i < currentIndex + 3; i++) {
+      const product = productData[i];
+      if (!product) return; // No more products to display
+
+      const card = createProductCard(product);
+      cardsContainer.appendChild(card);
+    }
+  }
+
+  // Function to move the carousel to the right
+  function scrollRight1() {
+    const cardsContainer = document.getElementById("product-display-card");
+    if (!cardsContainer) return;
+
+    if (currentIndex + 3 >= productData.length) return; // Already at the end
+
+    currentIndex++;
+    cardsContainer.innerHTML = ''; // Clear previous cards
+
+    // Display the cards from currentIndex to currentIndex + 2
+    for (let i = currentIndex; i < currentIndex + 5; i++) {
+      const product = productData[i];
+      if (!product) return; // No more products to display
+
+      const card = createProductCard(product);
+      cardsContainer.appendChild(card);
+    }
+  }
+
+  // Add event listeners to the arrow buttons
+  const leftButton = document.getElementById("carousel-left-button");
+  const rightButton = document.getElementById("carousel-right-button");
+  if (leftButton && rightButton) {
+    leftButton.addEventListener("click", scrollLeft1);
+    rightButton.addEventListener("click", scrollRight1);
+  }
+}
+
+// Call initializeCarousel function when DOM content is loaded
+document.addEventListener("DOMContentLoaded", async () => {
+  const productData = await fetchProductData(); // Fetch product data
+  initializeCarousel(productData);
+});
