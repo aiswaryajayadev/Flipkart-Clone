@@ -56,16 +56,16 @@ const deleteProductFromWishlist = (username, product) => {
 
   const fullProductId = getFullProductId(product, productIds);
   console.log(username, fullProductId);
-  // wishlistRef
-  //   .child(username)
-  //   .child(fullProductId)
-  //   .remove()
-  //   .then(() => {
-  //     console.log("Product removed from wishlist successfully");
-  //   })
-  //   .catch((error) => {
-  //     console.error("Error removing product from wishlist:", error);
-  //   });
+  wishlistRef
+    .child(username)
+    .child(fullProductId)
+    .remove()
+    .then(() => {
+      console.log("Product removed from wishlist successfully");
+    })
+    .catch((error) => {
+      console.error("Error removing product from wishlist:", error);
+    });
   location.reload();
 };
 
