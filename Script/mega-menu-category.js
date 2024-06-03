@@ -1,4 +1,4 @@
-const mockApiUrl ="https://run.mocky.io/v3/e2630f15-1664-48b6-b3d3-5f3d16dddeed";
+const mockApiUrl ="https://run.mocky.io/v3/1c654157-ccf3-4115-9192-acf56df60fa7";
 
 async function fetchCategoryList(){
     try{
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
     displayCategoryList('categories2-mega-menu-items-2','Men');
     displayCategoryList('categories2-mega-menu-items-3', 'Women');
     displayCategoryList('categories2-mega-menu-items-4', 'Baby & Kids');
-    displayCategoryList('categories2-mega-menu-items-5', 'TVs & Home & Furniture');
+    displayCategoryList('categories2-mega-menu-items-5', 'Home & Furniture');
     displayCategoryList('categories2-mega-menu-items-6', 'Sports, Books & More');
    
 });

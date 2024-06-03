@@ -426,14 +426,13 @@
                 <p class="currentCategory px-4 mb-0">Mobiles</p>
                 <p class="currentCategory px-4">Laptops</p>
                 <p class="text-secondary mb-0"><i class="bi bi-chevron-left"></i> Tv & Appliances </p>
-                <p class="currentCategory mb-4 px-4 mt-1">Washing Machine</p>
-                <p class="text-secondary mb-0"><i class="bi bi-chevron-left"></i> Home & Furniture </p>
-                <p class="currentCategory mb-4 px-4 mt-1">chair</p>
+                <p class="currentCategory px-4 mb-0">Washing Machine</p>
+                <p class="currentCategory px-4">Television</p>
                 <p class="text-secondary mb-0"><i class="bi bi-chevron-left"></i> Men </p>
-                <p class="currentCategory mb-0 px-4">Shirts</p>
+                <p class="currentCategory mb-0 px-4">Fashions</p>
                 <p class="currentCategory px-4">Shoes</p>
                 <p class="text-secondary mb-0"><i class="bi bi-chevron-left"></i> Women </p>
-                <p class="currentCategory mb-0 px-4">Top</p>
+                <p class="currentCategory mb-0 px-4">Fashions</p>
                 <p class="currentCategory px-4">Shoes</p>
 
             </div>
@@ -497,8 +496,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="container ml-1">
+            <div class="container">
                 <div class="row card-container">
                     <div class="row mb-4" id="product-list">
 
@@ -506,8 +504,6 @@
                 </div>
             </div>
         </div>  
-
-    
     </div>
     <section id="footer">
         <footer>
@@ -622,49 +618,26 @@
 
     <!-- <div class="css-175oi2r" style="background-color:rgba(0,0,0,0.00);position:absolute;bottom:0px;left:0px;right:0px;overflow-x:hidden;overflow-y:hidden;height:0px"></div> -->
     <script src="../Script/mega-menu-category.js"></script>
-    <script src="../Script/filterPage.js"></script>
+    
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+<script>const firebaseConfig = {
+    apiKey: "AIzaSyCbX8RTS7jKJ0xApi1s3c3TS7_iExa-BjA",
+    authDomain: "fc-clone-13fe6.firebaseapp.com",
+    databaseURL: "https://fc-clone-13fe6-default-rtdb.firebaseio.com",
+    projectId: "fc-clone-13fe6",
+    storageBucket: "fc-clone-13fe6.appspot.com",
+    messagingSenderId: "1003116691829",
+    appId: "1:1003116691829:web:212b427550a54b7ed0d33c"
+  };
+  firebase.initializeApp(firebaseConfig);</script>
+  <script src="../Script/filterPage.js"></script>
 </body>
 
 </html>
