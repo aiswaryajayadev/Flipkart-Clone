@@ -28,7 +28,8 @@ return `
             <div class="d-flex justify-content-end mt-1 mx-1">
                 <div class="btn like-btn"><img class="like" src="../Assets/plainheart.png" alt=""></div>
             </div>
-            <a href="#" class="product-link">
+            <a href="../Html/productDescription.html?category=laptops&productId=${laptop.product_id}";
+            productLink.appendChild(productCard)" class="product-link">
                 <img class="card-img-top px-3 product-img" src="${laptop.product_images[0]}" alt="Product Image">
             </a>
             <div class="card-body m-auto">
@@ -54,8 +55,8 @@ function createModelSection(model, products) {
 return `
     <div class="col-md-12">
         <div class="d-flex justify-content-between align-items-center mb-4">
-            <h4>${model} Laptops</h4>
-            <button class="btn btn-primary">View All</button>
+            <h4>${model} Laptops</h4><a href="../Html/filterPage.html?category=laptops">
+            <button class="btn btn-primary">View All</button></a>
         </div>
         <div class="row mb-4" id="${model.toLowerCase().replace(/\s+/g, '-')}-product-list">
             ${products.map(createProductCard).join('')}
@@ -79,26 +80,20 @@ document.getElementById('model-sections').innerHTML = modelSections.join('');
 });
 
   
+setTimeout(function () {
+  const likeButtons = document.querySelectorAll(".like-btn");
+  console.log(likeButtons); // Check if this logs the correct elements
+  likeButtons.forEach(function (likeButton) {
+    const likeImage = likeButton.querySelector(".like");
 
-document.addEventListener("DOMContentLoaded", function () {
-  // Your existing code to fetch and display product cards
+    likeButton.addEventListener("click", function () {
+      const currentSrc = likeImage.src;
 
-  // Wait for the product cards to be displayed, then attach event listener to like buttons
-  setTimeout(function () {
-    const likeButtons = document.querySelectorAll(".like-btn");
-    console.log(likeButtons); // Check if this logs the correct elements
-    likeButtons.forEach(function (likeButton) {
-      const likeImage = likeButton.querySelector(".like");
-
-      likeButton.addEventListener("click", function () {
-        const currentSrc = likeImage.src;
-
-        if (currentSrc.includes("plainheart.png")) {
-          likeImage.src = "../Assets/redheart.png";
-        } else {
-          likeImage.src = "../Assets/plainheart.png";
-        }
-      });
+      if (currentSrc.includes("plainheart.png")) {
+        likeImage.src = "../Assets/redheart.png";
+      } else {
+        likeImage.src = "../Assets/plainheart.png";
+      }
     });
-  }, 100); // Adjust the timeout value as needed based on your application's timing
-});
+  });
+}, 100); // Adjust the timeout value as needed based on your application's timing
