@@ -44,7 +44,8 @@ a {
 .main-right{
     background-color: #FFFFFF;
     width: 60%;
-    height: 5030px;
+    /* height: 5030px; */
+    height: auto;
     margin-top: 16px;
 
 }

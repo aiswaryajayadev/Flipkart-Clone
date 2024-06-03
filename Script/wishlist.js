@@ -3,10 +3,13 @@ let selectedOption = null;
 function changeColor(element) {
   if (selectedOption !== null) {
     selectedOption.classList.remove("selected");
+    window.location.href="../Html/account.html";
   }
   element.classList.add("selected");
+  window.location.href="../Html/account.html";
   selectedOption = element;
 }
+
 
 const firebaseConfig = {
   apiKey: "AIzaSyCbX8RTS7jKJ0xApi1s3c3TS7_iExa-BjA",
@@ -382,9 +385,20 @@ const getWishlistData = (username) => {
 //   console.log("Event listener added");
 // }, 2000);
 
+
+function displayUsername() {
+  const username = getNameFromEmail(nameUser);
+  if (username) {
+      document.getElementById('display-user-name').innerHTML = `<b>${username}</b>`;
+  } else {
+      document.getElementById('display-user-name').innerHTML = '<b>User</b>';
+  }
+}
+
 function onDocumentLoad() {
   console.log("Document is fully loaded");
   getWishlistData(getNameFromEmail(nameUser));
+  displayUsername();
 }
 
 // Add an event listener for the DOMContentLoaded event
