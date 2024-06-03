@@ -8,6 +8,11 @@ const firebaseConfig = {
     appId: "1:1003116691829:web:212b427550a54b7ed0d33c"
 };
 
+function wait(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+  
+
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 const db = firebase.database();
@@ -29,16 +34,20 @@ let RegisterUser = evt => {
             const userId = credentials.user.uid;
             return db.ref('UsersAuthList/' + userId).set({
                 email: EmailInp.value,
-                password: PassInp.value // Note: Storing password in plain text is insecure.
+                password: PassInp.value
             });
         })
         .then(() => {
             console.log("User data stored successfully.");
-            window.location.href = "../html/LoginPage.html";
+            toastr.success('Account Created Succesfully','SUCCESS');
+            wait(2000).then(() => {
+                window.location.href="../html/loginPage.html";
+              });
         })
         .catch((error) => {
             console.error("Error: ", error);
-            alert(error.message);
+            toastr.error('Email Already Exists','ERROR');
+            
         });
 }
 

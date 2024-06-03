@@ -45,6 +45,7 @@
     "sort-on": "^6.0.0",
     "steno": "^4.0.2",
     "to-regex-range": "^5.0.1",
+    "toastr": "^2.1.4",
     "totalist": "^3.0.1",
     "type-fest": "^3.13.1"
   }
