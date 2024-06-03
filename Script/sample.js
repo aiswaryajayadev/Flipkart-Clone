@@ -33,7 +33,7 @@ firebase.initializeApp(firebaseConfig);
 
 // let variable = 'shoes';
 // let pid = 'REEBOKZ001';
-const username = 'hari';
+const username = 'emna';
 
 var urlParams = new URLSearchParams(window.location.search);
 var variable = urlParams.get("category");
