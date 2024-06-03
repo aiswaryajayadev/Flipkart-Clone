@@ -28,11 +28,12 @@ function createProductCard(mobile) {
               <div class="d-flex justify-content-end mt-1 mx-1" style="border:none;">
                   <div class="btn like-btn"><img class="like" src="../Assets/plainheart.png" alt=""></div>
               </div>
-              <a href="#" class="product-link">
+              <a href="../Html/productDescription.html?category=mobiles&productId=${mobile.product_id}";
+              productLink.appendChild(productCard)" class="product-link">
                   <img class="card-img-top px-3 product-img" src="${mobile.product_images[0]}" alt="Product Image">
               </a>
               <div class="card-body m-auto">
-                  <h6 class="card-title"><a href="#" class="product-name">${mobile.product_name.name}</a></h6>
+                  <h6 class="card-title"><a href="../Html/productDescription.html?category=mobiles&productId=${mobile.product_id}" class="product-name">${mobile.product_name.name}</a></h6>
                   <div class="d-flex justify-content-around">
                   <div class="rating bg-success text-white small m-1">
                   <span>${mobile.rating}<i class="bi bi-star-fill"></i></span>
@@ -80,14 +81,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 
-
-
-
-
-document.addEventListener("DOMContentLoaded", function () {
-  // Your existing code to fetch and display product cards
-
-  // Wait for the product cards to be displayed, then attach event listener to like buttons
   setTimeout(function () {
     const likeButtons = document.querySelectorAll(".like-btn");
     console.log(likeButtons); // Check if this logs the correct elements
@@ -105,4 +98,3 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   }, 100); // Adjust the timeout value as needed based on your application's timing
-});

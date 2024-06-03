@@ -102,9 +102,19 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   }
-  let variable = 'mobiles';
-  let pid='REEBOK001';
+
+
+  var urlParams = new URLSearchParams(window.location.search);
+  let variable = urlParams.get("category");
   
+  // Remove any quotes from the variable
+  if (variable) {
+      variable = variable.replace(/['"]/g, '');
+  }
+  
+  console.log(variable);
+  
+
 const jsonURL = `http://localhost:3000/${variable}/`;
   // Fetch and display product cards
 
@@ -114,19 +124,22 @@ const jsonURL = `http://localhost:3000/${variable}/`;
       let products = data;
 
       function displayProductDetails(product) {
+        var urlParams = new URLSearchParams(window.location.search);
+        let variable = urlParams.get("category");
         const productDetailsContainer = document.getElementById('product-list');
         const productCard = document.createElement('div');
         productCard.classList.add('col-md-3', 'mb-4'); // Use Bootstrap classes for grid layout
 
         productCard.innerHTML = `
-          <div class="productcard h-100">
+          <div class="productcard h-100" >
+          <a href="../Html/productDescription.html?category=${variable}&productId=${product.product_id}" class="product-link">
             <div class="card-body text-start">
               <div class="d-flex justify-content-end mt-1" style="border:none;">
                 <div class="btn like-btn">
                   <img class="like" src="../Assets/plainheart.png" alt="">
                 </div>
               </div>
-              <a href="#" class="product-link">
+              <a href="../Html/productDescription.html?category=${variable}&productId=${product.product_id}" class="product-link">
                 <img class="card-img-top px-3" src="${product.product_images[0]}" alt="Product Image" style="max-height: 200px; object-fit: contain;">
               </a>
               <h6 class="card-title mb-0 mt-2">${product.product_name.name}</h6>
@@ -146,6 +159,7 @@ const jsonURL = `http://localhost:3000/${variable}/`;
               </p>
               <p class="freeDelivery small">Free delivery</p>
             </div>
+            </a>
           </div>
         `;
 
@@ -175,6 +189,9 @@ const jsonURL = `http://localhost:3000/${variable}/`;
 
           return matchesPrice && matchesAssured && matchesRating && matchesDiscount && matchesBrand;
         });
+
+       
+
 
         filteredProducts.forEach(displayProductDetails);
 
@@ -299,3 +316,7 @@ function clearFilters() {
 
   applyFilters();
 }
+
+var urlParams = new URLSearchParams(window.location.search);
+var value = urlParams.get("category"); // "category" instead of "value" since "category" is the parameter name in the URL
+console.log(value);
