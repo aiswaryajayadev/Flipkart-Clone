@@ -115,19 +115,17 @@ const getWishlistData = (username) => {
                 let productCard = document.createElement("div");
                 productCard.className = "product-container border-bottom";
                 productCard.innerHTML = `
-                
                 <div class="product-image">
                             <img
                                 src="${found.product_images[0]}"
                                 alt="product image" width="130px">
                         </div>
-    
                         <div class="product-details">
                             <p class="product-heading ">${found.product_name.name} </p>
                             <div class="details-row1">
                                     <div class="rating">${found.rating} <img src="../Assets/images/star.svg" alt=""></div>
                                     <p class="review-number">(332)</p>
-                                    <img src="./assets/images/fa_62673a.png" alt="" height="21">
+                                    <img src="../Assets/images/fa_62673a.png" alt="" height="21">
                             </div>
                             <div class="details-row1">
                                 <h3 class="price">₹ ${found.price_details.current_price}</h3>
@@ -136,38 +134,29 @@ const getWishlistData = (username) => {
                         </div>      
                         </div>
                         <div class="remove-btn">
-                            <button class="add-to-wishlist-button" data-product-id="${found.product_id}" ><img src="../Assets/images/remove-btn.svg" alt="remove-btn"></button>
+                            <button style="background-color: white; border: none;" class="add-to-wishlist-button" data-product-id="${found.product_id}" ><img src="../Assets/images/remove-btn.svg" alt="remove-btn"></button>
                         </div>
                         <div>
                         </div>
                 `;
                 productList.appendChild(productCard);
-
-                //category and productid
-              }
-              
-                
+               //category and productid
+              } 
             });
-
-           
           }
 
           if (category == "lapt") {
             laptops.forEach((laptop) => {
-              console.log(laptop);
               if (laptop.product_id == product) {
                 var found = laptop;
-                console.log(found);
                 let productCard = document.createElement("div");
                 productCard.className = "product-container border-bottom";
                 productCard.innerHTML = `
-                
                 <div class="product-image">
                             <img
                                 src="${found.product_images[0]}"
                                 alt="product image" width="130px">
                         </div>
-    
                         <div class="product-details">
                             <p class="product-heading ">${found.product_name.name} </p>
                             <div class="details-row1">
@@ -182,13 +171,14 @@ const getWishlistData = (username) => {
                         </div>      
                         </div>
                         <div class="remove-btn">
-                            <button id="add-to-wishlist-button data-product-id="${found.product_id}" ><img src="../Assets/images/remove-btn.svg" alt="remove-btn"></button>
+                            <button style="border: none;" class="add-to-wishlist-button" data-product-id="${found.product_id}" ><img src="../Assets/images/remove-btn.svg" alt="remove-btn"></button>
                         </div>
                         <div>
                         </div>
                 `;
                 productList.appendChild(productCard);
-              }
+               //category and productid
+              } 
             });
           }
           if (category == "wash") {
