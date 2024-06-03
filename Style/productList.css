@@ -1,0 +1,146 @@
+.body{
+    overflow-x: hidden;
+}
+
+
+
+
+.navbar-custom {
+    background-color: #2874f0;
+    color: white;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white;
+}
+
+.navbar-custom .form-control {
+    border-radius: 0;
+}
+
+.navbar-custom .btn-outline-light {
+    color: white;
+    border-color: white;
+}
+
+
+
+.banner {
+    display: inline-block;
+    width: 97vw;
+    height: auto;
+
+}
+
+.startingDetails {
+    width: 97vw;
+    background-color: rgb(241, 238, 233);
+    height: auto;
+
+}
+
+.productRowlist {
+    width: 97vw;
+}
+
+.rating {
+    width: 35px;
+    border-radius: 4px;
+}
+
+.like {
+    width: 15px;
+    height: 15px;
+}
+
+.like-btn {
+    outline: none; /* Remove the outline */
+    border: none; /* Remove any border */
+    box-shadow: none; /* Remove any box-shadow */
+}
+
+
+.cardRow{
+    width: 97vw;
+    padding-left: 1px;
+    padding-right: 1px;
+    gap: 0px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+
+.descriptionheading {
+    color: grey; /* Change heading color to grey */
+    font-size: 18px; /* Reduce font size */
+}
+.pdtdescription {
+    max-height: 800px; /* Reduce max height */
+    max-width: 97vw;
+    
+}
+.secondary-navbar{
+    padding:0px;
+}
+.product-img {
+    width: 150px; /* Set the width */
+    height: 150px; /* Set the height */
+    object-fit: contain; /* Ensure the image covers the area without distortion */
+}
+
+.card-text span {
+    margin-right: 5px; /* Add some space between the spans */
+}
+.product-link {
+    text-decoration: none;
+    color: inherit; /* Ensure the link text inherits the color of the parent */
+    display: block; /* Make the entire anchor tag a block element */
+}
+
+.card:hover .product-name {
+    text-decoration: underline;
+    
+}
+
+.product-name {
+    color: inherit; /* Ensure the product name inherits the color of its parent */
+}
+.card {
+    
+    text-align: start; /* Center align content */
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: none;
+}
+
+.card-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Number of lines for the product name */
+    -webkit-box-orient: vertical;
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Display ellipsis for overflow text */
+}
+
+.product-link {
+    text-decoration: none; /* Remove default link decoration */
+    color: inherit; /* Inherit color from parent */
+}
+
+.card-text {
+    flex-wrap: nowrap;
+
+}
+.card-price{
+    font-size: medium;
+
+}
+
+.dotted-line {
+    border-top: 1px dotted #ccc;
+    margin-top: 10px;
+}
+
+.discount{
+    font-size: 12px;
+}

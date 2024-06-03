@@ -1,0 +1,486 @@
+*{
+    font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+    
+}
+
+#categories {
+    
+    margin-top: 6px;
+    margin: 12px;
+    margin: auto;
+    width: 95%;
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.cdropdown {
+    float: left;
+    overflow: hidden;
+
+
+}
+
+.cdropdown-content .cdropdown-content-div1{
+    min-width: 240px;
+   
+}
+
+.cdropdown-content .cdropdown-content-div1 object{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cdropdown-content-1 .cdropdown-content-div2 object{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cdropdown .cdropbtn {
+    
+    border: none;
+    outline: none;
+    color: rgb(30, 28, 28);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    border-radius: 10px;
+}
+.cdropdown .cdropbtn {
+    position: relative;
+    margin-left: -10px;
+    position: relative;
+    margin-right: -10px
+    /* Necessary for positioning pseudo-elements */
+}
+.cdropbtn i {
+    transition: transform 0.3s ease-in;
+}
+
+.cdropbtn:hover i {
+    transform: rotate(180deg);
+}
+
+
+
+
+ .cdropdown:hover .cdropbtn {
+        color:blue;
+}
+.cdropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 8px 1px rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    z-index: 100;
+    
+    
+}
+
+.cdropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.cdropdown-content-1 a {
+    float: none;
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.cdropdown-content-1{
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+min-width: 260px;
+/* box-shadow: 0 8px 8px 1px rgba(0, 0, 0, .3); */
+border-radius: 8px;
+z-index: 100;
+left: 570px;
+}
+
+.cdropdown:hover .cdropdown-content {
+    display: block;
+}
+
+.categories-class{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.C-title{
+    margin-top: 20px;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.image-row, .title-row {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.title-row{
+   
+    margin-top: -30px;
+    margin-left: 25px;
+    margin-right: -12px;
+}
+
+.image-row{
+       margin-left: 10px;
+    margin-right: 30px;
+}
+
+.category-dropDown {
+    margin:6px 13px 10px;
+    text-align: center;
+}
+
+
+.cdropdown-content-div1-item{
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #fff;
+    justify-content: space-between;
+    font-size: 13px;
+    padding-right: 20px;
+    
+}
+
+
+.cdropdown-content-div2-item{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    padding: 8px 16px;
+}
+
+.cdropdown-content-div2-item-link{
+    font-size: 12px;
+    line-height: 20px;
+    padding: 12px 16px;
+   
+}
+
+.cdropdown-content-div2-item-link:hover{
+   font-weight: bold;
+}
+
+ .cdropdown .cdropdown-content .cdropdown-content-div1 object ,
+ .cdropdown .cdropdown-content .cdropdown-content-div1 object :hover, .hover-div {
+    
+    background-color: #f0f5ff;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+}
+
+
+.cdropdown-content .cdropdown-content-div1 object .cdropdown-content-div1-item .cdropdown-content-div1-arrow,
+.cdropdown-content .cdropdown-content-div1 object .cdropdown-content-div1-item:hover .cdropdown-content-div1-arrow,
+.show-div2-arrow
+  {
+    display: inline-block;
+}
+
+.cdropdown-content .cdropdown-content-div1 object .cdropdown-content-div1-item .cdropdown-content-div1-arrow {
+    display: none;
+    margin-left: 75px;
+    margin-bottom: 5px;
+    content: "";
+    position: relative;
+    height: 6px;
+    width: 6px;
+    border-color: #111112;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    transform-origin: 50% 50%;
+    transform: translateY(75%) rotate(-45deg);
+}
+
+.cdropdown-content-div2{
+    display: none;
+    
+    height: 450px;  
+   
+    min-width: 240px;
+    box-shadow: 0 8px 8px 1px rgba(0, 0, 0, .3);
+    
+}
+
+
+.product-display {
+    width: 95%;
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.product-display-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.adjusted {
+    flex: 1;    
+    width: 80%;
+    margin-left: 33px;
+    background-color: white;
+    margin-top: 10px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-adv-image {
+    flex: 1;
+    height: 319px;
+    width:auto;
+    object-fit: contain;
+    
+    margin-left:20px;
+   margin-right:30px;
+    background-color: white;
+    margin-top: 10px;
+    /* Add styling for home adv image */
+}
+.adv-img{
+    margin-top: 15px;
+    width:100%;
+    height:319px;
+    
+    
+}
+
+.product-cards-container {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    margin-left:30px;
+    margin-bottom: 30px;
+}
+
+.product-display-image {
+    width: 100%;
+    height: 100px; /* Fixed height */
+    object-fit: contain; /* Ensures the image covers the entire area */
+    margin-bottom: 10px;
+    transition: transform 0.3s; /* Add transition for smooth effect */
+}
+
+.product-display-card:hover .product-display-image {
+    transform: scale(1.1); /* Zoom the image on hover */
+}
+
+
+.product-display-card {
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 200px;  /* Fixed width */
+    height: 200px; /* Fixed height */
+    margin: 0 10px;  /* Space between cards */
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    transition: box-shadow 0.3s;
+}
+.product-cards-container a{
+    text-decoration: none;
+
+}
+
+
+.product-display-description {
+    flex: 1;
+    margin-top: 10px;  /* Add margin above the description */
+    color: #111112;
+    overflow: hidden; 
+    font-size: 15px;/* Ensure text overflow is hidden */
+    text-overflow: ellipsis; /* Ensure text is truncated with ellipsis */
+    display: -webkit-box; /* Required for multiline truncation */
+    -webkit-line-clamp: 2; /* Number of lines to show */
+    -webkit-box-orient: vertical; /* Required for multiline truncation */
+    height: 40px; /* Fixed height for consistency */
+}
+.product-display-price{
+
+    color: #111112;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.product-display-heading{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    
+}
+.product-heading-container {
+    display: flex;
+    justify-content: space-between; /* This will place the elements on the same row with space between them */
+    align-items: center; /* This will vertically align the items in the center */
+    margin-bottom: 10px; /* Add some margin below the heading container */
+}
+
+
+
+.product-view-all  {
+    
+    padding: 10px;
+    
+    cursor: pointer;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    
+}
+
+.carousel-product-button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    height: 40%;
+    width: 3%;
+    font-size: 24px;
+    color: #585858;
+    padding: 10px;
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    
+}
+.product-cards-wrapper {
+    overflow: hidden;
+    width: 100%;  /* Adjust the width as needed */
+}
+
+
+.carousel-product-container {
+    display: flex;
+    /* align-items: center; */
+    
+    width: 100%;
+    position: relative;
+}
+
+.carousel-product-button.left {
+    margin-top: 0px;
+    left: 0px;
+    display: none;
+}
+
+.carousel-product-button.right {
+    margin-top: 0px;
+    right: 0px;
+}
+
+.carousel-display {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    font-family: sans-serif;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+}
+
+.carousel-display-image {
+    width: 100%;
+    height: 200px;
+    object-fit: contain; /* Fill the container while maintaining aspect ratio */
+    transition: transform 0.3s;
+    flex-shrink: 0;
+}
+
+.carousel-button {
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 100px;
+    width: 40px;
+    font-size: 24px;
+    color: #585858;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.carousel-button.left {
+    left: 0;
+}
+
+.carousel-button.right {
+    right: 0;
+}
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px; /* Adjusted to ensure it doesn't overlap with images */
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto; /* Width will adjust based on content */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    margin: 0 5px;
+    background-color: #929191;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background-color: #f8f5f5;animation: expand 0.3s forwards;
+}
+
+@keyframes expand {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
