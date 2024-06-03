@@ -603,7 +603,7 @@ function createProductCard(product) {
 
   // Shop Now button
   const anchorElement = document.createElement("a");
-  anchorElement.href = `../Html/productDescription.html?category=${category}&productId=${product.product_id}`;
+  anchorElement.href = `../Html/productDescription.html?category=${variable}&productId=${product.product_id}`;
   detailsContainer.appendChild(anchorElement);
   
   const buttonElement = document.createElement("button");

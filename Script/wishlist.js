@@ -21,16 +21,13 @@ const firebaseConfig = {
   appId: "1:1003116691829:web:212b427550a54b7ed0d33c",
 };
 
-// Make a GET request to fetch data from the server
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 const database = firebase.database();
 let productIds;
 const nameUser = localStorage.getItem("user");
 
-// Reference to the wishlist node
 const wishlistRef = firebase.database().ref("wishlist");
-// Function to add product to wishlist
 const addProductToWishlist = (username, category, product) => {
   const productId = category.substring(0, 4) + "-" + product;
 
@@ -79,7 +76,6 @@ const getWishlistData = (username) => {
     .once("value")
     .then(async (snapshot) => {
       if (snapshot.exists()) {
-        // console.log('Wishlist data:', snapshot.val());
         const wishlistData = snapshot.val();
         productIds = Object.keys(wishlistData);
         console.log('Product IDs:', productIds);
@@ -101,20 +97,17 @@ const getWishlistData = (username) => {
 
         const resultT = await fetch("http://localhost:3000/mobiles");
         let television = await resultT.json();
-
-        // If you want to do something with each product ID
         productIds.forEach((productId) => {
 
           const productList = document.getElementById("product-list");
 
-          const category = productId.substring(0, 4); // Extracting the first 4 letters as the category
+          const category = productId.substring(0, 4); 
           const product = productId.substring(5);
 
           if (category == "mobi") {
             mobiles.forEach((laptop) => {
               if (laptop.product_id == product) {
                 var found = laptop;
-                // console.log(found);
                 let productCard = document.createElement("div");
                 productCard.className = "product-container border-bottom";
                 productCard.innerHTML = `
@@ -124,7 +117,9 @@ const getWishlistData = (username) => {
                                 alt="product image" width="130px">
                         </div>
                         <div class="product-details">
-                            <p class="product-heading ">${found.product_name.name} </p>
+                        <a href="productDescription.html?category=mobiles&productId=${found.product_id}">
+                        ${found.product_name.name}
+                      </a>
                             <div class="details-row1">
                                     <div class="rating">${found.rating} <img src="../Assets/images/star.svg" alt=""></div>
                                     <p class="review-number">(332)</p>
@@ -143,10 +138,10 @@ const getWishlistData = (username) => {
                         </div>
                 `;
                 productList.appendChild(productCard);
-               //category and productid
               } 
             });
           }
+
 
           if (category == "lapt") {
             laptops.forEach((laptop) => {
@@ -161,11 +156,13 @@ const getWishlistData = (username) => {
                                 alt="product image" width="130px">
                         </div>
                         <div class="product-details">
-                            <p class="product-heading ">${found.product_name.name} </p>
+                        <a href="productDescription.html?category=laptops&productId=${found.product_id}">
+                        ${found.product_name.name}
+                      </a>
                             <div class="details-row1">
                                     <div class="rating">${found.rating} <img src="../Assets/images/star.svg" alt=""></div>
                                     <p class="review-number">(332)</p>
-                                    <img src="./assets/images/fa_62673a.png" alt="" height="21">
+                                    <img src="../Assets/images/fa_62673a.png" alt="" height="21">
                             </div>
                             <div class="details-row1">
                                 <h3 class="price">₹ ${found.price_details.current_price}</h3>
@@ -174,38 +171,35 @@ const getWishlistData = (username) => {
                         </div>      
                         </div>
                         <div class="remove-btn">
-                            <button style="border: none;" class="add-to-wishlist-button" data-product-id="${found.product_id}" ><img src="../Assets/images/remove-btn.svg" alt="remove-btn"></button>
+                            <button style="background-color: white; border: none;" class="add-to-wishlist-button" data-product-id="${found.product_id}" ><img src="../Assets/images/remove-btn.svg" alt="remove-btn"></button>
                         </div>
                         <div>
                         </div>
                 `;
                 productList.appendChild(productCard);
-               //category and productid
               } 
             });
           }
           if (category == "wash") {
             washingMachine.forEach((laptop) => {
-              console.log(laptop);
               if (laptop.product_id == product) {
                 var found = laptop;
-                console.log(found);
                 let productCard = document.createElement("div");
                 productCard.className = "product-container border-bottom";
                 productCard.innerHTML = `
-                
                 <div class="product-image">
                             <img
                                 src="${found.product_images[0]}"
                                 alt="product image" width="130px">
                         </div>
-    
                         <div class="product-details">
-                            <p class="product-heading ">${found.product_name.name} </p>
+                        <a href="productDescription.html?category=washing-machine&productId=${found.product_id}">
+                        ${found.product_name.name}
+                      </a>
                             <div class="details-row1">
                                     <div class="rating">${found.rating} <img src="../Assets/images/star.svg" alt=""></div>
                                     <p class="review-number">(332)</p>
-                                    <img src="./assets/images/fa_62673a.png" alt="" height="21">
+                                    <img src="../Assets/images/fa_62673a.png" alt="" height="21">
                             </div>
                             <div class="details-row1">
                                 <h3 class="price">₹ ${found.price_details.current_price}</h3>
@@ -214,37 +208,36 @@ const getWishlistData = (username) => {
                         </div>      
                         </div>
                         <div class="remove-btn">
-                            <button id="add-to-wishlist-button" ><img src="../Assets/images/remove-btn.svg" alt="remove-btn"></button>
+                            <button style="background-color: white; border: none;" class="add-to-wishlist-button" data-product-id="${found.product_id}" ><img src="../Assets/images/remove-btn.svg" alt="remove-btn"></button>
                         </div>
                         <div>
                         </div>
                 `;
                 productList.appendChild(productCard);
-              }
+              } 
             });
           }
+
           if (category == "dres") {
             dress.forEach((laptop) => {
-              console.log(laptop);
               if (laptop.product_id == product) {
                 var found = laptop;
-                console.log(found);
                 let productCard = document.createElement("div");
                 productCard.className = "product-container border-bottom";
                 productCard.innerHTML = `
-                
                 <div class="product-image">
                             <img
                                 src="${found.product_images[0]}"
                                 alt="product image" width="130px">
                         </div>
-    
                         <div class="product-details">
-                            <p class="product-heading ">${found.product_name.name} </p>
+                        <a href="productDescription.html?category=dress&productId=${found.product_id}">
+                        ${found.product_name.name}
+                      </a>
                             <div class="details-row1">
                                     <div class="rating">${found.rating} <img src="../Assets/images/star.svg" alt=""></div>
                                     <p class="review-number">(332)</p>
-                                    <img src="./assets/images/fa_62673a.png" alt="" height="21">
+                                    <img src="../Assets/images/fa_62673a.png" alt="" height="21">
                             </div>
                             <div class="details-row1">
                                 <h3 class="price">₹ ${found.price_details.current_price}</h3>
@@ -253,37 +246,36 @@ const getWishlistData = (username) => {
                         </div>      
                         </div>
                         <div class="remove-btn">
-                            <button id="add-to-wishlist-button" ><img src="../Assets/images/remove-btn.svg" alt="remove-btn"></button>
+                            <button style="background-color: white; border: none;" class="add-to-wishlist-button" data-product-id="${found.product_id}" ><img src="../Assets/images/remove-btn.svg" alt="remove-btn"></button>
                         </div>
                         <div>
                         </div>
                 `;
                 productList.appendChild(productCard);
-              }
+              } 
             });
           }
+         
           if (category == "shoe") {
             shoes.forEach((laptop) => {
-              console.log(laptop);
               if (laptop.product_id == product) {
                 var found = laptop;
-                console.log(found);
                 let productCard = document.createElement("div");
                 productCard.className = "product-container border-bottom";
                 productCard.innerHTML = `
-                
                 <div class="product-image">
                             <img
                                 src="${found.product_images[0]}"
                                 alt="product image" width="130px">
                         </div>
-    
                         <div class="product-details">
-                            <p class="product-heading ">${found.product_name.name} </p>
+                        <a href="productDescription.html?category=shoes&productId=${found.product_id}">
+                        ${found.product_name.name}
+                      </a>
                             <div class="details-row1">
                                     <div class="rating">${found.rating} <img src="../Assets/images/star.svg" alt=""></div>
                                     <p class="review-number">(332)</p>
-                                    <img src="./assets/images/fa_62673a.png" alt="" height="21">
+                                    <img src="../Assets/images/fa_62673a.png" alt="" height="21">
                             </div>
                             <div class="details-row1">
                                 <h3 class="price">₹ ${found.price_details.current_price}</h3>
@@ -292,37 +284,35 @@ const getWishlistData = (username) => {
                         </div>      
                         </div>
                         <div class="remove-btn">
-                            <button id="add-to-wishlist-button" ><img src="../Assets/images/remove-btn.svg" alt="remove-btn"></button>
+                            <button style="background-color: white; border: none;" class="add-to-wishlist-button" data-product-id="${found.product_id}" ><img src="../Assets/images/remove-btn.svg" alt="remove-btn"></button>
                         </div>
                         <div>
                         </div>
                 `;
                 productList.appendChild(productCard);
-              }
+              } 
             });
           }
           if (category == "tele") {
             television.forEach((laptop) => {
-              console.log(laptop);
               if (laptop.product_id == product) {
                 var found = laptop;
-                console.log(found);
                 let productCard = document.createElement("div");
                 productCard.className = "product-container border-bottom";
                 productCard.innerHTML = `
-                
                 <div class="product-image">
                             <img
                                 src="${found.product_images[0]}"
                                 alt="product image" width="130px">
                         </div>
-    
                         <div class="product-details">
-                            <p class="product-heading ">${found.product_name.name} </p>
+                        <a href="productDescription.html?category=television&productId=${found.product_id}">
+                        ${found.product_name.name}
+                      </a>
                             <div class="details-row1">
                                     <div class="rating">${found.rating} <img src="../Assets/images/star.svg" alt=""></div>
                                     <p class="review-number">(332)</p>
-                                    <img src="./assets/images/fa_62673a.png" alt="" height="21">
+                                    <img src="../Assets/images/fa_62673a.png" alt="" height="21">
                             </div>
                             <div class="details-row1">
                                 <h3 class="price">₹ ${found.price_details.current_price}</h3>
@@ -331,17 +321,16 @@ const getWishlistData = (username) => {
                         </div>      
                         </div>
                         <div class="remove-btn">
-                            <button id="add-to-wishlist-button" ><img src="../Assets/images/remove-btn.svg" alt="remove-btn"></button>
+                            <button style="background-color: white; border: none;" class="add-to-wishlist-button" data-product-id="${found.product_id}" ><img src="../Assets/images/remove-btn.svg" alt="remove-btn"></button>
                         </div>
                         <div>
                         </div>
                 `;
                 productList.appendChild(productCard);
-              }
+              } 
             });
           }
 
-          // You can add more logic here to handle each product ID
         });
       } else {
         console.log("No wishlist data found for the user");
@@ -362,6 +351,61 @@ const getWishlistData = (username) => {
       console.error("Error fetching wishlist data:", error);
     });
 };
+function displayUsername() {
+  const username = getNameFromEmail(nameUser);
+  if (username) {
+      document.getElementById('display-user-name').innerHTML = `<b>${username}</b>`;
+  } else {
+      document.getElementById('display-user-name').innerHTML = '<b>User</b>';
+  }
+}
+
+function onDocumentLoad() {
+  console.log("Document is fully loaded");
+  getWishlistData(getNameFromEmail(nameUser));
+  displayUsername();
+}
+
+document.addEventListener("DOMContentLoaded", onDocumentLoad);
+
+
+function getNameFromEmail(name) {
+  const namePart = name.split("@")[0];
+  return namePart;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // document.getElementById("add-to-wishlist-button").addEventListener("click", function (event) {
 //     event.preventDefault();
@@ -384,28 +428,3 @@ const getWishlistData = (username) => {
 //   });
 //   console.log("Event listener added");
 // }, 2000);
-
-
-function displayUsername() {
-  const username = getNameFromEmail(nameUser);
-  if (username) {
-      document.getElementById('display-user-name').innerHTML = `<b>${username}</b>`;
-  } else {
-      document.getElementById('display-user-name').innerHTML = '<b>User</b>';
-  }
-}
-
-function onDocumentLoad() {
-  console.log("Document is fully loaded");
-  getWishlistData(getNameFromEmail(nameUser));
-  displayUsername();
-}
-
-// Add an event listener for the DOMContentLoaded event
-document.addEventListener("DOMContentLoaded", onDocumentLoad);
-
-
-function getNameFromEmail(name) {
-  const namePart = name.split("@")[0];
-  return namePart;
-}

@@ -97,3 +97,6 @@ function toggleButtonVisibility(displayId) {
     rightButton.style.display = scrollAmounts[displayId] >= maxScroll ? 'none' : 'inline';
 }
 
+
+
+  

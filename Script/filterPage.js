@@ -286,20 +286,7 @@ const jsonURL = `http://localhost:3000/${variable}/`;
     })
     .catch(error => console.error('Error fetching data:', error));
 
-  // function clearFilters() {
-  //   console.log('called clear filter')
-  //   document.getElementById('priceRange').value = '200000';
-  //   document.getElementById('priceValue').textContent = '';
-
-  //   const checkboxes = document.querySelectorAll('input[type="checkbox"]');
-  //   checkboxes.forEach((checkbox) => {
-  //     checkbox.checked = false;
-  //   });
-
-  //   document.querySelector('.brandSearch').value = '';
-
-  //   applyFilters();
-  // }
+  
 });
 
 function clearFilters() {
@@ -318,5 +305,5 @@ function clearFilters() {
 }
 
 var urlParams = new URLSearchParams(window.location.search);
-var value = urlParams.get("category"); // "category" instead of "value" since "category" is the parameter name in the URL
+var value = urlParams.get("category"); 
 console.log(value);
