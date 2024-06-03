@@ -98,6 +98,97 @@ let variable = urlParams.get("category");
 let pid = urlParams.get("productId");
 
 console.log(variable);
+
+ 
+const firebaseConfig = {
+  apiKey: "AIzaSyCbX8RTS7jKJ0xApi1s3c3TS7_iExa-BjA",
+  authDomain: "fc-clone-13fe6.firebaseapp.com",
+  databaseURL: "https://fc-clone-13fe6-default-rtdb.firebaseio.com",
+  projectId: "fc-clone-13fe6",
+  storageBucket: "fc-clone-13fe6.appspot.com",
+  messagingSenderId: "1003116691829",
+  appId: "1:1003116691829:web:212b427550a54b7ed0d33c"
+};
+
+
+
+ 
+
+// firebase.initializeApp(firebaseConfig);
+// const auth = firebase.auth();
+// const database = firebase.database();
+  
+
+
+
+// var urlParams = new URLSearchParams(window.location.search);
+// var category= urlParams.get("category");
+// var urlParams = new URLSearchParams(window.location.search);
+// var pid= urlParams.get("productId");
+
+
+firebase.initializeApp(firebaseConfig);
+
+
+// let variable = 'shoes';
+// let pid = 'REEBOKZ001';
+const username = 'hari';
+
+var urlParams = new URLSearchParams(window.location.search);
+var variable = urlParams.get("category");
+
+var urlParams = new URLSearchParams(window.location.search);
+var pid = urlParams.get("productId");
+
+const auth = firebase.auth();
+
+const app = firebase.initializeApp(firebaseConfig);
+const database = firebase.database();
+const wishlistRef = database.ref('wishlist');
+
+setTimeout(function() {
+  // Replace with dynamic value as needed
+
+  const wishlistIcon = document.getElementById("wishlist-icon");
+  if (wishlistIcon) {
+    wishlistIcon.addEventListener("click", function(event) {
+      event.preventDefault();
+      console.log("clicked");
+
+      addProductToWishlist(username, variable, pid);
+    });
+  } else {
+    console.error('Wishlist icon element not found');
+  }
+}, 500);
+
+const addProductToWishlist = (username, category, product) => {
+  const productId = category.substring(0, 4) + '-' + product;
+  console.log('Product ID:', productId);
+  console.log('Username:', username);
+
+  wishlistRef.child(username).child(productId).set(true)
+    .then(() => {
+      console.log('Product added to wishlist successfully');
+    })
+    .catch((error) => {
+      console.error('Error adding product to wishlist:', error);
+    });
+};
+
+
+
+
+
+
+
+
+ 
+
+
+
+// let variable = 'shoes';
+// let pid='REEBOK001';
 const mockApiUrl = `http://localhost:3000/${variable}/`;
 
 
@@ -202,11 +293,11 @@ function addToWishList(category, productIndex) {
 }
 
 // Example icon click event listener
-// const wishlistIcon = document.getElementById('wishlist-icon');
-// wishlistIcon.addEventListener('click', function() {
+const wishlistIcon = document.getElementById('wishlist-icon');
+wishlistIcon.addEventListener('click', function() {
  
-//   addToWishList(variable,index);
-// });
+  addToWishList(variable,index);
+});
 
 
 
@@ -238,11 +329,11 @@ function addToCart(category, productIndex) {
 }
 
 // Example icon click event listener
-// const cartIcon = document.getElementById('cart-click');
-// cartIcon.addEventListener('click', function() {
+const cartIcon = document.getElementById('cart-click');
+cartIcon.addEventListener('click', function() {
  
-//   addToCart(variable,index);
-// });
+  addToCart(variable,index);
+});
 
 
 function buy(category, productIndex) {
@@ -255,11 +346,11 @@ function buy(category, productIndex) {
 }
 
 // Example icon click event listener
-// const buyIcon = document.getElementById('buy-click');
-// buyIcon.addEventListener('click', function() {
+const buyIcon = document.getElementById('buy-click');
+buyIcon.addEventListener('click', function() {
  
-//   buy(variable,index);
-// });
+  buy(variable,index);
+});
 
 
 
@@ -560,130 +651,129 @@ document.addEventListener("DOMContentLoaded", displayDetails);
 
 
 // Function to display the first three product cards
-// function displayFirstThreeCards(productData) {
-//   const cardsContainer = document.getElementById("product-cards-container");
+function displayFirstThreeCards(productData) {
+  const cardsContainer = document.getElementById("product-cards-container");
 
-//   if (!cardsContainer) {
-//     console.error("Product cards container not found");
-//     return;
-//   }
+  if (!cardsContainer) {
+    console.error("Product cards container not found");
+    return;
+  }
 
-//   // Clear previous cards
-//   cardsContainer.innerHTML = '';
+  // Clear previous cards
+  cardsContainer.innerHTML = '';
 
-//   // Display the first three cards
-//   for (let i = 0; i < 3; i++) {
-//     const product = productData[i];
-//     if (!product) return; // Make sure there are enough products
+  // Display the first three cards
+  for (let i = 0; i < 3; i++) {
+    const product = productData[i];
+    if (!product) return; // Make sure there are enough products
 
-//     const card = createProductCard(product);
-//     cardsContainer.appendChild(card);
-//   }
-// }
+    const card = createProductCard(product);
+    cardsContainer.appendChild(card);
+  }
+}
 
 // Function to create a single product card element
-// function createProductCard(product) {
-//   const card = document.createElement("div");
-//   card.className = "product-display-card";
+function createProductCard(product) {
+  const card = document.createElement("div");
+  card.className = "product-display-card";
 
-//   // Product image
-//   const imgElement = document.createElement("img");
-//   imgElement.src = product.product_images[0];
-//   imgElement.alt = product.product_name.name;
-//   imgElement.className = "product-display-image";
-//   card.appendChild(imgElement);
+  // Product image
+  const imgElement = document.createElement("img");
+  imgElement.src = product.product_images[0];
+  imgElement.alt = product.product_name.name;
+  imgElement.className = "product-display-image";
+  card.appendChild(imgElement);
 
-//   // Product details container
-//   const detailsContainer = document.createElement("div");
-//   detailsContainer.className = "product-details";
+  // Product details container
+  const detailsContainer = document.createElement("div");
+  detailsContainer.className = "product-details";
 
-//   // Product description
-//   const descriptionElement = document.createElement("div");
-//   descriptionElement.className = "product-display-description";
-//   descriptionElement.textContent = product.product_name.name;
-//   detailsContainer.appendChild(descriptionElement);
+  // Product description
+  const descriptionElement = document.createElement("div");
+  descriptionElement.className = "product-display-description";
+  descriptionElement.textContent = product.product_name.name;
+  detailsContainer.appendChild(descriptionElement);
 
-//   // Product discount
-//   const discountElement = document.createElement("div");
-//   discountElement.className = "product-off-percent";
-//   discountElement.textContent = `${product.price_details.discount_percent}% off`;
-//   detailsContainer.appendChild(discountElement);
+  // Product discount
+  const discountElement = document.createElement("div");
+  discountElement.className = "product-off-percent";
+  discountElement.textContent = `${product.price_details.discount_percent}% off`;
+  detailsContainer.appendChild(discountElement);
 
-//   // Shop Now button
-//   const anchorElement = document.createElement("a");
-//   anchorElement.href = `../Html/productDescription.html?category=${category}&productId=${product.product_id}`;
-//   detailsContainer.appendChild(anchorElement);
+  // Shop Now button
+  const anchorElement = document.createElement("a");
+  anchorElement.href = `../Html/productDescription.html?category=${category}&productId=${product.product_id}`;
+  detailsContainer.appendChild(anchorElement);
   
-//   const buttonElement = document.createElement("button");
-//   buttonElement.type = "submit";
-//   buttonElement.textContent = "Shop Now";
-//   anchorElement.appendChild(buttonElement);
+  const buttonElement = document.createElement("button");
+  buttonElement.type = "submit";
+  buttonElement.textContent = "Shop Now";
+  anchorElement.appendChild(buttonElement);
   
 
-//   card.appendChild(detailsContainer);
+  card.appendChild(detailsContainer);
 
-//   return card;
-// }
+  return card;
+}
 
 // Function to initialize the carousel functionality
-// function initializeCarousel(productData) {
-//   let currentIndex = 0; // Index of the first visible card
+function initializeCarousel(productData) {
+  let currentIndex = 0; // Index of the first visible card
 
-//   // Display the first three cards
-//   displayFirstThreeCards(productData);
+  // Display the first three cards
+  displayFirstThreeCards(productData);
 
-//   // Function to move the carousel to the left
-//   function scrollLeft() {
-//     if (currentIndex === 0) return; // Already at the beginning
+  // Function to move the carousel to the left
+  function scrollLeft() {
+    if (currentIndex === 0) return; // Already at the beginning
 
-//     const cardsContainer = document.getElementById("product-cards-container");
-//     if (!cardsContainer) return;
+    const cardsContainer = document.getElementById("product-cards-container");
+    if (!cardsContainer) return;
 
-//     currentIndex--;
-//     cardsContainer.innerHTML = ''; // Clear previous cards
+    currentIndex--;
+    cardsContainer.innerHTML = ''; // Clear previous cards
 
-//     // Display the cards from currentIndex to currentIndex + 2
-//     for (let i = currentIndex; i < currentIndex + 3; i++) {
-//       const product = productData[i];
-//       if (!product) return; // No more products to display
+    // Display the cards from currentIndex to currentIndex + 2
+    for (let i = currentIndex; i < currentIndex + 3; i++) {
+      const product = productData[i];
+      if (!product) return; // No more products to display
 
-//       const card = createProductCard(product);
-//       cardsContainer.appendChild(card);
-//     }
-//   }
+      const card = createProductCard(product);
+      cardsContainer.appendChild(card);
+    }
+  }
 
-//   // Function to move the carousel to the right
-//   function scrollRight1() {
-//     const cardsContainer = document.getElementById("product-display-card");
-//     if (!cardsContainer) return;
+  // Function to move the carousel to the right
+  function scrollRight1() {
+    const cardsContainer = document.getElementById("product-display-card");
+    if (!cardsContainer) return;
 
-//     if (currentIndex + 3 >= productData.length) return; // Already at the end
+    if (currentIndex + 3 >= productData.length) return; // Already at the end
 
-//     currentIndex++;
-//     cardsContainer.innerHTML = ''; // Clear previous cards
+    currentIndex++;
+    cardsContainer.innerHTML = ''; // Clear previous cards
 
-//     // Display the cards from currentIndex to currentIndex + 2
-//     for (let i = currentIndex; i < currentIndex + 5; i++) {
-//       const product = productData[i];
-//       if (!product) return; // No more products to display
+    // Display the cards from currentIndex to currentIndex + 2
+    for (let i = currentIndex; i < currentIndex + 5; i++) {
+      const product = productData[i];
+      if (!product) return; // No more products to display
 
-//       const card = createProductCard(product);
-//       cardsContainer.appendChild(card);
-//     }
-//   }
+      const card = createProductCard(product);
+      cardsContainer.appendChild(card);
+    }
+  }
 
-//   // Add event listeners to the arrow buttons
-//   const leftButton = document.getElementById("carousel-left-button");
-//   const rightButton = document.getElementById("carousel-right-button");
-//   if (leftButton && rightButton) {
-//     leftButton.addEventListener("click", scrollLeft1);
-//     rightButton.addEventListener("click", scrollRight1);
-//   }
-// }
+  // Add event listeners to the arrow buttons
+  const leftButton = document.getElementById("carousel-left-button");
+  const rightButton = document.getElementById("carousel-right-button");
+  if (leftButton && rightButton) {
+    leftButton.addEventListener("click", scrollLeft1);
+    rightButton.addEventListener("click", scrollRight1);
+  }
+}
 
 // Call initializeCarousel function when DOM content is loaded
-// document.addEventListener("DOMContentLoaded", async () => {
-//   const productData = await fetchProductData(); // Fetch product data
-//   initializeCarousel(productData);
-// });
-
+document.addEventListener("DOMContentLoaded", async () => {
+  const productData = await fetchProductData(); // Fetch product data
+  initializeCarousel(productData);
+});

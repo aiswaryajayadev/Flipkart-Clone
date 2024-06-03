@@ -92,12 +92,42 @@
 //     const quantityInput = document.querySelector('.checkout_nonmty-small-input');
 //     updateCount(quantityInput, operation);
 //   }
+// Retrieve the wishlist from local storage
+
+
+
+// Retrieve the wishlist from local storage
+const wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+
+// Initialize variables for category and product ID
+let variable;
+let pid;
+
+// Iterate over the wishlist array
+wishlist.forEach(item => {
+    // Check if the item has category and productIndex properties
+    if (item.category && item.productIndex) {
+        // Assign the values to the variables
+        variable = item.category;
+        pid = item.productIndex;
+        // Exit the loop after the first item is found (assuming you only want the first item)
+        return;
+    }
+});
+
+// Now you can use the assigned values of variable and pid
+console.log('Category:', variable);
+console.log('Product ID:', pid);
 
 
 
 
-let variable = 'shoes';
-let pid = 'REEBOK001';
+
+
+
+
+// let variable = 'shoes';
+// let pid = 'REEBOK001';
 const mockApiUrl = `http://localhost:3000/${variable}/`;
 
 async function fetchProductData() {
@@ -125,7 +155,7 @@ async function displayProductDetails() {
       return;
     }
 
-    const index = productData.findIndex(product => product.product_id === pid);
+    const index =pid;
     console.log(index);
     if (index === -1) {
       console.log(`Product with id ${pid} not found`);
