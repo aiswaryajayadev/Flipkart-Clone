@@ -16,12 +16,6 @@ let EmailInp = document.getElementById('emailInp');
 let PassInp = document.getElementById('passwordInp');
 let MainForm = document.getElementById('MainForm');
 
-
-
-
-
-
-
 let SignInUser = evt => {
   evt.preventDefault();
   // Set persistence to LOCAL
@@ -33,7 +27,8 @@ firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL)
 .then((userCredential) => {
   // Signed in
   const user = userCredential.user;
-  console.log('User signed in:', user);
+  console.log('User signed in:', user.email);
+  localStorage.setItem('user', user.email);
   window.location.href="../html/home.html";
 })
 .catch((error) => {
@@ -41,6 +36,7 @@ firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL)
   var errorCode = error.code;
   var errorMessage = error.message;
   console.error('Error setting persistence:', errorCode, errorMessage);
+  alert(error.message);
 });
 };
 

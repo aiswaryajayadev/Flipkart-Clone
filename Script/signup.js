@@ -19,25 +19,26 @@ let MainForm = document.getElementById('MainForm');
 let RegisterUser = evt => {
     evt.preventDefault();
 
-    auth.createUserWithEmailAndPassword(EmailInp.value, PassInp.value)
+    auth.setPersistence(firebase.auth.Auth.Persistence.LOCAL)
+        .then(() => {
+            return auth.createUserWithEmailAndPassword(EmailInp.value, PassInp.value);
+        })
         .then((credentials) => {
-            console.log(credentials);
-
+            console.log("User created successfully:", credentials);
+            
             const userId = credentials.user.uid;
-            db.ref('UsersAuthList/' + userId).set({
+            return db.ref('UsersAuthList/' + userId).set({
                 email: EmailInp.value,
-                password: PassInp.value
-            }).then(() => {
-                console.log("User data stored successfully.");
-                window.location.href="../html/LoginPage.html";
-            }).catch((error) => {
-                console.error("Error storing user data: ", error);
+                password: PassInp.value // Note: Storing password in plain text is insecure.
             });
         })
+        .then(() => {
+            console.log("User data stored successfully.");
+            window.location.href = "../html/LoginPage.html";
+        })
         .catch((error) => {
+            console.error("Error: ", error);
             alert(error.message);
-            console.log(error.code);
-            console.log(error.message);
         });
 }
 
