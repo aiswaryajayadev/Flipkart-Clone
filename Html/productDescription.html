@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Description</title>
+    <link rel="stylesheet" href="../Style/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../Style/nav-bar-color-change.css" />
+    <link rel="stylesheet" href="../Style/footer.css" />
+    
+    <script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-auth-compat.js"></script>
+  </head>
+  <body>
+    <div class="nav-2">
+      <div class="nav-2-items">
+        <div class="nav-2-item-1"></div>
+        <div class="nav-2-item-2">
+          <div class="flipkart-plus">
+            <div class="flipkart-plus-content">
+              <a href="/">
+                <img
+                  width="75"
+                  src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+                  alt="Flipkart"
+                  title="Flipkart"
+                  class="nav-links"
+                />
+              </a>
+              <a class="plus-content" href="/plus"
+                >Explore <span class="plus-content-2">Plus</span
+                ><img
+                  width="10"
+                  src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="search">
+            <form
+              class="nav-search header-form-search"
+              action="/search"
+              method="GET"
+            >
+              <div class="col-12-12 nav-search-1">
+                <div class="nav-search-2">
+                  <input
+                    class="search-input"
+                    type="text"
+                    title="Search for products, brands and more"
+                    name="q"
+                    autocomplete="off"
+                    placeholder="Search for products, brands and more"
+                    value=""
+                  />
+                </div>
+                <button class="search-button" type="submit">
+                  <img src="../Assets/search.svg" />
+                </button>
+                <input type="hidden" name="otracker" value="search" />
+                <input type="hidden" name="otracker1" value="search" />
+                <input type="hidden" name="marketplace" value="FLIPKART" />
+                <input type="hidden" name="as-show" value="off" />
+                <input type="hidden" name="as" value="off" />
+              </div>
+              <ul class="col-12-12 search-ul"></ul>
+            </form>
+          </div>
+          <div class="login login-nav">
+            <div class="nav-login-1">
+              <div class="nav-login-2">
+                <div>
+                  <a class="nav-login-link" href="#">Login</a>
+                </div>
+                <div class="more-dropdown">
+                  <div
+                    class="more2-dropdown-box more2-dropdown-box2 more2-dropdown-box3 m2-dropdown-box4 m2-dropdown-box5"
+                  >
+                    <div class="m2-dropdown-pointer"></div>
+                    <div class="m2-dropdown-div1">
+                      <div class="m2-dropdown-div2">
+                        <div class="nav2-login2-dropdown">
+                          <div class="m2-dropdown-item">New Customer?</div>
+                          <div class="m2-dropdown-item" style="color: #2874f0">
+                            <a href="">Sign Up</a>
+                          </div>
+                        </div>
+                        <ul class="m2-dropdown-ul">
+                          <li class="m2-dropdown-li">
+                            <a
+                              class="m2-dropdown-li-a"
+                              href="/account/?rd=0&amp;link=home_account"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                class=""
+                                viewBox="0 0 16 14"
+                              >
+                                <path
+                                  fill="#2874F1"
+                                  fill-rule="nonzero"
+                                  d="M7 .333A6.67 6.67 0 0 0 .333 7 6.67 6.67 0 0 0 7 13.667 6.67 6.67 0 0 0 13.667 7 6.67 6.67 0 0 0 7 .333zm0 2c1.107 0 2 .894 2 2 0 1.107-.893 2-2 2s-2-.893-2-2c0-1.106.893-2 2-2zM7 11.8a4.8 4.8 0 0 1-4-2.147C3.02 8.327 5.667 7.6 7 7.6c1.327 0 3.98.727 4 2.053A4.8 4.8 0 0 1 7 11.8z"
+                                ></path>
+                              </svg>
+                              <div class="m2-dropdown-item">My Profile</div>
+                            </a>
+                          </li>
+
+                          <li class="m2-dropdown-li">
+                            <a class="m2-dropdown-li-a" href="/plus">
+                              <svg
+                                width="16"
+                                height="16"
+                                class=""
+                                viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g
+                                  id="Desktop_VIP"
+                                  stroke="none"
+                                  stroke-width="1"
+                                  fill-rule="evenodd"
+                                >
+                                  <g transform="translate(7.873 .143)">
+                                    <path
+                                      d="M6.484 4.94s2.476 1.227 3.698 1.748c1.188.506 1.323 2.4.016 3.04-1.307.64-1.67.744-1.67.744s.208-.53.178-1.044c-.085-.914-2.787-1.656-4.576-2.094 0 0-1.375-4.311-1.995-5.512C1.509.612.242.11.242.11l2.995.04s1.03-.05 1.488 1.055c.456 1.106 1.76 3.734 1.76 3.734"
+                                      fill="#2873F0"
+                                      mask="url(#b)"
+                                    ></path>
+                                  </g>
+                                  <g transform="translate(8.635 8.27)">
+                                    <path
+                                      d="M5.547 6.265S4.334 8.713 3.8 9.965c-.507 1.187-2.44 1.322-3.079.015C.081 8.673.015 8.44.015 8.44s.387.076 1 .048c.915-.084 1.7-2.786 2.138-4.575 0 0 4.311-1.377 5.513-1.997 1.21-.624 1.71-1.892 1.71-1.892l-.04 3.44s.05.587-1.055 1.044c-1.105.455-3.734 1.757-3.734 1.757"
+                                      fill="#2873F0"
+                                      mask="url(#d)"
+                                    ></path>
+                                  </g>
+                                  <g transform="translate(0 8.778)">
+                                    <path
+                                      d="M4.655 5.573S2.193 4.353.956 3.826C-.232 3.32-.367 1.423.94.786 2.248.145 2.774.026 2.774.026s-.34.545-.255 1.157C2.606 2.1 5.22 2.74 7.008 3.179c0 0 1.427 4.287 1.997 5.513.695 1.493 1.848 1.72 1.848 1.72l-3.396-.05s-.585.05-1.042-1.055c-.458-1.106-1.76-3.734-1.76-3.734"
+                                      fill="#2873F0"
+                                      mask="url(#f)"
+                                    ></path>
+                                  </g>
+                                  <g transform="translate(0 .143)">
+                                    <path
+                                      d="M4.857 4.754s1.219-2.46 1.747-3.699c.506-1.188 2.4-1.321 3.04-.016.64 1.308.701 1.544.701 1.544s-.482.007-.993.035c-.916.087-1.663 2.702-2.101 4.49 0 0-4.296 1.405-5.513 1.996C.066 9.916 0 10.957 0 10.957l.068-3.4s-.05-.586 1.055-1.043c1.105-.457 3.734-1.76 3.734-1.76"
+                                      fill="#2873F0"
+                                      mask="url(#h)"
+                                    ></path>
+                                  </g>
+                                </g>
+                              </svg>
+                              <div class="m2-dropdown-item">
+                                Flipkart Plus Zone
+                              </div>
+                            </a>
+                          </li>
+                          <li class="m2-dropdown-li">
+                            <a
+                              class="m2-dropdown-li-a"
+                              href="/account/orders?link=home_orders"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="12"
+                                class=""
+                                viewBox="0 0 16 12"
+                              >
+                                <g fill="none" fill-rule="evenodd">
+                                  <path
+                                    fill="#2874F1"
+                                    d="M6.038 11.682h8.407c.565 0 1.018-.38 1.13-.855V.847H.426v9.98c0 .475.452.855 1.017.855h2.232v-2.98H1.94L4.776 6l2.996 2.703H6.038v2.98z"
+                                  ></path>
+                                </g>
+                              </svg>
+                              <div class="m2-dropdown-item">Orders</div>
+                            </a>
+                          </li>
+                          <li class="m2-dropdown-li">
+                            <a
+                              class="m2-dropdown-li-a"
+                              href="/wishlist?link=home_wishlist"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class=""
+                                width="16"
+                                height="14"
+                                viewBox="0 0 20 16"
+                              >
+                                <path
+                                  d="M8.695 16.682C4.06 12.382 1 9.536 1 6.065 1 3.219 3.178 1 5.95 1c1.566 0 3.069.746 4.05 1.915C10.981 1.745 12.484 1 14.05 1 16.822 1 19 3.22 19 6.065c0 3.471-3.06 6.316-7.695 10.617L10 17.897l-1.305-1.215z"
+                                  fill="#2874F0"
+                                  class=""
+                                  stroke="#FFF"
+                                  fill-rule="evenodd"
+                                  opacity=".9"
+                                ></path>
+                              </svg>
+                              <div class="m2-dropdown-item">Wishlist</div>
+                            </a>
+                          </li>
+                          <li class="m2-dropdown-li">
+                            <a
+                              class="m2-dropdown-li-a"
+                              href="/account/rewards?link=home_rewards"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="12"
+                                class=""
+                                viewBox="0 0 16 16"
+                              >
+                                <g fill="none" fill-rule="evenodd">
+                                  <path fill="#FFF" d="M0 0h16v16H0z"></path>
+                                  <path
+                                    fill="#2874F0"
+                                    d="M16 9.25v2.5c0 .69-.597 1.25-1.333 1.25H1.333C.597 13 0 12.44 0 11.75v-2.5c.736 0 1.333-.56 1.333-1.25S.736 6.75 0 6.75v-2.5C0 3.56.597 3 1.333 3h13.334C15.403 3 16 3.56 16 4.25v2.5c-.736 0-1.333.56-1.333 1.25S15.264 9.25 16 9.25zM4.4 3.625v1.25h.533v-1.25H4.4zm0 2.5v1.25h.533v-1.25H4.4zm0 2.5v1.25h.533v-1.25H4.4zm0 2.5v1.25h.533v-1.25H4.4z"
+                                  ></path>
+                                </g>
+                              </svg>
+                              <div class="m2-dropdown-item">Rewards</div>
+                            </a>
+                          </li>
+                          <li class="m2-dropdown-li">
+                            <a
+                              class="m2-dropdown-li-a"
+                              href="/the-gift-card-store?link=home_giftcard"
+                            >
+                              <svg
+                                width="16"
+                                height="16"
+                                class=""
+                                viewBox="0 0 23 22"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g
+                                  fill="none"
+                                  fill-rule="evenodd"
+                                  transform="translate(-9.694 -9)"
+                                >
+                                  <ellipse
+                                    cx="20.557"
+                                    cy="20"
+                                    rx="20.557"
+                                    ry="20"
+                                  ></ellipse>
+                                  <path d="M7 6h28v28H7z"></path>
+                                  <path
+                                    fill="#2874F0"
+                                    fill-rule="nonzero"
+                                    d="M31.5 27v1.167a2.34 2.34 0 0 1-2.333 2.333H12.833a2.333 2.333 0 0 1-2.333-2.333V11.833A2.333 2.333 0 0 1 12.833 9.5h16.334a2.34 2.34 0 0 1 2.333 2.333V13H21a2.333 2.333 0 0 0-2.333 2.333v9.334A2.333 2.333 0 0 0 21 27h10.5zM21 24.667h11.667v-9.334H21v9.334zm4.667-2.917c-.97 0-1.75-.782-1.75-1.75s.78-1.75 1.75-1.75c.968 0 1.75.782 1.75 1.75s-.782 1.75-1.75 1.75z"
+                                  ></path>
+                                </g>
+                              </svg>
+                              <div class="m2-dropdown-item">Gift Cards</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="seller seller-align">
+            <a
+              href="https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&amp;utm_medium=websitedirect"
+              class="become-seller"
+            >
+              <span>Become a Seller</span></a
+            >
+          </div>
+          <div class="more">
+            <div class="more-1">
+              <div class="nav-login-2">
+                <div>
+                  <div class="nav-more">More</div>
+                </div>
+                <div class="more-dropdown">
+                  <div
+                    class="more2-dropdown-box more2-dropdown-box2 more2-dropdown-box3 m2-dropdown-box4 m2-dropdown-box5"
+                  >
+                    <div class="m2-dropdown-pointer"></div>
+                    <div class="m2-dropdown-div1">
+                      <div class="m2-dropdown-div2">
+                        <ul class="m2-dropdown-ul">
+                          <li class="m2-dropdown-li">
+                            <a
+                              class="m2-dropdown-li-a"
+                              href="/communication-preferences/push?t=all"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="14"
+                                class=""
+                                viewBox="0 0 12 14"
+                              >
+                                <g fill="none" fill-rule="evenodd">
+                                  <path d="M-4-3h20v20H-4z"></path>
+                                  <path
+                                    fill="#2874F1"
+                                    d="M6.17 13.61c-1.183 0-1.922-.723-1.922-1.88H8.09c0 1.157-.74 1.88-1.92 1.88zm4.222-5.028l1.465 1.104v1.07H0v-1.07l1.464-1.104v-2.31h.004c.035-2.54 1.33-4.248 3.447-4.652V.992C4.915.446 5.37 0 5.928 0c.558 0 1.014.446 1.014.992v.628c2.118.404 3.412 2.112 3.446 4.65h.004v2.312z"
+                                  ></path>
+                                </g>
+                              </svg>
+                              <div class="m2-dropdown-item">
+                                Notification Preferences
+                              </div>
+                            </a>
+                          </li>
+                          <li class="m2-dropdown-li">
+                            <a class="m2-dropdown-li-a" href="/helpcentre">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                class=""
+                                viewBox="0 0 14 17"
+                              >
+                                <g fill="none" fill-rule="evenodd">
+                                  <path
+                                    fill="#2874F0"
+                                    fill-rule="nonzero"
+                                    d="M12.25.542H1.75c-.833 0-1.5.675-1.5 1.5v10.5c0 .825.667 1.5 1.5 1.5h3L7 16.292l2.25-2.25h3c.825 0 1.5-.675 1.5-1.5v-10.5c0-.825-.675-1.5-1.5-1.5zm-4.5 12h-1.5v-1.5h1.5v1.5zM9.303 6.73l-.676.69c-.54.547-.877.997-.877 2.122h-1.5v-.375c0-.825.338-1.575.877-2.123l.93-.945c.278-.27.443-.646.443-1.058 0-.825-.675-1.5-1.5-1.5s-1.5.675-1.5 1.5H4c0-1.658 1.342-3 3-3s3 1.342 3 3c0 .66-.27 1.26-.697 1.687z"
+                                  ></path>
+                                </g>
+                              </svg>
+                              <div class="m2-dropdown-item">
+                                24x7 Customer Care
+                              </div>
+                            </a>
+                          </li>
+                          <li class="m2-dropdown-li">
+                            <a
+                              href="https://advertising.flipkart.com/?otracker=ch_vn_advertise_header"
+                              class="m2-dropdown-li-a"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="14"
+                                class=""
+                                viewBox="0 0 18 10"
+                              >
+                                <g fill="none" fill-rule="evenodd">
+                                  <path
+                                    fill="#2874F0"
+                                    fill-rule="nonzero"
+                                    d="M12.333 0l1.91 1.908-4.068 4.067-3.333-3.333L.667 8.825 1.842 10l5-5 3.333 3.333 5.25-5.24L17.333 5V0"
+                                  ></path>
+                                </g>
+                              </svg>
+                              <div class="m2-dropdown-item">Advertise</div>
+                            </a>
+                          </li>
+                          <li class="m2-dropdown-li">
+                            <a
+                              class="m2-dropdown-li-a"
+                              href="/mobile-apps?otracker=ch_vn_mobile_apps"
+                            >
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="14"
+                                class=""
+                                viewBox="0 0 12 14"
+                              >
+                                <g fill="none" fill-rule="evenodd">
+                                  <path d="M-4-3h20v20H-4z"></path>
+                                  <path
+                                    fill="#2874F0"
+                                    fill-rule="nonzero"
+                                    d="M12 4.94H8.57V0H3.43v4.94H0l6 5.766 6-5.765zM0 12.354V14h12v-1.647H0z"
+                                  ></path>
+                                </g>
+                              </svg>
+                              <div class="m2-dropdown-item">Download App</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <svg
+                width="4.7"
+                height="8"
+                viewBox="0 0 16 27"
+                xmlns="http://www.w3.org/2000/svg"
+                class="more-arrow"
+              >
+                <path
+                  d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+                  fill="#fff"
+                  class="d-arrow"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="login">
+            <div class="cart">
+              <div class="cart-nav">
+                <a
+                  class="cart-link"
+                  href="/viewcart?exploreMode=true&amp;preference=FLIPKART"
+                >
+                  <svg
+                    class="GAbRIN"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 16 16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      class="cziJ98"
+                      d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99 0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86"
+                      fill="#fff"
+                    ></path>
+                  </svg>
+                  <span>Cart</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-2-item-3"></div>
+      </div>
+      <div class="nav-2-lastDiv"></div>
+    </div>
+    <div class="categories-2">
+      <div class="categories2-box">
+        <div class="categories2-list">
+          <span class="categories2-list-items electronics"
+            >Electronics
+            <svg
+              width="4.7"
+              height="8"
+              viewBox="0 0 16 27"
+              xmlns="http://www.w3.org/2000/svg"
+              class="categories2-svg-class"
+            >
+              <path
+                d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+                fill="#fff"
+                class="category2-arrow"
+              ></path>
+            </svg>
+            <div class="categories2-mega-menu">
+              <div
+                class="categories2-mega-menu-items"
+                id="categories2-mega-menu-items"
+              >
+                <!-- Electronics items will be populated here -->
+              </div>
+            </div>
+          </span>
+          <span class="categories2-list-items TV"
+            >TVs &amp; Appliances
+            <svg
+              width="4.7"
+              height="8"
+              viewBox="0 0 16 27"
+              xmlns="http://www.w3.org/2000/svg"
+              class="categories2-svg-class"
+            >
+              <path
+                d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+                fill="#fff"
+                class="category2-arrow"
+              ></path>
+            </svg>
+            <div class="categories2-mega-menu">
+              <div
+                class="categories2-mega-menu-items"
+                id="categories2-mega-menu-items-1"
+              >
+                <!-- TVs & Appliances items will be populated here -->
+              </div>
+            </div>
+          </span>
+
+          <span class="categories2-list-items men"
+            >Men
+            <svg
+              width="4.7"
+              height="8"
+              viewBox="0 0 16 27"
+              xmlns="http://www.w3.org/2000/svg"
+              class="categories2-svg-class"
+            >
+              <path
+                d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+                fill="#fff"
+                class="category2-arrow"
+              ></path>
+            </svg>
+            <div class="categories2-mega-menu">
+              <div
+                class="categories2-mega-menu-items"
+                id="categories2-mega-menu-items-2"
+              >
+                <!-- TVs & Appliances items will be populated here -->
+              </div>
+            </div>
+          </span>
+          <span class="categories2-list-items women"
+            >Women
+            <svg
+              width="4.7"
+              height="8"
+              viewBox="0 0 16 27"
+              xmlns="http://www.w3.org/2000/svg"
+              class="categories2-svg-class"
+            >
+              <path
+                d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+                fill="#fff"
+                class="category2-arrow"
+              ></path>
+            </svg>
+            <div class="categories2-mega-menu">
+              <div
+                class="categories2-mega-menu-items"
+                id="categories2-mega-menu-items-3"
+              >
+                <!-- TVs & Appliances items will be populated here -->
+              </div>
+            </div>
+          </span>
+          <span class="categories2-list-items baby"
+            >Baby &amp; Kids
+            <svg
+              width="4.7"
+              height="8"
+              viewBox="0 0 16 27"
+              xmlns="http://www.w3.org/2000/svg"
+              class="categories2-svg-class"
+            >
+              <path
+                d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+                fill="#fff"
+                class="category2-arrow"
+              ></path>
+            </svg>
+            <div class="categories2-mega-menu">
+              <div
+                class="categories2-mega-menu-items"
+                id="categories2-mega-menu-items-4"
+              >
+                <!-- TVs & Appliances items will be populated here -->
+              </div>
+            </div>
+          </span>
+          <span class="categories2-list-items home"
+            >Home &amp; Furniture
+            <svg
+              width="4.7"
+              height="8"
+              viewBox="0 0 16 27"
+              xmlns="http://www.w3.org/2000/svg"
+              class="categories2-svg-class"
+            >
+              <path
+                d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+                fill="#fff"
+                class="category2-arrow"
+              ></path>
+            </svg>
+            <div class="categories2-mega-menu">
+              <div
+                class="categories2-mega-menu-items"
+                id="categories2-mega-menu-items-5"
+              >
+                <!-- TVs & Appliances items will be populated here -->
+              </div>
+            </div>
+          </span>
+          <span class="categories2-list-items sports"
+            >Sports, Books &amp; More
+            <svg
+              width="4.7"
+              height="8"
+              viewBox="0 0 16 27"
+              xmlns="http://www.w3.org/2000/svg"
+              class="categories2-svg-class"
+            >
+              <path
+                d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+                fill="#070808"
+                class="category2-arrow"
+              ></path>
+            </svg>
+            <div class="categories2-mega-menu">
+              <div
+                class="categories2-mega-menu-items"
+                id="categories2-mega-menu-items-6"
+              >
+                <!-- TVs & Appliances items will be populated here -->
+              </div>
+            </div>
+          </span>
+          <a
+            class="categories2-list-items"
+            href="/travel/flights?otracker=nmenu_Flights"
+            >Flights</a
+          >
+          <a
+            class="categories2-list-items"
+            href="/offers-list/top-deals?screen=dynamic&amp;pk=themeViews%3DDT-OMU-A2%3ADT-OMU~widgetType%3DdealCard~contentType%3Dneo&amp;otracker=nmenu_offer-zone"
+            >Offer Zone</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="top-container">
+        <div class="container1 bg-white p-16">
+          <div class="left-container">
+            <div class="d-flex">
+              <div class="col-5-12">
+                <ul class="listitem">
+                  <li class="h-64 d-flex">
+                    <div
+                      id="image-container"
+                      class="image-container1 card"
+                      style="width: 100px m-3px"
+                    ></div>
+                  </li>
+                </ul>
+              </div>
+              <div class="preview-container" id="preview-container">
+                <div class="preview">
+                  <img
+                    id="preview-image"
+                    src=""
+                    alt="Preview Image"
+                    class="preview-image"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="wishlist-icon" onclick=addToWishList(); id="wishlist-icon">
+              <div class="inside-wishlist">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="heart"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 20 16"
+                >
+                  <path
+                    d="M8.695 16.682C4.06 12.382 1 9.536 1 6.065 1 3.219 3.178 1 5.95 1c1.566 0 3.069.746 4.05 1.915C10.981 1.745 12.484 1 14.05 1 16.822 1 19 3.22 19 6.065c0 3.471-3.06 6.316-7.695 10.617L10 17.897l-1.305-1.215z"
+                    fill="#c2c2c2"
+                    class="heart-fill"
+                    stroke="#FFF"
+                    fill-rule="evenodd"
+                    opacity=".9"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="top-button">
+              <div class="buttons">
+                <ul class="row d-flex button-list">
+                  <li class="col col-6-12">
+                    <button class="button cart-button" onclick=addToCart(); id="cart-click">
+                     <i class="bi bi-cart"></i>ADD TO CART 
+                    </button>
+                  </li>
+                  <li class="col col-6-12">
+                    <a href="../Html/flipkart_cartnon-mty.html"><button type="button " class="buy-button" onclick=buy(); id="buy-click">
+                      <i class="bi bi-lightning"></i>BUY NOW
+                    </button></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container2">
+          <div class="right-elements">
+            <div class="path-elements">
+              <div class="path">
+                <p class="path-items">
+                  Home > Sports > Cycling > Electric Cycle > E-motor... >
+                  E-motor
+                </p>
+              </div>
+              <div class="share">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  class="jWKn+i"
+                >
+                  <path
+                    d="M14.78 5.883L9.032 0v3.362C3.284 4.202.822 8.404 0 12.606 2.053 9.666 4.927 8.32 9.032 8.32v3.446l5.748-5.883z"
+                    class="g9gS7K"
+                    fill="#c2c2c2"
+                    fill-rule="evenodd"
+                  ></path>
+                </svg>
+                share
+              </div>
+            </div>
+            <div class="heading">
+              <div class="head product-heading fs-5" id="product-heading">
+                <!-- <p class=" fs-5" >
+              EMotorad X1 Yellow 27.5 inches Single Speed Lithium-ion (Li-ion)
+              Electric Cycle
+            </p> -->
+              </div>
+              <div class="ratings d-flex">
+                <div class="current-rating" id="current-rating">
+                  <!-- <p>4.1</p> -->
+                  <!--                 
+                <img
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMiI+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTYuNSA5LjQzOWwtMy42NzQgMi4yMy45NC00LjI2LTMuMjEtMi44ODMgNC4yNTQtLjQwNEw2LjUuMTEybDEuNjkgNC4wMSA0LjI1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg=="
+                  class="star"
+                /> -->
+                </div>
+                <div class="number-of-ratings px-3">
+                  <p>128 Ratings & 12 Reviews</p>
+                </div>
+              </div>
+              <div class="price">
+                <p>Special Price</p>
+              </div>
+              <div class="amount">
+                <div class="amount-block" id="amount">
+                  <!-- <div class="current-product-price">
+                  ₹158
+                </div> -->
+                  <!-- <div class="original-product-price">
+                  ₹122
+                </div> -->
+                  <!-- <div class="discount">
+                  68% off
+                </div> -->
+                </div>
+                <div id="price-info-icon" class="s3L3iO">
+                  <svg
+                    width="20"
+                    height="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    class="icon"
+                  >
+                    <defs>
+                      <circle id="b" cx="8" cy="8" r="8"></circle>
+                      <filter
+                        id="a"
+                        width="130%"
+                        height="130%"
+                        x="-15%"
+                        y="-8.8%"
+                        filterUnits="objectBoundingBox"
+                      >
+                        <feMorphology
+                          in="SourceAlpha"
+                          operator="dilate"
+                          radius=".4"
+                          result="shadowSpreadOuter1"
+                        ></feMorphology>
+                        <feOffset
+                          dy="1"
+                          in="shadowSpreadOuter1"
+                          result="shadowOffsetOuter1"
+                        ></feOffset>
+                        <feGaussianBlur
+                          in="shadowOffsetOuter1"
+                          result="shadowBlurOuter1"
+                          stdDeviation=".5"
+                        ></feGaussianBlur>
+                        <feComposite
+                          in="shadowBlurOuter1"
+                          in2="SourceAlpha"
+                          operator="out"
+                          result="shadowBlurOuter1"
+                        ></feComposite>
+                        <feColorMatrix
+                          in="shadowBlurOuter1"
+                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"
+                        ></feColorMatrix>
+                      </filter>
+                    </defs>
+                    <g fill="none" fill-rule="evenodd">
+                      <g transform="translate(2 1)">
+                        <use fill="#000" filter="url(#a)" xlink:href="#b"></use>
+                        <use
+                          fill="#FCFCFC"
+                          stroke="#000"
+                          stroke-opacity=".3"
+                          stroke-width=".8"
+                          xlink:href="#b"
+                        ></use>
+                      </g>
+                      <text
+                        fill="#1D1D1D"
+                        font-family="Roboto-Medium, Roboto"
+                        font-size="11"
+                        font-weight="400"
+                        opacity=".59"
+                        transform="translate(2 1)"
+                      >
+                        <tspan x="6.6" y="12.2">i</tspan>
+                      </text>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="offers col-12-12">
+              <div class="available">
+                <div class="available-offers my-3">Available offers</div>
+              </div>
+              <div class="list-of-offers">
+                <div class="offerdiv">
+                  <div class="offer-list">
+                    <div id="list1" class="offer-container"></div>
+
+                    <!-- <img src="https://rukminim2.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90" width="18" height="18" class="list-image">
+          <li class="list1" id="list1">
+            <div class="offer1-name">Partner Offer</div>
+            <div class="offer-description">Sign-up for Flipkart Pay Later &amp; get free Times Prime Benefits worth ₹20,000*
+
+            </div>
+            
+              <div class="know-more">Know More</div>
+            
+          </li>
+        </div>
+        <span class="offer2">
+          <img src="https://rukminim2.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90" width="18" height="18" class="yNKwUY">
+          <li class="kF1Ml8 col">
+            <span class="ynXjOy">Partner Offer</span>
+            <span>Make a purchase and enjoy a surprise cashback/ coupon that you can redeem later!</span>
+            <div class="EjOX7q _8zNJdq">
+              <span class="_4EqiSd">Know More</span>
+            </div>
+          </li>
+        </span>
+        <span class="+-2B3d row">
+          <img src="https://rukminim2.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90" width="18" height="18" class="yNKwUY">
+          <li class="kF1Ml8 col">
+            
+            <span class="ynXjOy">Special Price</span>
+            <span>Get extra 36% off (price inclusive of cashback/coupon)</span>
+            <div class="EjOX7q _8zNJdq">
+              <span class="_4EqiSd">T&amp;C</span>
+            </div>
+          </li>
+        </span>
+        <span class="+-2B3d row">
+          <img src="https://rukminim2.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90" width="18" height="18" class="yNKwUY">
+          <li class="kF1Ml8 col">
+            <span class="ynXjOy">Bank Offer</span>
+            <span>Get ₹50 instant discount on first Flipkart UPI txn on order of ₹200 and above</span>
+            <div class="EjOX7q _8zNJdq">
+              <span class="_4EqiSd">T&amp;C</span>
+            </div>
+          </li>
+        </span>
+        <span class="+-2B3d row">
+          <img src="https://rukminim2.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90" width="18" height="18" class="yNKwUY">
+          <li class="kF1Ml8 col">
+            <span class="ynXjOy">Bank Offer</span>
+            <span>5% Cashback on Flipkart Axis Bank Card</span>
+            <div class="EjOX7q _8zNJdq"><span class="_4EqiSd">T&amp;C</span>
+            </div></li></span></div></div></div></div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="deliver-service">
+              <div class="deliver">
+                <img
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48ZWxsaXBzZSBjeD0iOSIgY3k9IjE0LjQ3OCIgZmlsbD0iI0ZGRTExQiIgcng9IjkiIHJ5PSIzLjUyMiIvPjxwYXRoIGZpbGw9IiMyODc0RjAiIGQ9Ik04LjYwOSA3LjAxYy0xLjA4IDAtMS45NTctLjgyNi0xLjk1Ny0xLjg0NSAwLS40ODkuMjA2LS45NTguNTczLTEuMzA0YTIuMDIgMi4wMiAwIDAgMSAxLjM4NC0uNTRjMS4wOCAwIDEuOTU2LjgyNSAxLjk1NiAxLjg0NCAwIC40OS0uMjA2Ljk1OS0uNTczIDEuMzA1cy0uODY0LjU0LTEuMzgzLjU0ek0zLjEzIDUuMTY1YzAgMy44NzQgNS40NzkgOC45MjIgNS40NzkgOC45MjJzNS40NzgtNS4wNDggNS40NzgtOC45MjJDMTQuMDg3IDIuMzEzIDExLjYzNCAwIDguNjA5IDAgNS41ODMgMCAzLjEzIDIuMzEzIDMuMTMgNS4xNjV6Ii8+PC9nPjwvc3ZnPg=="
+                  class="deliver-image"
+                />
+                <p>Deliver to</p>
+              </div>
+
+              <div class="deliver-address">
+                <input
+                  placeholder="Enter delivery pincode"
+                  type="text"
+                  maxlength="6"
+                  autocomplete="off"
+                  class="pincode"
+                  value=""
+                />
+                <p class="check">Check</p>
+              </div>
+
+              <div class="service">
+                <p class="service-heading">Services</p>
+                <div class="service-details">
+                  <img
+                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGQ9Ik0wIDEwYzAgNS41MjIgNC40NzggMTAgMTAgMTBzMTAtNC40NzggMTAtMTBTMTUuNTIyIDAgMTAgMCAwIDQuNDc4IDAgMTB6IiBpZD0iYSIvPjwvZGVmcz48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIgMikiPjxtYXNrIGlkPSJiIiBmaWxsPSIjZmZmIj48dXNlIHhsaW5rOmhyZWY9IiNhIi8+PC9tYXNrPjxwYXRoIGZpbGw9IiMyODc0RjAiIG1hc2s9InVybCgjYikiIGQ9Ik0tNS41NTYgMjUuNTU2aDMxLjExMlYtNS41NTZILTUuNTU2eiIvPjwvZz48cGF0aCBkPSJNMTEuMDIgNy41MnMyLjI1Ni4xIDIuMjU2IDIuNjFjMCAyLjQ1LTMuMDggMi43MjQtNC4wNyAyLjc1NGEuMTIuMTIgMCAwMC0uMDg3LjJsNC4wOCA0Ljg0NU04LjY1NyA3LjUyaDYuODQ1bS02Ljg0NSAyLjYzNWg2Ljg0NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjEuMzIiIHN0cm9rZT0iI0ZGRiIvPjwvZz48L3N2Zz4="
+                  />
+                  <p class="service-available">Cash on Delivery available</p>
+                  <div class="question">?</div>
+                </div>
+              </div>
+            </div>
+            <div class="deliver-date col col-12-12">
+              <div class="date-todeliver">
+                Delivery by 5 June,Wednesday |
+                <p class="free">Free</p>
+                <div class="free-amount">₹40</div>
+                <div class="address-question">?</div>
+              </div>
+
+              <p class="order-time">if ordered before 9.00 PM</p>
+              <p class="view-details">View Details</p>
+            </div>
+
+            <div class="highlights-container col col-12-12">
+              <div class="highlights-heading">
+                <div>Highlights</div>
+              </div>
+              <div style="display: block">
+                <div id="highlights" class="highlights">
+                  <div class="items">
+                    <ul id="highlights-list" class="highList">
+                      <!-- Highlights will be dynamically added here -->
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="seller-contain col-12-12" style="padding: 8px 0px 0px">
+              <div class="seller-inner">
+                <div class="seller-heading">
+                  <div>Seller</div>
+                </div>
+                <div style="display: block">
+                  <div id="sellerName" class="seller-name">
+                    <div style="display: flex">
+                      <div>LambaCreations</div>
+                      <div class="seller-image uuhqql">
+                        3.8<img
+                          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMiI+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTYuNSA5LjQzOWwtMy42NzQgMi4yMy45NC00LjI2LTMuMjEtMi44ODMgNC4yNTQtLjQwNEw2LjUuMTEybDEuNjkgNC4wMSA0LjI1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg=="
+                          class="image-of-seller"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="seller-list">
+                    <ul class="seller-listitems">
+                      <li class="seller-list1">
+                        <div class="number-of-days">
+                          10 Days Return Policy
+
+                          <div class="seller-question">?</div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="other-seller">See other sellers</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="super-coin">
+              <img
+                class="super-coin-img"
+                alt=""
+                src="https://rukminim2.flixcart.com/lockin/400/400/images/CCO__PP_2019-07-14.png?q=50"
+              />
+            </div>
+            <!-- <div class="specification-container">
+              <div class="specification">
+                <h3 class="spec">Specifications</h3>
+                <div id="specification-heading">
+                  <div style="color: gray; overflow: auto">
+                    <table class="specification-table">
+                      <tbody>
+                        <tr class="specific" id="specific"></tr>
+                      </tbody>
+                    </table>
+                    <hr />
+                    <a href="#" id="read-more-link">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <div class="specification-container">
+              <div class="specification">
+                <h3 class="spec">Specifications</h3>
+                
+                <div id="specification-heading">
+                  <div style="color: gray; overflow: auto">
+                    <table class="specification-table">
+                      <tbody></tbody>
+                    </table>
+                    <hr />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="review">
+              <div class="rating-reviews">
+                <div class="rating-heading-and-button">
+                  <h4>Ratings & Reviews</h4>
+                  <button type="submit" class="rate-button">
+                    Rate Product
+                  </button>
+                </div>
+                <div class="rating-style">
+                  <div class="review-contain">
+                    <div id="review-contain"></div>
+
+                    <p class="rate-and-review">
+                      128 Ratings<br /><span class="and-symbol">&</span><br />12
+                      Reviews
+                    </p>
+                  </div>
+                  <div class="col-9-12 review-list">
+                    <div class="list-of-reviews">
+                      <ul class="unordered-review-list">
+                        <li class="5-star-review">
+                          <div class="reviews">
+                            <span class="review-5">5</span>
+                            <span class="star-5">★</span>
+                          </div>
+                        </li>
+                        <li class="4-star-review">
+                          <div class="reviews">
+                            <span class="review-4">4</span>
+                            <span class="star-4">★</span>
+                          </div>
+                        </li>
+                        <li class="3-star-review">
+                          <div class="reviews">
+                            <span class="review-3">3</span>
+                            <span class="star-3">★</span>
+                          </div>
+                        </li>
+                        <li class="2-star-review">
+                          <div class="reviews">
+                            <span class="review-2">2</span>
+                            <span class="star-2">★</span>
+                          </div>
+                        </li>
+                        <li class="1-star-review">
+                          <div class="reviews">
+                            <span class="review-1">1</span>
+                            <span class="star-1">★</span>
+                          </div>
+                        </li>
+                      </ul>
+                      <div class="progress-bar">
+                        <div class="parent-progress-bar-5">
+                          <div class="child-progress-bar-5"></div>
+                        </div>
+                        <div class="parent-progress-bar-4">
+                          <div class="child-progress-bar-4"></div>
+                        </div>
+                        <div class="parent-progress-bar-3">
+                          <div class="child-progress-bar-3"></div>
+                        </div>
+                        <div class="parent-progress-bar-2">
+                          <div class="child-progress-bar-2"></div>
+                        </div>
+                        <div class="parent-progress-bar-1">
+                          <div class="child-progress-bar-1"></div>
+                        </div>
+                      </div>
+                      <div class="progress-number">
+                        <ul class="progress-number-list">
+                          <li>84</li>
+                          <li>30</li>
+                          <li>0</li>
+                          <li>0</li>
+                          <li>14</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rating-div">
+                <div id="current-rating"></div>
+              </div>
+              <div class="customer-review" id="customer-review"></div>
+            </div>
+
+            <div class="questions my-4">
+              <div class="questions-answers">
+                <h4>Questions and Answers</h4>
+                <div class="col question-search">
+                  <img
+                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R3JvdXAgNTwvdGl0bGU+PGcgZmlsbD0iIzIxMjEyMSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTEuNjE4IDkuODk3bDQuMjI0IDQuMjEyYy4wOTIuMDkuMS4yMy4wMi4zMTJsLTEuNDY0IDEuNDZjLS4wOC4wOC0uMjIyLjA3Mi0uMzE0LS4wMkw5Ljg2OCAxMS42Nk02LjQ4NiAxMC45Yy0yLjQyIDAtNC4zOC0xLjk1NS00LjM4LTQuMzY3IDAtMi40MTMgMS45Ni00LjM3IDQuMzgtNC4zN3M0LjM4IDEuOTU3IDQuMzggNC4zN2MwIDIuNDEyLTEuOTYgNC4zNjgtNC4zOCA0LjM2OG0wLTEwLjgzNEMyLjkwNC4wNjYgMCAyLjk2IDAgNi41MzMgMCAxMC4xMDUgMi45MDQgMTMgNi40ODYgMTNzNi40ODctMi44OTUgNi40ODctNi40NjdjMC0zLjU3Mi0yLjkwNS02LjQ2Ny02LjQ4Ny02LjQ2NyIvPjwvZz48L3N2Zz4="
+                    height="20"
+                    width="20"
+                  />
+                </div>
+              </div>
+              <div class="customer-question" id="customer-question"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="bottom-container">
+        <div class="interest">
+          <div class="product-display">
+            <div class="product-display-heading">You may be interested in</div>
+            <div class="carousel-product-container">
+              <button class="carousel-product-button left" onclick="scrollLeft1()"carousel-left-button">&#8249;</button>
+              
+              <div class="product-cards-wrapper" id="product-cards-wrapper">
+                <div class="product-cards-container" id="product-cards-container"></div>
+              </div>
+              
+              <button class="carousel-product-button right" onclick="scrollRight1()" id="carousel-right-button">&#8250;</button>
+            </div>
+          </div>
+        </div>
+        
+        <section id="footer">
+          <footer>
+            <div class="footer-div">
+              <div>
+                <div class="footer-title">ABOUT</div>
+                <a
+                  href="/helpcentre?otracker=${otracker}_navlinks"
+                  class="footer-links"
+                  aria-label="Contact Us"
+                  >Contact Us</a
+                >
+                <a
+                  href="https://corporate.flipkart.net/corporate-home"
+                  class="footer-links"
+                  aria-label="About Us"
+                  >About Us</a
+                >
+                <a
+                  href="https://www.flipkartcareers.com/?otracker=${otracker}_navlinks"
+                  class="footer-links"
+                  aria-label="Careers"
+                  >Careers</a
+                >
+                <a
+                  href="http://stories.flipkart.com/"
+                  class="footer-links"
+                  aria-label="Flipkart Stories"
+                  >Flipkart Stories</a
+                >
+                <a
+                  href="http://stories.flipkart.com/category/top-stories/news/"
+                  class="footer-links"
+                  aria-label="Press"
+                  >Press</a
+                >
+                <a
+                  href="/corporate-information"
+                  class="footer-links"
+                  aria-label="Corporate Information"
+                  >Corporate Information</a
+                >
+              </div>
+              <div>
+                <div class="footer-title">GROUP COMPANIES</div>
+                <a
+                  href="https://www.myntra.com/"
+                  class="footer-links"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  aria-label="Myntra"
+                  >Myntra</a
+                >
+                <a
+                  href="https://www.flipkartwholesale.com/"
+                  class="footer-links"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  aria-label="Flipkart Wholesale"
+                  >Flipkart Wholesale</a
+                >
+                <a
+                  href="https://www.cleartrip.com/"
+                  class="footer-links"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  aria-label="Cleartrip"
+                  >Cleartrip</a
+                >
+                <a
+                  href="https://www.shopsy.in"
+                  class="footer-links"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  aria-label="Shopsy"
+                  >Shopsy</a
+                >
+              </div>
+              <div>
+                <div class="footer-title">HELP</div>
+                <a
+                  href="/pages/payments"
+                  class="footer-links"
+                  aria-label="Payments"
+                  >Payments</a
+                >
+                <a
+                  href="/pages/shipping"
+                  class="footer-links"
+                  aria-label="Shipping"
+                  >Shipping</a
+                >
+                <a
+                  href="/helpcentre?catalog=55c9c6edb000002e002c1701&amp;view=CATALOG"
+                  class="footer-links"
+                  aria-label="Cancellation &amp; Returns"
+                  >Cancellation &amp; Returns</a
+                >
+                <a
+                  href="/helpcentre?catalog=55c9c8e2b0000023002c1702&amp;view=CATALOG"
+                  class="footer-links"
+                  aria-label="FAQ"
+                  >FAQ</a
+                >
+                <a
+                  href="https://seller.flipkart.com/fiv?otracker=${otracker}_navlinks"
+                  class="footer-links"
+                  aria-label="Report Infringement"
+                  >Report Infringement</a
+                >
+              </div>
+              <div>
+                <div class="footer-title">CONSUMER POLICY</div>
+                <a
+                  href="/pages/returnpolicy?otracker=${otracker}_navlinks"
+                  class="footer-links"
+                  aria-label="Cancellation &amp; Returns"
+                  >Cancellation &amp; Returns</a
+                >
+                <a
+                  href="/pages/terms?otracker=${otracker}_navlinks"
+                  class="footer-links"
+                  aria-label="Terms Of Use"
+                  >Terms Of Use</a
+                >
+                <a
+                  href="/pages/paymentsecurity?otracker=${otracker}_navlinks"
+                  class="footer-links"
+                  aria-label="Security"
+                  >Security</a
+                >
+                <a
+                  href="/pages/privacypolicy?otracker=${otracker}_navlinks"
+                  class="footer-links"
+                  aria-label="Privacy"
+                  >Privacy</a
+                >
+                <a
+                  href="/sitemap?otracker=${otracker}_navlinks"
+                  class="footer-links"
+                  aria-label="Sitemap"
+                  >Sitemap</a
+                >
+                <a
+                  href="/pages/grievance-redressal-mechanism?otracker=${otracker}_navlinks"
+                  class="footer-links"
+                  aria-label="Grievance Redressal"
+                  >Grievance Redressal</a
+                >
+                <a
+                  href="/pages/ewaste-compliance-tnc?otracker=${otracker}_navlinks"
+                  class="footer-links"
+                  aria-label="EPR Compliance"
+                  >EPR Compliance</a
+                >
+              </div>
+              <div>
+                <div class="footer-contact footer-contact-hr">
+                  <div class="footer-title">Mail Us</div>
+                  <div class="footer-contact-content">
+                    <p class="_1oQ-r6">Flipkart Internet Private Limited,</p>
+                    <p class="_1oQ-r6">Buildings Alyssa, Begonia &amp;</p>
+                    <p class="_1oQ-r6">Clove Embassy Tech Village,</p>
+                    <p class="_1oQ-r6">
+                      Outer Ring Road, Devarabeesanahalli Village,
+                    </p>
+                    <p class="_1oQ-r6">Bengaluru, 560103,</p>
+                    <p class="_1oQ-r6">Karnataka, India</p>
+                  </div>
+                  <div class="footer-title">Social :</div>
+                  <div class="footer-contact-social">
+                    <div class="footer-contact-social-icons">
+                      <a
+                        href="https://www.facebook.com/flipkart"
+                        aria-label="Facebook"
+                      >
+                        <img
+                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNSAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjkzMzEgMjFDMTcuOTAzNyAyMSAyMS45MzMxIDE2Ljk3MDYgMjEuOTMzMSAxMkMyMS45MzMxIDcuMDI5NDQgMTcuOTAzNyAzIDEyLjkzMzEgM0M3Ljk2MjU0IDMgMy45MzMxMSA3LjAyOTQ0IDMuOTMzMTEgMTJDMy45MzMxMSAxNi45NzA2IDcuOTYyNTQgMjEgMTIuOTMzMSAyMVoiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE2LjY4MzEgOC4yNUgxNS4xODMxQzE0LjU4NjQgOC4yNSAxNC4wMTQxIDguNDg3MDUgMTMuNTkyMSA4LjkwOTAxQzEzLjE3MDIgOS4zMzA5NyAxMi45MzMxIDkuOTAzMjYgMTIuOTMzMSAxMC41VjIxIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik05LjkzMzExIDEzLjVIMTUuOTMzMSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K"
+                          alt="Facebook"
+                          width="24"
+                          height="24"
+                        />
+                      </a>
+                    </div>
+                    <div class="footer-contact-social-icons">
+                      <a
+                        href="https://www.twitter.com/flipkart"
+                        aria-label="Twitter"
+                      >
+                        <img
+                          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzE4M18yMCkiPgo8cGF0aCBkPSJNMTMuNTQzNiAxMC42MTc5TDIwLjA5NzEgM0gxOC41NDQxTDEyLjg1MzcgOS42MTQ0OEw4LjMwODg3IDNIMy4wNjY4OUw5LjkzOTY0IDEzLjAwMjNMMy4wNjY4OSAyMC45OTA4SDQuNjE5OTRMMTAuNjI5MSAxNC4wMDU2TDE1LjQyODggMjAuOTkwOEgyMC42NzA4TDEzLjU0MzIgMTAuNjE3OUgxMy41NDM2Wk0xMS40MTY1IDEzLjA5MDRMMTAuNzIwMiAxMi4wOTQ0TDUuMTc5NTMgNC4xNjkxMUg3LjU2NDkxTDEyLjAzNjMgMTAuNTY1MUwxMi43MzI2IDExLjU2MTFMMTguNTQ0OCAxOS44NzQ4SDE2LjE1OTVMMTEuNDE2NSAxMy4wOTA4VjEzLjA5MDRaIiBmaWxsPSJ3aGl0ZSIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzE4M18yMCI+CjxyZWN0IHg9IjMuMDY2ODkiIHk9IjMiIHdpZHRoPSIxNy42MDM5IiBoZWlnaHQ9IjE4IiByeD0iMC4yIiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo="
+                          alt="Twitter"
+                          width="24"
+                          height="24"
+                        />
+                      </a>
+                    </div>
+                    <div class="footer-contact-social-icons">
+                      <a
+                        href="https://www.youtube.com/flipkart"
+                        aria-label="YouTube"
+                      >
+                        <img
+                          src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/YoutubeLogo-8425c4.svg"
+                          alt="YouTube"
+                          width="24"
+                          height="24"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="footer-contact">
+                  <div class="footer-title">Registered Office Address</div>
+                  <div>
+                    <p class="_1oQ-r6">Flipkart Internet Private Limited,</p>
+                    <p class="_1oQ-r6">Buildings Alyssa, Begonia &amp;</p>
+                    <p class="_1oQ-r6">Clove Embassy Tech Village,</p>
+                    <p class="_1oQ-r6">
+                      Outer Ring Road, Devarabeesanahalli Village,
+                    </p>
+                    <p class="_1oQ-r6">Bengaluru, 560103,</p>
+                    <p class="_1oQ-r6">Karnataka, India</p>
+                    <p class="_1oQ-r6">CIN : U51109KA2012PTC066107</p>
+                    <p class="_1oQ-r6"></p>
+                    <p class="_1oQ-r6">
+                      Telephone: <a href="tel:044-45614700">044-45614700</a> /
+                      <a href="tel:044-67415800">044-67415800</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-icons">
+              <div>
+                <img
+                  src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/sell-image-9de8ef.svg"
+                  alt="Become a Seller"
+                  width="13"
+                  height="12"
+                />
+                <a
+                  href="https://seller.flipkart.com/?utm_source=fkwebsite&amp;utm_medium=websitedirect"
+                  aria-label="Become a Seller"
+                >
+                  <span>Become a Seller</span>
+                </a>
+              </div>
+              <div>
+                <img
+                  src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-image-866c0b.svg"
+                  alt="Advertise"
+                  width="14"
+                  height="14"
+                />
+                <a href="https://brands.flipkart.com" aria-label="Advertise"
+                  ><span>Advertise</span></a
+                >
+              </div>
+              <div>
+                <img
+                  src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/gift-cards-image-d7ff24.svg"
+                  alt="Gift Cards"
+                  width="13"
+                  height="13"
+                />
+                <a
+                  href="/the-gift-card-store?otracker=${otracker}_footer_navlinks"
+                  aria-label="Gift Cards"
+                  ><span>Gift Cards</span></a
+                >
+              </div>
+              <div>
+                <img
+                  src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/help-centre-image-c4ace8.svg"
+                  alt="Help Center"
+                  width="13"
+                  height="13"
+                />
+                <a
+                  href="/helpcentre?otracker=${otracker}_footer_navlinks"
+                  aria-label="Help Center"
+                  ><span>Help Center</span></a
+                >
+              </div>
+              <div>© 2007-2024 Flipkart.com</div>
+              <div>
+                <img
+                  src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg"
+                  alt="Payment methods"
+                />
+              </div>
+            </div>
+          </footer>
+        </section>
+
+        <div
+          class="css-175oi2r"
+          style="
+            background-color: rgba(0, 0, 0, 0);
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            height: 0px;
+          "
+        ></div>
+      </div>
+    </div>
+
+    <script src="../Script/sample.js"></script>
+    <script src="../Script/carousel.js"></script>
+    <script src="../Script/mega-menu-category.js"></script>
+   
+    
+
+
+  </body>
+</html>

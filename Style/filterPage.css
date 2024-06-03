@@ -1,22 +1,3 @@
-.navbar-custom {
-    background-color: #2874f0;
-    color: white;
-}
-
-.navbar-custom .navbar-brand,
-.navbar-custom .nav-link {
-    color: white;
-}
-
-.navbar-custom .form-control {
-    border-radius: 0;
-}
-
-.navbar-custom .btn-outline-light {
-    color: white;
-    border-color: white;
-}
-
 .list-group-item {
     border: none;
 }
@@ -57,7 +38,7 @@
 }
 
 .rating {
-    width: 60px;
+    width: 35px;
     border-radius: 4px;
 }
 
@@ -76,15 +57,28 @@
     width: 250px;
     height: 400px;
     margin: 0;
-    padding: 0;
     padding-left: 5px;
     padding-right: 5px;
 
 }
 
+.card img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; 
+  }
+  .productcard{
+    min-width: 250px;
+    min-height: 400px;
+  }
+  .productcard-img{
+    width: 200px;
+    height: 205px;
+    object-fit: contain;
+  }
   
   .card-body {
-    height: 100%; /* Ensure the card body fills the entire card height */
+    height: 100%; 
   }
   
 .offerLine {
@@ -94,56 +88,6 @@
     width: auto;
     max-width: 70px;
 }
-.pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-}
-
-.pagination a, .pagination span {
-    margin: 0 5px;
-    padding: 8px 16px;
-    text-decoration: none;
-    color: #333;
-    border: 1px solid #ddd;
-    transition: all 0.3s ease;
-}
-
-.pagination a.page-link-circle {
-    border-radius: 50%;
-}
-
-.pagination a:hover {
-    background-color: #f0f0f0;
-}
-
-.pagination a.active, .pagination a:focus {
-    color: white;
-    background-color: blue;
-    border-color: blue;
-}
-
-.pagination .disabled {
-    color: #aaa;
-    cursor: not-allowed;
-}
-
-.pagination .hidden {
-    display: none;
-}
-.hidden {
-    display: none;
-}
-.page-link {
-    cursor: pointer;
-}
-.active {
-    font-weight: bold;
-}
-.page-info{
-    border: 1px solid white;
-}
 
 body{
     background-color: #f1f3f6;
@@ -151,7 +95,7 @@ body{
 }
 
 #footer {
-    background-color: #f8f8f8; /* Optional: Add background color */
+    background-color: #f8f8f8; 
     position: relative;
     bottom: 0;
     width: 100%;

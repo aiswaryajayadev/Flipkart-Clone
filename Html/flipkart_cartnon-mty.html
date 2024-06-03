@@ -73,114 +73,100 @@
                <p>123 Street Name</p>
                 <p>City, State, Zip Code</p>
                 <p>Country</p> -->
-
-                </div>
-            </div>
-
-
-            <div class="checkout_nonmty-card-body">
-                <div class="checkout_nonmty-product_row">
-                    <div class="checkout_nonmty-col-1" style="background-color: white;">
-                        <div class="checkout_nonmty-product">
-                            <img class="checkout_nonmty-product_img" id="productImage" src="" alt="">
-                        </div>
-                        <div class="checkout_nonmty-quantity_row">
-                            <div class="checkout_nonmty-quantity_col1" style="background-color: white;"
-                                onclick="updateQuantity('decrement')">
-                                <a href="#" class="checkout_nonmty-circle-btn-minus">-</a>
-                            </div>
-                            <div class="checkout_nonmty-quantity_col2" style="background-color: white;">
-                                <input type="number" class="checkout_nonmty-small-input" id="productQuantity" value="1"
-                                    min="1" max="10">
-                            </div>
-                            <div class="checkout_nonmty-quantity_col3" style="background-color: white;"
-                                onclick="updateQuantity('increment')">
-                                <a href="#" class="checkout_nonmty-circle-btn-plus">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="checkout_nonmty-col-2">
-                        <a class="checkout_nonmty-product_imgline1" id="productName" href="#"></a>
-                        <div class="checkout_nonmty-product_line2" id="productRAM"></div>
-                        <div class="checkout_nonmty-product_imgline3" id="productSeller">
-                            Seller:Emna
-                            <img class="checkout_nonmty-line3img" id="sellerImage" src="">
-                            <div class="checkout_nonmty-price-container">
-                                <div class="checkout_nonmty-price original-price" id="originalPrice">
-
-                                </div>
-                                <div class="checkout_nonmty-price discounted-price" id="discountedPrice"> ₹
-
-                                </div>
-                                <div class="checkout_nonmty-discount" id="discount"> % </div>
-                            </div>
-                        </div>
-                        <div class="checkout_nonmty-product_line5" id="packagingFee"></div>
-                        <div class="checkout_nonmty-product_line6">
-                            <a href="#"> SAVE FOR LATER </a>
-                            <a href="../Html/flipkart_cartview.html"> REMOVE </a>
-
-
-                            
-                        </div>
-                    </div>
-                    <div class="checkout_nonmty-col-3">
-                        <div class="checkout_nonmty-delivery-container">
-                            <div class="checkout_nonmty-delivery-info" id="deliveryInfo"></div>
-                            <div class="checkout_nonmty-delivery-cost">
-                                <s id="deliveryCost"></s>
-                                <span style="color: green; background-color: white;" id="freeDelivery"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="checkout_nonmty-placeorder">
-                    <a href="../Html/flipkartcart_check.html" class="checkout_nonmty-placing">
-                        <p class="checkout_nonmty-placing_text">PLACE ORDER</p>
-                    </a>
-                </div>
-            </div>
-
-
-
-
-
+              
+          </div>
         </div>
-        <div class="checkout_nonmty-right-container">
-            <div class="checkout_nonmty-price-const">
-                <div class="checkout_nonmty-price-header">
-                    <h4>PRICE DETAILS</h4>
-                </div>
-            </div>
-            <div class="checkout_nonmty-price-line">
-                <div class="checkout_nonmty-price-left">Price </div>
-                <div class="checkout_nonmty-price-right" id="totalPrice"></div>
-            </div>
-            <div class="checkout_nonmty-price-line">
-                <div class="checkout_nonmty-price-left">Discount</div>
-                <div class="checkout_nonmty-price-right" id="chkt-discount"></div>
-            </div>
-            <div class="checkout_nonmty-price-line">
-                <div class="checkout_nonmty-price-left">Delivery Charges</div>
-                <div class="checkout_nonmty-price-right"><span
-                        style="text-decoration: line-through;background-color: white;">₹40</span> <span
-                        style=" color: green; background-color: white;">Free</span></div>
-            </div>
-            <div class="checkout_nonmty-price-linetotal">
-                <div class="checkout_nonmty-price-lefttotal"
-                    style="font-weight: bold; margin-top: 30px;margin-bottom: 20px; ">Total Amount</div>
-                <div class="checkout_nonmty-price-righttotal"
-                    style="font-weight: bold; margin-top: 30px;margin-bottom: 20px;" id="chkt-totalAmount"></div>
-            </div>
-            <div class="checkout_nonmty-price-line">
-                <div class="checkout_nonmty-price-center" style="color: green;" id="savings"></div>
+          
+        
+        <div class="checkout_nonmty-card-body">
+          <div class="checkout_nonmty-product_row">
+              <div class="checkout_nonmty-col-1" style="background-color: white;">
+                  <div class="checkout_nonmty-product">
+                      <img class="checkout_nonmty-product_img" id="productImage" src="" alt="">
+                  </div>
+                  <div class="checkout_nonmty-quantity_row">
+                      <div class="checkout_nonmty-quantity_col1" style="background-color: white;" onclick="updateQuantity('decrement')">
+                          <a href="#" class="checkout_nonmty-circle-btn-minus">-</a>
+                      </div>
+                      <div class="checkout_nonmty-quantity_col2" style="background-color: white;">
+                          <input type="number" class="checkout_nonmty-small-input" id="productQuantity" value="1" min="1" max="10">
+                      </div>
+                      <div class="checkout_nonmty-quantity_col3" style="background-color: white;" onclick="updateQuantity('increment')">
+                          <a href="#" class="checkout_nonmty-circle-btn-plus">+</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="checkout_nonmty-col-2">
+                  <a class="checkout_nonmty-product_imgline1" id="productName" href="#"></a>
+                  <div class="checkout_nonmty-product_line2" id="productRAM"></div>
+                  <div class="checkout_nonmty-product_imgline3" id="productSeller">
+                      Seller:Emna
+                      <img class="checkout_nonmty-line3img" id="sellerImage" src="">
+                      <div class="checkout_nonmty-price-container">
+                          <div class="checkout_nonmty-price original-price" id="originalPrice"></div>
+                          <div class="checkout_nonmty-price discounted-price" id="discountedPrice"></div>
+                          <div class="checkout_nonmty-discount" id="discount"></div>
+                      </div>
+                  </div>
+                  <div class="checkout_nonmty-product_line5" id="packagingFee"></div>
+                  <div class="checkout_nonmty-product_line6">
+                      <a href="#"> SAVE FOR LATER </a>
+                      <a href="#"> REMOVE </a>
+                  </div>
+              </div>
+              <div class="checkout_nonmty-col-3">
+                  <div class="checkout_nonmty-delivery-container">
+                      <div class="checkout_nonmty-delivery-info" id="deliveryInfo"></div>
+                      <div class="checkout_nonmty-delivery-cost">
+                          <s id="deliveryCost"></s>
+                          <span style="color: green; background-color: white;" id="freeDelivery"></span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="checkout_nonmty-placeorder">
+              <a href="#" class="checkout_nonmty-placing">
+                  <p class="checkout_nonmty-placing_text">PLACE ORDER</p>
+              </a>
+          </div>
+      </div>
+      
+     
+          
+       
+        
+      </div>
+      <div class="checkout_nonmty-right-container">
+        <div class="checkout_nonmty-price-const">
+            <div class="checkout_nonmty-price-header">
+                <h4>PRICE DETAILS</h4>
             </div>
         </div>
-
-
-
+        <div class="checkout_nonmty-price-line">
+            <div class="checkout_nonmty-price-left">Price (4 items)</div>
+            <div class="checkout_nonmty-price-right" id="totalPrice"></div>
+        </div>
+        <div class="checkout_nonmty-price-line">
+            <div class="checkout_nonmty-price-left">Discount</div>
+            <div class="checkout_nonmty-price-right" id="chkt-discount"></div>
+        </div>
+        <div class="checkout_nonmty-price-line">
+            <div class="checkout_nonmty-price-left">Delivery Charges</div>
+            <div class="checkout_nonmty-price-right"><span style="text-decoration: line-through;background-color: white;">₹40</span> <span style=" color: green; background-color: white;">Free</span></div>
+        </div>
+        <div class="checkout_nonmty-price-linetotal">
+            <div class="checkout_nonmty-price-lefttotal" style="font-weight: bold; margin-top: 30px;margin-bottom: 20px; ">Total Amount</div>
+            <div class="checkout_nonmty-price-righttotal" style="font-weight: bold; margin-top: 30px;margin-bottom: 20px;" id="chkt-totalAmount"></div>
+        </div>
+        <div class="checkout_nonmty-price-line">
+            <div class="checkout_nonmty-price-center" style="color: green;" id="savings"></div>
+        </div>
     </div>
-
+    
+    
+  
+  </div>
+    
     <!-- <div class="container p-0 a_viewcart">
       <div class="cart_header">
          

@@ -141,9 +141,9 @@ async function displayProductDetails() {
     document.getElementById('productName').textContent = details.product_name;
     document.getElementById('originalPrice').textContent = details.price_details.original_price;
     document.getElementById('discountedPrice').textContent = details.price_details.current_price;
-    document.getElementById('discount').textContent = details.price_details.discount_percent;
+    document.getElementById('discount').textContent = details.price_details.discount_percent+'%';
     document.getElementById('totalPrice').textContent = details.price_details.original_price;
-    document.getElementById('chkt-discount').textContent = details.price_details.discount_percent;
+    document.getElementById('chkt-discount').textContent = details.price_details.discount_percent+"%";
 
     let totalAmount = details.price_details.original_price - details.price_details.discount_percent;
     document.getElementById('chkt-totalAmount').textContent = details.price_details.current_price;
@@ -158,15 +158,32 @@ document.addEventListener('DOMContentLoaded', displayProductDetails);
 
 const inputFields = document.querySelectorAll('.checkout_nonmty-small-input');
 
-function updateCount(inputField, operation) {
+function updateCount(inputField,operation) {
+  // const inputField = document.getElementById('productQuantity');
   let count = parseInt(inputField.value);
+
   if (operation === 'increment') {
     count = Math.min(count + 1, 10);
   } else if (operation === 'decrement') {
     count = Math.max(count - 1, 1);
   }
+  
   inputField.value = count.toString();
+  console.log(inputField.value);
+  
+  // Get the current price per unit
+  const currentPrice = parseFloat(document.getElementById('originalPrice').textContent);
+  const totalDiscountPrice = parseFloat(document.getElementById('discountedPrice').textContent);
+  // Calculate the new total price
+  const totalPrice = currentPrice * count;
+  const finalPrice=totalDiscountPrice * count;
+  
+  // Update the total price display
+  document.getElementById('totalPrice').textContent = `₹${totalPrice.toFixed(2)}`;
+  document.getElementById('chkt-totalAmount').textContent = `₹${finalPrice.toFixed(2)}`;
 }
+
+
 
 function updateQuantity(operation) {
   const quantityInput = document.querySelector('.checkout_nonmty-small-input');

@@ -109,7 +109,11 @@ document.addEventListener("DOMContentLoaded", function () {
     likeButtons.forEach(function (likeButton) {
       const likeImage = likeButton.querySelector(".like");
 
-      likeButton.addEventListener("click", function () {
+      likeButton.addEventListener("click", function (event) {
+        const card = likeButton.closest('.card');
+        console.log("Element clicked:", event.currentTarget);
+        
+        console.log("card clicked:", card);
         const currentSrc = likeImage.src;
 
         if (currentSrc.includes("plainheart.png")) {

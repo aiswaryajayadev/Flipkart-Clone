@@ -1,23 +1,6 @@
-.navbar-custom {
-    background-color: #2874f0;
-    color: white;
+.body{
+    overflow-x: hidden;
 }
-
-.navbar-custom .navbar-brand,
-.navbar-custom .nav-link {
-    color: white;
-}
-
-.navbar-custom .form-control {
-    border-radius: 0;
-}
-
-.navbar-custom .btn-outline-light {
-    color: white;
-    border-color: white;
-}
-
-
 
 .banner {
     display: inline-block;
@@ -38,7 +21,7 @@
 }
 
 .rating {
-    width: 60px;
+    width: 35px;
     border-radius: 4px;
 }
 
@@ -48,9 +31,9 @@
 }
 
 .like-btn {
-    outline: none; /* Remove the outline */
-    border: none; /* Remove any border */
-    box-shadow: none; /* Remove any box-shadow */
+    outline: none; 
+    border: none; 
+    box-shadow: none; 
 }
 
 
@@ -65,11 +48,11 @@
 
 
 .descriptionheading {
-    color: grey; /* Change heading color to grey */
-    font-size: 18px; /* Reduce font size */
+    color: grey; 
+    font-size: 18px; 
 }
 .pdtdescription {
-    max-height: 800px; /* Reduce max height */
+    max-height: 800px; 
     max-width: 97vw;
     
 }
@@ -77,18 +60,18 @@
     padding:0px;
 }
 .product-img {
-    width: 150px; /* Set the width */
-    height: 150px; /* Set the height */
-    object-fit: cover; /* Ensure the image covers the area without distortion */
+    width: 150px; 
+    height: 150px; 
+    object-fit: contain; 
 }
 
 .card-text span {
-    margin-right: 5px; /* Add some space between the spans */
+    margin-right: 5px; 
 }
 .product-link {
     text-decoration: none;
-    color: inherit; /* Ensure the link text inherits the color of the parent */
-    display: block; /* Make the entire anchor tag a block element */
+    color: inherit; 
+    display: block; 
 }
 
 .card:hover .product-name {
@@ -97,26 +80,27 @@
 }
 
 .product-name {
-    color: inherit; /* Ensure the product name inherits the color of its parent */
+    color: inherit; 
 }
 .card {
     
-    text-align: start; /* Center align content */
+    text-align: start; 
     margin-bottom: 0;
     padding-bottom: 0;
+    border: none;
 }
 
 .card-title {
     display: -webkit-box;
-    -webkit-line-clamp: 2; /* Number of lines for the product name */
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    overflow: hidden; /* Hide overflow text */
-    text-overflow: ellipsis; /* Display ellipsis for overflow text */
+    overflow: hidden; 
+    text-overflow: ellipsis;
 }
 
 .product-link {
-    text-decoration: none; /* Remove default link decoration */
-    color: inherit; /* Inherit color from parent */
+    text-decoration: none; 
+    color: inherit; 
 }
 
 .card-text {
