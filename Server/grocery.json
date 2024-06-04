@@ -1,10 +1,41 @@
 {
-    "nav-menu":[
-    {
-        "images":[
-            
-        ]
-    }
+    "nav-menu": [
+        {
+            "images": [
+                "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/image1.jpeg",
+                "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/image2.jpeg",
+                "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/image3.webp",
+                "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/image4.jpeg",
+                "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/imagr5.jpeg",
+                "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/image6.jpeg",
+                "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/image7.png"
+            ]
+        }
+    ],
+    "offers":[
+        {
+            "product_name":"Parry's White Label Sulphur Free Process Sugar",
+            "product_weight":500,
+            "expiry_date":"21 Mar 2025",
+            "discount_price":1,
+            "current_price":28,
+            "product_image":"https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/offer-img1.jpeg"
+        },
+        {
+            "product_name":"ProV Mini Cashews Roasted and Salted",
+            "product_weight":18,
+            "expiry_date":"28 Oct 2024",
+            "discount_price":1,
+            "current_price":28,
+            "product_image":"https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/offer-img2.jpeg"
+        },
+        {
+            "product_name":"Parry's White Label Sulphur Free Process Sugar",
+            "product_weight":500,
+            "expiry_date":"21 Mar 2025",
+            "discount_price":1,
+            "current_price":28,
+            "product_image":"https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/offer-img1.jpeg"
+        }
     ]
-
 }
