@@ -31,9 +31,18 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 
+
 // let variable = 'shoes';
 // let pid = 'REEBOKZ001';
-const username = 'emna';
+const nameUser = localStorage.getItem("user");
+
+function getNameFromEmail(name) {
+  const namePart = name.split("@")[0];
+  return namePart;
+}
+
+
+const username = getNameFromEmail(nameUser);
 
 var urlParams = new URLSearchParams(window.location.search);
 var variable = urlParams.get("category");
@@ -76,6 +85,7 @@ const addProductToWishlist = (username, category, product) => {
       console.error('Error adding product to wishlist:', error);
     });
 };
+
 
 
 

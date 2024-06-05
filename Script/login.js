@@ -29,7 +29,7 @@ firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL)
   const user = userCredential.user;
   console.log('User signed in:', user.email);
   localStorage.setItem('user', user.email);
-  window.location.href="../html/home.html";
+  window.location.href="../html/login-navbar-home.html";
 })
 .catch((error) => {
   // Handle Errors here.
