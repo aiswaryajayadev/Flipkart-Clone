@@ -55,7 +55,7 @@ function createBrandSection(brand, products) {
   return `
       <div class="col-md-12">
           <div class="d-flex justify-content-between align-items-center mb-4">
-              <h4>${brand}</h4>
+              <h4>${brand}</h4><a href="../Html/filterPage.html?category=mobiles">
               <button class="btn btn-primary">View All</button>
           </div>
           <div class="row mb-4" id="${brand.toLowerCase().replace(/\s+/g, '-')}-product-list">
@@ -68,7 +68,7 @@ function createBrandSection(brand, products) {
 document.addEventListener('DOMContentLoaded', async () => {
   const mobiles = await fetchMobiles();
 
-  // Normalize brand names to lowercase
+  
   const brands = [...new Set(mobiles.map(mobile => mobile.product_name.brand.toLowerCase()))];
   
   const brandSections = brands.map(brand => {
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   setTimeout(function () {
     const likeButtons = document.querySelectorAll(".like-btn");
-    console.log(likeButtons); // Check if this logs the correct elements
+    console.log(likeButtons); 
     likeButtons.forEach(function (likeButton) {
       const likeImage = likeButton.querySelector(".like");
 
@@ -97,4 +97,4 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
       });
     });
-  }, 100); // Adjust the timeout value as needed based on your application's timing
+  }, 100);

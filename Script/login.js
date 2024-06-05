@@ -9,10 +9,6 @@ const firebaseConfig = {
   appId: "1:1003116691829:web:212b427550a54b7ed0d33c"
 };
 
-function wait(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
-
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 
@@ -33,7 +29,7 @@ firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL)
   const user = userCredential.user;
   console.log('User signed in:', user.email);
   localStorage.setItem('user', user.email);
-  window.location.href="../html/login-navbar-home.html";
+  window.location.href="../Html/login-navbar-home.html.html";
 })
 .catch((error) => {
   // Handle Errors here.
