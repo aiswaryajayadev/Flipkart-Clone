@@ -1,0 +1,137 @@
+{
+    "grocery": [
+        {
+            "nav-bar": [
+                "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/image1.jpeg",
+                "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/image2.jpeg",
+                "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/image3.webp",
+                "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/image4.jpeg",
+                "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/imagr5.jpeg",
+                "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/image6.jpeg",
+                "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/image7.png"
+            ]
+        },
+        {
+            "offers": [
+                {
+                    "product_name": "Parry's White Label Sulphur Free Process Sugar",
+                    "product_weight": 500,
+                    "expiry_date": "21 Mar 2025",
+                    "discount_price": 1,
+                    "current_price": 28,
+                    "product_image": "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/offer-img1.jpeg"
+                },
+                {
+                    "product_name": "ProV Mini Cashews Roasted and Salted",
+                    "product_weight": 18,
+                    "expiry_date": "28 Oct 2024",
+                    "discount_price": 1,
+                    "current_price": 28,
+                    "product_image": "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/offer-img2.jpeg"
+                },
+                {
+                    "product_name": "Tata Vacuum Evaporated Iodized Salt (Iodized Upp)",
+                    "product_weight": 500,
+                    "expiry_date": "21 Mar 2026",
+                    "discount_price": 1,
+                    "current_price": 28,
+                    "product_image": "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/offer-img3.jpg"
+                }
+            ]
+        },
+        {
+            "food-essentials": [
+                {
+                    "banner": "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/food-banner.jpeg",
+                    "images": [
+                        "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/food-image1.jpeg",
+                        "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/food-image2.jpeg",
+                        "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/food-image3.png"
+                    ]
+                }
+            ]
+        },
+        {
+            "personnel-care": [
+                {
+                    "banner": "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/personnel-banner.jpeg",
+                    "images": [
+                        "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/personnel-image1.jpeg",
+                        "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/personnel-image2.jpeg",
+                        "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/personnel-image3.jpeg",
+                        "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/personnel-image4.png",
+                        "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/personnel-image5.jpeg",
+                        "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/personnel-image6.jpeg"
+                    ]
+                }
+            ]
+        },
+        {
+            "household-care": [
+                {
+                    "banner": "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/hosehold-banner.jpeg",
+                    "images": [
+                        "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/home-image1.png",
+                        "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/home-image2.jpeg",
+                        "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/home-image3.jpeg"
+                    ]
+                }
+            ]
+        },
+        {
+            "home-kitchen": [
+                {
+                    "banner": "",
+                    "images": [
+                        "https://github.com/aiswaryajayadev/Flipkart-Clone/blob/dev/Assets/grocery-images/home-banner.jpeg"
+                    ]
+                }
+            ]
+        },
+        {            
+            "QnA":[
+                {
+                    "question":"Q.What kind of products can we find while buying groceries online?",
+                    "answer":"A.The online grocery offers various products like dal,flour,cooking masala,, salt, sugar, oils, dry fruits, breakfast cereals, cookies, etc. You can scroll, search, compare, and buy all your needed products from one place using your phone only."
+                },
+                {
+                    "question": "Can I do grocery shopping from my small city and get it delivered to my doorstep?",
+                    "answer": "Yes. You can buy your needed grocery from the comfort of your home and get them delivered hassle-free in just a few days. Please enter your city code while filling your cart to be sure about getting them delivered to your desired place."
+                 
+                },
+                {
+                    "question": "What is the quality of online groceries?",
+                    "answer": "Various brands are offering high-quality groceries online. Items are fresh and ready to be used."
+                  },
+                  {
+                    "question": "Can I use my coupons while purchasing online groceries?",
+                    "answer": "Yes. You can use relevant coupons in your shopping when paying before check out."
+                  },
+                  {
+                    "question": "What is the grocery shopping and delivery fee?",
+                    "answer": "It depends on what you buy, your location, and the total number of items. Usually, you don't need to give any extra charges if you buy sufficient items."
+                  },
+                  {
+                    "question": "What are the delivery hours of grocery items?",
+                    "answer": "You can buy all of your groceries at any time 24 * 7."
+                  },
+                  {
+                    "question": "Can I change or cancel my grocery orders?",
+                    "answer": "As per the company's policy, you can change or cancel your orders. Read the updated policy document to learn more about cancellation or returns terms and conditions."
+                  },
+                  {
+                    "question": "Can I shop for my relatives who live in different cities than mine?",
+                    "answer": "Yes. You can buy it for anyone, and you just need to put their address in the delivery address while purchasing."
+                  },
+                  {
+                    "question": "While online grocery shopping, can I pay with my debit cards?",
+                    "answer": "Yes. You can pay using your credit cards, debit cards, online payment methods, and other options."
+                  },
+                  {
+                    "question": "Can I get same-day delivery of groceries in case of an emergency?",
+                    "answer": "Same-day delivery options are available for some cities, depending on where you live. Please refer to cart instructions while buying."
+                  }
+            ]
+        }
+    ]
+}
