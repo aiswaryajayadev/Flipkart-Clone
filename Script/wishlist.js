@@ -25,6 +25,7 @@ firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 const database = firebase.database();
 let productIds;
+let wishlistNo;
 const nameUser = localStorage.getItem("user");
 
 const wishlistRef = firebase.database().ref("wishlist");
@@ -78,6 +79,7 @@ const getWishlistData = (username) => {
       if (snapshot.exists()) {
         const wishlistData = snapshot.val();
         productIds = Object.keys(wishlistData);
+        wishlistNo= productIds.length;
         console.log('Product IDs:', productIds);
 
         const resultL = await fetch("http://localhost:3000/laptops");
@@ -337,6 +339,7 @@ const getWishlistData = (username) => {
         console.log("No wishlist data found for the user");
       }
     }).then(()=>{
+      wishlistCount();
       const button = document.querySelectorAll('.add-to-wishlist-button');
       console.log(button);
                 for(let i=0; i<button.length; i++){
@@ -365,6 +368,7 @@ function onDocumentLoad() {
   console.log("Document is fully loaded");
   getWishlistData(getNameFromEmail(nameUser));
   displayUsername();
+  
 }
 
 document.addEventListener("DOMContentLoaded", onDocumentLoad);
@@ -374,3 +378,14 @@ function getNameFromEmail(name) {
   const namePart = name.split("@")[0];
   return namePart;
 }
+
+function wishlistCount() {
+  const username = getNameFromEmail(nameUser);
+  if (username) {
+      document.getElementById('wishlist-heading11').innerHTML = `My
+      Wishlist (${wishlistNo})`;
+  } else {
+      document.getElementById('wishlist-heading').innerHTML = '<b>User</b>';
+  }
+}
+
